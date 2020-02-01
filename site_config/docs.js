@@ -47,6 +47,22 @@ export default {
                         title: 'Github Repo processing',
                         link: '/en-us/docs/dev/dev-env-setup.html',
                     },
+                    {
+                        title: 'Data Collection Guide',
+                        link: '/en-us/docs/dev/information-guide.html',
+                    },
+                    {
+                        title: 'Architecture Diagram',
+                        link: '/en-us/docs/dev/architecture.html',
+                    },
+                    {
+                        title: 'Guide For contribution',
+                        link: '/en-us/docs/dev/contributing.html',
+                    },
+                    {
+                        title: 'Github Repo processing',
+                        link: '/en-us/docs/dev/dev-env-setup.html',
+                    },
                 ],
             },
         ],
