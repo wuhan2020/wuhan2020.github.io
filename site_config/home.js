@@ -60,7 +60,7 @@ export default {
                     link: 'https://github.com/wuhan2020/wuhan2020',
                     type: 'normal',
                 },
-                {
+                    {
                     text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
                     link: 'https://wuhan2020.kaiyuanshe.cn/',
                     type: 'normal',
