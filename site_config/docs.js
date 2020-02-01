@@ -29,7 +29,23 @@ export default {
                 children: [
                     {
                         title: 'Quick Start',
-                        link: '/en-us/docs/user/quickstart.html',
+                        link: '/en-us/docs/dev/quickstart.html',
+                    },
+                    {
+                        title: 'Data Collection Guide',
+                        link: '/en-us/docs/dev/information-guide.html',
+                    },
+                    {
+                        title: 'Architecture Diagram',
+                        link: '/en-us/docs/dev/architecture.html',
+                    },
+                    {
+                        title: 'Guide For contribution',
+                        link: '/en-us/docs/dev/contributing.html',
+                    },
+                    {
+                        title: 'Github Repo processing',
+                        link: '/en-us/docs/dev/dev-env-setup.html',
                     },
                     {
                         title: 'Data Collection Guide',
@@ -82,7 +98,7 @@ export default {
                 children: [
                     {
                         title: '快速开始',
-                        link: '/zh-cn/docs/user/quickstart.html',
+                        link: '/zh-cn/docs/dev/quickstart.html',
                     },
                     {
                         title: '信息收集指南',
