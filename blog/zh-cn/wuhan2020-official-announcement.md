@@ -1,6 +1,17 @@
+---
+title: wuhan2020 官方公告 2020.1.29
+keywords: Dubbo,Seata,Consistency
+description: wuhan2020 官方公告 2020.1.29
+author: XiaMai ，Xin Wang
+date: 2019-01-29
+---
+<img src="/images/blog/wuhan2020.png" alt="wuhan2020">
+
 # wuhan2020 官方公告 2020.1.29
 
 wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者核心团队，在抗击非冠病毒的战役中，我们希望通过共同构建一个开源信息共享项目，帮助武汉自组织救援工作更有效、更准确地开展。我们当前在做的事是：**建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。**
+
+项目线上web入口：新型冠状病毒防疫信息平台 [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn) 
 
 ## 一、合作方式：开源协作理念
 
@@ -15,7 +26,7 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 ### 架构图
 ![arch](https://camo.githubusercontent.com/59fd6438883c5dd1e40a689a02387d61aa12b692/687474703a2f2f6170692e687970657274726f6e732e696f2f756d6c72656e64657265722f6769746875622f777568616e323032302f646174612d73796e633f706174683d7374617469632f6172636869746563747572652e70756d6c)
 
-来源页面：  https://github.com/wuhan2020/data-sync
+来源页面：  [https://github.com/wuhan2020/data-sync](https://github.com/wuhan2020/data-sync)
 
 ### 资源和项目
 
@@ -31,7 +42,7 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 
 
 
-来源页面：https://github.com/wuhan2020/wuhan2020/blob/master/README.md 
+来源页面：[https://github.com/wuhan2020/wuhan2020/](https://github.com/wuhan2020/wuhan2020/) 
 
 
 ## 三、项目申请、入驻、管理
@@ -98,5 +109,8 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 
 
 
-
 感谢大家的无私付出。众志成城，wuhan2020，我们可以！
+
+
+
+**此页面将作为项目的入口，引导新人，管理资源**。方便新人找到要做的事情。也请各个组将项目的最新的情况更新到这里。
