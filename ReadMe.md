@@ -1,4 +1,4 @@
-<img src="./images/wuhan2020.png" alt="wuhan2020">
+![LOGO](https://wuhan2020-1258173165.cos.ap-shanghai.myqcloud.com/image/Wuhan2020.png)
 
 # wuhan2020 官方公告 2020.1.29
 
