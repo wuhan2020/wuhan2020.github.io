@@ -1,4 +1,4 @@
-# Seata Official Website
+# Wuhan2020 Community Official Website
 
 [![CI Status](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)](https://github.com/wuhan2020/wuhan2020.github.io/actions)
 
