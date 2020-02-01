@@ -14,6 +14,11 @@ export default {
                     link: 'https://github.com/wuhan2020/wuhan2020',
                     type: 'normal',
                 },
+                {
+                    text: '武汉新型冠状病毒防疫信息收集平台',
+                    link: 'https://wuhan2020.kaiyuanshe.cn/',
+                    type: 'normal',
+                },
             ],
         },
     },
@@ -30,6 +35,11 @@ export default {
                 {
                     text: 'Github',
                     link: 'https://github.com/wuhan2020/wuhan2020',
+                    type: 'normal',
+                },
+                {
+                    text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
+                    link: 'https://wuhan2020.kaiyuanshe.cn/',
                     type: 'normal',
                 },
             ],

@@ -29,7 +29,7 @@ export default {
                 children: [
                     {
                         title: 'Quick Start',
-                        link: '/en-us/docs/user/quickstart.html',
+                        link: '/en-us/docs/dev/quickstart.html',
                     },
                     {
                         title: 'Data Collection Guide',
@@ -82,7 +82,7 @@ export default {
                 children: [
                     {
                         title: '快速开始',
-                        link: '/zh-cn/docs/user/quickstart.html',
+                        link: '/zh-cn/docs/dev/quickstart.html',
                     },
                     {
                         title: '信息收集指南',

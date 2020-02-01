@@ -20,8 +20,8 @@ export default {
             desc: 'Feel free to contact us via the following channel.',
             list: [
                 {
-                    img: '/images/channels/slack_gray.png',
-                    imgHover: '/images/channels/slack_green.png',
+                    img: '/images/channels/slack_gray.svg',
+                    imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
                 }
@@ -59,8 +59,8 @@ export default {
             desc: '有问题需要反馈？请通过一下方式联系我们。',
             list: [
                 {
-                    img: '/images/channels/slack_gray.png',
-                    imgHover: '/images/channels/slack_green.png',
+                    img: '/images/channels/slack_gray.svg',
+                    imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
                 }
