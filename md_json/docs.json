@@ -1,6 +1,11 @@
 {
   "en-us": [
     {
+      "filename": "architecture.md",
+      "link": "/en-us/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
       "filename": "contributing.md",
       "link": "/en-us/docs/dev/contributing.html",
       "meta": {}
