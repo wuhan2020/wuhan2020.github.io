@@ -21,71 +21,12 @@
       "meta": {}
     },
     {
-      "filename": "label-an-issue-guide_dev.md",
-      "link": "/en-us/docs/developers/committer-guide/label-an-issue-guide_dev.html",
-      "meta": {
-        "title": "Label an Issue",
-        "keywords": "Seata",
-        "description": "Label an Issue."
-      }
-    },
-    {
-      "filename": "release-guide_dev.md",
-      "link": "/en-us/docs/developers/committer-guide/release-guide_dev.html",
-      "meta": {}
-    },
-    {
-      "filename": "website-guide_dev.md",
-      "link": "/en-us/docs/developers/committer-guide/website-guide_dev.html",
-      "meta": {
-        "title": "Website Guide",
-        "keywords": "Seata",
-        "description": "Website Guide."
-      }
-    },
-    {
-      "filename": "new-contributor-guide_dev.md",
-      "link": "/en-us/docs/developers/contributor-guide/new-contributor-guide_dev.html",
-      "meta": {
-        "title": "New contributor guide",
-        "keywords": "Seata, contributor",
-        "description": "This is a guide for new comers who wants to contribute to Seata."
-      }
-    },
-    {
-      "filename": "reporting-security-issues_dev.md",
-      "link": "/en-us/docs/developers/contributor-guide/reporting-security-issues_dev.html",
-      "meta": {
-        "title": "New contributor guide",
-        "keywords": "Seata, contributor",
-        "description": "This is a guide for new comers who wants to contribute to Seata."
-      }
-    },
-    {
-      "filename": "test-coverage-guide_dev.md",
-      "link": "/en-us/docs/developers/contributor-guide/test-coverage-guide_dev.html",
-      "meta": {
-        "title": "Test coverage guide",
-        "keywords": "Seata, coverage",
-        "description": "Test coverage guide."
-      }
-    },
-    {
       "filename": "developers_dev.md",
       "link": "/en-us/docs/developers/developers_dev.html",
       "meta": {
-        "title": "Developers",
-        "keywords": "Seata, Developers",
-        "description": "Seata Team."
-      }
-    },
-    {
-      "filename": "guide_dev.md",
-      "link": "/en-us/docs/developers/guide_dev.html",
-      "meta": {
-        "title": "Contributing to Seata",
-        "keywords": "Seata",
-        "description": "It is warmly welcomed if you have interest to hack on Seata. First, we encourage this kind of willing very much. And here is a list of contributing guide for you."
+        "title": "Contributors",
+        "keywords": "Wuhan2020, Contributors",
+        "description": "Wuhan2020 Team."
       }
     },
     {
@@ -143,66 +84,12 @@
       "meta": {}
     },
     {
-      "filename": "label-an-issue-guide_dev.md",
-      "link": "/zh-cn/docs/developers/committer-guide/label-an-issue-guide_dev.html",
-      "meta": {
-        "title": "给问题打标签",
-        "keywords": "Seata",
-        "description": "如果您正在处理一个问题，请记得给这个问题标记一个或者多个您认为有意义的标签。有了标签，其他开发人员就会很轻松地识别出问题，以便对其进行分类并跟踪进度。"
-      }
-    },
-    {
-      "filename": "release-guide_dev.md",
-      "link": "/zh-cn/docs/developers/committer-guide/release-guide_dev.html",
-      "meta": {
-        "title": "Seata版本向导",
-        "keywords": "Seata",
-        "description": "Seata版本向导。"
-      }
-    },
-    {
-      "filename": "website-guide_dev.md",
-      "link": "/zh-cn/docs/developers/committer-guide/website-guide_dev.html",
-      "meta": {
-        "title": "网站向导",
-        "keywords": "Seata",
-        "description": "Seata 网站向导。"
-      }
-    },
-    {
-      "filename": "new-contributor-guide_dev.md",
-      "link": "/zh-cn/docs/developers/contributor-guide/new-contributor-guide_dev.html",
-      "meta": {
-        "title": "新贡献者向导",
-        "keywords": "Seata",
-        "description": "这篇向导旨在给正在准备向Seata提交贡献的新手提供指导。"
-      }
-    },
-    {
-      "filename": "reporting-security-issues_dev.md",
-      "link": "/zh-cn/docs/developers/contributor-guide/reporting-security-issues_dev.html",
-      "meta": {
-        "title": "报告安全问题",
-        "keywords": "Wuhan2020",
-        "description": "Wuhan2020在消除其软件项目中的安全性问题方面采取严格的立场，对与其功能和特性有关的问题非常敏感并很快提出。"
-      }
-    },
-    {
       "filename": "developers_dev.md",
       "link": "/zh-cn/docs/developers/developers_dev.html",
       "meta": {
-        "title": "Seata 维护者",
-        "keywords": "Seata, 维护者",
-        "description": "Seata 维护者名单"
-      }
-    },
-    {
-      "filename": "guide_dev.md",
-      "link": "/zh-cn/docs/developers/guide_dev.html",
-      "meta": {
-        "title": "为Seata贡献",
-        "keywords": "Seata",
-        "description": "如果您有兴趣攻克Seata，欢迎您。首先，我们非常鼓励这种意愿。这是为您提供帮助的列表。"
+        "title": "贡献者列表",
+        "keywords": "武汉加油, 贡献者列表",
+        "description": "Wuhan2020 Team."
       }
     },
     {
