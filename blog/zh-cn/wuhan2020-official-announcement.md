@@ -1,4 +1,11 @@
-<img src="./images/wuhan2020.png" alt="wuhan2020">
+---
+title: wuhan2020 官方公告 2020.1.29
+keywords: Dubbo,Seata,Consistency
+description: wuhan2020 官方公告 2020.1.29
+author: XiaMai ，Xin Wang
+date: 2019-01-29
+---
+<img src="/images/blog/wuhan2020.png" alt="wuhan2020">
 
 # wuhan2020 官方公告 2020.1.29
 
@@ -107,6 +114,3 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 
 
 **此页面将作为项目的入口，引导新人，管理资源**。方便新人找到要做的事情。也请各个组将项目的最新的情况更新到这里。
-
-* [在github上编辑此文档](https://github.com/wuhan2020/wuhan2020.github.io/)
-* [提出问题](https://github.com/wuhan2020/wuhan2020.github.io/issues/new)
