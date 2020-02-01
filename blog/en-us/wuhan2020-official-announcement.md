@@ -78,7 +78,7 @@ If a sub-project encounters some problems and difficulties in its implementation
 
 ### Brief Introduction to Available `channel` 
 
-- `#general`——default by `Slack`, our announcements are mainly released on this `channel`：read only, only administrators can write. Follow to receive official announcement, project news, task assignment, and recuitment advertisement.  
+- `#generalgeneral`——default by `Slack`, our announcements are mainly released on this `channel`：read only, only administrators can write. Follow to receive official announcement, project news, task assignment, and recuitment advertisement.  
 
 ##### A: `team-<main_skill>-<sub_skill>` naming convention————functional group `channel`
 
