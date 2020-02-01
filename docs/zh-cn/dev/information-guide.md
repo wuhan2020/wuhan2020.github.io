@@ -1,5 +1,3 @@
-Translation: *[English](../../en-us/dev/information-guide.md)*
-
 
 # 信息收集指南
 
