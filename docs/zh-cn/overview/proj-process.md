@@ -87,7 +87,7 @@
 
 **认领任务**
 
-在 主repo的[Issue 列表](https://github.com/wuhan2020/wuhan2020/issues)或者各子项目repo对应的Issue列表中挑选任务。然后在该 `issue` 中使用 `/self-assign`命令领取任务。项目的机器人将会自动将该`issue`的`Assignees`指定为自己。
+在主repo的[Issue 列表](https://github.com/wuhan2020/wuhan2020/issues)或者各子项目repo对应的Issue列表中挑选任务。然后在该 `issue` 中使用 `/self-assign`命令领取任务。项目的机器人将会自动将该`issue`的`Assignees`指定为自己。
 
 具体如何提issue和PR，请参考[这里](https://github.com/wuhan2020/wuhan2020/blob/master/CONTRIBUTING.md)。
 
