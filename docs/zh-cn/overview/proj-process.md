@@ -98,5 +98,4 @@
 https://github.com/orgs/wuhan2020/projects
 
 * [数据流程通畅的第一期](https://github.com/orgs/wuhan2020/projects/1)
-* [[需求管理\]所有可能需要新建项目进行开发的需求](https://github.com/orgs/wuhan2020/projects/2)
-
+* [\[需求管理\]所有可能需要新建项目进行开发的需求](https://github.com/orgs/wuhan2020/projects/2)
