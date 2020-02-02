@@ -13,6 +13,7 @@ fs.readdirSync(targetPath).forEach(page => {
     entry[page] = path.join(targetPath, page, 'index.jsx');
   }
 });
+
 module.exports = {
   entry,
   output: {
@@ -24,8 +25,7 @@ module.exports = {
     'react-dom': 'ReactDOM',
   },
   module: {
-    loaders: [
-      {
+    loaders: [{
         test: /\.js|jsx$/,
         exclude: [/node_modules/, /build\/lib/, /\.min\.js$/],
         use: 'babel-loader',
