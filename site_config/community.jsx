@@ -38,22 +38,22 @@ export default {
             desc: 'You can always contribute to Wuhan2020.',
             list: [
                 {
-                    img: '/img/channels/email_gray.svg',
+                    img: '/images/channels/email_gray.svg',
                     title: 'Mailing List',
                     content: <span>Join our mailing list.</span>,
                 },
                 {
-                    img: '/img/channels/github_gray.svg',
+                    img: '/images/channels/github_gray.svg',
                     title: 'Issue',
                     content: <span>Submit a <a href="https://github.com/wuhan2020/wuhan2020/issues/new">new issue</a>.</span>,
                 },
                 {
-                    img: '/img/documents.png',
+                    img: '/images/documents.png',
                     title: 'Documents',
                     content: <span>Improve the <a href="https://github.com/wuhan2020/wuhan2020.github.io">documentation</a>.</span>,
                 },
                 {
-                    img: '/img/pullrequest.png',
+                    img: '/images/pullrequest.png',
                     title: 'Pull Request',
                     content: <span>Create a brilliant <a href="https://github.com/wuhan2020/wuhan2020/pulls">pull request</a>.  </span>,
                 },
@@ -97,7 +97,7 @@ export default {
             desc: '欢迎为 Wuhan2020 做贡献！',
             list: [
                 {
-                    img: '/img/channels/email_gray.svg',
+                    img: '/images/channels/email_gray.svg',
                     title: '邮件列表',
                     content: <span>加入我们的邮件列表。</span>,
                 },
