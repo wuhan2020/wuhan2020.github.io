@@ -61,13 +61,13 @@ Select a task from the [Issue List](https://github.com/wuhan2020/wuhan2020/issue
 
 Shown as the following：
 
-![self-assign 示意图](./static/self-assign.png)
+![self-assign 示意图](/images/docs/self-assign.png)
 
 ### 2、To fork this repository
 
 Visit [wuhan2020](https://github.com/wuhan2020/wuhan2020). And then fort it to your own account.
 
-![Fork 仓库](./static/fork-repo.png)
+![Fork 仓库](/images/docs/fork-repo.png)
 
 > Nota Bene :  the following commands are supposed to be done in console, [Git](https://git-scm.com/) is needed.
 
@@ -138,9 +138,9 @@ $ git push -f origin my-fix-branch:my-fix-branch
 
 Create a `pull request` to the upstream repository. As shown:
 
-![pull-request](./static/pull-request.png)
+![pull-request](/images/docs/pull-request.png)
 
-![open-pr](./static/open-pr.png)
+![open-pr](/images/docs/open-pr.png)
 如果其他人 `review` 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 PR 将会自动同步该 `commit` 。
 
 ```bash

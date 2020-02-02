@@ -61,13 +61,13 @@
 
 示意图如下：
 
-![self-assign 示意图](./static/self-assign.png)
+![self-assign 示意图](/images/docs/self-assign.png)
 
 ### 2、Fork 本仓库
 
 访问 [wuhan2020 仓库的主页](https://github.com/wuhan2020/wuhan2020)，并 Fork 到自己的账号下。
 
-![Fork 仓库](./static/fork-repo.png)
+![Fork 仓库](/images/docs/fork-repo.png)
 
 > 注：以下内容是在命令行终端里面操作，需要安装 [Git](https://git-scm.com/).
 
@@ -138,9 +138,9 @@ $ git push -f origin my-fix-branch:my-fix-branch
 
 在自己仓库的页面上提`pull request` 到上游仓库。如下图所示。
 
-![pull-request](./static/pull-request.png)
+![pull-request](/images/docs/pull-request.png)
 
-![open-pr](./static/open-pr.png)
+![open-pr](/images/docs/open-pr.png)
 如果其他人 `review` 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 PR 将会自动同步该 `commit` 。
 
 ```bash
