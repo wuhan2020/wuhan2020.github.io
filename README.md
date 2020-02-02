@@ -14,7 +14,7 @@ Please also make sure your node version is 8.x, versions higher than 8.x is not 
 
 ## Build instruction
 
-1. ~~Run `npm install docsite -g` to install the dev tool.~~ 安装docsite wuhan2020特供版 ` npm i docsite@wuhan2020 -g `
+1. Run ` npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 2. Run `npm i` in the root directory to install the dependencies.
 3. Run `docsite start` in the root directory to start a local server, you will see the website in 'http://127.0.0.1:8080'.
 4. Run `docsite build` to build source code.
@@ -25,7 +25,7 @@ If you have higher version of node installed, you may consider `nvm` to allow di
 1. Follow the [instructions](http://nvm.sh) to install nvm
 2. Run `nvm install v8.16.0` to install node v8
 3. Run `nvm use v8.16.0` to switch the working environment to node v8
-4. ~~Run `npm install docsite -g`~~ 安装docsite wuhan2020特供版 ` npm i docsite@wuhan2020 -g `
+4. Run ` npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
 
@@ -51,10 +51,9 @@ Then you are all set to run and build the website. Follow the build instruction 
 ### Add a new blog
 
 1. Add new .md file under blog/en-us or blog/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
-2. ~~Update site_config/blog.js, add a new entry to the blog in either en-us or zh-cn.~~
-3. Run docsite start locally to verify the blog can be displayed correctly.
-4. Send the pull request contains the .md ~~and blog.js~~ only.
-5. `SEO` config is required.
+2. Run docsite start locally to verify the blog can be displayed correctly.
+3. Send the pull request contains the .md only.
+4. `SEO` config is required.
 
 notice : Blog documents will be automatically sorted by time, without menu configuration
 Set 'hidden' to 'true' for documents you don't want to display temporarily`
