@@ -40,7 +40,7 @@ export default {
         ],
         vision: {
             title: 'Vision',
-            content: 'Unite as one and drive out the plague! ',
+            content: 'Unite as one and drive out the plague!',
         },
         documentation: {
             title: 'Documentation',
@@ -73,6 +73,152 @@ export default {
                 {
                     text: 'Community',
                     link: '/en-us/community/index.html',
+                },
+            ],
+        },
+        copyright: 'Copyright © 2020 Wuahan2020',
+    },
+    'it-it': {
+        pageMenu: [
+            {
+                key: 'home', // 用作顶部菜单的选中
+                text: 'CASA',
+                link: '/it-it/index.html',
+            },
+            {
+                key: 'docs',
+                text: 'DOCS',
+                link: '/it-it/docs/overview/what-is-wuhan2020.html',
+            },
+            {
+                key: 'developers',
+                text: 'CONTRIBUTORI',
+                link: '/it-it/docs/developers/developers_dev.html',
+            },
+            {
+                key: 'blog',
+                text: 'BLOG',
+                link: '/it-it/blog/index.html',
+            },
+            {
+                key: 'community',
+                text: 'COMUNITÀ',
+                link: '/it-it/community/index.html',
+            },
+            {
+                key: 'download',
+                text: 'PRODOTTO',
+                link: '/it-it/blog/download.html',
+            }
+        ],
+        vision: {
+            title: 'Visione',
+            content: 'Unisciti come uno e scaccia la peste!',
+        },
+        documentation: {
+            title: 'Documentazione',
+            list: [
+                {
+                    text: "Che cos'è Wuhan2020?",
+                    link: '/it-it/docs/overview/what-is-wuhan2020.html',
+                },
+                {
+                    text: 'Avvio veloce',
+                    link: '/it-it/docs/dev/quickstart.html',
+                },
+                {
+                    text: 'Segnala un problema con il documento',
+                    link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
+                },
+                {
+                    text: 'Modifica questa pagina su GitHub',
+                    link: 'https://github.com/wuhan2020/wuhan2020.github.io',
+                }
+            ],
+        },
+        resources: {
+            title: 'risorse',
+            list: [
+                {
+                    text: 'Blog',
+                    link: '/it-it/blog/index.html',
+                },
+                {
+                    text: 'Comunità',
+                    link: '/it-it/community/index.html',
+                },
+            ],
+        },
+        copyright: 'Copyright © 2020 Wuahan2020',
+    },
+    'ja-jp': {
+        pageMenu: [
+            {
+                key: 'home', // 用作顶部菜单的选中
+                text: 'ホーム',
+                link: '/ja-jp/index.html',
+            },
+            {
+                key: 'docs',
+                text: 'DOCS',
+                link: '/ja-jp/docs/overview/what-is-wuhan2020.html',
+            },
+            {
+                key: 'developers',
+                text: '寄稿者',
+                link: '/ja-jp/docs/developers/developers_dev.html',
+            },
+            {
+                key: 'blog',
+                text: 'ブログ',
+                link: '/ja-jp/blog/index.html',
+            },
+            {
+                key: 'community',
+                text: 'コミュニティ',
+                link: '/ja-jp/community/index.html',
+            },
+            {
+                key: 'download',
+                text: '製品',
+                link: '/ja-jp/blog/download.html',
+            }
+        ],
+        vision: {
+            title: 'ビジョン',
+            content: 'Unite as one and drive out the plague! ',
+        },
+        documentation: {
+            title: 'ドキュメンテーション',
+            list: [
+                {
+                    text: '武漢2020とは何ですか？',
+                    link: '/ja-jp/docs/overview/what-is-wuhan2020.html',
+                },
+                {
+                    text: 'クイックスタート',
+                    link: '/ja-jp/docs/dev/quickstart.html',
+                },
+                {
+                    text: 'ドキュメントの問題を報告する',
+                    link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
+                },
+                {
+                    text: 'GitHubでこのページを編集',
+                    link: 'https://github.com/wuhan2020/wuhan2020.github.io',
+                }
+            ],
+        },
+        resources: {
+            title: '資源',
+            list: [
+                {
+                    text: 'ブログ',
+                    link: '/ja-jp/blog/index.html',
+                },
+                {
+                    text: 'コミュニティ',
+                    link: '/ja-jp/community/index.html',
                 },
             ],
         },

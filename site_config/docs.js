@@ -47,26 +47,116 @@ export default {
                         title: 'Github Repo processing',
                         link: '/en-us/docs/dev/dev-env-setup.html',
                     },
+                ],
+            },
+        ],
+        barText: 'Documentation'
+    },
+    'it-it': {
+        sidemenu: [
+            {
+                title: 'Panoramica',
+                children: [
                     {
-                        title: 'Data Collection Guide',
+                        title: "Che cos'è Wuahan2020?",
+                        link: '/en-us/docs/overview/what-is-wuhan2020.html',
+                    },
+                    {
+                        title: 'FAQ',
+                        link: '/en-us/docs/overview/faq.html',
+                    }
+                ],
+            },
+
+            {
+                title: 'Doc. Utente',
+                children: [
+                    {
+                        title: 'Guida del sito Web',
+                        link: '/en-us/docs/user/website-guide.html',
+                    }
+                ],
+            },
+            {
+                title: 'Guida per gli sviluppatori',
+                children: [
+                    {
+                        title: 'Avvio veloce',
+                        link: '/en-us/docs/dev/quickstart.html',
+                    },
+                    {
+                        title: 'Guida alla raccolta dei dati',
                         link: '/en-us/docs/dev/information-guide.html',
                     },
                     {
-                        title: 'Architecture Diagram',
+                        title: "Diagramma dell'architettura",
                         link: '/en-us/docs/dev/architecture.html',
                     },
                     {
-                        title: 'Guide For contribution',
+                        title: 'Guida per il contributo',
                         link: '/en-us/docs/dev/contributing.html',
                     },
                     {
-                        title: 'Github Repo processing',
+                        title: 'Elaborazione di Github Repo',
                         link: '/en-us/docs/dev/dev-env-setup.html',
                     },
                 ],
             },
         ],
         barText: 'Documentation'
+    },
+    'ja-jp': {
+        sidemenu: [
+            {
+                title: '概要',
+                children: [
+                    {
+                        title: 'Wuahan2020とは?',
+                        link: '/en-us/docs/overview/what-is-wuhan2020.html',
+                    },
+                    {
+                        title: 'FAQ',
+                        link: '/en-us/docs/overview/faq.html',
+                    }
+                ],
+            },
+
+            {
+                title: 'ユーザードキュメント',
+                children: [
+                    {
+                        title: 'ウェブサイトガイド',
+                        link: '/en-us/docs/user/website-guide.html',
+                    }
+                ],
+            },
+            {
+                title: '開発者ガイド',
+                children: [
+                    {
+                        title: 'クイックスタート',
+                        link: '/en-us/docs/dev/quickstart.html',
+                    },
+                    {
+                        title: 'データ収集ガイド',
+                        link: '/en-us/docs/dev/information-guide.html',
+                    },
+                    {
+                        title: 'アーキテクチャ図',
+                        link: '/en-us/docs/dev/architecture.html',
+                    },
+                    {
+                        title: '貢献の手引き',
+                        link: '/en-us/docs/dev/contributing.html',
+                    },
+                    {
+                        title: 'Githubリポジトリ処理',
+                        link: '/en-us/docs/dev/dev-env-setup.html',
+                    },
+                ],
+            },
+        ],
+        barText: 'ドキュメンテーション'
     },
     'zh-cn': {
         sidemenu: [
