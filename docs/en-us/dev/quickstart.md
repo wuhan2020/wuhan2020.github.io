@@ -37,7 +37,7 @@ All of the parts are processed automatically and won't require manual work excep
 
 - Codebase：https://github.com/wuhan2020/shimo-sheet2json
 
-## Data Submission 
+## Data Submission
 
 The information collected by the platform includes the following types of data, please categorize and submit separately.
 
@@ -63,7 +63,7 @@ Please click [here](information-guide.md)
 
 # Slack Communication Group
 
-Click here to join the [Slack Communication Group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTIzNjA2MDYwOTUxLWVjMjA4MjdhNGVmZmZlZTgxYjM1ZDY1NGVkZDVkNGI0NzhjZGVlYTM2Mjc5Mjk2YjgyYTk1NDJmNTkxODZlOTE)
+Click here to join the [Slack Communication Group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)
 
 ## Slack Channel Navigation
 
