@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="proj-process" />
+  <meta name="description" content="proj-process" />
+  <!-- 网页标签标题 -->
+  <title>proj-process</title>
+  <link rel="shortcut icon" href="/images/wuhan2020-mini.png" />
+  <link rel="stylesheet" href="/build/documentation.css" />
+</head>
+
+<body>
+  <div id="root"><div class="documentation-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/zh-cn/index.html"><img class="logo" src="/images/wuhan2020-logo.png"/></a><div style="float:right;margin-top:21px;margin-right:8px" class="ant-select-sm ant-select ant-select-enabled"><div class="ant-select-selection
+            ant-select-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="" aria-expanded="false" tabindex="0"><div class="ant-select-selection__rendered"><div class="ant-select-selection-selected-value" title="zh-cn" style="display:block;opacity:1">zh-cn</div></div><span class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"><i aria-label="icon: down" class="anticon anticon-down ant-select-arrow-icon"><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span></div></div><div class="header-menu"><img class="header-menu-toggle" src="/images/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/zh-cn/index.html" target="_self">首页</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/zh-cn/docs/overview/what-is-wuhan2020.html" target="_self">文档</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/docs/developers/developers_dev.html" target="_self">贡献者</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/blog/index.html" target="_self">博客</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/community/index.html" target="_self">社区</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/blog/download.html" target="_self">产品</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="https://img.alicdn.com/tfs/TB1cm8nJwDqK1RjSZSyXXaxEVXa-160-160.png" class="front-img"/><span>文档</span><img src="https://img.alicdn.com/tfs/TB1cm8nJwDqK1RjSZSyXXaxEVXa-160-160.png" class="back-img"/></div></div><section class="content-section"><div class="sidemenu"><div class="sidemenu-toggle"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"/></div><ul><li class="menu-item menu-item-level-1"><span>概述</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/overview/what-is-wuhan2020.html" target="_self">Wuhan2020 是做什么的？</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/overview/faq.html" target="_self">FAQ</a></li></ul></li><li class="menu-item menu-item-level-1"><span>用户文档</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/user/website-guide.html" target="_self">新型冠状病毒防疫信息平台指南</a></li></ul></li><li class="menu-item menu-item-level-1"><span>贡献者指南</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/dev/quickstart.html" target="_self">快速开始</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/dev/information-guide.html" target="_self">信息收集指南</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/dev/architecture.html" target="_self">架构图</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/dev/contributing.html" target="_self">贡献指南</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/dev/dev-env-setup.html" target="_self">Github Repo 流程</a></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>项目加入流程整理</h1>
+<h2>所有组以及成员需求（持续增加中，现在测试、部署……都没有建组）</h2>
+<ul>
+<li>
+<p>信息组（信息录入，审核）</p>
+<ul>
+<li>数据提供者</li>
+<li>审核志愿者</li>
+<li>数据源汇集、整理</li>
+</ul>
+</li>
+<li>
+<p>产品需求管理组</p>
+<ul>
+<li>需求收集</li>
+<li>需求管理</li>
+<li>产品定义</li>
+</ul>
+</li>
+<li>
+<p>数据仓库组</p>
+<ul>
+<li>将石墨文档中对应的sheet，转为json格式，作为基础数据提供给各api-server使用。</li>
+</ul>
+</li>
+<li>
+<p>设计组（UI/UX）</p>
+<ul>
+<li>界面设计</li>
+</ul>
+</li>
+<li>
+<p>前端技能组</p>
+<ul>
+<li>渐进式 Web 应用开发</li>
+<li>地图可视化组件开发</li>
+<li>APP开发</li>
+<li>小程序开发</li>
+</ul>
+</li>
+<li>
+<p>后端技能组</p>
+<ul>
+<li>各api-server开发，提供Web API以及Map API</li>
+<li>现阶段有nodejs和python两种语言的后端</li>
+</ul>
+</li>
+<li>
+<p>项目管理组</p>
+<ul>
+<li>协调各组资源，信息对接</li>
+<li>项目管理</li>
+</ul>
+</li>
+<li>
+<p>数据建模/数据科学组</p>
+<ul>
+<li>数据分析</li>
+<li>数据预测（需谨慎处理，保证预测的有效性）</li>
+</ul>
+</li>
+<li>
+<p>宣传组</p>
+<ul>
+<li>文案</li>
+<li>通过各种线上线下渠道来进行相关信息的宣传</li>
+</ul>
+</li>
+<li>
+<p>翻译组</p>
+<ul>
+<li>其他各国语言翻译</li>
+</ul>
+</li>
+</ul>
+<h2>平台现有项目以及Contributor</h2>
+<h2>如何加入项目</h2>
+<h3>我是数据收集志愿者，使用石墨文档（可通过微信群交流）</h3>
+<p>本平台收集信息包含如下几类数据提交的信息，请分别申报填写。</p>
+<p>需要有石墨文档账号，在<a href="https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill">这里</a>填写申请，会定向邀请到特定表单中进行信息录入。</p>
+<p><strong>石墨文档地址</strong></p>
+<ul>
+<li><a href="https://shimo.im/sheets/k399pHyt6HKvW6xR/MODOC/">医院</a></li>
+<li><a href="https://shimo.im/sheets/Hd9C3QytrJK3RWxG/z1rye/">酒店</a></li>
+<li><a href="https://shimo.im/sheets/RTHXp3ghtKXY3GcC/MODOC/">物流</a></li>
+<li><a href="https://shimo.im/sheets/pchvJ6ddyRHHdXtv/MODOC/">生产</a></li>
+<li><a href="https://shimo.im/sheets/W3gxW6cwkYTDY6DD/">捐赠</a></li>
+<li><a href="https://shimo.im/sheets/JgXjYCJJTRQxJ3GP/MODOC/">义诊</a></li>
+</ul>
+<p>具体细节包括微信群二维码可以参见<a href="https://github.com/wuhan2020/wuhan2020/blob/master/INFORMATION_GUIDE.md">这里</a>。</p>
+<h3>我是开发相关志愿者，使用GitHub</h3>
+<p>本项目现阶段主要流程是使用GitHub flow以及GitHub project，通过issue和PR来进行处理。参与者需要有GitHub账号。</p>
+<p><strong>提交issue</strong></p>
+<p><code>issue</code>可以是需求，也可以是建议或者bug等。在提交 <code>issue</code> 时，请确定 <code>issue</code> 的类型，并<strong>在标题中注明</strong>，项目的机器人将会自动打上对应的标签。具体类型现在定义如下：</p>
+<ul>
+<li>hospital: 医院相关信息</li>
+<li>factory: 生产相关信息</li>
+<li>logistical: 物流相关信息</li>
+<li>hotel: 酒店相关信息</li>
+<li>donation：捐款相关信息</li>
+<li>clinic：义诊相关信息</li>
+<li>news：疫情新闻动态相关信息</li>
+<li>doc: 文档相关</li>
+<li>bug： 缺陷反馈</li>
+<li>feature: 新的特性</li>
+</ul>
+<p><strong>认领任务</strong></p>
+<p>在主repo的<a href="https://github.com/wuhan2020/wuhan2020/issues">Issue 列表</a>或者各子项目repo对应的Issue列表中挑选任务。然后在该 <code>issue</code> 中使用 <code>/self-assign</code>命令领取任务。项目的机器人将会自动将该<code>issue</code>的<code>Assignees</code>指定为自己。</p>
+<p>具体如何提issue和PR，请参考<a href="https://github.com/wuhan2020/wuhan2020/blob/master/CONTRIBUTING.md">这里</a>。</p>
+<h1>项目</h1>
+<p>所有的issue最终会在这里被收集和整理（进行中，有GitHub project管理经验的志愿者请尽快在slack频道里联系我们）。</p>
+<p><a href="https://github.com/orgs/wuhan2020/projects">https://github.com/orgs/wuhan2020/projects</a></p>
+<ul>
+<li><a href="https://github.com/orgs/wuhan2020/projects/1">数据流程通畅的第一期</a></li>
+<li><a href="https://github.com/orgs/wuhan2020/projects/2">[需求管理]所有可能需要新建项目进行开发的需求</a></li>
+</ul>
+</div></section><footer class="footer-container"><div class="footer-body"><img src="/images/wuhan2020-logo-gray.png"/><p class="docsite-power">website powered by docsite</p><div class="cols-container"><div class="col col-12"><h3>愿景</h3><p>众志成城，驱除瘟疫！</p></div><div class="col col-6"><dl><dt>文档</dt><dd><a href="/zh-cn/docs/overview/what-is-wuhan2020.html" target="_self">Wuhan2020 项目是干什么的？</a></dd><dd><a href="/zh-cn/docs/dev/quickstart.html" target="_self">快速开始</a></dd><dd><a href="https://github.com/wuhan2020/wuhan2020.github.io/issues/new" target="_self">报告文档问题</a></dd><dd><a href="https://github.com/wuhan2020/wuhan2020.github.io" target="_self">在Github上编辑此文档</a></dd></dl></div><div class="col col-6"><dl><dt>资源</dt><dd><a href="/zh-cn/blog/index.html" target="_self">博客</a></dd><dd><a href="/zh-cn/community/index.html" target="_self">社区</a></dd></dl></div></div><div class="copyright"><span>Copyright © 2020 Wuhan2020</span></div></div></footer></div></div>
+  <script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+  <script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+  <script>
+    window.rootPath = '';
+
+  </script>
+  <script src="/build/documentation.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
