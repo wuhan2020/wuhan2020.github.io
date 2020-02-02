@@ -1,6 +1,6 @@
 ---
-title: 新型冠状病毒防疫信息平台使用指南
+title: Guidelines for using the new Coronavirus epidemic prevention information platform
 keywords: Wuhan
-description: 新型冠状病毒防疫信息平台使用指南
+description: Guidelines for using the new Coronavirus epidemic prevention information platform.
 ---
 TODO
