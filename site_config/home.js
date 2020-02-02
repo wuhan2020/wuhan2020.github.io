@@ -37,7 +37,7 @@ export default {
                     link: 'https://github.com/wuhan2020/wuhan2020',
                     type: 'normal',
                 },
-                    {
+                {
                     text: "Piattaforma per la prevenzione dell'epidemia di Wuhan 2019-nCoV",
                     link: 'https://wuhan2020.kaiyuanshe.cn/',
                     type: 'normal',
