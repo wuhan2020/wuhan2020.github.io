@@ -4,6 +4,7 @@
 
 .blog-detail-page {
   .blog-content {
+    box-sizing: content-box;
     padding: 80px 20%;
     margin: $headerHeight auto 0;
     max-width: 735px;
