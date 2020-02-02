@@ -1,13 +1,14 @@
 # Wuhan2020 Community Official Website
 
-[![CI Status](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)](https://github.com/wuhan2020/wuhan2020.github.io/actions)
+![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
+![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
 
 All website material  of https://wuhan2020.github.io
 
 
 ## Prerequisite
 
-wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite).please read [https://docsite.js.org](https://docsite.js.org) 
+wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite).please read [https://docsite.js.org](https://docsite.js.org)
 If your version of docsite is less than `1.3.3`, please upgrade to `1.3.3`.
 Please also make sure your node version is 8.x, versions higher than 8.x is not supported by docsite yet.
 
@@ -34,7 +35,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 ## How To Write Documents
 
 ### Add a new doc
- 
+
 1. Add new .md file under docs/en-us or docs/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Update site_config/docs.js, add a new entry to the blog in either en-us or zh-cn.
 3. Run docsite start locally to verify the blog can be displayed correctly.
@@ -55,7 +56,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 4. Send the pull request contains the .md ~~and blog.js~~ only.
 5. `SEO` config is required.
 
-notice : Blog documents will be automatically sorted by time, without menu configuration         
+notice : Blog documents will be automatically sorted by time, without menu configuration
 Set 'hidden' to 'true' for documents you don't want to display temporarily`
 
 ## SEO
@@ -76,5 +77,3 @@ date: 2018-12-29
 
 + If you want to add `search in site`，see [https://docsite.js.org/zh-cn/docs/search.html](https://docsite.js.org/zh-cn/docs/search.html)
 + This is docsite docs :[https://docsite.js.org/zh-cn/docs/path.html](https://docsite.js.org/zh-cn/docs/path.html)
-
-
