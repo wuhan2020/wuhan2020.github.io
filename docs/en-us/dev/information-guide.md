@@ -6,7 +6,7 @@ Due to the large number of participants, the editing authority has limitation. P
 
 For those who want to join the information team, please 
 1. Scan the following WeChat QR Code:
-![QRCode](./static/QRCode.jpeg)
+![QRCode](/imaages/docs/QRCode.jpeg)
 
 2. Register a Shimo.im account. When you are filling the application form, please make sure your email address is the same one as your registered Shimo.im account. You will be invited via this email address afterwards to collaborate with us for the information collection work. In your application, please select your working preference from following categories: hospital, hotel, logistics, free medical consultation, donation, and manufacturer. You can choose one or multiple categories. You will be re-assigned to another category if there are too many people in one category and there are demands in the other categories.
 
