@@ -42,6 +42,48 @@
       }
     }
   ],
-  "ja-jp": [],
-  "it-it": []
+  "ja-jp": [
+    {
+      "filename": "download.md",
+      "link": "/ja-jp/blog/download.html",
+      "meta": {
+        "title": "Product List",
+        "keywords": "Wuhan2020, Downloads, Version",
+        "description": "This article will introduce you how to understand the details of each version and upgrade matters needing attention."
+      }
+    },
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/ja-jp/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "wuhan2020 お知らせ 2020.1.29",
+        "keywords": "Dubbo,Seata,Consistency",
+        "description": "wuhan2020 お知らせ  2020.1.29",
+        "author": "Ginda Chen, Isabella",
+        "proofread": "Yudai Yaguchi",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "it-it": [
+    {
+      "filename": "download.md",
+      "link": "/it-it/blog/download.html",
+      "meta": {
+        "title": "Product List",
+        "keywords": "Wuhan2020, Downloads, Version",
+        "description": "This article will introduce you how to understand the details of each version and upgrade matters needing attention."
+      }
+    },
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/it-it/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "Wuhan2020 Official Announcement 2020.1.29",
+        "keywords": "Wuhan2020 Official Announcement",
+        "description": "Wuhan2020 Official Announcement 2020.1.29",
+        "date": "2019-01-29"
+      }
+    }
+  ]
 }
