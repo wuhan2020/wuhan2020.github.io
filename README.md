@@ -24,7 +24,7 @@ If you have higher version of node installed, you may consider `nvm` to allow di
 1. Follow the [instructions](http://nvm.sh) to install nvm
 2. Run `nvm install v8.16.0` to install node v8
 3. Run `nvm use v8.16.0` to switch the working environment to node v8
-4. Run `npm install docsite -g`
+4. ~~Run `npm install docsite -g`~~ 安装docsite wuhan2020特供版 ` npm i docsite@wuhan2020 -g `
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
 
