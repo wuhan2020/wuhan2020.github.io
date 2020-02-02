@@ -29,7 +29,7 @@ export default {
             buttons: [
                 {
                     text: 'Get Started',
-                    link: '/en-us/docs/user/quickstart.html',
+                    link: '/en-us/docs/overview/what-is-wuhan2020.html',
                     type: 'primary',
                 },
                 {
@@ -52,7 +52,7 @@ export default {
             buttons: [
                 {
                     text: 'Get Started',
-                    link: '/en-us/docs/user/quickstart.html',
+                    link: '/it-it/docs/overview/what-is-wuhan2020.html',
                     type: 'primary',
                 },
                 {
@@ -75,7 +75,7 @@ export default {
             buttons: [
                 {
                     text: 'Get Started',
-                    link: '/en-us/docs/user/quickstart.html',
+                    link: '/ja-jp/docs/overview/what-is-wuhan2020.html',
                     type: 'primary',
                 },
                 {
