@@ -2729,12 +2729,12 @@ html {
       display: inline-block;
       width: 100%; }
     .header-container .header-body .header-menu-open li:hover {
-      background-color: #0054D1; }
+      background-color: #FF6440; }
       .header-container .header-body .header-menu-open li:hover a {
         color: #fff;
         opacity: 1; }
   .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
-    background-color: #0054D1; }
+    background-color: #FF6440; }
     .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
       color: #fff;
       opacity: 1; } }
@@ -2828,7 +2828,7 @@ html {
           color: #999;
           margin: 10px 0; }
         .footer-container .footer-body .cols-container dd a:hover {
-          color: #0054D1; }
+          color: #FF6440; }
     .footer-container .footer-body .copyright {
       border-top: 1px solid #ccc;
       min-height: 60px;
@@ -2869,7 +2869,7 @@ html {
       .slider .slider-control .slider-control-item-active {
         width: 40px;
         height: 6px;
-        background-color: #0054D1; }
+        background-color: #FF6440; }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -4374,7 +4374,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 18px;
       color: #999; }
       .community-page .contact-section .contact-list .contact-item:hover {
-        color: #0054D1; }
+        color: #FF6440; }
       .community-page .contact-section .contact-list .contact-item img {
         width: 82px;
         height: 86px; }
