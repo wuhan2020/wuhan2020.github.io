@@ -1,11 +1,11 @@
 ---
-title: Product List
+title: Elenco dei prodotti
 keywords: Wuhan2020, Downloads, Version
-description: This article will introduce you how to understand the details of each version and upgrade matters needing attention.
+description: Questo articolo ti spiegherà come comprendere i dettagli di ciascuna versione e aggiornare le questioni che richiedono attenzione.
 ---
 
+# Sito web online
 
-# Website online
+## Nuova piattaforma di raccolta di informazioni sulla prevenzione dell'epidemia di coronavirus di Wuhan
 
-## Wuhan new coronavirus epidemic prevention information collection platform
-  Url：https://wuhan2020.kaiyuanshe.cn/  
+URL：https://wuhan2020.kaiyuanshe.cn/

@@ -1,11 +1,11 @@
 ---
-title: Product List
+title: 製品リスト
 keywords: Wuhan2020, Downloads, Version
-description: This article will introduce you how to understand the details of each version and upgrade matters needing attention.
+description: この記事では、各バージョンの詳細を理解する方法と、注意が必要なアップグレード事項を紹介します。
 ---
 
+# オンラインのウェブサイト
 
-# Website online
+## 武漢の新しいコロナウイルスの流行予防情報収集プラットフォーム
 
-## Wuhan new coronavirus epidemic prevention information collection platform
-  Url：https://wuhan2020.kaiyuanshe.cn/  
+URL：https://wuhan2020.kaiyuanshe.cn/
