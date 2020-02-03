@@ -183,12 +183,27 @@
         }
       }
     }
+    .header-image {
+      width: 546px;
+      height: 578px;
+      position: absolute;
+      top: 146px;
+      right: 0;
+      img {
+        position: absolute;
+        height: 578px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        z-index: 1;
+      }
+    }
     @media screen and (max-width: 768px) {
       .vertical-middle {
         text-align: center;
         width: 100%;
       }
-      .animation {
+      .header-image {
         display: none;
       }
     }
