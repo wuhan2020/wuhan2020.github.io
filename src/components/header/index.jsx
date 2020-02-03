@@ -142,7 +142,7 @@ class Header extends React.Component {
             onLanguageChange !== noop ?
             (
               <Select
-                style={{ float: 'right', marginTop: 21, marginRight: 8 }}
+                className="lang-select"
                 size="small"
                 value={language}
                 onSelect={this.switchLang}
