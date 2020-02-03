@@ -49,13 +49,131 @@ export default {
                 },
                 {
                     img: '/images/documents.png',
-                    title: 'Documents',
+                    title: 'Documentation',
                     content: <span>Improve the <a href="https://github.com/wuhan2020/wuhan2020.github.io">documentation</a>.</span>,
                 },
                 {
                     img: '/images/pullrequest.png',
                     title: 'Pull Request',
-                    content: <span>Create a brilliant <a href="https://github.com/wuhan2020/wuhan2020/pulls">pull request</a>.  </span>,
+                    content: <span>Create a brilliant <a href="https://github.com/wuhan2020/wuhan2020/pulls">pull request</a>.</span>,
+                },
+            ],
+        },
+    },
+    'it-it': {
+        barText: 'Comunità',
+        events: {
+            title: 'Eventi e notizie',
+            list: [
+                {
+                    img: '/images/blog/wuhan2020.png',
+                    title: 'Rilascio nuovo processo di progetto di rifornimento di carburante Wuhan',
+                    content: 'Rilascio nuovo processo di progetto di rifornimento di carburante Wuhan',
+                    dateStr: 'Jan 29th，2020',
+                    link: '/it-it/blog/wuhan2020-official-announcement.html',
+                },
+            ],
+        },
+        contacts: {
+            title: 'Parla con noi',
+            desc: 'Non esitate a contattarci tramite il seguente canale.',
+            list: [
+                {
+                    img: '/images/channels/mailinglist.png',
+                    imgHover: '/images/channels/mailinglist_hover.png',
+                    title: 'Mailing List',
+                    link: 'mailto:wuhan2020+subscribe@googlegroups.com'
+                },
+                {
+                    img: '/images/channels/slack_gray.svg',
+                    imgHover: '/images/channels/slack_green.svg',
+                    title: '@Slack',
+                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                }
+            ],
+        },
+        contributorGuide: {
+            title: 'Guida per i collaboratori',
+            desc: 'YPuoi sempre contribuire a Wuhan2020.',
+            list: [
+                {
+                    img: '/images/channels/email_gray.svg',
+                    title: 'Mailing List',
+                    content: <span>Unisciti alla nostra mailing list.</span>,
+                },
+                {
+                    img: '/images/channels/github_gray.svg',
+                    title: 'Problema',
+                    content: <span>Invia un <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo numero</a>.</span>,
+                },
+                {
+                    img: '/images/documents.png',
+                    title: 'Documentazione',
+                    content: <span>Migliora la <a href="https://github.com/wuhan2020/wuhan2020.github.io">documentazione</a>.</span>,
+                },
+                {
+                    img: '/images/pullrequest.png',
+                    title: 'Richiesta pull',
+                    content: <span>Crea una brillante <a href="https://github.com/wuhan2020/wuhan2020/pulls">richiesta pull</a>.</span>,
+                },
+            ],
+        },
+    },
+    'ja-jp': {
+        barText: 'コミュニティ',
+        events: {
+            title: 'イベントとニュース',
+            list: [
+                {
+                    img: '/images/blog/wuhan2020.png',
+                    title: '武漢給油プロジェクトの新しいプロセスのリリース',
+                    content: '武漢給油プロジェクトの新しいプロセスのリリース',
+                    dateStr: 'Jan 29th，2020',
+                    link: '/en-us/blog/wuhan2020-official-announcement.html',
+                },
+            ],
+        },
+        contacts: {
+            title: '私たちに話してください',
+            desc: '次のチャネルからお気軽にお問い合わせください。',
+            list: [
+                {
+                    img: '/images/channels/mailinglist.png',
+                    imgHover: '/images/channels/mailinglist_hover.png',
+                    title: 'メーリングリスト',
+                    link: 'mailto:wuhan2020+subscribe@googlegroups.com'
+                },
+                {
+                    img: '/images/channels/slack_gray.svg',
+                    imgHover: '/images/channels/slack_green.svg',
+                    title: '@Slack',
+                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                }
+            ],
+        },
+        contributorGuide: {
+            title: '貢献者ガイド',
+            desc: 'いつでもWuhan2020に貢献できます。',
+            list: [
+                {
+                    img: '/images/channels/email_gray.svg',
+                    title: 'メーリングリスト',
+                    content: <span>メーリングリストに参加してください。</span>,
+                },
+                {
+                    img: '/images/channels/github_gray.svg',
+                    title: '発行',
+                    content: <span>新しい<a href="https://github.com/wuhan2020/wuhan2020/issues/new">問題</a>を送信する。</span>,
+                },
+                {
+                    img: '/images/documents.png',
+                    title: 'ドキュメンテーション',
+                    content: <span><a href="https://github.com/wuhan2020/wuhan2020.github.io">ドキュメン</a>トを改善する。</span>,
+                },
+                {
+                    img: '/images/pullrequest.png',
+                    title: 'プルリクエスト',
+                    content: <span>素晴らしい<a href="https://github.com/wuhan2020/wuhan2020/pulls">プルリクエストt</a>を作成する。</span>,
                 },
             ],
         },
