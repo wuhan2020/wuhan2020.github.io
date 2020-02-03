@@ -36,7 +36,12 @@ export default {
                 key: 'download',
                 text: 'PRODUCT',
                 link: '/en-us/blog/download.html',
-            }
+            },
+            {
+                key: 'mis',
+                text: 'Information collection platform',
+                link: 'https://wuhan2020.kaiyuanshe.cn',
+            },
         ],
         vision: {
             title: 'Vision',
@@ -110,6 +115,12 @@ export default {
                 text: 'PRODOTTO',
                 link: '/it-it/blog/download.html',
             }
+            ,
+            {
+              key: 'mis',
+              text: 'Piattaforma di raccolta informazioni',
+              link: 'https://wuhan2020.kaiyuanshe.cn',
+            },
         ],
         vision: {
             title: 'Visione',
@@ -183,6 +194,12 @@ export default {
                 text: '製品',
                 link: '/ja-jp/blog/download.html',
             }
+            ,
+            {
+              key: 'mis',
+              text: '情報収集プラットフォーム',
+              link: 'https://wuhan2020.kaiyuanshe.cn',
+            },
         ],
         vision: {
             title: 'ビジョン',
@@ -255,6 +272,12 @@ export default {
                 key: 'download',
                 text: '产品',
                 link: '/zh-cn/blog/download.html',
+            },
+            ,
+            {
+              key: 'mis',
+              text: '信息收集平台',
+              link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
         vision: {
