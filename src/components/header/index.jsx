@@ -147,10 +147,10 @@ class Header extends React.Component {
                 value={language}
                 onSelect={this.switchLang}
               >
-                <Option value="zh-cn">zh-cn</Option>
-                <Option value="en-us">en-us</Option>
-                <Option value="ja-jp">ja-jp</Option>
-                <Option value="it-it">it-it</Option>
+                <Option value="zh-cn">简体中文</Option>
+                <Option value="en-us">English</Option>
+                <Option value="ja-jp">日本語</Option>
+                <Option value="it-it">Italiano</Option>
               </Select>
             )
             :
