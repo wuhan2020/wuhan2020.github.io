@@ -2577,6 +2577,10 @@ html {
     margin: 0 auto;
     height: 66px;
     line-height: 66px; }
+    .header-container .header-body .lang-select {
+      float: right;
+      margin: 20px 8px 0 0;
+      width: 70px; }
     .header-container .header-body .logo {
       margin-left: 40px;
       height: 36px;
