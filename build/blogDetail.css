@@ -2577,10 +2577,6 @@ html {
     margin: 0 auto;
     height: 66px;
     line-height: 66px; }
-    .header-container .header-body .lang-select {
-      float: right;
-      margin: 20px 8px 0 0;
-      width: 90px; }
     .header-container .header-body .logo {
       margin-left: 40px;
       height: 36px;
@@ -2733,12 +2729,12 @@ html {
       display: inline-block;
       width: 100%; }
     .header-container .header-body .header-menu-open li:hover {
-      background-color: #FF6440; }
+      background-color: #0054D1; }
       .header-container .header-body .header-menu-open li:hover a {
         color: #fff;
         opacity: 1; }
   .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
-    background-color: #FF6440; }
+    background-color: #0054D1; }
     .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
       color: #fff;
       opacity: 1; } }
@@ -2804,7 +2800,7 @@ html {
           color: #999;
           margin: 10px 0; }
         .footer-container .footer-body .cols-container dd a:hover {
-          color: #FF6440; }
+          color: #0054D1; }
     .footer-container .footer-body .copyright {
       border-top: 1px solid #ccc;
       min-height: 60px;
@@ -5650,7 +5646,6 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   text-align: right; }
 
 .blog-detail-page .blog-content {
-  box-sizing: content-box;
   padding: 80px 20%;
   margin: 66px auto 0;
   max-width: 735px; }
