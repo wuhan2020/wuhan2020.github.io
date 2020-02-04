@@ -113,8 +113,5 @@ Chiunque può chiedere liberamente l'apertura di un nuovo canale, secondo il pri
 
 Grazie a tutti per l'impegno e l'altruismo! La comunione di intenti è una fortezza inespugnabile, wuhan2020, ce la faremo!
 
-La presente pagina web costituisce una risorsa per l'accesso e la gestione del progetto e l'orientamento di nuove persone, le quali possono facilmente individuare gli argomenti di loro interesse. Si prega ogni gruppo mantenere aggiornate le informazioni qui presenti.
-
-
 Translators: 胡静楠,赖伟伟Lorenzo,陈瑜(@Atena1118), proofreader:Stefano Sciulli(@sciulli)
 
