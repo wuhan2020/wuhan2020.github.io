@@ -127,6 +127,3 @@ Want to be a contributor? Come and join our `Slack` channel now!
 Thank you for your genuine love and voluntary contribution! Let's work together through this tough period to overcome the difficulties.  
 
 wuhan2020, we do! we can!  
-
-**This page serves as a bulletin board for comprehensive management, it's new-comer-friendly, and all the team updates will be presented here.**
-

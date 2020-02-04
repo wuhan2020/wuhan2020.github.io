@@ -19,6 +19,11 @@
     margin: 0 auto;
     height: $headerHeight;
     line-height: $headerHeight;
+    .lang-select {
+      float: right;
+      margin: 20px 8px 0 0;
+      width: 90px;
+    }
     .logo {
       margin-left: 40px;
       height: 36px;
@@ -30,7 +35,7 @@
         display: none;
         width: 19px;
         margin-right: 40px;
-        margin-top: $headerHeight / 2 - 15px; 
+        margin-top: $headerHeight / 2 - 15px;
         cursor: pointer;
       }
     }

@@ -29,7 +29,7 @@ export default {
                     img: '/images/channels/slack_gray.svg',
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
-                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                    link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_EN.md#slack-channel-navigation',
                 }
             ],
         },
@@ -88,7 +88,7 @@ export default {
                     img: '/images/channels/slack_gray.svg',
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
-                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                    link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_IT.md#navigazione-del-canale-slack',
                 }
             ],
         },
@@ -147,7 +147,7 @@ export default {
                     img: '/images/channels/slack_gray.svg',
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
-                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                    link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_JP.md#slack%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3',
                 }
             ],
         },
@@ -206,7 +206,7 @@ export default {
                     img: '/images/channels/slack_gray.svg',
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
-                    link: 'https://wuhan2020.slack.com/archives/CSTGKFRCH',
+                    link: 'https://github.com/wuhan2020/wuhan2020#slack%E9%A2%91%E9%81%93%E5%AF%BC%E8%88%AA',
                 }
             ],
         },
