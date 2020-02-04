@@ -78,7 +78,7 @@ If you want to add a new language, such as Thai. Please append the element:
 ```json
 { value: 'th-th', text: 'ภาษาไทย' }
 ```
-to the `langlist` element of `site config/site.js`. Then please add directories named `th-th` in `docs`and `blog` directories , here you can add documents in this language . 
+to the `langlist` variable of `site config/site.js`. Then please add directories named `th-th` in `docs`and `blog` directories , here you can add documents in this language . 
 Of course, you can also see `langlist` variables in several other files. This is just a bottom line measure, and you don't have to modify it..
 
 
