@@ -39,7 +39,7 @@ export default {
             },
             {
                 key: 'mis',
-                text: 'Information collection platform',
+                text: '2019-NCOV INFORMATION PLATFORM',
                 link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
@@ -118,7 +118,7 @@ export default {
             ,
             {
               key: 'mis',
-              text: 'Piattaforma di raccolta informazioni',
+              text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',
               link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
@@ -276,7 +276,7 @@ export default {
             ,
             {
               key: 'mis',
-              text: '信息收集平台',
+              text: '新型冠状病毒防疫信息平台',
               link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
