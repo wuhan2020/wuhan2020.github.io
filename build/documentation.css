@@ -2591,7 +2591,7 @@ html {
         display: none;
         width: 19px;
         margin-right: 40px;
-        margin-top: 18px;
+        margin-top: -4px;
         cursor: pointer; }
     .header-container .header-body ul {
       padding: 0;
