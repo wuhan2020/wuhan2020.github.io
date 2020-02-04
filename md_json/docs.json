@@ -1,67 +1,4 @@
 {
-  "en-us": [
-    {
-      "filename": "architecture.md",
-      "link": "/en-us/docs/dev/architecture.html",
-      "meta": {}
-    },
-    {
-      "filename": "contributing.md",
-      "link": "/en-us/docs/dev/contributing.html",
-      "meta": {}
-    },
-    {
-      "filename": "dev-env-setup.md",
-      "link": "/en-us/docs/dev/dev-env-setup.html",
-      "meta": {}
-    },
-    {
-      "filename": "information-guide.md",
-      "link": "/en-us/docs/dev/information-guide.html",
-      "meta": {}
-    },
-    {
-      "filename": "quickstart.md",
-      "link": "/en-us/docs/dev/quickstart.html",
-      "meta": {}
-    },
-    {
-      "filename": "developers_dev.md",
-      "link": "/en-us/docs/developers/developers_dev.html",
-      "meta": {
-        "title": "Contributors",
-        "keywords": "Wuhan2020, Contributors",
-        "description": "Wuhan2020 Team."
-      }
-    },
-    {
-      "filename": "faq.md",
-      "link": "/en-us/docs/overview/faq.html",
-      "meta": {
-        "title": "Wuhan2020 FAQ",
-        "keywords": "Wuhan2020",
-        "description": "Wuhan2020 FAQ."
-      }
-    },
-    {
-      "filename": "what-is-wuhan2020.md",
-      "link": "/en-us/docs/overview/what-is-wuhan2020.html",
-      "meta": {
-        "title": "What Is Wuhan2020",
-        "keywords": "Wuhan2020",
-        "description": "What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture."
-      }
-    },
-    {
-      "filename": "website-guide.md",
-      "link": "/en-us/docs/user/website-guide.html",
-      "meta": {
-        "title": "Guidelines for using the new Coronavirus epidemic prevention information platform",
-        "keywords": "Wuhan",
-        "description": "Guidelines for using the new Coronavirus epidemic prevention information platform."
-      }
-    }
-  ],
   "zh-cn": [
     {
       "filename": "architecture.md",
@@ -139,6 +76,69 @@
       }
     }
   ],
+  "en-us": [
+    {
+      "filename": "architecture.md",
+      "link": "/en-us/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/en-us/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/en-us/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/en-us/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/en-us/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/en-us/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Contributors",
+        "keywords": "Wuhan2020, Contributors",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/en-us/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/en-us/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "What Is Wuhan2020",
+        "keywords": "Wuhan2020",
+        "description": "What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/en-us/docs/user/website-guide.html",
+      "meta": {
+        "title": "Guidelines for using the new Coronavirus epidemic prevention information platform",
+        "keywords": "Wuhan",
+        "description": "Guidelines for using the new Coronavirus epidemic prevention information platform."
+      }
+    }
+  ],
   "ja-jp": [
     {
       "filename": "quickstart.md",
@@ -206,5 +206,6 @@
         "description": "新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン."
       }
     }
-  ]
+  ],
+  "it-it2": []
 }
