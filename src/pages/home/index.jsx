@@ -7,6 +7,7 @@ import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
 import homeConfig from '../../../site_config/home';
+import Item from './featureItem';
 import './index.scss';
 
 class Home extends Language {
@@ -94,6 +95,18 @@ class Home extends Language {
                             <img src="/images/wuhan2020-header-image.png"/>
                         </div>
                     </div>
+                </section>
+                <section className="feature-section">
+                  <div className="feature-container">
+                    <h3>{dataSource.features.title}</h3>
+                    <ul>
+                      {
+                        dataSource.features.list.map((feature, i) => (
+                          <Item feature={feature} key={i} />
+                        ))
+                      }
+                    </ul>
+                  </div>
                 </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
             </div>
