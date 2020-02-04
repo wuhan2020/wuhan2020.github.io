@@ -71,28 +71,28 @@ class Home extends Language {
                                                                               target={b.target}>{b.text}</Button>)
                                 }
                             </div>
-                          <div className="github-buttons">
-                            <a href="https://github.com/wuhan2020/wuhan2020" target="_blank" rel="noopener noreferrer">
-                              <div className="star">
-                                <img src="https://img.alicdn.com/tfs/TB1FlB1JwHqK1RjSZFPXXcwapXa-32-32.png"/>
-                                <span className="type">Star</span>
-                                <span className="line"/>
-                                <span className="count">{starCount}</span>
-                              </div>
-                            </a>
-                            <a href="https://github.com/wuhan2020/wuhan2020/fork" target="_blank" rel="noopener noreferrer">
-                              <div className="fork">
-                                <img src="https://img.alicdn.com/tfs/TB1zbxSJwDqK1RjSZSyXXaxEVXa-32-32.png"/>
-                                <span className="type">Fork</span>
-                                <span className="line"/>
-                                <span className="count">{forkCount}</span>
-                              </div>
-                            </a>
-                          </div>
+                            <div className="github-buttons">
+                                <a href="https://github.com/wuhan2020/wuhan2020" target="_blank" rel="noopener noreferrer">
+                                    <div className="star">
+                                        <img src="https://img.alicdn.com/tfs/TB1FlB1JwHqK1RjSZFPXXcwapXa-32-32.png"/>
+                                        <span className="type">Star</span>
+                                        <span className="line"/>
+                                        <span className="count">{starCount}</span>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/wuhan2020/wuhan2020/fork" target="_blank" rel="noopener noreferrer">
+                                    <div className="fork">
+                                        <img src="https://img.alicdn.com/tfs/TB1zbxSJwDqK1RjSZSyXXaxEVXa-32-32.png"/>
+                                        <span className="type">Fork</span>
+                                        <span className="line"/>
+                                        <span className="count">{forkCount}</span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                      <div className="header-image">
-                        <img src="/images/wuhan2020-header-image.png"/>
-                      </div>
+                        <div className="header-image">
+                            <img src="/images/wuhan2020-header-image.png"/>
+                        </div>
                     </div>
                 </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
