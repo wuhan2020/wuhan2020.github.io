@@ -9,7 +9,6 @@ export default {
       { value: 'en-us', text: 'English' },
       { value: 'ja-jp', text: '日本語' },
       { value: 'it-it', text: 'Italiano' },
-      { value: 'it-it2', text: 'Italianosf' },
     ], // 支持的语言列表
     defaultLanguage: 'zh-cn',
     'en-us': {
