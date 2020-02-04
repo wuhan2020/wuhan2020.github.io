@@ -1,13 +1,7 @@
 # https://github.com/marketplace/actions/image-actions
 name: Compress images
 
-on:
-  pull_request:
-    paths:
-    - '**.jpg'
-    - '**.jpeg'
-    - '**.png'
-    - '**.webp'
+on: pull_request
 
 jobs:
   build:
