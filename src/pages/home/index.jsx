@@ -95,18 +95,6 @@ class Home extends Language {
                       </div>
                     </div>
                 </section>
-                <section className="feature-section">
-                  <div className="feature-container">
-                    <h3>{dataSource.features.title}</h3>
-                    <ul>
-                      {
-                        dataSource.features.list.map((feature, i) => (
-                          <Item feature={feature} key={i} />
-                        ))
-                      }
-                    </ul>
-                  </div>
-                </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
             </div>
         );
