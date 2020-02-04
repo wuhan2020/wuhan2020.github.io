@@ -2577,6 +2577,10 @@ html {
     margin: 0 auto;
     height: 66px;
     line-height: 66px; }
+    .header-container .header-body .lang-select {
+      float: right;
+      margin: 20px 8px 0 0;
+      width: 90px; }
     .header-container .header-body .logo {
       margin-left: 40px;
       height: 36px;
@@ -2729,12 +2733,12 @@ html {
       display: inline-block;
       width: 100%; }
     .header-container .header-body .header-menu-open li:hover {
-      background-color: #0054D1; }
+      background-color: #FF6440; }
       .header-container .header-body .header-menu-open li:hover a {
         color: #fff;
         opacity: 1; }
   .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
-    background-color: #0054D1; }
+    background-color: #FF6440; }
     .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
       color: #fff;
       opacity: 1; } }
@@ -2800,7 +2804,7 @@ html {
           color: #999;
           margin: 10px 0; }
         .footer-container .footer-body .cols-container dd a:hover {
-          color: #0054D1; }
+          color: #FF6440; }
     .footer-container .footer-body .copyright {
       border-top: 1px solid #ccc;
       min-height: 60px;
@@ -2833,7 +2837,7 @@ html {
   border-radius: 4px;
   text-decoration: none; }
   .button-primary {
-    color: #0054D1;
+    color: #FF6440;
     background: #fff; }
   .button-normal {
     color: #fff;
@@ -4269,7 +4273,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-page .top-section {
   height: 720px;
-  background-color: #0054D1; }
+  background-color: #FF6440; }
   .home-page .top-section .top-body {
     position: relative;
     overflow: hidden;
@@ -4404,11 +4408,24 @@ h1, h2, h3, h4, h5, h6 {
       transform: rotateX(66deg); }
       .home-page .top-section .animation .rotate-circle svg {
         animation: rotate-circle 1.2s linear infinite; }
+  .home-page .top-section .header-image {
+    width: 546px;
+    height: 578px;
+    position: absolute;
+    top: 146px;
+    right: 0; }
+    .home-page .top-section .header-image img {
+      position: absolute;
+      height: 578px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      z-index: 1; }
   @media screen and (max-width: 768px) {
     .home-page .top-section .vertical-middle {
       text-align: center;
       width: 100%; }
-    .home-page .top-section .animation {
+    .home-page .top-section .header-image {
       display: none; } }
 
 .home-page .introduction-section {
