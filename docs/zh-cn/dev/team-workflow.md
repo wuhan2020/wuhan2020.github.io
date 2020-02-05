@@ -21,7 +21,7 @@ description: 团队生产流程
 
 ## Wuhan2020各组别二维码
 
-<img src="/images/docs/images/docs/team-qr-code.png"/>
+<img src="/images/docs/team-qr-code.png"/>
 
 <font  size=5 face="黑体">
 隔离病毒，但绝不会隔离爱。<br>
