@@ -191,6 +191,10 @@ export default {
                         link: '/zh-cn/docs/dev/quickstart.html',
                     },
                     {
+                      title: '团队工作流程',
+                      link: '/zh-cn/docs/dev/team-workflow.html',
+                    },
+                    {
                         title: '信息收集指南',
                         link: '/zh-cn/docs/dev/information-guide.html',
                     },
