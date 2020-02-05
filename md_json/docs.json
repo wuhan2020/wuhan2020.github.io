@@ -35,6 +35,15 @@
       "meta": {}
     },
     {
+      "filename": "team-workflow.md",
+      "link": "/zh-cn/docs/dev/team-workflow.html",
+      "meta": {
+        "title": "团队生产流程",
+        "keywords": "团队生产流程",
+        "description": "团队生产流程"
+      }
+    },
+    {
       "filename": "developers_dev.md",
       "link": "/zh-cn/docs/developers/developers_dev.html",
       "meta": {

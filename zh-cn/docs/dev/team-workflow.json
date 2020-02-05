@@ -1,0 +1,10 @@
+{
+  "filename": "team-workflow.md",
+  "__html": "<h1>感谢您的支持，请按以下步骤完成初步志愿者分流</h1>\n<table>\n<thead>\n<tr>\n<th>流程</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1、修订 群名片 格式【意向组+昵称/姓名】</td>\n<td>如您不知道自己适合哪个组别，请翻下一页</td>\n</tr>\n<tr>\n<td>2、填写问卷https://shimo.im/forms/PWTTvkrdcCyXCGX6/fill</td>\n<td>请尽量完成问卷信息，如您要保密个人隐私，可不填写真实姓名</td>\n</tr>\n<tr>\n<td>3、扫码加入志愿加入的对应组别，并退出本群（除了协调组的志愿者）</td>\n<td>请请根据您所填写的志愿组，扫描对应组别的二维码加入，协调组请联系陈奕竹 审核。（建议不要同时加入超过2个志愿组，防止工作量过大）</td>\n</tr>\n</tbody>\n</table>\n<h1>Wuhan2020组织整体构架图</h1>\n<img src=\"/images/docs/team-arch.jpg\"/>\n<h1>Wuhan2020各组间对接流程</h1>\n<img src=\"/images/docs/team-interface.jpg\"/>\n<h1>Wuhan2020各组别二维码</h1>\n<img src=\"/images/docs/images/docs/team-qr-code.png\"/>\n<font  size=7 face=\"黑体\">\n隔离病毒，但绝不会隔离爱。<br>\n众志成城，没有我们过不去的坎儿。<br>\n加油武汉，加油中国！\n</font>",
+  "link": "/zh-cn/docs/dev/team-workflow.html",
+  "meta": {
+    "title": "团队生产流程",
+    "keywords": "团队生产流程",
+    "description": "团队生产流程"
+  }
+}
