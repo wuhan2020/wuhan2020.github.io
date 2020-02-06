@@ -197,6 +197,13 @@ export default {
                     dateStr: 'Feb 2nd，2020',
                     link: '/blog/zh-cn/to-all-members.md',
                 },
+                {
+                  img: '/images/blog/media/banner.jpg',
+                  title: 'WUHAN2020官宣渠道汇总',
+                  content: 'WUHAN2020官宣渠道汇总',
+                  dateStr: 'Feb 7th，2020',
+                  link: '/blog/zh-cn/to-all-members.md',
+                },
             ],
         },
         contacts: {
