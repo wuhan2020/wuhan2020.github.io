@@ -1,6 +1,6 @@
 {
   "filename": "developers_dev.md",
-  "__html": "<h2>Wuhan2020 Team</h2>\n<p>Wuhan2020 贡献者列表</p>\n<h1>技术开发</h1>\n<table>\n<thead>\n<tr>\n<th>name</th>\n<th>github</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/rank-zsy\">rank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>数据分析师</h1>\n<h1>设计师</h1>\n<h1>产品经理</h1>\n<h1>协调沟通</h1>\n<h1>翻译</h1>\n<h1>数据著录</h1>\n",
+  "__html": "<h2>Wuhan2020 Team</h2>\n<p>Wuhan2020 贡献者列表</p>\n<h1>技术开发</h1>\n<table>\n<thead>\n<tr>\n<th>name</th>\n<th>github</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/frank-zsy\">frank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>数据分析师</h1>\n<h1>设计师</h1>\n<h1>产品经理</h1>\n<h1>协调沟通</h1>\n<h1>翻译</h1>\n<h1>数据著录</h1>\n",
   "link": "/zh-cn/docs/developers/developers_dev.html",
   "meta": {
     "title": "贡献者列表",
