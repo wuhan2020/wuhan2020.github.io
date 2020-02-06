@@ -12,7 +12,7 @@ Wuhan2020 贡献者列表
 
 | name   | github          |  
 | ------ | --------------- | --------------- |
-| Shengyu Zhao   | [rank-zsy](https://github.com/rank-zsy)        | 
+| Shengyu Zhao   | [frank-zsy](https://github.com/frank-zsy)        | 
 | Yao Shi   | [TechQuery](https://github.com/TechQuery)        |
 
 # 数据分析师
