@@ -157,7 +157,7 @@
         height: 39px;
         right: 0;
         bottom: 129px;
-        animation: updown 2s ease-in-out infinite alternate; 
+        animation: updown 2s ease-in-out infinite alternate;
       }
       .outer-circle {
         opacity: 0.1;
@@ -202,9 +202,26 @@
       .vertical-middle {
         text-align: center;
         width: 100%;
+        .product-name h2 {
+          font-size: 32px;
+        }
+        .product-desc {
+          font-size: 14px;
+        }
       }
       .header-image {
         display: none;
+      }
+    }
+    &.top-section-it-it {
+      @media screen and (max-width: 1180px) {
+        .vertical-middle {
+          text-align: center;
+          width: 100%;
+        }
+        .header-image {
+          display: none;
+        }
       }
     }
   }
@@ -276,7 +293,7 @@
         .introduction {
           display: inline-block;
           width: 100%;
-          max-width: 100%; 
+          max-width: 100%;
         }
         img {
           margin: 0;

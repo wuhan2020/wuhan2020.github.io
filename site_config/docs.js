@@ -112,11 +112,11 @@ export default {
                 children: [
                     {
                         title: 'Wuahan2020とは?',
-                        link: '/en-us/docs/overview/what-is-wuhan2020.html',
+                        link: '/ja-jp/docs/overview/what-is-wuhan2020.html',
                     },
                     {
                         title: 'FAQ',
-                        link: '/en-us/docs/overview/faq.html',
+                        link: '/ja-jp/docs/overview/faq.html',
                     }
                 ],
             },
@@ -126,7 +126,7 @@ export default {
                 children: [
                     {
                         title: 'ウェブサイトガイド',
-                        link: '/en-us/docs/user/website-guide.html',
+                        link: '/ja-jp/docs/user/website-guide.html',
                     }
                 ],
             },
@@ -135,7 +135,7 @@ export default {
                 children: [
                     {
                         title: 'クイックスタート',
-                        link: '/en-us/docs/dev/quickstart.html',
+                        link: '/ja-jp/docs/dev/quickstart.html',
                     },
                     {
                         title: 'データ収集ガイド',
@@ -189,6 +189,10 @@ export default {
                     {
                         title: '快速开始',
                         link: '/zh-cn/docs/dev/quickstart.html',
+                    },
+                    {
+                      title: '团队工作流程',
+                      link: '/zh-cn/docs/dev/team-workflow.html',
                     },
                     {
                         title: '信息收集指南',

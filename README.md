@@ -72,6 +72,20 @@ date: 2018-12-29
 ---
 ```
 
+## How To Add One New Language
+
+If you want to add a new language, such as Thai. 
+
+1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langlist` variable of `site config/site.js`. 
+2. Then please add directories named `th-th` in `docs`and `blog` directories , here you can add documents in this language . 
+
+notice : Of course, you can also see `langlist` variables in several other files. This is just a bottom line measure, and you don't have to modify it..
+
+## How To Add sitemap for SEO
+
+Please see the page : https://docsite.js.org/en-us/docs/SEO.html
+
+
 ## Others
 
 + If you want to add `search in site`，see [https://docsite.js.org/zh-cn/docs/search.html](https://docsite.js.org/zh-cn/docs/search.html)

@@ -78,7 +78,7 @@ Invitiamo tutti a partecipare al gruppo su Slack per comunicare al meglio su que
 
 # FAQ (Sezione in fase di sviluppo, restate sintonizzati! Abbiamo bisogno di volontari che contribuiscano a questa sezione, chi è interessato è invitato a contattarci!)
 
-FAQ generiche sul progetto finora raccolte: [clicca qui](./FAQ.md).
+FAQ generiche sul progetto finora raccolte: [clicca qui](../overview/faq.md).
 
 FAQ sul gruppo di raccola informazioni: [clicca qui](https://shimo.im/docs/JqX9CvrqphPV9T3J/).
 

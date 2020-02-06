@@ -90,11 +90,15 @@
 | 海外相关               | [![Github](https://img.shields.io/badge/Slack%20Channel-%23team--overseas-green.svg?style=flat-square&colorB=blue)](https://app.slack.com/client/TT5U1VCPQ/CTAM5R65U)                |
 | Slack频道运营团队      | [![Github](https://img.shields.io/badge/Slack%20Channel-%23proj--operation-green.svg?style=flat-square&colorB=blue)](https://app.slack.com/client/TT5U1VCPQ/CSX1X74M9)               |
 
-欢迎大家加入共同探讨各类技术或非技术类问题，让我们大家一起齐心协力，众志成城，共克时艰！
+# 邮件列表
 
+wuhan2020 邮件列表：[wuhan2020@googlegroups.com](https://groups.google.com/forum/#!forum/wuhan2020) ([订阅](mailto:wuhan2020+subscribe@googlegroups.com), [退订](mailto:wuhan2020+unsubscribe@googlegroups.com), [存档](https://groups.google.com/forum/#!forum/wuhan2020))
+
+欢迎大家加入共同探讨各类技术或非技术类问题，让我们大家一起齐心协力，众志成城，共克时艰！
+ 
 # FAQ常见问题 （持续更新，招募志愿者一起维护）
 
-已经整理整个项目的FAQ，[请查看](./FAQ.md)
+已经整理整个项目的FAQ，[请查看](../overview/faq.md)
 
 信息组FAQ，[请查看](https://shimo.im/docs/JqX9CvrqphPV9T3J/)
 

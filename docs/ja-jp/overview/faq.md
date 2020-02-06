@@ -6,38 +6,39 @@ description: Wuhan2020 FAQ.
 
 # FAQ
 
-## Project operation-related questions
+## プロジェクトの運営に関する質問
 
-**Q: What is the vision of the Wuhan2020 open source project?**
+**Q: オープンソースプロジェクト「Wuhan2020」の目指すものは何ですか?**
 
-A: We do not create or invent information, we are simply the porter of information.
+A: 私たち自身が情報を作り出したりするのではなく、ただただ情報を発信していくことを目指しています。
 
-**Q：What is the current status of Wuhan2020?**
+**Q：Wuhan2020の現状はどのような感じですか?**
 
-A：The main content of this project is data entry (information collection), and the main purpose of this project is for public research. Parts of this project also include technical development. As of now, the frontend projects are progressing smoothly, data synchronization projects are under development. We are in need for data entry volunteers, so prospective volunteers who would like to contribute in data entry should join the respective Slack channels.
+A：このプロジェクトにおける主な仕事はデータを入力すること(情報を集めること)であり、主な目的は世のためになることです。このプロジェクトの一部には、技術的な開発も含まれています。現在、フロントエンドの開発は順調に進行しており、データ同期のプロジェクトは開発途中です。データ入力にはボランティアが必要なので、データ入力に貢献したいと考えている方は、それぞれのSlackのチャンネルに参加してください。
 
-**Q: What is the main communication method?**
+**Q: コミュニケーションはどのようにとっていますか?**
 
-A：We have a communication group on Slack (URL: https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc). We welcome anyone who is willing to contribute and discuss about technical and non-technical problems.
+A：Slack上でグループを作ってコミュニケーションをとっています(URL: https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)。 技術的なことでもそうでないことでも議論をしたい人、貢献したい人を広く受け入れています。
 
-Invitation link to Slack:
+Slackへ参加したい人のリンクはこちら:
 
 [https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)
 
-Information about each channel is provided [here](./README_EN.md#Slack-Channel-Navigation).
+それぞれのチャンネルの詳細は[こちら](./README_EN.md#Slack-Channel-Navigation).
 
-If you think the link has expired, please [raise an issue](https://github.com/wuhan2020/wuhan2020/issues) so we can reflect the changes.
+リンクの有効期限が切れている場合は、githubの[issue](https://github.com/wuhan2020/wuhan2020/issues)に投稿してくださると、修正します。
 
-**Q：What are the current available channels on Slack?**
+**Q：現在Slackにあるチャンネルは?**
 
-A：Except for the default channels on Slack, we have:
+A：デフォルトのチャンネルを除くと:
 * #anti-2019-ncov
 * #front-pages
 * #map-visualization
 * #api-server (Python)
 * #data-sync
+があります。
 
-Data entry-related channels are as follows:
+データ入力のチャンネルは:
 
 *  #data-hospital
 *  #data-hotel
@@ -45,30 +46,32 @@ Data entry-related channels are as follows:
 * #data-factory
 * #data-donation
 * #data-clinic
+があります。
 
-**Q：If I lack in technical skill, how can I contribute to Wuhan2020?**
+**Q：Wuhan2020では技術的な貢献以外にどのような方法で貢献できますか?**
 
-A：We are currently looking for UI exchange design personnel, file management and maintenance personnel, project management personnel. Furthermore, we are also in need of data entry personnel, which requires minimal computer skills.
+A：現在、UI設計をできる方、ファイルの保守管理をできる方、プロジェクトの管理ができる方を募集しています。ほかにも、最低限のコンピューターを扱えるスキルを持ったデータ入力ができる方も必要です。
 
-**Q：What can we do to start working in data entry for Whan2020?**
+**Q：Whan2020のデータ入力作業を始めるにはどうしたらよいですか?**
 
-A：Since we have a great number of volunteers who expressed interest in this project, we are not giving open access of documents to everyone. Please click here: https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill to submit an application. We will send out invitations for you to participate in data entry. We do not require any specific technical skills for data entry, and all volunteers are welcomed.
+A：このプロジェクトにはたくさんのボランティアの方が参加してくださっているため、すべての方にドキュメントへアクセスしていただくことはできません。[ここ]
+(https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill)をクリックして申し込んでください。 データ入力に参加するための招待が送られます。データ入力には特別なスキルは必要としていません。すべてのボランティアを歓迎しています。
 
-**Q：What kind of data are we working with?**
+**Q：どのような種類のデータを扱っているのですか?**
 
-A：We work with organizing and compiling certified information from official websites. Sources of information include but are not limited to: official government statements, official media statements, hospital data, and industrial data. We are not considering non-certified information from any sources.
+A：公式ウェブサイトからの公式情報の整理や編集を行っています。情報源には、政府の公式声明、メディアからの公式な情報、病院のデータ、産業のデータが含まれます。また、これらの情報源に限定しているわけではありません。情報源に関係なく裏付けのない情報については扱っていません。
 
-## Functional suggestions:
+## 機能に対する提案:
 
-## Other questions:
+## その他の質問:
 
-**Q：How can I suggest for improvements?**
+**Q：どのように改善を提案したらよいですか?**
 
-A：When suggesting possible improvements, please try your best to include any possible solutions or tackle plan.
+A：改善が可能な提案をするときは、まずはあなたが可能な解決策を考えること計画に取り組むことを含めて最善を尽くしてみてください。
 
-**Q：Why was my issue closed?**
+**Q：なぜ私のissueが閉鎖されたのですか?**
 
-A：Issues will be closed after they have been solved. Repetitive issues or unprofessional issues will also be closed.
+A：issueは問題が解決されると閉鎖されます。また、同じような投稿が繰り返されたとき、専門外の投稿がされたときも閉鎖されます。
 
 ---
-Translator: [@Lili]() , Proofreader: [@JoeZijunZhou](https://github.com/JoeZijunZhou)
+Translator: [RRF](https://github.com/RRFHOUDEN)

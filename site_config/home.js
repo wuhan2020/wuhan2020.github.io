@@ -39,8 +39,8 @@ export default {
   },
   'it-it': {
     brand: {
-      brandName: 'Qual è la comunità di Wuhan2020 ? ',
-      briefIntroduction: 'Quello che stiamo facendo ora è: creare un servizio di dati sincrono e in tempo reale per ospedali, fabbriche, approvvigionamento e altre informazioni e convocare tutti coloro che vogliono contribuire alla campagna antivirus, in modo che chiunque abbia le competenze pertinenti possa partecipare allo sviluppo di argomenti correlati e completarlo in modo auto-organizzato e collaborativo con la cultura della comunità open source.',
+      brandName: 'Cosa fa la community Wuhan2020?',
+      briefIntroduction: 'Ciò che stiamo facendo è creare un servizio informazioni, aggiornato in tempo reale, relativo ad ospedali e supporto medico, attività produttive, servizi di approvvigionamento e molto altro. Allo stesso tempo, stiamo reclutando tutti coloro che desiderano dare un contributo alla campagna contro il coronavirus, in modo che tutte le persone che possiedono le adeguate competenze possano contribuire al lavoro di sviluppo nell\'ambito delle tematiche ad esse pertinenti e quindi, in accordo con la cultura della comunità Open Source, al raggiungimento del successo attraverso un approccio di cooperazione autogestita.',
       buttons: [
         {
           text: 'Iniziare',
@@ -48,29 +48,29 @@ export default {
           type: 'primary',
         },
         {
-          text: 'Github',
+          text: 'GitHub',
           link: 'https://github.com/wuhan2020/wuhan2020',
           type: 'normal',
         },
         {
-          text: "Piattaforma per la prevenzione dell'epidemia di Wuhan 2019-nCoV",
+          text: "Piattaforma per la prevenzione epidemica del nuovo coronavirus, Wuhan2019-nCoV",
           link: 'https://wuhan2020.kaiyuanshe.cn/',
           type: 'normal',
         },
       ],
     },
     features: {
-      title: '社区介绍',
+      title: 'Presentazione della community',
       list: [
         {
           icon: 'feature-1',
-          title: 'Piattaforma informativa 2019-ncov',
-          content: 'Un sistema di informazione sviluppato dalla comunità.Facilitare lo scambio di informazioni tra i fornitori di risorse (donatori di risorse mediche, società logistiche, alberghi, risorse cliniche gratuite) e coloro che hanno bisogno di aiuto (ospedali, persone nella zona delle catastrofi), in modo da facilitare e rapidamente aiutare le persone nella zona delle catastrofi',
+          title: 'Piattaforma informativa per la prevenzione epidemica del nuovo coronavirus',
+          content: 'Sviluppo comunitario di un sistema informativo. Facilitare lo scambio di informazioni tra fornitori di risorse (donatori di risorse mediche e fornitori di supporto medico gratuito, società di servizi logistici, strutture alberghiere e di ristorazione, ecc.) e coloro che hanno bisogno di aiuto (ospedali ed altre strutture sanitarie, persone localizzate nelle zone colpite, ecc), in modo da facilitare ed accelerare il sostegno della popolazione nelle zone colpite.',
         },
         {
           icon: 'feature-2',
-          title: 'Comunità Wuhan2020',
-          content: 'Attualmente vi sono più di 3000 volontari provenienti da diversi paesi della comunità Wuhan 2020.Ci sono programmatori, product manager, progettisti, project manager, analizzatori di dati, collezionisti di informazioni, traduttori, operatori di media, studenti, ecc.Attraverso l\'istituzione di un sistema informativo, l\'analisi dei dati e la previsione, contribuisce alla resistenza del nuovo coronavirus.',
+          title: 'Community Wuhan2020',
+          content: 'Ad oggi la community Wuhan2020 ha accolto più di 3000 volontari provenienti da diversi paesi. Ne fanno parte programmatori, product manager, progettisti, project manager, analisti dati, raccoglitori di informazioni, traduttori, operatori di comunicazione, studenti, ecc. Attraverso l\'istituzione di un sistema informativo, l\'analisi e la predizione dati, la community contribuisce alla lotta contro il nuovo coronavirus.',
         }
       ],
     },
@@ -78,7 +78,7 @@ export default {
   'ja-jp': {
     brand: {
       brandName: 'Wuhan 2020コミュニティは何をしていますか？',
-      briefIntroduction: '現在私たちがしていることは、病院、工場、調達、その他の情報のためのリアルタイムの同期データサービスを確立し、関連するスキルを持つすべての人が 関連トピックの開発に参加し、オープンソースのコミュニティ文化と自己組織化された共同の方法でそれを完了します。',
+      briefIntroduction: '現在私たちがしていることは、（１）2020年初、武漢市に発生した新型コロナウイルス関連肺炎に対し、各病院、ホテル、工場、物流、寄贈、寄付金、予防、治療、活動などを統一収集又は公表、お互いに情報共有、又は有効に社会資源を上手く利用する出来るようにすることを目的とし、（２）関連するスキルを持つすべての人が 関連トピックの開発に参加し、オープンソースのコミュニティ文化と自己組織化された共同の方法でそれを完了します。',
       buttons: [
         {
           text: '始めましょう',

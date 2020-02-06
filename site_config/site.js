@@ -288,7 +288,7 @@ export default {
         ],
         vision: {
             title: '愿景',
-            content: '众志成城，驱除瘟疫！',
+            content: '众志成城，共克时艰！',
         },
         documentation: {
             title: '文档',
