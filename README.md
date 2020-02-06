@@ -81,6 +81,10 @@ If you want to add a new language, such as Thai.
 
 notice : Of course, you can also see `langlist` variables in several other files. This is just a bottom line measure, and you don't have to modify it..
 
+## How To Add sitemap for SEO
+
+Please see the page : https://docsite.js.org/en-us/docs/SEO.html
+
 
 ## Others
 
