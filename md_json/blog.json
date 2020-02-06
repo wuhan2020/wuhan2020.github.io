@@ -12,14 +12,31 @@
     {
       "filename": "to-all-members.md",
       "link": "/zh-cn/blog/to-all-members.html",
-      "meta": {}
+      "meta": {
+        "title": "致 WUHAN 2020 开源社区全体成员的一封信",
+        "keywords": "Wuhan2020,一封信",
+        "description": "致 WUHAN 2020 开源社区全体成员的一封信",
+        "author": "Wuhan2020 开源社区",
+        "date": "2019-01-28"
+      }
+    },
+    {
+      "filename": "wuhan2020-media-channel.md",
+      "link": "/zh-cn/blog/wuhan2020-media-channel.html",
+      "meta": {
+        "title": "WUHAN2020官宣渠道汇总",
+        "keywords": "WUHAN2020,官宣渠道",
+        "description": "WUHAN2020官宣渠道汇总",
+        "author": "阮华莉 莫晶璟 王伟 胡欢 91 三水小朋友 舒敏 Corrie 管媛野",
+        "date": "2019-02-07"
+      }
     },
     {
       "filename": "wuhan2020-official-announcement.md",
       "link": "/zh-cn/blog/wuhan2020-official-announcement.html",
       "meta": {
         "title": "wuhan2020 官方公告 2020.1.29",
-        "keywords": "Dubbo,Seata,Consistency",
+        "keywords": "wuhan2020,官方公告",
         "description": "wuhan2020 官方公告 2020.1.29",
         "author": "XiaMai ，Xin Wang",
         "date": "2019-01-29"
