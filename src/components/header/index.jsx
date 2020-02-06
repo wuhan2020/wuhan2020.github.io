@@ -9,6 +9,15 @@ import './index.scss';
 
 const { Option } = Select;
 
+const {
+  langList = [
+      { value: 'zh-cn', text: '简体中文' },
+      { value: 'en-us', text: 'English' },
+      { value: 'ja-jp', text: '日本語' },
+      { value: 'it-it', text: 'Italiano' },
+    ]
+} = siteConfig;
+
 const searchSwitch = {
   baidu: {
     logo: 'https://img.alicdn.com/tfs/TB1n6DQayLaK1RjSZFxXXamPFXa-300-300.png',
@@ -24,7 +33,7 @@ const propTypes = {
   currentKey: PropTypes.string,
   logo: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['primary', 'normal']),
-  language: PropTypes.oneOf(['en-us', 'zh-cn', 'ja-jp', 'it-it']),
+  language: PropTypes.oneOf(langList.map(l => l.value)),
   onLanguageChange: PropTypes.func,
 };
 const defaultProps = {
@@ -147,10 +156,9 @@ class Header extends React.Component {
                 value={language}
                 onSelect={this.switchLang}
               >
-                <Option value="zh-cn">简体中文</Option>
-                <Option value="en-us">English</Option>
-                <Option value="ja-jp">日本語</Option>
-                <Option value="it-it">Italiano</Option>
+                {
+                  langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
+                }
               </Select>
             )
             :
@@ -170,7 +178,7 @@ class Header extends React.Component {
               src={type === 'primary' ? getLink('/images/system/menu_white.png') : getLink('/images/system/menu_gray.png')}
             />
             <ul>
-              {(siteConfig[language] || siteConfig['zh-cn']).pageMenu.map(item => (
+              {(siteConfig[language] || siteConfig[siteConfig.defaultLanguage]).pageMenu.map(item => (
                 <li
                   className={classnames({
                     'menu-item': true,
