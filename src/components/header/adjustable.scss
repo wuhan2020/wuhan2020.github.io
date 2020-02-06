@@ -1,0 +1,56 @@
+@mixin adjustable {
+  .header-body {
+    .logo {
+      margin-left: 20px;
+    }
+    .language-switch {
+      margin-right: 20px;
+    }
+    .header-menu {
+      ul {
+        display: none;
+      }
+      .header-menu-toggle {
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+    .header-menu-open {
+      ul {
+        background-color: $headerMenuBgColor;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: $headerHeight;
+        z-index: 100;
+      }
+      li {
+        width: 200px;
+        display: list-item;
+        padding-left: 30px;
+        list-style: none;
+        line-height: 40px;
+        margin-right: 0;
+        a {
+          color: #333;
+          display: inline-block;
+          width: 100%;
+        }
+        &:hover {
+          background-color: $brandColor;
+          a {
+            color: #fff;
+            opacity: 1;
+          }
+        }
+      }
+      .menu-item-primary-active, .menu-item-normal-active {
+        background-color: $brandColor;
+        a {
+          color: #fff;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
