@@ -12,7 +12,7 @@ This page shows Seata developers and continues to expand. The list is not priori
 
 | name   | github          |  
 | ------ | --------------- | --------------- |
-| Shengyu Zhao   | [rank-zsy](https://github.com/rank-zsy)        | 
+| Shengyu Zhao   | [frank-zsy](https://github.com/frank-zsy)        | 
 | Yao Shi   | [TechQuery](https://github.com/TechQuery)        |
 
 # Data analyst
