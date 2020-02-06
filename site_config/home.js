@@ -151,26 +151,4 @@ export default {
       ],
     },
   },
-  'fr-fr': {
-    brand: {
-      brandName: 'What is the community of wuhan2020 ?',
-      briefIntroduction: 'What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture.',
-      buttons: [
-        {
-          text: 'Get Started',
-          link: '/en-us/docs/overview/what-is-wuhan2020.html',
-          type: 'primary',
-        },
-        {
-          text: 'Github',
-          link: 'https://github.com/wuhan2020/wuhan2020',
-          type: 'normal',
-        },
-        {
-          text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
-          type: 'normal',
-        },
-      ],
-    },
 };
