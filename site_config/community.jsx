@@ -194,7 +194,7 @@ export default {
                     img: '/images/blog/mail-icon.jpg',
                     title: '致 WUHAN2020 开源社区全体成员的一封信',
                     content: '致 WUHAN 2020 开源社区全体成员的一封信',
-                    dateStr: 'Feb 6th，2020',
+                    dateStr: 'Feb 2nd，2020',
                     link: '/blog/zh-cn/to-all-members.md',
                 },
             ],
