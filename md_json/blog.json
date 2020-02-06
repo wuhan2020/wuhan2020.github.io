@@ -107,26 +107,5 @@
         "date": "2019-01-29"
       }
     }
-  ],
-  "fr-fr": [
-    {
-      "filename": "download.md",
-      "link": "/fr-fr/blog/download.html",
-      "meta": {
-        "title": "Liste de produits",
-        "keywords": "Plateforme de collecte d'informations anti-épidémiques 2019-nCoV, Téléchargement, Version",
-        "description": "Cliquez ici pour en savoir plus sur chaque version et notes de mise à niveau."
-      }
-    },
-    {
-      "filename": "wuhan2020-official-announcement.md",
-      "link": "/fr-fr/blog/wuhan2020-official-announcement.html",
-      "meta": {
-        "title": "Wuhan2020 Official Announcement 2020.1.29",
-        "keywords": "Wuhan2020 Official Announcement",
-        "description": "Wuhan2020 Official Announcement 2020.1.29",
-        "date": "2019-01-29"
-      }
-    }
   ]
 }
