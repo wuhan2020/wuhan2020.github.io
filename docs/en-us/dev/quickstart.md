@@ -85,9 +85,15 @@ Click here to join the [Slack Communication Group](https://join.slack.com/t/wuha
 | Team of Oversea Folks               | [![Github](https://img.shields.io/badge/Slack%20Channel-%23team--overseas-green.svg?style=flat-square&colorB=blue)](https://app.slack.com/client/TT5U1VCPQ/CTAM5R65U)                |
 | Team of Slack Channel Operations      | [![Github](https://img.shields.io/badge/Slack%20Channel-%23proj--operation-green.svg?style=flat-square&colorB=blue)](https://app.slack.com/client/TT5U1VCPQ/CSX1X74M9)               |
 
+# E-mail List
+
+wuhan2020 e-mail list: [wuhan2020@googlegroups.com](https://groups.google.com/forum/#!forum/wuhan2020) ([subscribe](mailto:wuhan2020+subscribe@googlegroups.com), [unsubscribe](mailto:wuhan2020+unsubscribe@googlegroups.com), [archive](https://groups.google.com/forum/#!forum/wuhan2020))
+
 Welcome to join together to explore all kinds of technical and non-technical issues, let's all work together and united to overcome the difficulties and fight against the virus!
 
-FAQ arranged，[click here](./FAQ.md).
+# FAQ
+
+FAQ arranged，[click here](../overview/faq.md).
 
 FAQ of Technology Group, [click here](https://shimo.im/docs/JqX9CvrqphPV9T3J/).
 
