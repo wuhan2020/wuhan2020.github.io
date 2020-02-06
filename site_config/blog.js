@@ -19,4 +19,9 @@
         postsTitle: '所有文章',
         list: []
     },
+    'fr-fr':{
+        barText: 'Blog',
+        postsTitle: 'Articles',
+        list: []
+    }
 };
