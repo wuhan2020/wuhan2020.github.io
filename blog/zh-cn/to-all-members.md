@@ -1,3 +1,10 @@
+---
+title: 致 WUHAN 2020 开源社区全体成员的一封信
+keywords: Wuhan2020,一封信
+description: 致 WUHAN 2020 开源社区全体成员的一封信
+author: Wuhan2020 开源社区
+date: 2019-01-28
+---
 # 致 WUHAN 2020 开源社区全体成员的一封信
 
 各位wuhan2020 开源社区成员：
@@ -65,7 +72,7 @@
 
 基于上述挑战和经验，我们重新进行了顶层设计，并把中心放在标准的流程和标准的录入规范上面，同时继续用石墨工具进行统一信息采集。这里要重点提一下石墨团队，直接拉了主力开发人员协助我们进行数据接口的对接。探索中，我们逐步形成了如下的协作流程：
 
-![](../../images/coordinate-flow.webp)
+![](/images/coordinate-flow.webp)
 
 <center>持续更新，以Github上的为准</center>
 
@@ -135,7 +142,7 @@
 
 基于上述思想，项目目前的<font color='#FF0000'>形态架构</font>大致是下面这个样子（并不严谨版）：
 
- ![](../../images/wuhan2020-architect.webp)
+ ![](/images/wuhan2020-architect.webp)
 
 <center>持续更新，以Github上的为准</center>
 
@@ -147,7 +154,7 @@
 
 最上层是基于本项目落地的数据平台的各种应用，包括数据门户、数据可视化、数据同步等，相信随着项目的推进，还会有更多有意思的应用出现。
 
-  ![](../../images/wuhan2020-demo-page.webp)
+  ![](/images/wuhan2020-demo-page.webp)
 
 <center>持续更新，以https://github.com/wuhan2020为准</center>
 
@@ -201,7 +208,7 @@ https://shimo.im/docs/v3xCCYVWhtHvq9w8/read
 
 https://shimo.im/docs/jRQdGwqjwdPVqJpG/read
 
- ![](../../images/wuhan2020-qrcode.bmp)
+ ![](/images/wuhan2020-qrcode.bmp)
 
 Scan with WeChat to
 follow the Official Account
