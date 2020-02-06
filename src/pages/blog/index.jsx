@@ -6,14 +6,26 @@ import Bar from '../../components/bar';
 import PageSlider from '../../components/pageSlider';
 import BlogItem from './blogItem';
 import Footer from '../../components/footer';
+import siteConfig from '../../../site_config/site';
 import blogConfig from '../../../site_config/blog';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
 import './index.scss';
 
+const {
+  langList = [
+      { value: 'zh-cn', text: '简体中文' },
+      { value: 'en-us', text: 'English' },
+      { value: 'ja-jp', text: '日本語' },
+      { value: 'it-it', text: 'Italiano' },
+    ]
+} = siteConfig;
+
+const langValueList = langList.map(l => l.value);
+
 // 博客列表数据，按时间排序
 const blogs = {};
-['en-us', 'zh-cn', 'ja-jp', 'it-it'].forEach((lang) => {
+langValueList.forEach((lang) => {
   blogs[lang] = mdJson[lang].filter(md => (
     (!md.meta.hidden || md.meta.hidden === 'false') && md.link.indexOf('download.html') === -1 && md.link.indexOf('client.html') === -1
   )).sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
@@ -23,7 +35,7 @@ class Blog extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = blogConfig[language] || blogConfig['zh-cn'];
+    const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
     const blogList = blogs[language];
     return (
       <div className="blog-list-page">

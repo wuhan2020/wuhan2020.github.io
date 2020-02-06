@@ -6,7 +6,9 @@ import Header from '../../components/header';
 import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
+import siteConfig from '../../../site_config/site';
 import homeConfig from '../../../site_config/home';
+import Item from './featureItem';
 import './index.scss';
 
 class Home extends Language {
@@ -46,7 +48,7 @@ class Home extends Language {
     render() {
         const { starCount, forkCount } = this.state;
         const language = this.getLanguage();
-        const dataSource = homeConfig[language];
+        const dataSource = homeConfig[language] || homeConfig[siteConfig.defaultLanguage];
         const { headerType } = this.state;
         const headerLogo = headerType === 'primary' ? '/images/wuhan2020-logo-white.png' : '/images/wuhan2020-logo.png';
         return (
@@ -94,6 +96,18 @@ class Home extends Language {
                             <img src="/images/wuhan2020-header-image.png"/>
                         </div>
                     </div>
+                </section>
+                <section className="feature-section">
+                  <div className="feature-container">
+                    <h3>{dataSource.features.title}</h3>
+                    <ul>
+                      {
+                        dataSource.features.list.map((feature, i) => (
+                          <Item feature={feature} key={i} />
+                        ))
+                      }
+                    </ul>
+                  </div>
                 </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
             </div>

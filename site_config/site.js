@@ -4,6 +4,12 @@ export default {
     port: 8080,
     domain: 'wuhan2020.github.io', // 站点部署域名，无需协议和path等
     // defaultSearch: 'baidu', // 默认搜索引擎，baidu或者google
+    langList: [
+      { value: 'zh-cn', text: '简体中文' },
+      { value: 'en-us', text: 'English' },
+      { value: 'ja-jp', text: '日本語' },
+      { value: 'it-it', text: 'Italiano' },
+    ], // 支持的语言列表
     defaultLanguage: 'zh-cn',
     'en-us': {
         pageMenu: [
@@ -39,7 +45,7 @@ export default {
             },
             {
                 key: 'mis',
-                text: 'Information collection platform',
+                text: '2019-NCOV INFORMATION PLATFORM',
                 link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
@@ -118,7 +124,7 @@ export default {
             ,
             {
               key: 'mis',
-              text: 'Piattaforma di raccolta informazioni',
+              text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',
               link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
@@ -276,13 +282,13 @@ export default {
             ,
             {
               key: 'mis',
-              text: '信息收集平台',
+              text: '新型冠状病毒防疫信息平台',
               link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
         vision: {
             title: '愿景',
-            content: '众志成城，驱除瘟疫！',
+            content: '众志成城，共克时艰！',
         },
         documentation: {
             title: '文档',
