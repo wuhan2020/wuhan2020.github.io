@@ -22,6 +22,7 @@ jobs:
         mkdir deploy-dist
         cp -R zh-cn/ en-us/ ja-jp/ it-it/ build/ images/ md_json/ site_config/ deploy-dist/
         mv .htaccess *.html deploy-dist/
+        mv sitemap.xml deploy-dist/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.8.0
       env:
