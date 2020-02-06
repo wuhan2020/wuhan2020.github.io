@@ -11,7 +11,7 @@ pages:
       title: 'Wuhan2020'
       keywords: 'Official,Wuhan2020'
       description: 'Wuhan2020 Official Website'
- community:
+  community:
     # 社区页配置
     zh-cn:
       title: '社区'
