@@ -184,18 +184,18 @@ export default {
             title: '事件 & 新闻',
             list: [
                 {
+                  img: '/images/blog/wuhan2020.png',
+                  title: '致 WUHAN2020 开源社区全体成员的一封信',
+                  content: '致 WUHAN 2020 开源社区全体成员的一封信',
+                  dateStr: 'Jan 28th，2020',
+                  link: '/blog/zh-cn/to-all-members.md',
+                },
+                {
                     img: '/images/blog/wuhan2020.png',
                     title: 'Wuhan加油项目新流程发布',
                     content: 'Wuhan加油项目新流程发布',
                     dateStr: 'Jan 29th，2020',
                     link: '/blog/zh-cn/wuhan2020-official-announcement.html',
-                },
-                {
-                    img: '/images/blog/mail-icon.jpg',
-                    title: '致 WUHAN2020 开源社区全体成员的一封信',
-                    content: '致 WUHAN 2020 开源社区全体成员的一封信',
-                    dateStr: 'Feb 2nd，2020',
-                    link: '/blog/zh-cn/to-all-members.md',
                 },
                 {
                   img: '/images/blog/media/banner.jpg',
