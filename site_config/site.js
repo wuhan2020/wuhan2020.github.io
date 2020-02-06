@@ -9,7 +9,6 @@ export default {
       { value: 'en-us', text: 'English' },
       { value: 'ja-jp', text: '日本語' },
       { value: 'it-it', text: 'Italiano' },
-      { value: 'fr-fr', text: 'French' },
     ], // 支持的语言列表
     defaultLanguage: 'zh-cn',
     'en-us': {
@@ -322,85 +321,6 @@ export default {
                 {
                     text: '社区',
                     link: '/zh-cn/community/index.html',
-                },
-            ],
-        },
-        copyright: 'Copyright © 2020 Wuhan2020',
-    },
-    'fr-fr': {
-        pageMenu: [
-            {
-                key: 'home',
-                text: '首页',
-                link: '/fr-fr/index.html',
-            },
-            {
-                key: 'docs',
-                text: '文档',
-                link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
-            },
-            {
-                key: 'developers',
-                text: '贡献者',
-                link: '/fr-fr/docs/developers/developers_dev.html',
-            },
-            {
-                key: 'blog',
-                text: '博客',
-                link: '/fr-fr/blog/index.html',
-            },
-            {
-                key: 'community',
-                text: '社区',
-                link: '/fr-fr/community/index.html',
-            },
-            {
-                key: 'download',
-                text: '产品',
-                link: '/fr-fr/blog/download.html',
-            },
-            ,
-            {
-              key: 'mis',
-              text: '新型冠状病毒防疫信息平台',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
-            },
-        ],
-        vision: {
-            title: '愿景',
-            content: '众志成城，共克时艰！',
-        },
-        documentation: {
-            title: '文档',
-            list: [
-                {
-                    text: 'Wuhan2020 项目是干什么的？',
-                    link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
-                },
-                {
-                    text: '快速开始',
-                    link: '/fr-fr/docs/dev/quickstart.html',
-                },
-                {
-                    text: '报告文档问题',
-                    link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
-                },
-                {
-                    text: '在Github上编辑此文档',
-                    link: 'https://github.com/wuhan2020/wuhan2020.github.io',
-                }
-            ],
-        },
-        resources: {
-            title: '资源',
-            list: [
-                {
-                    text: '博客',
-                    link: '/fr-fr/blog/index.html',
-                },
-                {
-                    text: '社区',
-                    link: '/fr-fr/community/index.html',
                 },
             ],
         },
