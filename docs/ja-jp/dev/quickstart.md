@@ -93,7 +93,7 @@
 
 # FAQ （更新中，ボランティア募集中）
 
-よくある質問，[クリック](./FAQ.md)
+よくある質問，[クリック](../overview/faq.md)
 
 情報グループFAQ，[クリック](https://shimo.im/docs/JqX9CvrqphPV9T3J/)
 
