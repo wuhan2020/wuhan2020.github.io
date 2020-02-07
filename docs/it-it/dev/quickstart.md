@@ -1,5 +1,3 @@
-*[简体中文](./README.md) | [English](./README_EN.md) | [日本語](./README_JP.md) | Italiano*
-
 # Piattaforma di raccolta informazioni per la prevenzione epidemica del nuovo coronavirus, Wuhan 2019-nCoV
 
 In relazione al focolaio di polmonite, ed altri sintomi, insorto in Cina all'inizio dell'anno 2020 in associazione alla diffusione di un nuovo tipo di coronavirus, il presente progetto ha l'obiettivo di raccogliere e diffondere informazioni riguardanti: strutture (ospedali, istituti sanitari, alberghi, ristoranti, impianti di produzione e confezionamento), logistica, contributi e donazioni, prevenzione e supporto medico, ed altre notizie, allo scopo di facilitare lo scambio informativo e l'impiego efficace ed efficiente di risorse sociali.

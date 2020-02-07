@@ -1,4 +1,5 @@
 # Plateforme de collecte d'informations anti-épidémiques 2019-nCoV
+
 Cette traduction a été mise à jour le 07/01/2020.
 
 Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus 2019-nCoV. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
