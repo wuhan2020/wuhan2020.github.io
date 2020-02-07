@@ -199,6 +199,10 @@ export default {
                         link: '/zh-cn/docs/dev/information-guide.html',
                     },
                     {
+                        title: '邮件列表订阅向导',
+                        link: '/zh-cn/docs/dev/mailing-list-guide.html',
+                    },
+                    {
                         title: '架构图',
                         link: '/zh-cn/docs/dev/architecture.html',
                     },
