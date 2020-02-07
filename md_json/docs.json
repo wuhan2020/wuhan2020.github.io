@@ -198,6 +198,15 @@
       "meta": {}
     },
     {
+      "filename": "developers_dev.md",
+      "link": "/it-it/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "lista del volontari",
+        "keywords": "forza Wuhan, lista sostenitori",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
       "filename": "faq.md",
       "link": "/it-it/docs/overview/faq.html",
       "meta": {
@@ -219,9 +228,9 @@
       "filename": "website-guide.md",
       "link": "/it-it/docs/user/website-guide.html",
       "meta": {
-        "title": "新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン",
+        "title": "Guida alla piattaforma di prevenzione epidemica 2019-nCoV",
         "keywords": "Wuhan",
-        "description": "新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン."
+        "description": "Guida alla piattaforma di prevenzione epidemica 2019-nCoV"
       }
     }
   ],
