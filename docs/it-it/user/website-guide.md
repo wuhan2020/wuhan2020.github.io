@@ -1,6 +1,7 @@
 ---
-title: 新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン
+title: Guida alla piattaforma di prevenzione epidemica 2019-nCoV
 keywords: Wuhan
-description: 新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン.
+description: Guida alla piattaforma di prevenzione epidemica 2019-nCoV
 ---
+
 TODO
