@@ -238,6 +238,15 @@
       "meta": {}
     },
     {
+      "filename": "mailing-list-guide.md",
+      "link": "/fr-fr/docs/dev/mailing-list-guide.html",
+      "meta": {
+        "title": "邮件列表订阅向导",
+        "keywords": "邮件,订阅,向导,mail list, maiiling list",
+        "description": "如何加入邮件列表"
+      }
+    },
+    {
       "filename": "quickstart.md",
       "link": "/fr-fr/docs/dev/quickstart.html",
       "meta": {}
