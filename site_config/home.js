@@ -22,16 +22,16 @@ export default {
       ],
     },
     features: {
-      title: 'Community introduction',
+      title: 'Community Introduction',
       list: [
         {
           icon: 'feature-1',
-          title: '2019-ncov information platform',
-          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area',
+          title: '2019-nCov Information Platform',
+          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area.',
         },
         {
           icon: 'feature-2',
-          title: 'Wuhan2020 community',
+          title: 'Wuhan2020 Community',
           content: 'At present, there are more than 3000 volunteers from different countries in Wuhan 2020 community. There are programmers, product managers, designers, project managers, data analysts, information collectors, translators, media workers, students, etc. Through the establishment of information system, data analysis and prediction, it makes contribution to the resistance of new coronavirus.',
         }
       ],
@@ -173,4 +173,20 @@ export default {
         },
       ],
     },
-};
+    features: {
+      title: 'Community Introduction',
+      list: [
+        {
+          icon: 'feature-1',
+          title: '2019-nCov Information Platform',
+          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area.',
+        },
+        {
+          icon: 'feature-2',
+          title: 'Wuhan2020 Community',
+          content: 'At present, there are more than 3000 volunteers from different countries in Wuhan 2020 community. There are programmers, product managers, designers, project managers, data analysts, information collectors, translators, media workers, students, etc. Through the establishment of information system, data analysis and prediction, it makes contribution to the resistance of new coronavirus.',
+        }
+      ],
+    },
+  }
+}
