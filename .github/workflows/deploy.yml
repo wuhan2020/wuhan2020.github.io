@@ -24,10 +24,9 @@ jobs:
         mv .htaccess *.html deploy-dist/
         mv sitemap.xml deploy-dist/
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.8.0
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./deploy-dist
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        keepFiles: true
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_branch: master
+        publish_dir: ./deploy-dist
+        keep_files: true
