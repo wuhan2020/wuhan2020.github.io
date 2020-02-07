@@ -6,69 +6,65 @@ description: Wuhan2020 FAQ.
 
 # FAQ
 
-## Project operation-related questions
+## Questions liées au fonctionnement du projet
 
-**Q: What is the vision of the Wuhan2020 open source project?**
+**Q: Quelle est la vision du projet open source Wuhan2020?**
 
-A: We do not create or invent information, we are simply the porter of information.
+R: Nous ne créons pas d'informations, nous sommes simplement porteurs d'informations fiables.
 
-**Q：What is the current status of Wuhan2020?**
+**Q：Quel est le statut actuel de Wuhan2020?**
 
-A：The main content of this project is data entry (information collection), and the main purpose of this project is for public research. Parts of this project also include technical development. As of now, the frontend projects are progressing smoothly, data synchronization projects are under development. We are in need for data entry volunteers, so prospective volunteers who would like to contribute in data entry should join the respective Slack channels.
+R：Le contenu principal du projet est de saisir des informations (collecte de données) pour que chacun puisse les se renseigner. Bien qu'il y ait du travail de développement, ce n'est pas beaucoup. Maintenant, le projet frontal progresse sans heurts et le projet de synchronisation des données est également en cours d'élaboration. Nous avons besoin de volontaires pour la saisie de données, donc les volontaires potentiels qui souhaitent contribuer à la saisie de données devraient rejoindre les canaux respectifs.
 
-**Q: What is the main communication method?**
+**Q: Quelle est la principale méthode de communication?**
 
-A：We have a communication group on Slack (URL: https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). We welcome anyone who is willing to contribute and discuss about technical and non-technical problems.
+R：Nous avons un groupe sur [Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，Bienvenue à nous rejoindre pour discuter de divers problèmes techniques ou non techniques.
 
-Invitation link to Slack:
+Lien d'invitation：
 
 [https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)
 
-Information about each channel is provided [here](./README_EN.md#Slack-Channel-Navigation).
+Des informations sur chaque chaîne sont fournies [ici](./README.md#Slack交流群组)。Si vous pensez que le lien a expiré, veuillez soulever [Issue](https://github.com/wuhan2020/wuhan2020/issues/)
 
-If you think the link has expired, please [raise an issue](https://github.com/wuhan2020/wuhan2020/issues) so we can reflect the changes.
+**Q：Quelles sont les chaînes actuelles sur Slack?**
 
-**Q：What are the current available channels on Slack?**
+R：En plus de la chaîne générale par défaut, il existe:
 
-A：Except for the default channels on Slack, we have:
-* #anti-2019-ncov
-* #front-pages
-* #map-visualization
-* #api-server (Python)
-* #data-sync
+* Questions et suggestions soumises (mise à jour de la surveillance automatique du robot Github)： #anti-2019-ncov
+* Développement de pages Web frontales： #front-pages
+* Visualisation des données： #map-visualization
+* Conception et développement d'API (Python)： #api-server
+* Synchronisation des données (TS)： #data-sync
 
-Data entry-related channels are as follows:
+Les chaînes liés à la saisie de données sont les suivants：
 
-*  #data-hospital
-*  #data-hotel
-* #data-logistical
-* #data-factory
-* #data-donation
-* #data-clinic
+* Hôpital #data-hospital
+* Hôtel #data-hotel
+* Logistique #data-logistical
+* Production #data-factory
+* Don #data-donation
+* Clinique gratuite #data-clinic
 
-**Q：If I lack in technical skill, how can I contribute to Wuhan2020?**
+**Q：Si je n'ai pas de compétences techniques, comment puis-je contribuer à Wuhan2020?**
 
-A：We are currently looking for UI exchange design personnel, file management and maintenance personnel, project management personnel. Furthermore, we are also in need of data entry personnel, which requires minimal computer skills.
+R：Nous recherchons actuellement du personnel de conception d'échange d'UI, du personnel de gestion et de maintenance des documents, des coordinateurs de projet, etc., ainsi que du personnel de saisie de données, ce qui ne nécessite pas de connaissances techniques.
 
-**Q：What can we do to start working in data entry for Whan2020?**
+**Q：Comment commencer la saisie de données?**
 
-A：Since we have a great number of volunteers who expressed interest in this project, we are not giving open access of documents to everyone. Please click here: https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill to submit an application. We will send out invitations for you to participate in data entry. We do not require any specific technical skills for data entry, and all volunteers are welcomed.
+R：En raison du grand nombre de participants au projet, les droits d'édition pour tout le personnel ne sont pas ouverts, veuillez cliquer sur [ici](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill)pour soumettre une candidature. Nous vous enverrons des invitations à participer à la saisie des données. Nous n'avons pas besoin de compétences techniques spécifiques pour la saisie des données, et tous les bénévoles sont les bienvenus.
 
-**Q：What kind of data are we working with?**
+**Q：Avec quel type de données travaillons-nous?**
 
-A：We work with organizing and compiling certified information from official websites. Sources of information include but are not limited to: official government statements, official media statements, hospital data, and industrial data. We are not considering non-certified information from any sources.
+R：Le projet favorise actuellement l'intégration des informations officielles d'approbation, qui se réfèrent au gouvernement, aux médias officiels, aux hôpitaux et aux entreprises.Nous ne considérons aucune information non certifiée provenant de n'importe quelle source.
 
-## Functional suggestions:
+## Suggestions fonctionnelles
 
-## Other questions:
+## D'autres questions
 
-**Q：How can I suggest for improvements?**
+**Q：Comment dois-je faire des suggestions?**
 
-A：When suggesting possible improvements, please try your best to include any possible solutions or tackle plan.
+R：Lorsque vous faites des suggestions, veuillez essayer de fournir des idées et des solutions.
 
-**Q：Why was my issue closed?**
+**Q：Pourquoi l'issue que j'ai créé a-t-il été fermé?**
 
-A：Issues will be closed after they have been solved. Repetitive issues or unprofessional issues will also be closed.
-
----
-Translator: [@Lili]() , Proofreader: [@JoeZijunZhou](https://github.com/JoeZijunZhou)
+R：Les issues seront fermées une fois qu'elles auront été résolues. Les issues répétitives ou non professionnelles seront également fermées.
