@@ -20,7 +20,7 @@ jobs:
         npm install
         npm run build
         mkdir deploy-dist
-        cp -R zh-cn/ en-us/ ja-jp/ it-it/ build/ images/ md_json/ site_config/ deploy-dist/
+        cp -R zh-cn/ en-us/ ja-jp/ it-it/ fr-fr/ build/ images/ md_json/ site_config/ deploy-dist/
         mv .htaccess *.html deploy-dist/
         mv sitemap.xml deploy-dist/
     - name: Deploy
