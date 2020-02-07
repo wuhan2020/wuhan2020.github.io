@@ -117,6 +117,7 @@ class Header extends React.Component {
         className={
           classnames({
             'header-container': true,
+            [`header-container-${language}`]: true,
             [`header-container-${type}`]: true,
           })
         }

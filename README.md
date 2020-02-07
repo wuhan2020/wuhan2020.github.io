@@ -3,7 +3,7 @@
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
 
-All website material  of https://wuhan2020.github.io
+All website material  of https://community.wuhan2020.org.cn
 
 
 ## Prerequisite
@@ -80,6 +80,10 @@ If you want to add a new language, such as Thai.
 2. Then please add directories named `th-th` in `docs`and `blog` directories , here you can add documents in this language . 
 
 notice : Of course, you can also see `langlist` variables in several other files. This is just a bottom line measure, and you don't have to modify it..
+
+## How To Add sitemap for SEO
+
+Please see the page : https://docsite.js.org/en-us/docs/SEO.html
 
 
 ## Others

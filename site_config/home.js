@@ -22,16 +22,16 @@ export default {
       ],
     },
     features: {
-      title: 'Community introduction',
+      title: 'Community Introduction',
       list: [
         {
           icon: 'feature-1',
-          title: '2019-ncov information platform',
-          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area',
+          title: '2019-nCov Information Platform',
+          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area.',
         },
         {
           icon: 'feature-2',
-          title: 'Wuhan2020 community',
+          title: 'Wuhan2020 Community',
           content: 'At present, there are more than 3000 volunteers from different countries in Wuhan 2020 community. There are programmers, product managers, designers, project managers, data analysts, information collectors, translators, media workers, students, etc. Through the establishment of information system, data analysis and prediction, it makes contribution to the resistance of new coronavirus.',
         }
       ],
@@ -40,7 +40,7 @@ export default {
   'it-it': {
     brand: {
       brandName: 'Cosa fa la community Wuhan2020?',
-      briefIntroduction: 'Ciò che stiamo facendo è creare un servizio informazioni, aggiornato in tempo reale, relativo ad ospedali e supporto medico, attività produttive, servizi di approvvigionamento e molto altro. Allo stesso tempo, stiamo reclutando tutti coloro che desiderano dare un contributo alla campagna contro il coronavirus, in modo che tutte le persone che possiedono le adeguate competenze possano contribuire al lavoro di sviluppo nell\'ambito delle tematiche ad esse pertinenti e quindi, in accordo con la cultura della comunità Open Source, al raggiungimento del successo attraverso un approccio di cooperazione autogestita.',
+      briefIntroduction: "Ciò che stiamo facendo è creare un servizio informazioni, aggiornato in tempo reale, relativo ad ospedali e supporto medico, attività produttive, servizi di approvvigionamento e molto altro. Allo stesso tempo, stiamo reclutando tutti coloro che desiderano dare un contributo alla campagna contro il coronavirus, in modo che tutte le persone che possiedono le adeguate competenze possano contribuire al lavoro di sviluppo nell'ambito delle tematiche ad esse pertinenti e quindi, in accordo con la cultura della comunità Open Source, al raggiungimento del successo attraverso un approccio di cooperazione autogestita.",
       buttons: [
         {
           text: 'Iniziare',
@@ -70,7 +70,7 @@ export default {
         {
           icon: 'feature-2',
           title: 'Community Wuhan2020',
-          content: 'Ad oggi la community Wuhan2020 ha accolto più di 3000 volontari provenienti da diversi paesi. Ne fanno parte programmatori, product manager, progettisti, project manager, analisti dati, raccoglitori di informazioni, traduttori, operatori di comunicazione, studenti, ecc. Attraverso l\'istituzione di un sistema informativo, l\'analisi e la predizione dati, la community contribuisce alla lotta contro il nuovo coronavirus.',
+          content: "Ad oggi la community Wuhan2020 ha accolto più di 3000 volontari provenienti da diversi paesi. Ne fanno parte programmatori, product manager, progettisti, project manager, analisti dati, raccoglitori di informazioni, traduttori, operatori di comunicazione, studenti, ecc. Attraverso l'istituzione di un sistema informativo, l'analisi e la predizione dati, la community contribuisce alla lotta contro il nuovo coronavirus.",
         }
       ],
     },
@@ -151,4 +151,42 @@ export default {
       ],
     },
   },
-};
+  'fr-fr': {
+    brand: {
+      brandName: 'What is the community of wuhan2020 ?',
+      briefIntroduction: 'What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture.',
+      buttons: [
+        {
+          text: 'Get Started',
+          link: '/en-us/docs/overview/what-is-wuhan2020.html',
+          type: 'primary',
+        },
+        {
+          text: 'Github',
+          link: 'https://github.com/wuhan2020/wuhan2020',
+          type: 'normal',
+        },
+        {
+          text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
+          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          type: 'normal',
+        },
+      ],
+    },
+    features: {
+      title: 'Community Introduction',
+      list: [
+        {
+          icon: 'feature-1',
+          title: '2019-nCov Information Platform',
+          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area.',
+        },
+        {
+          icon: 'feature-2',
+          title: 'Wuhan2020 Community',
+          content: 'At present, there are more than 3000 volunteers from different countries in Wuhan 2020 community. There are programmers, product managers, designers, project managers, data analysts, information collectors, translators, media workers, students, etc. Through the establishment of information system, data analysis and prediction, it makes contribution to the resistance of new coronavirus.',
+        }
+      ],
+    },
+  }
+}

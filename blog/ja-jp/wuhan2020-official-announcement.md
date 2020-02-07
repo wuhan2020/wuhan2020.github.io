@@ -6,7 +6,7 @@ author: Ginda Chen, Isabella
 proofread: Yudai Yaguchi
 date: 2019-01-29
 ---
-<img src="./images/wuhan2020.png" alt="wuhan2020">
+<img src="/images/blog/wuhan2020.png" alt="wuhan2020">
 
 # wuhan2020 お知らせ 2020.1.29
 
@@ -56,7 +56,7 @@ wuhan2020の皆さん、いつも多大なご協力を頂き、誠にありが�
 
 ※shimoスプレッドシート：[石墨文档](https://shimo.im/welcome)
 
-ソースページ：[https://github.com/wuhan2020/wuhan2020/](https://github.com/wuhan2020/wuhan2020/) 
+ソースページ：[https://github.com/wuhan2020/wuhan2020/](https://github.com/wuhan2020/wuhan2020/)
 
 ## 三、プロジェクトの申請、承認、管理
 
@@ -74,7 +74,7 @@ wuhan2020の皆さん、いつも多大なご協力を頂き、誠にありが�
 
 プロジェクトをGithubプラットフォームに載せたい場合、プロジェクトに対する評価が行われます。コアメンバーはプロジェクトの評価を実施して承認する場合、承認されたプロジェクトはプロジェクトプラットフォームに分岐するか、もしくは直接プラットフォームに新規プロジェクトを申請して、運用側に権限を付与してもらうことで実現できます。
 
-Github·wuhan2020の公式ページ：http://github.com/wuhan2020 
+Github·wuhan2020の公式ページ：http://github.com/wuhan2020
 
 新規Githubプロジェクトを作成する場合、コアメンバーに連絡して下さい。プロジェクト申請する際は、プロジェクト名、機能等の説明事項を記入してから運用側に申込んでください。運用チームは申請内容を確認し、承認した場合関連するGitHubの権限を設定して申請者へ通知します。
 
@@ -88,14 +88,14 @@ Github·wuhan2020の公式ページ：http://github.com/wuhan2020
 
 ### 2、各プロジェクトChannelとのコンミュニケーション
 
-- プロジェクトメンバーとの技術に関するコミュニケーションは[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)で行われています。ボランティアに参加したい場合は、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)に登録してから興味のあるチャネルをフォローしてください。
-- GitHubは技術グループがメインで参加する共同開発プラットフォームであり、開発により出てきたissueやprなどの関連コンテンツは、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)のプロジェクトチャネルへ同期されます。
+- プロジェクトメンバーとの技術に関するコミュニケーションは[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)で行われています。ボランティアに参加したい場合は、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)に登録してから興味のあるチャネルをフォローしてください。
+- GitHubは技術グループがメインで参加する共同開発プラットフォームであり、開発により出てきたissueやprなどの関連コンテンツは、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)のプロジェクトチャネルへ同期されます。
 
-既存のスキルグループはそれぞれの[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)チャネルが作られてあります。
+既存のスキルグループはそれぞれの[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)チャネルが作られてあります。
 
 #### 1) 現在 `channel` 一覧
 
-- [`#general`](https://wuhan2020.slack.com/archives/CSTGKFRCH) ——[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)のデフォルトチャネルです。
+- [`#general`](https://wuhan2020.slack.com/archives/CSTGKFRCH) ——[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)のデフォルトチャネルです。
   - 我々運用側がお知らせを配信するチャネルでもありますので、ここでのコミュニケーションは禁止され、管理員にしか配信する権限がありません。
   - ここには、主に公式の最新情報、他のチャネルの最新説明やメンバー招集、タスク配布など重要なインフォメーションを発表します。
 
@@ -124,10 +124,10 @@ Github·wuhan2020の公式ページ：http://github.com/wuhan2020
 既存チャネル：
 
 - [`#proj-operation`](https://wuhan2020.slack.com/archives/CSX1X74M9)：日常運営グループ。本格的に自己組織、自己管理できるように、ボランティアを招集して各チャネルを管理·監督する目的で設置されたチャネルであり、GitHubに対応するプロジェクトはありません。
-  - メインの責務：新メンバーへのチュートリアル、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)上各チャネルの日常管理、各チャネルの公告同期、有効·関連情報の収集、チャネルの投稿内容規制（広告や無関係な内容を削除するなど）。
+  - メインの責務：新メンバーへのチュートリアル、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)上各チャネルの日常管理、各チャネルの公告同期、有効·関連情報の収集、チャネルの投稿内容規制（広告や無関係な内容を削除するなど）。
   - ※当チャネルへ参加するには長時間のオンライン時間を確保する必要があります。
 
-- [`#proj-datasync-eggjs-ts`](https://wuhan2020.slack.com/archives/CT4AV807P)：公式のコアデータ同期プロジェクト。開発者は下記URLで直接タスクを引き受け、開発することが可能です。 http://github.com/wuhan2020/data-sync 
+- [`#proj-datasync-eggjs-ts`](https://wuhan2020.slack.com/archives/CT4AV807P)：公式のコアデータ同期プロジェクト。開発者は下記URLで直接タスクを引き受け、開発することが可能です。 http://github.com/wuhan2020/data-sync
   - 当プロジェクトのミッション： フロントエンドグループにデータを提供するために、[shimoスプレッドシート](https://shimo.im/welcome)（石墨文档）に入ったデータをGitHubへ同期させることです。
   - ※非技術系ボランティアの大半は[shimoスプレッドシート](https://shimo.im/welcome)（石墨文档）を内容を入力して随時共有している現状を考え、我々はshimo（石墨）からのデータをメインに同期対応をしています。shimo（石墨）の登録に失敗する時にはこちらのチャネルにてご相談してください。
 
@@ -167,15 +167,15 @@ Github·wuhan2020の公式ページ：http://github.com/wuhan2020
 チャネルの新規申請は誰でも自由にできます。
 
 「早い者勝ち」の原則に基づいて、上記の命名ルールに従い、チャネル名を付けて作成してください。また、記録残すために、必ず申請した情報を運用側へご連絡ください。
- 申請する際ご不明点や権限付与の依頼は[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)にて@Frank Zhao @David Z.へお問い合わせください。
+ 申請する際ご不明点や権限付与の依頼は[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)にて@Frank Zhao @David Z.へお問い合わせください。
 
 ※既存チャネルと重複した場合、マージするようにしてください。
 
 
 
-GitHubは技術グループがメインで参加する共同開発プラットフォームであり、プロジェクトの開発により出てきた`issue`や`pr`などの関連コンテンツは、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)の対応するチャネルへ同期されます。
+GitHubは技術グループがメインで参加する共同開発プラットフォームであり、プロジェクトの開発により出てきた`issue`や`pr`などの関連コンテンツは、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)の対応するチャネルへ同期されます。
 
-ボランティアチームに参加したい場合は、ぜひ、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)に登録して、興味のあるチャネルをフォローしてください。
+ボランティアチームに参加したい場合は、ぜひ、[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)に登録して、興味のあるチャネルをフォローしてください。
 
 
 

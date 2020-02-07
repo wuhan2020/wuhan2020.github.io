@@ -23,5 +23,5 @@ Wuhan2020の目標：（１）病院や工場で働く方々及び物資の運�
 Wuhan2020開発者のチームへようこそ👏
 
 1. まず[クイックスタート](https://wuhan2020.github.io/zh-cn/docs/dev/quickstart.html)にて協力方法および既存プロジェクトの進展を確認してください。
-2. 参加したい場合は[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)に登録して、興味のあるチャネルをフォローしてください。
+2. 参加したい場合は[Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)に登録して、興味のあるチャネルをフォローしてください。
 3. チャネルの皆さんを交流し、興味のあるプロジェクトから取り組んでください。

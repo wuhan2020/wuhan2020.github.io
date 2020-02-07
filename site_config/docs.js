@@ -199,6 +199,10 @@ export default {
                         link: '/zh-cn/docs/dev/information-guide.html',
                     },
                     {
+                        title: '邮件列表订阅向导',
+                        link: '/zh-cn/docs/dev/mailing-list-guide.html',
+                    },
+                    {
                         title: '架构图',
                         link: '/zh-cn/docs/dev/architecture.html',
                     },
@@ -214,5 +218,58 @@ export default {
             },
         ],
         barText: '文档',
+    },
+    'fr-fr': {
+        sidemenu: [
+            {
+                title: 'Overview',
+                children: [
+                    {
+                        title: 'What is Wuahan2020?',
+                        link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
+                    },
+                    {
+                        title: 'FAQ',
+                        link: '/fr-fr/docs/overview/faq.html',
+                    }
+                ],
+            },
+
+            {
+                title: 'User Doc',
+                children: [
+                    {
+                        title: 'Website Guide',
+                        link: '/fr-fr/docs/user/website-guide.html',
+                    }
+                ],
+            },
+            {
+                title: 'Developer Guide',
+                children: [
+                    {
+                        title: 'Quick Start',
+                        link: '/fr-fr/docs/dev/quickstart.html',
+                    },
+                    {
+                        title: 'Data Collection Guide',
+                        link: '/fr-fr/docs/dev/information-guide.html',
+                    },
+                    {
+                        title: 'Architecture Diagram',
+                        link: '/fr-fr/docs/dev/architecture.html',
+                    },
+                    {
+                        title: 'Guide For contribution',
+                        link: '/fr-fr/docs/dev/contributing.html',
+                    },
+                    {
+                        title: 'Github Repo processing',
+                        link: '/fr-fr/docs/dev/dev-env-setup.html',
+                    },
+                ],
+            },
+        ],
+        barText: 'Documentation'
     },
 };

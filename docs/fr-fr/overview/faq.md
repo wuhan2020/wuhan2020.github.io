@@ -63,7 +63,7 @@ R：Le projet favorise actuellement l'intégration des informations officielles 
 
 **Q：Comment dois-je faire des suggestions?**
 
-R：Lorsque vous faites des suggestions, veuillez essayer de fournir des idées et des solutions. 
+R：Lorsque vous faites des suggestions, veuillez essayer de fournir des idées et des solutions.
 
 **Q：Pourquoi l'issue que j'ai créé a-t-il été fermé?**
 

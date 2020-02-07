@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import cls from 'classnames';
 import 'whatwg-fetch'; // fetch polyfill
 import { getScrollTop } from '../../../utils';
 import Header from '../../components/header';
@@ -53,7 +54,12 @@ class Home extends Language {
         const headerLogo = headerType === 'primary' ? '/images/wuhan2020-logo-white.png' : '/images/wuhan2020-logo.png';
         return (
             <div className="home-page">
-                <section className="top-section">
+                <section
+                  className={cls({
+                    'top-section': true,
+                    [`top-section-${language}`]: true,
+                  })}
+                >
                     <Header
                         currentKey="home"
                         type={headerType}
