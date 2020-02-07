@@ -11,7 +11,7 @@ Wuhan2020 lista dei volontari
 # Sviluppo tecnico
 
 | name   | github          |
-| ------ | --------------- | --------------- |
+| ------ | --------------- | 
 | Shengyu Zhao   | [rank-zsy](https://github.com/rank-zsy)        |
 | Yao Shi   | [TechQuery](https://github.com/TechQuery)        |
 
