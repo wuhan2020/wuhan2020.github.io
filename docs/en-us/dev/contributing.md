@@ -1,3 +1,5 @@
+# Contribution Guide
+
 <!-- TOC -->
 
 - [Guide For contribution](#Guide-For-contribution)
@@ -19,8 +21,8 @@
 
 <!-- /TOC -->
 
-# Guide For contribution
 ## To submit data
+
 **This is the main repository, all the data import is accomplished automatically by scripts. So please don’t submit data to this repository directly. To submit data , please check [README](../../zh-cn/dev/README.md)**。
 
 > This platform uses Shimo (a cloud-based productivity suite) to collect data. The data will be automatically submitted to the repository in the form of Rps by scripts.

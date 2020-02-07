@@ -1,6 +1,6 @@
-<!-- TOC -->
-# WE PROVIDE ENGLISH VERSION, PLEASE CLICK [HERE](./contributing.md)
+# # 贡献指南
 
+<!-- TOC -->
 - [贡献指南](#贡献指南)
   - [我要提交数据信息](#我要提交数据信息)
   - [我要提 ISSUE，提 PR](#我要提-issue提-pr)
@@ -20,7 +20,6 @@
 
 <!-- /TOC -->
 
-# 贡献指南
 ## 我要提交数据信息
 **该仓库为数据主仓，所有数据由脚本自动提交导入，请不要在该仓库中直接提交数据信息，提交数据信息，请参考 [README](./README.md)**。
 
