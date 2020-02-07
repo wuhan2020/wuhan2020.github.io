@@ -3,7 +3,7 @@
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
 
-All website material  of https://wuhan2020.github.io
+All website material  of https://community.wuhan2020.org.cn
 
 
 ## Prerequisite
