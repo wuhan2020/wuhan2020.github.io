@@ -22,7 +22,7 @@ description: 建立一个医院、工厂、采购等信息实时同步的数据�
 欢迎你加入Wuhan2020开发者的团队👏
 
 1. 请先移步至[快速开始](https://wuhan2020.github.io/zh-cn/docs/dev/quickstart.html)查看基本协作流程、项目列表以及其他指南
-2. 根据您的技能与兴趣加入我们的 [Slack 交流群组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc) 
+2. 根据您的技能与兴趣加入我们的 [Slack 交流群组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)
 3. 找到适合你的项目开始入手
 
 
