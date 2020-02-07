@@ -3,8 +3,7 @@ Cette traduction a été mise à jour le 07/01/2020.
 
 Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus 2019-nCoV. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
 
-Ce dépôt fonctionne comme l'entrepôt de données principal. Toutes les données que vous voyez ici sont importées automatiquement par des scripts. **_ Veuillez NE PAS soumettre de données directement à ce dépôt_**. Veuillez référer aux autres sections de ce document pour la soumission des données. Tous les codes seront open-source et les données collectées seront soigneusement examinées / validées et mises à la disposition du public.
-
+Ce dépôt fonctionne comme l'entrepôt de données principal. Toutes les données que vous voyez ici sont importées automatiquement par des scripts. **_Veuillez NE PAS soumettre de données directement à ce dépôt_**. Veuillez référer aux autres sections de ce document pour la soumission des données. Tous les codes seront open-source et les données collectées seront soigneusement examinées / validées et mises à la disposition du public.
 
 ## Procédure de collaboration
 
