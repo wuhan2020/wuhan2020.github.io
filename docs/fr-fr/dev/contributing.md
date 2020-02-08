@@ -1,79 +1,78 @@
 <!-- TOC -->
 
-- [Guide For contribution](#Guide-For-contribution)
-  - [To submit data](#To-submit-data)
-  - [To submit a new issue or initialize a pull request](#To-submit-a-new-issue-or-initialize-a-pull-request)
-    - [0、To submit a new issue](#0To-submit-a-new-issue)
-    - [1、To claim task](#1To-claim-task)
-    - [2、To fork this repository](#2To-fork-this-repository)
-    - [3、Clone the repository](#3Clone-the-repository)
-    - [4、To create a `branch`](#4To-create-a-branch)
-    - [5、To modify content and submit](#5To-modify-content-and-submit)
-    - [6、Upstream repository change synchronization](#6Upstream-repository-change-synchronization)
-    - [7、To push new branch to remote repository](#7To-push-new-branch-to-remote-repository)
-    - [8、To create a `Pull Request`](#8To-create-a-`Pull-Request`)
-    - [9、To resolve a merge conflict](#9To-resolve-a-merge-conflict)
-    - [10、After the merge , you can](#10After-the-merge-,-you-can)
-  - [Robot specification](#Robot-specification)
-  - [Meet us on Slack](#Meet-us-on-Slack)
-
+- [Guide de contribution](#guide-de-contribution)
+  - [Soumettre des données](#soumettre-des-donn-es)
+  - [Soumettre une issue ou initialiser une pull request](#soumettre-une-issue-ou-initialiser-une-pull-request)
+    - [0. Soumettre une issue](#0-soumettre-une-issue)
+    - [1. S'assigne une tâche](#1-s-assigne-une-t-che)
+    - [2. Fork le dépôt](#2-fork-le-d-p-t)
+    - [3. Cloner le dépôt](#3-cloner-le-d-p-t)
+    - [4. Créer une nouvelle  `branch`](#4-cr-er-une-nouvelle---branch-)
+    - [5. Modifier le contenu](#5-modifier-le-contenu)
+    - [6. Synchroniser des modifications de upstream dépôt](#6-synchroniser-des-modifications-de-upstream-d-p-t)
+    - [7. Envoyer des nouvelles modifications](#7-envoyer-des-nouvelles-modifications)
+    - [8. Créer une nouvelle `Pull Request`](#8-cr-er-une-nouvelle--pull-request-)
+    - [9. Gérer un conflit de merge](#9-g-rer-un-conflit-de-merge)
+    - [10. Après le merge, vous pouvez：](#10-apr-s-le-merge--vous-pouvez-)
+  - [Robot spécifications](#robot-sp-cifications)
+  - [Rejoignez-nous sur Slack](#rejoignez-nous-sur-slack)
+  
 <!-- /TOC -->
 
-# Guide For contribution
-## To submit data
-**This is the main repository, all the data import is accomplished automatically by scripts. So please don’t submit data to this repository directly. To submit data , please check [README](../../zh-cn/dev/README.md)**。
+# Guide de contribution
+## Soumettre des données
+**C'est le dépôt principal, toutes les importations de données sont effectuées automatiquement par des scripts. Veuillez ne pas envoyer de données directement à ce dépôt. Pour soumettre des données, merci de lire [README](../../zh-cn/dev/README.md)**。
 
-> This platform uses Shimo (a cloud-based productivity suite) to collect data. The data will be automatically submitted to the repository in the form of Rps by scripts.
+> Cette plateforme utilise Shimo (une suite de productivité basée sur le cloud) pour collecter des données. Les données seront automatiquement soumises au ce dépôt sous forme de Rps par scripts.
 
-> Since there are lots of contributors, we won’t give everyone the authority
-to edit, please fill in a form of application [here](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill). We will invite you to input information to certain sheets or forms.
+> Parce qu'il y a beaucoup de contributeurs, nous ne donnerons pas l'autorisation de modification à tout le monde, veuillez remplir un formulaire [ici](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill). Nous vous donnerons l'autorisation appropriée.
 
 
-## To submit a new issue or initialize a pull request
-In this guide we will try describing how to submit a new issue or initialize a pull request as detailed as we can. Welcome to contribute to **wuhan2020** !
+## Soumettre une issue ou initialiser une pull request
+Dans ce guide, nous vous expliquerons comment soumettre une nouvelle issue ou initialiser une pull request. Bienvenue à contribuer au **wuhan2020** ! 
 
-### 0、To submit a new issue
+### 0. Soumettre une issue
 
-If you have any good ideas, click [here](https://github.com/wuhan2020/wuhan2020/issues) to submit a new `issue`，our volunteers will discuss it with you in time.
+Si vous avez des bonnes idées, cliquez [ici](https://github.com/wuhan2020/wuhan2020/issues) pour créer une nouvelle  `issue`, nous vous contactons dès que possible.
 
-When submitting a new `issue`， please pay attention to the type of the `issue` and explain it in the headline. The issue will be tagged automatically：
+Lorsque vous soumettez une nouvelle  `issue`, veuillez vérifier le type de  `issue` et l'expliquer dans le titre. L'issue sera classée automatiquement:
 
--   hospital: information relating to hospitals
--   factory: information relating to manufacturing and production
--   logistical: logistical information
--   hotel: information relating to hotels
--   donation：information relating to donation
--   clinic：information relating to voluntary clinic
--   news：news update on this 2019-nCoV epidemic prevention
--   doc: about documentation
--   bug： bug report
--   feature: new features
+-   hôpital: information sur hôpitaux
+-   usine: informations sur la fabrication et le produit
+-   logistique: informations logistiques
+-   hôtel: information de hôtel
+-   donation：information de donation
+-   clinique：informations de la clinique volontaire
+-   news：news sur l'anti-épidémiques 2019-nCoV
+-   doc: documentation
+-   bug： bug rapport
+-   fonction: nouvelle fonction
 
-### 1、To claim task
+### 1. S'assigne une tâche
 
-> **Let’s work together through this tough period to fight against the coronavirus !!**
+> **Travaillons ensemble à passer cette période difficile pour lutter contre le coronavirus !!**
 
-Select a task from the [Issue List](https://github.com/wuhan2020/wuhan2020/issues). and then claim it by using `/self-assign`. The robot of the project will set `Assignees` of the `issue` to yourself automatically.
+Sélectionner une tâche dans la liste [Liste d'issue](https://github.com/wuhan2020/wuhan2020/issues), puis s'assigne cette tâche  `/self-assign`. Le robot du projet vous assigne `Assignees` automatiquement cette tâche dans `issue`. 
 
 ```
 /self-assign
 ```
 
-Shown as the following：
+Voir l'image ci-dessous：
 
 ![self-assign 示意图](/images/docs/self-assign.png)
 
-### 2、To fork this repository
+### 2. Fork le dépôt
 
-Visit [wuhan2020](https://github.com/wuhan2020/wuhan2020). And then fort it to your own account.
+Accéder au  [wuhan2020](https://github.com/wuhan2020/wuhan2020). Fork le dépôt au votre compte.
 
 ![Fork 仓库](/images/docs/fork-repo.png)
 
-> Nota Bene :  the following commands are supposed to be done in console, [Git](https://git-scm.com/) is needed.
+> Nota Bene :  les commandes suivantes sont être effectuées dans la console, [Git](https://git-scm.com/) est nécessaire.
 
-### 3、Clone the repository
+### 3. Cloner le dépôt
 
-Back to your won GitHub page，find the _wuhan2020_ that you just forked，enter it, `clone` it to local, like :
+Retournez sur votre GitHub page，trouvez le dépôt _wuhan2020_ ，faites une commande pour `clone` au local, ex:
 
 ```bash
 # replace the XXX with your own user name
@@ -81,67 +80,67 @@ git clone git@github.com:XXX/wuhan2020.git
 cd wuhan2020
 ```
 
-### 4、To create a `branch`
+### 4. Créer une nouvelle  `branch`
 
-> It’s not recommended to develop in the master branch unless the urgent recovery.
+> Il est déconseillé de se développer sur la branche master sauf en cas de restauration urgente.
 
-According to the purpose, create a new branch and appropriately name it, run like this :
+Selon l'objectif, créez une nouvelle branche et nommez-la de manière appropriée, exécutez comme ceci :
 
 ```bash
 git checkout -b my-fix-branch master
 ```
 
-### 5、To modify content and submit
+### 5. Modifier le contenu
 
-Modify the corresponding file and submit :
+Modifier le file correspondant, puis le soumettre:
 
 ```bash
 git add .
 git commit -m "hotel: update HOTEL.csv, fix #1"
 ```
 
-Pay attention to :
+Attention :
 
-(1) clarify in one sentence for what have been done
+(1) clarifier en une phrase ce qui a été fait
 
-(2) relate the `issue`，for example `fix #1` 、`close #2`、`#3`
+(2) Liée à `issue`，par exemple `fix #1` 、`close #2`、`#3`
 
-If there is modification after `commit` , use the parameter `--amend`：
+S'il y a des modifications après le `commit` , utiliser le paramètre `--amend`：
 
 ```bash
 git add .
 git commit --amend -sm "hotel: update HOTEL.csv, fix #1"
 ```
 
-### 6、Upstream repository change synchronization
+### 6. Synchroniser des modifications de upstream dépôt
 
-To avoid upstream repository change synchronization ([wuhan2020/wuhan2020](https://github.com/wuhan2020/wuhan2020) )，it’s necessary to sync your local repository with the upstream：
+Pour éviter la synchronisation des modifications de upstream dépôt ([wuhan2020/wuhan2020](https://github.com/wuhan2020/wuhan2020) )，il est nécessaire de synchroniser votre dépôt local avec upstream：
 
 ```bash
 $ git remote add upstream git@github.com:wuhan2020/wuhan2020.git
 $ git fetch upstream
 ```
 
-If there have been changes to the upstream repo already, please run `rebase` at first :
+Si des modifications ont déjà été apportées au upstream, exécuter d'abord `rebase` :
 
 ```bash
 $ git rebase upstream/master
 ```
 
-### 7、To push new branch to remote repository
+### 7. Envoyer des nouvelles modifications 
 
 ```bash
 $ git push -f origin my-fix-branch:my-fix-branch
 ```
 
-### 8、To create a `Pull Request`
+### 8. Créer une nouvelle `Pull Request`
 
-Create a `pull request` to the upstream repository. As shown:
+Créer une  `pull request` au upstream en cliquant le bouton "New pull request". Voir l'image ci-dessous:
 
 ![pull-request](/images/docs/pull-request.png)
 
 ![open-pr](/images/docs/open-pr.png)
-如果其他人 `review` 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 PR 将会自动同步该 `commit` 。
+Si quelqu'un d'autre  `review` la pull request et doit apporter des changements, il peut faire les modifications dans cette pull request, puis exécuter les commandes suivantes, la PR synchronisera automatiquement `commit`.
 
 ```bash
 git add .
@@ -149,23 +148,23 @@ git commit --amend
 git push -f origin my-fix-branch
 ```
 
-### 9、To resolve a merge conflict
+### 9. Gérer un conflit de merge
 
-> Nota bene : if no conflict occurs, no need to do these
+> Nota bene : si pas de conflit, ne pas faire cette étape.
 
--   Sync with upstream repo
+-   Sync avec upstream dépôt
 
 ```bash
 git fetch upstream
 ```
 
--   Run `rebase`:
+-   Exécuter `rebase`:
 
 ```bash
 git rebase upstream/master
 ```
 
--   Manually resolve the conflict, then submit
+-   Résolvez manuellement le conflit, puis le soumettez
 
 ```bash
 git add my-fix-file
@@ -173,43 +172,43 @@ git rebase --continue
 git push -f origin my-fix-branch
 ```
 
-### 10、After the merge, you can：
+### 10. Après le merge, vous pouvez：
 
--   Switch back to `master`：
+-   Revenez à  `master`：
 
 ```bash
 git checkout master -f
 ```
 
--   Keep the `master` in sync with the upstream branch：
+-   Synchoniser  `master` avec upstream branche：
 
 ```bash
 git pull --ff upstream master
 ```
 
--   Delete local branch (optional):
+-   Supprimer la branche local (facultatif):
 
 ```bash
 git branch -D my-fix-branch
 ```
 
--   Delete remote branch (optional)：
+-   Supprimer la branch à distante (facultatif)：
 
 ```bash
 git push origin --delete my-fix-branch
 ```
 
-## Robot specification
+## Robot spécifications
 
-This project has been granted access to GitHub robot :`Menbotics`，it can：
+Ce projet a obtenu l'accès au robot GitHub :`Menbotics`，il fait：
 
--   **Tag `Issue` automatically**：Please check [0、To submit a new issue](#0To submit a new issue) for more details
--   **To claim task**：Please check [1、To claim task](#1To claim task)
--   **Merge automatically**：When a PR(Pull Request) is submitted，the ones who have the authority will use `/approve`  to merge automatically.
+-   **Taguer `Issue` automatiquement**：Veuillez consulter [0. Soumettre une issue](#0-soumettre-une-issue) pour plus détails
+-   **Assigner la tâche**：Veuillez consulter [1. S'assigne une tâche](#1-s-assigne-une-t-che)
+-   **Merge automatiquement**：Quand une Pull Request a été soumise, la personne qui a le droit peut `/approve`  pour merger la branche automatiquement.
 
-To know details of robot configuration, please check [hypertrons.json](./.github/hypertrons.json)，for example, to see who have the merging authority.
+Pour plus détails de configuration, veuillez consulter [hypertrons.json](./.github/hypertrons.json), par exemple, pour savoir qui a le droit de merge.
 
-## Meet us on Slack
+## Rejoignez-nous sur Slack
 
-Furthermore , we have our [Slack group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，where those channels for frontend backend and data sync are already prepared , meet us on Slack for a better communication both on technical and non-technical themes.
-Let's work together through this tough period to fight against the coronavirus!
+Nous avons [Slack groupe](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY), où ces canaux de frontend backend et la synchronisation des données sont déjà préparés, rejoignez-nous sur Slack pour une meilleure communication sur des thèmes techniques et non techniques.
+Travaillons ensemble à passer cette période difficile pour lutter contre le coronavirus !

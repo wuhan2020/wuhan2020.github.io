@@ -2,9 +2,9 @@
 
 Cette traduction a été mise à jour le 07/01/2020.
 
-Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus 2019-nCoV. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
+<div style="text-align: justify">Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus 2019-nCoV. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
 
-Ce dépôt fonctionne comme l'entrepôt de données principal. Toutes les données que vous voyez ici sont importées automatiquement par des scripts. **_Veuillez NE PAS soumettre de données directement à ce dépôt_**. Veuillez référer aux autres sections de ce document pour la soumission des données. Tous les codes seront open-source et les données collectées seront soigneusement examinées / validées et mises à la disposition du public.
+Ce dépôt fonctionne comme l'entrepôt de données principal. Toutes les données que vous voyez ici sont importées automatiquement par des scripts. **_Veuillez NE PAS soumettre de données directement à ce dépôt_**. Veuillez référer aux autres sections de ce document pour la soumission des données. Tous les codes seront open-source et les données collectées seront soigneusement examinées / validées et mises à la disposition du public.</div>
 
 ## Procédure de collaboration
 
@@ -22,28 +22,28 @@ Toutes les parties sont traitées automatiquement, à l'exception des révisions
 
 ### Developpement Web Front-end  
 
-- Base de code：https://github.com/wuhan2020/wuhan2020.github.io
-- Environment de production：https://wuhan2020.github.io/
+- Base de code ：https://github.com/wuhan2020/wuhan2020.github.io
+- Environment de production ：https://wuhan2020.github.io/
 
 ### API service
 
-- Base de code：https://github.com/wuhan2020/api-server
+- Base de code ：https://github.com/wuhan2020/api-server
 
 ### Composants de visualisation de carte
 
-- Base de code：https://github.com/wuhan2020/map-viz
+- Base de code ：https://github.com/wuhan2020/map-viz
 
 ### Composant de synchronisation du service d'édition de formulaires en ligne (ShiMo)
 
-- Base de code：https://github.com/wuhan2020/shimo-sheet2json
+- Base de code ：https://github.com/wuhan2020/shimo-sheet2json
 
 ## Soumission des données
 
-Les informations collectées par la plateforme incluent les types de données suivants, veuillez les classer et les soumettre séparément.
+<div style="text-align: justify">Les informations collectées par la plateforme incluent les types de données suivants, veuillez les classer et les soumettre séparément.
 
 Cette plateforme utilise le service de documents en ligne [Shimo](https://shimo.im/welcome)  (qui est très similaire à Google Docs) pour collecter et stocker des données, et il existe un script cron qui synchronise les données avec le référentiel de données / entrepôt. Veuillez NE PAS modifier les fichiers de données directement dans le dépôt / entrepôt.
 
-En raison du grand nombre de participants, l'autorisation de modification n'est pas accordée pour tout le monde par défaut, cliquez sur [ici](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) pour soumettre votre demande de candidature, nous vous enverrons un e-mail pour y accéder dès que possible.
+En raison du grand nombre de participants, l'autorisation de modification n'est pas accordée pour tout le monde par défaut, cliquez sur [ici](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) pour soumettre votre demande de candidature, nous vous enverrons un e-mail pour y accéder dès que possible.</div>
 
 ### Service de documents en ligne [Shimo](https://shimo.im/welcome) Lien de modification：
 
@@ -87,7 +87,7 @@ Cliquez ici pour rejoindre au [Slack Communication Groupe](https://join.slack.co
 
 # Liste d'Email
 
-wuhan2020 liste d'email: [wuhan2020@googlegroups.com](https://groups.google.com/forum/#!forum/wuhan2020) ([inscription](mailto:wuhan2020+subscribe@googlegroups.com), [desinscription](mailto:wuhan2020+unsubscribe@googlegroups.com), [archivage](https://groups.google.com/forum/#!forum/wuhan2020))
+wuhan2020 liste d'email: [wuhan2020@googlegroups.com](https://groups.google.com/forum/#!forum/wuhan2020) ([inscription](mailto:wuhan2020+subscribe@googlegroups.com), [désinscription](mailto:wuhan2020+unsubscribe@googlegroups.com), [archivage](https://groups.google.com/forum/#!forum/wuhan2020))
 
 Tout le monde est invité à se réunir pour à exprimer son opinion technique ou non technique. Travaillons tous ensemble pour atteindre un objectif commun : lutter contre le 2019-nCoV !
 

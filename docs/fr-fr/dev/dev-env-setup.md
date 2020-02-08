@@ -1,22 +1,22 @@
-# Github Repo processing
-## Git Repository Download Addresses
-- Major point wuhan2020：https://github.com/wuhan2020/wuhan2020.git  -- wuhan（branch prefix start with）
-- api project： https://github.com/wuhan2020/api-server.git -- api
-- REST-api project： https://github.com/wuhan2020/rest-api.git  -- rest
-- map visualization： https://github.com/wuhan2020/map-viz.git -- map
-- web application： https://github.com/wuhan2020/WebApp.git  -- web
-- data simulation：https://github.com/wuhan2020/data-sync.git  -- data
-- Json data storage：https://github.com/wuhan2020/shimo-sheet2json.git --json
+# Github dépôt procédures
+## Git dépôt adresses de téléchargement
+- Point majeur wuhan2020：https://github.com/wuhan2020/wuhan2020.git  -- wuhan（préfixe de branche commencer par）
+- api projet： https://github.com/wuhan2020/api-server.git -- api
+- REST-api projet： https://github.com/wuhan2020/rest-api.git  -- rest
+- Visualisation de carte： https://github.com/wuhan2020/map-viz.git -- map
+- Application web： https://github.com/wuhan2020/WebApp.git  -- web
+- Simulation de données：https://github.com/wuhan2020/data-sync.git  -- data
+- Json données：https://github.com/wuhan2020/shimo-sheet2json.git --json
 
-# Developer/QA git clone process:
+# Développeur/ QA git clone procédure:
 * `git clone *** `
 
-#### copy various repos to local，create branches according issues with your own name and project name, start with fixed prefix，for an example：
-* `用Python爬取最新疫情数据`, `allocated to centurion-crawler` with utilizing  `wuhan-pythonspider-centurion`
+#### copier code au local, créer des branches en fonction des problèmes avec votre propre nom et nom de projet, commencer par un préfixe fixe, par exemple:
+* `Obtenir les dernières données d'épidémie via Python`, `allocated to centurion-crawler` avec  `wuhan-pythonspider-centurion`
 
-* `对于页面展示的建议`, `allocated to zhuangbiaowei` with utilizing `web-pagepresentation-zhuangbiaowei` 
+* `Conseil sur l'interface des pages`, `allocated to zhuangbiaowei` avec `web-pagepresentation-zhuangbiaowei` 
 
-#### after to modification on local branch，push your change to remote branch to master or upstream. The authorize has right to decide use it or modify or merge
+#### Une fois vous avez fini vos modifications sur la branche locale, les poussez vers la branche distante pour la branche master ou upstream. L'administrateur a le droit de décider de l'utiliser ou le modifier.
 * `git branch {branch-name} `
 * `git branch -a`
 * `git checkout {branch-name}`
@@ -24,5 +24,5 @@
 * `git commit -m "message"`
 * `git push`
 
-**Make sure your pull request has right or authorization to be merged to master, if it cannot be, please contact author of project, make sure it is not blocked**
+**Assurez-vous que vous avez le droit de merger une pull request au master. Veuillez contacter l'administrateur, si vous avez des prolèmes.**
 
