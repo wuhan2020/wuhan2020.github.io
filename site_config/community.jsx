@@ -129,7 +129,7 @@ export default {
                     title: '武漢給油プロジェクトの新しいプロセスのリリース',
                     content: '武漢給油プロジェクトの新しいプロセスのリリース',
                     dateStr: 'Jan 29th，2020',
-                    link: '/en-us/blog/wuhan2020-official-announcement.html',
+                    link: '/ja-jp/blog/wuhan2020-official-announcement.html',
                 },
             ],
         },
