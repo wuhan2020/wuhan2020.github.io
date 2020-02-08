@@ -89,6 +89,21 @@ export default {
             ],
         },
         copyright: 'Copyright © 2020 Wuahan2020',
+        sponsors: {
+          title: 'Sponsors',
+          list: [
+            {
+              text: 'Slack',
+              link: 'https://slack.com/',
+              target: '_blank'
+            },
+            {
+              text: 'Shimo',
+              link: 'https://shimo.im/',
+              target: '_blank'
+            }
+          ]
+        }
     },
     'it-it': {
         pageMenu: [
@@ -168,6 +183,21 @@ export default {
             ],
         },
         copyright: 'Copyright © 2020 Wuahan2020',
+        sponsors: {
+          title: 'Sponsors',
+          list: [
+            {
+              text: 'Slack',
+              link: 'https://slack.com/',
+              target: '_blank'
+            },
+            {
+              text: 'Shimo',
+              link: 'https://shimo.im/',
+              target: '_blank'
+            }
+          ]
+        }
     },
     'ja-jp': {
         pageMenu: [
@@ -247,6 +277,21 @@ export default {
             ],
         },
         copyright: 'Copyright © 2020 Wuahan2020',
+        sponsors: {
+          title: 'Sponsors',
+          list: [
+            {
+              text: 'Slack',
+              link: 'https://slack.com/',
+              target: '_blank'
+            },
+            {
+              text: 'Shimo',
+              link: 'https://shimo.im/',
+              target: '_blank'
+            }
+          ]
+        }
     },
     'zh-cn': {
         pageMenu: [
@@ -280,7 +325,6 @@ export default {
                 text: '产品',
                 link: '/zh-cn/blog/download.html',
             },
-            ,
             {
               key: 'mis',
               text: '新型冠状病毒防疫信息平台',
@@ -326,6 +370,21 @@ export default {
             ],
         },
         copyright: 'Copyright © 2020 Wuhan2020',
+        sponsors: {
+          title: '赞助商',
+          list: [
+            {
+              text: 'Slack',
+              link: 'https://slack.com/',
+              target: '_blank'
+            },
+            {
+              text: '石墨文档',
+              link: 'https://shimo.im/',
+              target: '_blank'
+            }
+          ]
+        }
     },
     'fr-fr': {
         pageMenu: [
@@ -359,7 +418,6 @@ export default {
                 text: '产品',
                 link: '/fr-fr/blog/download.html',
             },
-            ,
             {
               key: 'mis',
               text: '新型冠状病毒防疫信息平台',
@@ -405,5 +463,20 @@ export default {
             ],
         },
         copyright: 'Copyright © 2020 Wuhan2020',
+        sponsors: {
+          title: 'Sponsors',
+          list: [
+            {
+              text: 'Slack',
+              link: 'https://slack.com/',
+              target: '_blank'
+            },
+            {
+              text: 'Shimo',
+              link: 'https://shimo.im/',
+              target: '_blank'
+            }
+          ]
+        }
     },
 };
