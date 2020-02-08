@@ -53,7 +53,7 @@ export default {
           type: 'normal',
         },
         {
-          text: "Piattaforma per la prevenzione epidemica del nuovo coronavirus, Wuhan2019-nCoV",
+          text: "Piattaforma per la prevenzione epidemica del nuovo coronavirus (Wuhan2019-nCoV)",
           link: 'https://wuhan2020.kaiyuanshe.cn/',
           type: 'normal',
         },
