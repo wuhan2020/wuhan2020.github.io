@@ -10,9 +10,9 @@ class EventCard extends React.Component {
           <img src={`${window.rootPath}${event.img}`} />
         </a>
         <div className="event-introduction">
-          <h4>{event.title}</h4>
-          <p>{event.content}</p>
           <a href={getLink(event.link)}>
+            <h4>{event.title}</h4>
+            <p>{event.content}</p>
             {event.dateStr}
             <img className="arrow" src={`${window.rootPath}/images/arrow_right.png`} />
           </a>
