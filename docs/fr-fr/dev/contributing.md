@@ -1,7 +1,7 @@
 <!-- TOC -->
 
-- [Guide For contribution](#Guide-For-contribution)
-  - [To submit data](#To-submit-data)
+- [Guide de contribution](#Guide-For-contribution)
+  - [Soumettre des données](#To-submit-data)
   - [To submit a new issue or initialize a pull request](#To-submit-a-new-issue-or-initialize-a-pull-request)
     - [0、To submit a new issue](#0To-submit-a-new-issue)
     - [1、To claim task](#1To-claim-task)
@@ -15,12 +15,12 @@
     - [9、To resolve a merge conflict](#9To-resolve-a-merge-conflict)
     - [10、After the merge , you can](#10After-the-merge-,-you-can)
   - [Robot specification](#Robot-specification)
-  - [Meet us on Slack](#Meet-us-on-Slack)
+  - [Rejoignez-nous sur Slack](#Meet-us-on-Slack)
 
 <!-- /TOC -->
 
-# Guide For contribution
-## To submit data
+# Guide de contribution
+## Soumettre des données
 **This is the main repository, all the data import is accomplished automatically by scripts. So please don’t submit data to this repository directly. To submit data , please check [README](../../zh-cn/dev/README.md)**。
 
 > This platform uses Shimo (a cloud-based productivity suite) to collect data. The data will be automatically submitted to the repository in the form of Rps by scripts.
@@ -209,7 +209,7 @@ This project has been granted access to GitHub robot :`Menbotics`，it can：
 
 To know details of robot configuration, please check [hypertrons.json](./.github/hypertrons.json)，for example, to see who have the merging authority.
 
-## Meet us on Slack
+## Rejoignez-nous sur Slack
 
-Furthermore , we have our [Slack group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，where those channels for frontend backend and data sync are already prepared , meet us on Slack for a better communication both on technical and non-technical themes.
+Nous avons [Slack groupe](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，where those channels for frontend backend and data sync are already prepared , meet us on Slack for a better communication both on technical and non-technical themes.
 Let's work together through this tough period to fight against the coronavirus!
