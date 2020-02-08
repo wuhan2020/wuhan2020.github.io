@@ -8,8 +8,8 @@ export default {
             list: [
                 {
                     img: '/images/blog/wuhan2020.png',
-                    title: 'Wuhan加油项目新流程发布',
-                    content: 'Wuhan加油项目新流程发布',
+                    title: 'Wuhan2020 Official Announcement',
+                    content: 'Wuhan2020 Official Announcement',
                     dateStr: 'Jan 29th，2020',
                     link: '/en-us/blog/wuhan2020-official-announcement.html',
                 },
@@ -258,8 +258,8 @@ export default {
             list: [
                 {
                     img: '/images/blog/wuhan2020.png',
-                    title: 'Wuhan加油项目新流程发布',
-                    content: 'Wuhan加油项目新流程发布',
+                    title: 'Wuhan2020 Official Announcement',
+                    content: 'Wuhan2020 Official Announcement',
                     dateStr: 'Jan 29th，2020',
                     link: '/fr-fr/blog/wuhan2020-official-announcement.html',
                 },
