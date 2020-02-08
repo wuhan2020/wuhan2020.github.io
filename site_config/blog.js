@@ -5,7 +5,7 @@
         list: []
     },
     'it-it': {
-        barText: 'blog',
+        barText: 'Blog',
         postsTitle: 'Tutti i post',
         list: []
     },

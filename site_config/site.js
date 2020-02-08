@@ -109,17 +109,17 @@ export default {
         pageMenu: [
             {
                 key: 'home', // 用作顶部菜单的选中
-                text: 'CASA',
+                text: 'HOME',
                 link: '/it-it/index.html',
             },
             {
                 key: 'docs',
-                text: 'DOCS',
+                text: 'DOCUMENTAZIONE',
                 link: '/it-it/docs/overview/what-is-wuhan2020.html',
             },
             {
                 key: 'developers',
-                text: 'CONTRIBUTORI',
+                text: 'SOSTENITORI',
                 link: '/it-it/docs/developers/developers_dev.html',
             },
             {
@@ -129,12 +129,12 @@ export default {
             },
             {
                 key: 'community',
-                text: 'COMUNITÀ',
+                text: 'COMMUNITY',
                 link: '/it-it/community/index.html',
             },
             {
                 key: 'download',
-                text: 'PRODOTTO',
+                text: 'RISULTATI',
                 link: '/it-it/blog/download.html',
             }
             ,
