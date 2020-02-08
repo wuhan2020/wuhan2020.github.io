@@ -2,7 +2,7 @@
 
 # Piattaforma di raccolta informazioni per la prevenzione epidemica del nuovo coronavirus, Wuhan 2019-nCoV
 
-In relazione al focolaio di polmonite, ed altri sintomi, insorto in Cina all'inizio dell'anno 2020 in associazione alla diffusione di un nuovo tipo di coronavirus, il presente progetto ha l'obiettivo di raccogliere e diffondere informazioni riguardanti: strutture (ospedali, istituti sanitari, alberghi, ristoranti, impianti di produzione e confezionamento), logistica, contributi e donazioni, prevenzione e supporto medico, ed altre notizie, allo scopo di facilitare lo scambio informativo e l'impiego efficace ed efficiente di risorse sociali. 
+In relazione al focolaio di polmonite, ed altri sintomi, insorto in Cina all'inizio dell'anno 2020 in associazione alla diffusione di un nuovo tipo di coronavirus, il presente progetto ha l'obiettivo di raccogliere e diffondere informazioni riguardanti: strutture (ospedali, istituti sanitari, alberghi, ristoranti, impianti di produzione e confezionamento), logistica, contributi e donazioni, prevenzione e supporto medico, ed altre notizie, allo scopo di facilitare lo scambio informativo e l'impiego efficace ed efficiente di risorse sociali.
 
 Questa è la repository principale, il caricamento di tutti i dati viene effettuato automaticamente tramite script,  **_non caricare direttamente i dati all'interno della repository_**, per ulteriori informazioni si prega di far riferimento alla presente documentazione.
 
@@ -43,7 +43,7 @@ Tutte le informazioni vengono raccolte in accordo alle seguenti categorie, si pr
 
 Shimo (servizio online per l'editing e la condivisione di documenti) viene utilizzato per la raccolta delle informazioni, i dati vegono sincronizzati dallo script in maniera automatica, perciò si prega di non modificare direttamente i documenti all'interno della repository.
 
-A causa dell'elevato numero di partecipanti, i permessi di editing non vengono forniti in maniera automatica, si prega di cliccare [qui](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) per sottoporre la propria domanda di partecipazione. 
+A causa dell'elevato numero di partecipanti, i permessi di editing non vengono forniti in maniera automatica, si prega di cliccare [qui](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) per sottoporre la propria domanda di partecipazione.
 
 ### Collegamenti al servizio di editing online Shimo：
 
@@ -68,7 +68,7 @@ Clicca [qui](./INFORMATION_GUIDE.md).
 
 # Incontriamoci su Slack
 
-Clicca [qui](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc) per entrare nel nostro gruppo su Slack.
+Clicca [qui](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY) per entrare nel nostro gruppo su Slack.
 
 ## Navigazione del canale Slack
 
@@ -78,7 +78,7 @@ Invitiamo tutti a partecipare al gruppo su Slack per comunicare al meglio su que
 
 # FAQ (Sezione in fase di sviluppo, restate sintonizzati! Abbiamo bisogno di volontari che contribuiscano a questa sezione, chi è interessato è invitato a contattarci!)
 
-FAQ generiche sul progetto finora raccolte: [clicca qui](./FAQ.md).
+FAQ generiche sul progetto finora raccolte: [clicca qui](../overview/faq.md).
 
 FAQ sul gruppo di raccola informazioni: [clicca qui](https://shimo.im/docs/JqX9CvrqphPV9T3J/).
 

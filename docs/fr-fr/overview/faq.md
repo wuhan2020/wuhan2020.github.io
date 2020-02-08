@@ -18,11 +18,11 @@ R：Le contenu principal du projet est de saisir des informations (collecte de d
 
 **Q: Quelle est la principale méthode de communication?**
 
-R：Nous avons un groupe sur Slack(https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)，Bienvenue à nous rejoindre pour discuter de divers problèmes techniques ou non techniques.
+R：Nous avons un groupe sur [Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，Bienvenue à nous rejoindre pour discuter de divers problèmes techniques ou non techniques.
 
 Lien d'invitation：
 
-[https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)
+[https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)
 
 Des informations sur chaque chaîne sont fournies [ici](./README.md#Slack交流群组)。Si vous pensez que le lien a expiré, veuillez soulever [Issue](https://github.com/wuhan2020/wuhan2020/issues/)
 
@@ -63,7 +63,7 @@ R：Le projet favorise actuellement l'intégration des informations officielles 
 
 **Q：Comment dois-je faire des suggestions?**
 
-R：Lorsque vous faites des suggestions, veuillez essayer de fournir des idées et des solutions. 
+R：Lorsque vous faites des suggestions, veuillez essayer de fournir des idées et des solutions.
 
 **Q：Pourquoi l'issue que j'ai créé a-t-il été fermé?**
 

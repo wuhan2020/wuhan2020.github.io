@@ -1,3 +1,5 @@
+# Contribution Guide
+
 <!-- TOC -->
 
 - [Guide For contribution](#Guide-For-contribution)
@@ -19,8 +21,8 @@
 
 <!-- /TOC -->
 
-# Guide For contribution
 ## To submit data
+
 **This is the main repository, all the data import is accomplished automatically by scripts. So please don’t submit data to this repository directly. To submit data , please check [README](../../zh-cn/dev/README.md)**。
 
 > This platform uses Shimo (a cloud-based productivity suite) to collect data. The data will be automatically submitted to the repository in the form of Rps by scripts.
@@ -211,5 +213,5 @@ To know details of robot configuration, please check [hypertrons.json](./.github
 
 ## Meet us on Slack
 
-Furthermore , we have our [Slack group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)，where those channels for frontend backend and data sync are already prepared , meet us on Slack for a better communication both on technical and non-technical themes.
+Furthermore , we have our [Slack group](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)，where those channels for frontend backend and data sync are already prepared , meet us on Slack for a better communication both on technical and non-technical themes.
 Let's work together through this tough period to fight against the coronavirus!
