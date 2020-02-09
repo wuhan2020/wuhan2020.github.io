@@ -143,7 +143,7 @@ Create a `pull request` to the upstream repository. As shown:
 ![pull-request](/images/docs/pull-request.png)
 
 ![open-pr](/images/docs/open-pr.png)
-如果其他人 `review` 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 PR 将会自动同步该 `commit` 。
+If someone needs to make changes after the `reviews` validation, modify the relevant content, and then run the following commandes, the Pull Request will automatically synchronize with this `commit`.
 
 ```bash
 git add .
