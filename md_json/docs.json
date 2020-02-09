@@ -159,6 +159,11 @@
   ],
   "ja-jp": [
     {
+      "filename": "information-guide.md",
+      "link": "/ja-jp/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
       "filename": "quickstart.md",
       "link": "/ja-jp/docs/dev/quickstart.html",
       "meta": {}
