@@ -1,0 +1,113 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.project-page {
+  h3 {
+    font-family: Avenir-Medium;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin: 0 0 30px;
+  }
+  p {
+    font-family: Avenir-Medium;
+  }
+  .project-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    @media screen and (max-width: $mobileWidth) {
+      display: block;
+      justify-content: initial;
+      align-items: initial;
+    }
+    .img-container {
+      width: 20%;
+      text-align: center;
+      @media screen and (max-width: $mobileWidth) {
+        width: initial;
+        text-align: initial;
+      }
+      img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+    .project-text-container {
+      width: 50%;
+      padding-left: 3%;
+      @media screen and (max-width: $mobileWidth) {
+        width: inherit;
+        padding-left: 0;
+        h4 {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .projects-section {
+    max-width: $contentWidth;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 80px 40px 60px;
+    @media screen and (max-width: $mobileWidth) {
+      padding: 0;
+    }
+    
+    .event-card {
+      width: 373px;
+      font-size: 0;
+      img {
+        width: 373px;
+        height: 145px;
+      }
+      @media screen and (max-width: $mobileWidth / 2) {
+        width: 320px;
+        img {
+          width: 320px;
+          height: 179px;
+        }
+      }
+      .event-introduction {
+        padding: 20px;
+        background: #F8F8F8;
+        h4 {
+          font-family: Avenir-Medium;
+          font-weight: 700;
+          font-size: 20px;
+          color: #333;
+          margin: 0 0 10px;
+        }
+        p {
+          font-family: Avenir-Medium;
+          font-size: 14px;
+          color: #666;
+          margin: 0;
+        }
+        a {
+          display: inline-block;
+          width: 100%;
+          font-family: Avenir-Medium;
+          font-size: 12px;
+          color: #999;
+          margin-top: 10px;
+          .arrow {
+            width: 8px;
+            height: 13px;
+            float: right;
+          }
+        }
+      }
+    }
+  }
+}
