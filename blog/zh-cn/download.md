@@ -14,6 +14,10 @@ description: 本文将向你介绍如何点击了解各版本详情和升级注�
 
 网站：https://wuhan2020.kaiyuanshe.cn/
 
+## Wuhan2020社区官网
+
+网站：https://community.wuhan2020.org.cn/
+
 ## 2019-nCoV-Nav 疫情信息导航
 
 2019-nCoV-Nav 疫情信息导航：http://nav.werty.cn 
