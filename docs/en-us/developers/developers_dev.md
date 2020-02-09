@@ -1,12 +1,12 @@
 ---
-title: Contributors
+title: 寄稿者
 keywords: Wuhan2020, Contributors
 description: Wuhan2020 Team.
 ---
 
-## Wuhan2020 Team
+## Wuhan2020 プロジェクトチーム
 
-This page shows Seata developers and continues to expand. The list is not prioritized.
+このページはこのプロジェクトへの貢献者を示しており、拡大を続けています。 リストは優先されません。
 
 # Developer List
 
