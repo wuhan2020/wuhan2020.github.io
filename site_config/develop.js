@@ -22,7 +22,7 @@ export default {
 
                     {
                         title: 'Sviluppatori',
-                        link: '/en-us/docs/developers/developers_dev.html',
+                        link: '/it-it/docs/developers/developers_dev.html',
                     },
                 ],
             },
@@ -37,7 +37,7 @@ export default {
 
                     {
                         title: '開発者',
-                        link: '/en-us/docs/developers/developers_dev.html',
+                        link: '/ja-jp/docs/developers/developers_dev.html',
                     },
                 ],
             },
