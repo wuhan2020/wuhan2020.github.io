@@ -39,20 +39,27 @@ Then you are all set to run and build the website. Follow the build instruction 
 1. Add new .md file under docs/en-us or docs/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Update site_config/docs.js, add a new entry to the blog in either en-us or zh-cn.
 3. Run docsite start locally to verify the blog can be displayed correctly.
-4. Send the pull request contains the .md and doc.js only.
+4. Send the pull request containing the .md and doc.js only.
 
 ### Add a new article for developers
 
 1. Add new .md file under docs/en-us/developers or docs/zh-cn/developers, the file name should end up with _dev.md. Note that the suffix _dev is necessary.
 2. Update site_config/develop.js, add a new entry in either en-us or zh-cn.
 3. Run docsite start locally to verify the article can be displayed correctly.
-4. Send the pull request contains the *_dev.md and develop.js only.
+4. Send the pull request containing the *_dev.md and develop.js only.
+
+### Add a new project showcase
+
+1. Open project.js directly and find the appropriate language block, such as "en-us".
+2. Add a project entry under `projects.list` and please make sure that the entry contains `img`, `title`, `description` and `link`.
+3. Run docsite start locally to verify the article can be displayed correctly.
+4. Send the pull request containing the project.js only.
 
 ### Add a new blog
 
 1. Add new .md file under blog/en-us or blog/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Run docsite start locally to verify the blog can be displayed correctly.
-3. Send the pull request contains the .md only.
+3. Send the pull request containing the .md only.
 4. `SEO` config is required.
 
 notice : Blog documents will be automatically sorted by time, without menu configuration
