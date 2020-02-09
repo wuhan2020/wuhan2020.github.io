@@ -33,3 +33,14 @@ pages:
       title: 'Blog'
       keywords: 'Wuhan2020,Blog'
       description: 'Wuhan2020 Blog'
+  project:
+    # 项目列表页配置
+    zh-cn:
+      title: '项目列表'
+      keywords: 'Wuhan2020,项目列表'
+      description: 'Wuhan2020 项目列表'
+    # project list page config
+    en-us:
+      title: 'Projects'
+      keywords: 'Wuhan2020, Projects'
+      description: 'Wuhan2020 projects'
