@@ -13,6 +13,13 @@ export default {
                     dateStr: 'Jan 29th，2020',
                     link: '/en-us/blog/wuhan2020-official-announcement.html',
                 },
+                {
+                  img: '/images/blog/wuhan2020.png',
+                  title: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis',
+                  content: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis ',
+                  dateStr: 'Feb 1st, 2020',
+                  link: '/en-us/blog/how-to-join-wuhan2020.html',
+                },
             ],
         },
         contacts: {
