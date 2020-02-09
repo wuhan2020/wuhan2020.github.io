@@ -1,0 +1,10 @@
+{
+  "filename": "developers_dev.md",
+  "__html": "<h2>Wuhan2020 寄稿者</h2>\n<p>このページは、このプロジェクトへの貢献者が拡大し続けていることを示しています。 リストは優先されません。</p>\n<h1>開発者リスト</h1>\n<table>\n<thead>\n<tr>\n<th>お名前</th>\n<th>GitHub</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/frank-zsy\">frank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>データアナリスト</h1>\n<h1>デザイナー</h1>\n<h1>日本語訳</h1>\n<p>GindaChen\nIsabella\nZoe\nYoki</p>\n",
+  "link": "/ja-jp/docs/developers/developers_dev.html",
+  "meta": {
+    "title": "寄稿者",
+    "keywords": "Wuhan2020, 寄稿者",
+    "description": "Wuhan2020 Team."
+  }
+}
