@@ -88,7 +88,7 @@ export default {
                 },
             ],
         },
-        copyright: 'Copyright © 2020 Wuahan2020',
+        copyright: 'Copyright © 2020 Wuhan2020',
         sponsors: {
           title: 'Sponsors',
           list: [
@@ -152,15 +152,15 @@ export default {
             title: 'Documentazione',
             list: [
                 {
-                    text: "Che cos'è Wuhan2020?",
+                    text: "Di cosa si occupa Wuhan2020?",
                     link: '/it-it/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: 'Avvio veloce',
+                    text: 'Inizia subito',
                     link: '/it-it/docs/dev/quickstart.html',
                 },
                 {
-                    text: 'Segnala un problema con il documento',
+                    text: 'Segnala un problema riguardo il documento',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
@@ -170,14 +170,14 @@ export default {
             ],
         },
         resources: {
-            title: 'risorse',
+            title: 'Risorse',
             list: [
                 {
                     text: 'Blog',
                     link: '/it-it/blog/index.html',
                 },
                 {
-                    text: 'Comunità',
+                    text: 'Community',
                     link: '/it-it/community/index.html',
                 },
             ],
@@ -390,79 +390,79 @@ export default {
         pageMenu: [
             {
                 key: 'home',
-                text: '首页',
+                text: 'HOME',
                 link: '/fr-fr/index.html',
             },
             {
                 key: 'docs',
-                text: '文档',
+                text: 'DOCS',
                 link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
             },
             {
                 key: 'developers',
-                text: '贡献者',
+                text: 'CONTRIBUTORS',
                 link: '/fr-fr/docs/developers/developers_dev.html',
             },
             {
                 key: 'blog',
-                text: '博客',
+                text: 'BLOG',
                 link: '/fr-fr/blog/index.html',
             },
             {
                 key: 'community',
-                text: '社区',
+                text: 'COMMUNITY',
                 link: '/fr-fr/community/index.html',
             },
             {
                 key: 'download',
-                text: '产品',
+                text: 'PRODUCT',
                 link: '/fr-fr/blog/download.html',
             },
             {
-              key: 'mis',
-              text: '新型冠状病毒防疫信息平台',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+                key: 'mis',
+                text: '2019-NCOV INFORMATION PLATFORM',
+                link: 'https://wuhan2020.kaiyuanshe.cn',
             },
         ],
         vision: {
-            title: '愿景',
-            content: '众志成城，共克时艰！',
+            title: 'Vision',
+            content: 'Unite as one and drive out the plague!',
         },
         documentation: {
-            title: '文档',
+            title: 'Documentation',
             list: [
                 {
-                    text: 'Wuhan2020 项目是干什么的？',
+                    text: 'What is Wuhan2020?',
                     link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: '快速开始',
+                    text: 'Quick Start',
                     link: '/fr-fr/docs/dev/quickstart.html',
                 },
                 {
-                    text: '报告文档问题',
+                    text: 'Report a doc issue',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
-                    text: '在Github上编辑此文档',
+                    text: 'Edit This Page on GitHub',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io',
                 }
             ],
         },
         resources: {
-            title: '资源',
+            title: 'Resources',
             list: [
                 {
-                    text: '博客',
+                    text: 'Blog',
                     link: '/fr-fr/blog/index.html',
                 },
                 {
-                    text: '社区',
+                    text: 'Community',
                     link: '/fr-fr/community/index.html',
                 },
             ],
         },
-        copyright: 'Copyright © 2020 Wuhan2020',
+        copyright: 'Copyright © 2020 Wuahan2020',
         sponsors: {
           title: 'Sponsors',
           list: [

@@ -1,1 +1,1 @@
-# 技术架构
+# Architecture technique
