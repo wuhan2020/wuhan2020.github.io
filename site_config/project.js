@@ -3,7 +3,6 @@ export default {
         barText: 'Projects',
         sectionDescription: "The community has released the following open-sourced projects",
         projects: {
-            title: 'Events & News',
             list: [
                 {
                     img: '/images/blog/wuhan2020.png',
