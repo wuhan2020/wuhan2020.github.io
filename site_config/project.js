@@ -1,6 +1,6 @@
 export default {
     'en-us': {
-        barText: 'Products',
+        barText: 'Projects',
         sectionDescription: "The community has released the following open-sourced projects",
         projects: {
             title: 'Events & News',

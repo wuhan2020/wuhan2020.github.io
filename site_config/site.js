@@ -41,7 +41,7 @@ export default {
             },
             {
                 key: 'list',
-                text: 'PRODUCTS',
+                text: 'PROJECTS',
                 link: '/en-us/project/index.html',
             },
             {
