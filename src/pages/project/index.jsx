@@ -29,15 +29,6 @@ class Project extends Language {
                     <ProjectItem project={project} key={i} />
                     ))}
                 </section>
-                <section className="contributor-section">
-                <div className="contributor-list">
-                {
-                    // dataSource.contributorGuide.list.map((contributor, i) => (
-                    // // <ContributorItem contributor={contributor} key={i} />
-                    // ))
-                }
-                </div>
-                </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );
