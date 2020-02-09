@@ -158,7 +158,7 @@ export default {
       buttons: [
         {
           text: 'Get Started',
-          link: '/en-us/docs/overview/what-is-wuhan2020.html',
+          link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
           type: 'primary',
         },
         {
