@@ -1,15 +1,6 @@
 {
   "zh-cn": [
     {
-      "filename": "download.md",
-      "link": "/zh-cn/blog/download.html",
-      "meta": {
-        "title": "产品列表",
-        "keywords": "武汉新型冠状病毒防疫信息收集平台, Downloads, Version",
-        "description": "本文将向你介绍如何点击了解各版本详情和升级注意事项。"
-      }
-    },
-    {
       "filename": "how-to-join-wuhan2020.md",
       "link": "/zh-cn/blog/how-to-join-wuhan2020.html",
       "meta": {
@@ -56,15 +47,6 @@
   ],
   "en-us": [
     {
-      "filename": "download.md",
-      "link": "/en-us/blog/download.html",
-      "meta": {
-        "title": "Product List",
-        "keywords": "Wuhan2020, Downloads, Version",
-        "description": "This article will introduce you how to understand the details of each version and upgrade matters needing attention."
-      }
-    },
-    {
       "filename": "how-to-join-wuhan2020.md",
       "link": "/en-us/blog/how-to-join-wuhan2020.html",
       "meta": {
@@ -88,15 +70,6 @@
   ],
   "ja-jp": [
     {
-      "filename": "download.md",
-      "link": "/ja-jp/blog/download.html",
-      "meta": {
-        "title": "製品リスト",
-        "keywords": "Wuhan2020, Downloads, Version",
-        "description": "この記事では、各バージョンの詳細を理解する方法と、注意が必要なアップグレード事項を紹介します。"
-      }
-    },
-    {
       "filename": "wuhan2020-official-announcement.md",
       "link": "/ja-jp/blog/wuhan2020-official-announcement.html",
       "meta": {
@@ -111,15 +84,6 @@
   ],
   "it-it": [
     {
-      "filename": "download.md",
-      "link": "/it-it/blog/download.html",
-      "meta": {
-        "title": "Elenco dei prodotti",
-        "keywords": "Wuhan2020, Downloads, Version",
-        "description": "Questo articolo ti spiegherà come comprendere i dettagli di ciascuna versione e aggiornare le questioni che richiedono attenzione."
-      }
-    },
-    {
       "filename": "wuhan2020-official-announcement.md",
       "link": "/it-it/blog/wuhan2020-official-announcement.html",
       "meta": {
@@ -131,15 +95,6 @@
     }
   ],
   "fr-fr": [
-    {
-      "filename": "download.md",
-      "link": "/fr-fr/blog/download.html",
-      "meta": {
-        "title": "Liste de produits",
-        "keywords": "Plateforme de collecte d'informations anti-épidémiques 2019-nCoV, Téléchargement, Version",
-        "description": "Cliquez ici pour en savoir plus sur chaque version et notes de mise à niveau."
-      }
-    },
     {
       "filename": "wuhan2020-official-announcement.md",
       "link": "/fr-fr/blog/wuhan2020-official-announcement.html",
