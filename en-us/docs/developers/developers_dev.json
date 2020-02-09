@@ -1,9 +1,9 @@
 {
   "filename": "developers_dev.md",
-  "__html": "<h2>Wuhan2020 プロジェクトチーム</h2>\n<p>このページはこのプロジェクトへの貢献者を示しており、拡大を続けています。 リストは優先されません。</p>\n<h1>Developer List</h1>\n<table>\n<thead>\n<tr>\n<th>name</th>\n<th>github</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/frank-zsy\">frank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>Data analyst</h1>\n<h1>Designers</h1>\n<h1>Product managers</h1>\n",
+  "__html": "<h2>Wuhan2020 Contributors</h2>\n<p>This page shows Seats developers and continues to expand. The list is not prioritized.</p>\n<h1>Developer List</h1>\n<table>\n<thead>\n<tr>\n<th>name</th>\n<th>github</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/frank-zsy\">frank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>Data analyst</h1>\n<h1>Designers</h1>\n<h1>Product managers</h1>\n",
   "link": "/en-us/docs/developers/developers_dev.html",
   "meta": {
-    "title": "寄稿者",
+    "title": "Contributors",
     "keywords": "Wuhan2020, Contributors",
     "description": "Wuhan2020 Team."
   }
