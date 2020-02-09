@@ -52,7 +52,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 
 1. Open project.js directly and find the appropriate language block, such as "en-us".
 2. Add a project entry under `projects.list` and please make sure that the entry contains `img`, `title`, `description` and `link`.
-3. Run docsite start locally to verify the article can be displayed correctly.
+3. Run docsite start locally to verify the project can be displayed correctly.
 4. Send the pull request containing the project.js only.
 
 ### Add a new blog
