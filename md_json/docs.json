@@ -261,6 +261,15 @@
       "meta": {}
     },
     {
+      "filename": "mailing-list-guide.md",
+      "link": "/fr-fr/docs/dev/mailing-list-guide.html",
+      "meta": {
+        "title": "Guide d'inscription à la liste de diffusion",
+        "keywords": "Mail, inscription, guide, liste de mail",
+        "description": "Comment s'inscrire à la liste de diffusion"
+      }
+    },
+    {
       "filename": "quickstart.md",
       "link": "/fr-fr/docs/dev/quickstart.html",
       "meta": {}
