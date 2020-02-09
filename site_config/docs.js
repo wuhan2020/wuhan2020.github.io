@@ -147,7 +147,7 @@ export default {
                     },
                     {
                         title: '貢献の手引き',
-                        link: '/en-us/docs/dev/contributing.html',
+                        link: '/ja-jp/docs/dev/contributing.html',
                     },
                     {
                         title: 'Githubリポジトリ処理',
