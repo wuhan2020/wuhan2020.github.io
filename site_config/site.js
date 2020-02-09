@@ -152,15 +152,15 @@ export default {
             title: 'Documentazione',
             list: [
                 {
-                    text: "Che cos'è Wuhan2020?",
+                    text: "Di cosa si occupa Wuhan2020?",
                     link: '/it-it/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: 'Avvio veloce',
+                    text: 'Inizia subito',
                     link: '/it-it/docs/dev/quickstart.html',
                 },
                 {
-                    text: 'Segnala un problema con il documento',
+                    text: 'Segnala un problema riguardo il documento',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
@@ -170,14 +170,14 @@ export default {
             ],
         },
         resources: {
-            title: 'risorse',
+            title: 'Risorse',
             list: [
                 {
                     text: 'Blog',
                     link: '/it-it/blog/index.html',
                 },
                 {
-                    text: 'Comunità',
+                    text: 'Community',
                     link: '/it-it/community/index.html',
                 },
             ],
@@ -389,7 +389,7 @@ export default {
     'fr-fr': {
         pageMenu: [
             {
-                key: 'home', 
+                key: 'home',
                 text: 'HOME',
                 link: '/fr-fr/index.html',
             },
