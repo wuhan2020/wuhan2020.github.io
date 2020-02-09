@@ -40,9 +40,9 @@ export default {
                 link: '/en-us/community/index.html',
             },
             {
-                key: 'download',
-                text: 'PRODUCT',
-                link: '/en-us/blog/download.html',
+                key: 'list',
+                text: 'PROJECTS',
+                link: '/en-us/project/index.html',
             },
             {
                 key: 'mis',
@@ -133,9 +133,9 @@ export default {
                 link: '/it-it/community/index.html',
             },
             {
-                key: 'download',
+                key: 'list',
                 text: 'RISULTATI',
-                link: '/it-it/blog/download.html',
+                link: '/it-it/project/index.html',
             }
             ,
             {
@@ -227,9 +227,9 @@ export default {
                 link: '/ja-jp/community/index.html',
             },
             {
-                key: 'download',
+                key: 'list',
                 text: '製品',
-                link: '/ja-jp/blog/download.html',
+                link: '/ja-jp/project/index.html',
             }
             ,
             {
@@ -321,9 +321,9 @@ export default {
                 link: '/zh-cn/community/index.html',
             },
             {
-                key: 'download',
-                text: '产品',
-                link: '/zh-cn/blog/download.html',
+                key: 'list',
+                text: '项目列表',
+                link: '/zh-cn/project/index.html',
             },
             {
               key: 'mis',
@@ -414,9 +414,9 @@ export default {
                 link: '/fr-fr/community/index.html',
             },
             {
-                key: 'download',
+                key: 'list',
                 text: 'PRODUCT',
-                link: '/fr-fr/blog/download.html',
+                link: '/fr-fr/project/index.html',
             },
             {
                 key: 'mis',
