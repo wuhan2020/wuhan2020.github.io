@@ -420,7 +420,7 @@ export default {
             },
             {
                 key: 'mis',
-                text: 'Plateforme d''informations 2019-nCoV',
+                text: 'Plateforme d\'informations 2019-nCoV',
                 link: 'https://wh.opensource-service.cn/',
             },
         ],
@@ -432,7 +432,7 @@ export default {
             title: 'Documentation',
             list: [
                 {
-                    text: 'Qu''est-ce que Wuhan2020 ?',
+                    text: 'Qu\'est-ce que Wuhan2020 ?',
                     link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                 },
                 {
