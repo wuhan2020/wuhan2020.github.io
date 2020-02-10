@@ -138,11 +138,11 @@ export default {
   },
   'fr-fr': {
     brand: {
-      brandName: 'What is the community of wuhan2020 ?',
-      briefIntroduction: 'What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture.',
+      brandName: 'Qu''est-ce que Wuhan2020 ?',
+      briefIntroduction: 'Ce que nous faisons: mettre en place un service de données en temps réel et synchrone pour les hôpitaux, les usines et les achats, etc., et réunir tous ceux qui veulent contribuer à la campagne anti-virus, afin que toutes les personnes compétentes puissent participer dans le développement de sujets connexes, et le compléter de manière auto-organisée et collaborative avec la culture communautaire open source.',
       buttons: [
         {
-          text: 'Get Started',
+          text: 'Démarrage Rapide',
           link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
           type: 'primary',
         },
@@ -154,17 +154,17 @@ export default {
       ],
     },
     features: {
-      title: 'Community Introduction',
+      title: 'Présentation de la communauté',
       list: [
         {
-          icon: 'feature-1',
-          title: '2019-nCov Information Platform',
-          content: 'An information system developed by the community. Facilitate the information exchange between resource providers (medical resource donors, logistics companies, hotels, free clinic resources) and those who need help (hospitals, people in the disaster area), so as to facilitate and quickly help the people in the disaster area.',
+          icon: 'fonctionnalité-1',
+          text: 'Plateforme d''informations anti-épidémiques 2019-nCoV',
+          content: 'Un système d''information développé par la communauté. Faciliter l''échange d''informations entre les fournisseurs de ressources (donateurs de ressources médicales, sociétés de services logistiques, hôtels et fournisseurs de soutien médical gratuit, etc.) et ceux qui ont besoin d''aide (hôpitaux et autres établissements de santé, patients, etc.), afin d''accélérer le soutien de la population dans les zones touchées.',
         },
         {
-          icon: 'feature-2',
-          title: 'Wuhan2020 Community',
-          content: 'At present, there are more than 3000 volunteers from different countries in Wuhan 2020 community. There are programmers, product managers, designers, project managers, data analysts, information collectors, translators, media workers, students, etc. Through the establishment of information system, data analysis and prediction, it makes contribution to the resistance of new coronavirus.',
+          icon: 'fonctionnalité-2',
+          title: 'Communauté Wuhan2020',
+          content: 'À ce jour, la communauté Wuhan2020 a accueilli plus de 3000 bénévoles de différents pays. Cela inclut les développeurs, les chefs de produit, les web designers, les chefs de projet, les analystes de données, les collecteurs d'informations, les traducteurs, les gens des médias, les étudiants, etc. Mise en place d'un système d'information, l'analyse des données, la communauté contribue à la lutte contre le coronavirus.',
         }
       ],
     },

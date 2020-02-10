@@ -238,10 +238,10 @@ export default {
     'fr-fr': {
         sidemenu: [
             {
-                title: 'Overview',
+                title: 'Aperçu',
                 children: [
                     {
-                        title: 'What is Wuahan2020?',
+                        title: 'Qu''est-ce que Wuhan2020 ?',
                         link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                     },
                     {
@@ -252,35 +252,39 @@ export default {
             },
 
             {
-                title: 'User Doc',
+                title: 'Document d''utilisateur',
                 children: [
                     {
-                        title: 'Website Guide',
+                        title: 'Guide de site web',
                         link: '/fr-fr/docs/user/website-guide.html',
                     }
                 ],
             },
             {
-                title: 'Developer Guide',
+                title: 'Guide de développeur',
                 children: [
                     {
-                        title: 'Quick Start',
+                        title: 'Démarrage Rapide',
                         link: '/fr-fr/docs/dev/quickstart.html',
                     },
                     {
-                        title: 'Data Collection Guide',
+                        title: 'Guide de collecte de données',
                         link: '/fr-fr/docs/dev/information-guide.html',
                     },
                     {
-                        title: 'Architecture Diagram',
+                        title: 'Guide d''inscription à la liste de diffusion',
+                        link: '/fr-fr/docs/dev/mailing-list-guide.html',
+                    },
+                    {
+                        title: 'Diagramme d''architecture',
                         link: '/fr-fr/docs/dev/architecture.html',
                     },
                     {
-                        title: 'Guide For contribution',
+                        title: 'Guide de contribution',
                         link: '/fr-fr/docs/dev/contributing.html',
                     },
                     {
-                        title: 'Github Repo processing',
+                        title: 'Github dépôt procédures',
                         link: '/fr-fr/docs/dev/dev-env-setup.html',
                     },
                 ],
