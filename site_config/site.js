@@ -47,7 +47,7 @@ export default {
             {
                 key: 'mis',
                 text: '2019-NCOV INFORMATION PLATFORM',
-                link: 'https://wuhan2020.kaiyuanshe.cn',
+                link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -141,7 +141,7 @@ export default {
             {
               key: 'mis',
               text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -235,7 +235,7 @@ export default {
             {
               key: 'mis',
               text: '情報収集プラットフォーム',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -328,7 +328,7 @@ export default {
             {
               key: 'mis',
               text: '新型冠状病毒防疫信息平台',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -421,7 +421,7 @@ export default {
             {
                 key: 'mis',
                 text: '2019-NCOV INFORMATION PLATFORM',
-                link: 'https://wuhan2020.kaiyuanshe.cn',
+                link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
