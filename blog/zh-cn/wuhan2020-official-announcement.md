@@ -32,7 +32,7 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 
 | 项目 | 地址          | 所属组      | 介绍                  |
 | --- | ------------- | ---------- | -------------------- |
-| 渐进式 Web 应用  | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ 的前端源码 |
+| 渐进式 Web 应用  | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wh.opensource-service.cn/ 的前端源码 |
 | 数据同步    | https://github.com/wuhan2020/data-sync        |[#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P)|                                        |
 | API 服务 | https://github.com/wuhan2020/api-server       | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |               |
 | 地图可视化组件   | https://github.com/wuhan2020/map-viz | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |        |

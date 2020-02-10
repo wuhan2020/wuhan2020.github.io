@@ -37,7 +37,7 @@ Risorse e sotto-progetti
 
 | Sotto-progetto                           | Collegamento                                                         | #team                                                        | Descrizione                                               |
 | ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
-| Web app front-end                     | https://wuhan2020.kaiyuanshe.cn/                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ codice sorgente front-end |
+| Web app front-end                     | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ codice sorgente front-end |
 | Sincronizzazione dati                      | https://github.com/wuhan2020/data-sync                       | [#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P) |                                                       |
 | Server API                                | https://github.com/wuhan2020/api-server                      | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |                                                       |
 | Componenti di visualizzazione della mappa | https://github.com/wuhan2020/map-viz                         | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |                                                       |

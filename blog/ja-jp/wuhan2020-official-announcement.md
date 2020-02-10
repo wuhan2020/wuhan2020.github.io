@@ -46,7 +46,7 @@ wuhan2020の皆さん、いつも多大なご協力を頂き、誠にありが�
 
 | プロジェクト | URL       | 所属组      | 介绍                  |
 | --- | ------------- | ---------- | -------------------- |
-| プログレッシブ WEBアプリケーション(Progressive Web Apps, 以下PWA) | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ フロントエンドのコード |
+| プログレッシブ WEBアプリケーション(Progressive Web Apps, 以下PWA) | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wh.opensource-service.cn/ フロントエンドのコード |
 | 数据同步    | https://github.com/wuhan2020/data-sync        |[#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P)|                                        |
 | API サーバー | https://github.com/wuhan2020/api-server       | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |               |
 | 地図上のデータ可視化                                         | https://github.com/wuhan2020/map-viz | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |        |
