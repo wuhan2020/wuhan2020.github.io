@@ -21,15 +21,22 @@
 
   </script>
   <script src="<%= rootPath %>/build/<%= page %>.js"></script>
-  
+
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?b6e4b6fa9a64719756faaf4e9b314bb7";
-  var s = document.getElementsByTagName("script")[0]; 
+  var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
+</script>
+
+<script type="text/javascript" src="https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({}, 'google_translate_element');
+  }
 </script>
 
 </body>

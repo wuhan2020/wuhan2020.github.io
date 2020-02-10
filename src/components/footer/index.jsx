@@ -28,6 +28,7 @@ class Footer extends React.Component {
         <div className="footer-body">
           <img src={getLink(logo)} />
           <p className="docsite-power">website powered by docsite</p>
+          <div id="google_translate_element"></div>
           <div className="cols-container">
             <div className="col col-6">
               <h3>{dataSource.vision.title}</h3>
