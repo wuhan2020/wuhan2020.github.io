@@ -16,7 +16,7 @@ Dear friends and volunteers, we are the core organizers of `wuhan2020`, a projec
 
 
 
-The online web entrance of our project: `Information Collection Platform for Wuhan 2019-nCoV Epidemic Prevention  (in Chinese 新型冠状病毒防疫信息平台)` [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+The online web entrance of our project: `Information Collection Platform for Wuhan 2019-nCoV Epidemic Prevention  (in Chinese 新型冠状病毒防疫信息平台)` [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
 
 
 
@@ -42,7 +42,7 @@ info source： https://github.com/wuhan2020/data-sync
 
 | sub-projects               | links                                                        | #teams                                                       | specification                                         |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
-| progressive web app        | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ frontend source code |
+| progressive web app        | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wh.opensource-service.cn/ frontend source code |
 | data synchronization       | https://github.com/wuhan2020/data-sync                       | [#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P) |                                                       |
 | API server                 | https://github.com/wuhan2020/api-server                      | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |                                                       |
 | map visulization component | https://github.com/wuhan2020/map-viz                         | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |                                                       |

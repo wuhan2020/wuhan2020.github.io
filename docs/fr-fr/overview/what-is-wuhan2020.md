@@ -12,7 +12,7 @@ Nous espérons construire conjointement un projet de partage d'informations open
 
 ### Si vous voulez fournir des ressources et des informations
 
-Si vous souhaitez fournir des informations d'assistance sur les hôpitaux, la logistique, les hôtels, la production, les dons, les cliniques gratuites, etc., veuillez consulter - **La Plateforme d'Information sur La Prévention des Épidémies de Coronavirus**: [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+Si vous souhaitez fournir des informations d'assistance sur les hôpitaux, la logistique, les hôtels, la production, les dons, les cliniques gratuites, etc., veuillez consulter - **La Plateforme d'Information sur La Prévention des Épidémies de Coronavirus**: [https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 ### Si vous êtes développeur, traducteur, journaliste et prêt à fournir un support technique
 

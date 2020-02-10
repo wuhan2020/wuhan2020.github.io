@@ -15,7 +15,7 @@ Ciao a tutti i volontari, siamo il core team volontario di wuhan2020, un progett
 2. invitare più persone ad unirsi al progetto svolgendo un ruolo importante sulla base delle proprie capacità professionali;
 3. portare a successo l'organizzazione collaborativa con lo spirito della comunità OpenSource.
 
-Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus 2019-nCoV[https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus 2019-nCoV[https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 ## OPEN SOURCE & COLLABORAZIONE
 
@@ -37,7 +37,7 @@ Risorse e sotto-progetti
 
 | Sotto-progetto                           | Collegamento                                                         | #team                                                        | Descrizione                                               |
 | ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
-| Web app front-end                     | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ codice sorgente front-end |
+| Web app front-end                     | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wh.opensource-service.cn/ codice sorgente front-end |
 | Sincronizzazione dati                      | https://github.com/wuhan2020/data-sync                       | [#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P) |                                                       |
 | Server API                                | https://github.com/wuhan2020/api-server                      | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |                                                       |
 | Componenti di visualizzazione della mappa | https://github.com/wuhan2020/map-viz                         | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |                                                       |
