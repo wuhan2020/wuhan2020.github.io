@@ -89,7 +89,13 @@
       span {
         display: inline-block;
         margin: 0 auto;
-      } 
+      }
+    }
+    #google_translate_element {
+      img {
+        height: 14px;
+        margin-right: 0;
+      }
     }
   }
 }
