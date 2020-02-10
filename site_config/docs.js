@@ -32,8 +32,16 @@ export default {
                         link: '/en-us/docs/dev/quickstart.html',
                     },
                     {
+                      title: 'Team Workflow (Chinese)',
+                      link: '/zh-cn/docs/dev/team-workflow.html', // en-us is not ready
+                    },
+                    {
                         title: 'Data Collection Guide',
                         link: '/en-us/docs/dev/information-guide.html',
+                    },
+                    {
+                      title: 'Mailing List Subscription Guide (Chinese)',
+                      link: '/zh-cn/docs/dev/mailing-list-guide.html', // en-us is not ready
                     },
                     {
                         title: 'Architecture Diagram',
@@ -58,12 +66,12 @@ export default {
                 title: 'Panoramica',
                 children: [
                     {
-                        title: "Che cos'è Wuahan2020?",
-                        link: '/en-us/docs/overview/what-is-wuhan2020.html',
+                        title: "Di cosa si occupa Wuahan2020? ",
+                        link: '/it-it/docs/overview/what-is-wuhan2020.html',
                     },
                     {
-                        title: 'FAQ',
-                        link: '/en-us/docs/overview/faq.html',
+                        title: 'FAQ (Inglese)',
+                        link: '/it-it/docs/overview/faq.html',
                     }
                 ],
             },
@@ -72,7 +80,7 @@ export default {
                 title: 'Doc. Utente',
                 children: [
                     {
-                        title: 'Guida del sito Web',
+                        title: 'Guida alla piattaforma di prevenzione epidemica 2019-nCoV (Inglese)',
                         link: '/en-us/docs/user/website-guide.html',
                     }
                 ],
@@ -81,29 +89,37 @@ export default {
                 title: 'Guida per gli sviluppatori',
                 children: [
                     {
-                        title: 'Avvio veloce',
-                        link: '/en-us/docs/dev/quickstart.html',
+                        title: 'Inizia subito',
+                        link: '/it-it/docs/dev/quickstart.html',
                     },
                     {
-                        title: 'Guida alla raccolta dei dati',
+                      title: 'Flusso di lavoro del team (Cinese)',
+                      link: '/zh-cn/docs/dev/team-workflow.html',
+                    },
+                    {
+                        title: 'Guida alla raccolta dei dati (Inglese)',
                         link: '/en-us/docs/dev/information-guide.html',
                     },
                     {
-                        title: "Diagramma dell'architettura",
+                      title: 'Guida all\'abbonamento della mailing list (Cinese)',
+                      link: '/zh-cn/docs/dev/mailing-list-guide.html',
+                    },
+                    {
+                        title: "Diagramma dell'architettura (Inglese)",
                         link: '/en-us/docs/dev/architecture.html',
                     },
                     {
-                        title: 'Guida per il contributo',
+                        title: 'Guida alla partecipazione (Inglese)',
                         link: '/en-us/docs/dev/contributing.html',
                     },
                     {
-                        title: 'Elaborazione di Github Repo',
+                        title: 'Gestione del repository su GitHub (Inglese)',
                         link: '/en-us/docs/dev/dev-env-setup.html',
                     },
                 ],
             },
         ],
-        barText: 'Documentation'
+        barText: 'Documentazione'
     },
     'ja-jp': {
         sidemenu: [

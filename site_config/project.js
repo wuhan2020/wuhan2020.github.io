@@ -14,7 +14,7 @@ export default {
         },
     },
     'it-it': {
-        barText: 'Sito web online',
+        barText: 'I Nostri Risultati',
         sectionDescription: '',
         projects: {
             list: [
