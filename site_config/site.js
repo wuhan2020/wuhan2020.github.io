@@ -390,7 +390,7 @@ export default {
         pageMenu: [
             {
                 key: 'home',
-                text: 'HOME',
+                text: 'Accueil',
                 link: '/fr-fr/index.html',
             },
             {
@@ -400,7 +400,7 @@ export default {
             },
             {
                 key: 'developers',
-                text: 'CONTRIBUTORS',
+                text: 'CONTRIBUTEURS',
                 link: '/fr-fr/docs/developers/developers_dev.html',
             },
             {
@@ -410,54 +410,54 @@ export default {
             },
             {
                 key: 'community',
-                text: 'COMMUNITY',
+                text: 'COMMUNAUTÉ',
                 link: '/fr-fr/community/index.html',
             },
             {
                 key: 'list',
-                text: 'PRODUCT',
+                text: 'PRODUIT',
                 link: '/fr-fr/project/index.html',
             },
             {
                 key: 'mis',
-                text: '2019-NCOV INFORMATION PLATFORM',
+                text: 'Plateforme d''informations 2019-nCoV',
                 link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
-            title: 'Vision',
-            content: 'Unite as one and drive out the plague!',
+            title: 'Notre devise',
+            content: 'Tous unis, nous le ferons !',
         },
         documentation: {
             title: 'Documentation',
             list: [
                 {
-                    text: 'What is Wuhan2020?',
+                    text: 'Qu''est-ce que Wuhan2020 ?',
                     link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: 'Quick Start',
+                    text: 'Démarrage Rapide',
                     link: '/fr-fr/docs/dev/quickstart.html',
                 },
                 {
-                    text: 'Report a doc issue',
+                    text: 'Signaler un problème avec le document',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
-                    text: 'Edit This Page on GitHub',
+                    text: 'Modifier cette page sur GitHub',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io',
                 }
             ],
         },
         resources: {
-            title: 'Resources',
+            title: 'Ressources',
             list: [
                 {
                     text: 'Blog',
                     link: '/fr-fr/blog/index.html',
                 },
                 {
-                    text: 'Community',
+                    text: 'Communauté',
                     link: '/fr-fr/community/index.html',
                 },
             ],
