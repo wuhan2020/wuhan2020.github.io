@@ -13,7 +13,7 @@ description: 建立一个医院、工厂、采购等信息实时同步的数据�
 
 ### 提供资源及信息
 
-如果您希望提供有关医院、物流、酒店、生产、捐赠、义诊等援助信息，请移步项目线上web入口：新型冠状病毒防疫信息平台 [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+如果您希望提供有关医院、物流、酒店、生产、捐赠、义诊等援助信息，请移步项目线上web入口：新型冠状病毒防疫信息平台 [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
 
 
 

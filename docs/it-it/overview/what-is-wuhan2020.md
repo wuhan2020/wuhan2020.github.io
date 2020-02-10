@@ -15,7 +15,7 @@ Questo progetto ha l'obiettivo di **raccogliere ed aggregare informazioni, otten
 
 ### Se vuoi fornire risorse o informazioni
 
-Inserisci i contenuti sulla nostra piattaforma di condivisione dati - **Piattaforma di Raccolta Informazioni per la Prevenzione Epidemica del Nuovo Coronavirus, Wuhan 2019-nCoV**: [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+Inserisci i contenuti sulla nostra piattaforma di condivisione dati - **Piattaforma di Raccolta Informazioni per la Prevenzione Epidemica del Nuovo Coronavirus, Wuhan 2019-nCoV**: [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
 
 La versione in lingua inglese del sito web è in via di realizzazione, ed al momento è richiesto un numero telefonico cinese valido per il caricamento di informazioni sulla piattaforma. Se incontri qualsiasi difficoltà, ti preghiamo di comunicarcelo [sollevando una problematica (`issue`) sulla pagina GitHub del progetto](https://github.com/wuhan2020/WebApp/issues) o [contattandoci su Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Il tuo aiuto è e sarà sempre apprezzato.
 

@@ -16,7 +16,7 @@ export default {
         },
         {
           text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          link: 'https://wh.opensource-service.cn/',
           type: 'normal',
         },
       ],
@@ -52,11 +52,6 @@ export default {
           link: 'https://github.com/wuhan2020/wuhan2020',
           type: 'normal',
         },
-        {
-          text: "Piattaforma per la prevenzione epidemica del nuovo coronavirus (Wuhan2019-nCoV)",
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
-          type: 'normal',
-        },
       ],
     },
     features: {
@@ -88,11 +83,6 @@ export default {
         {
           text: 'Github',
           link: 'https://github.com/wuhan2020/wuhan2020',
-          type: 'normal',
-        },
-        {
-          text: '武漢2019-nCoV流行防止のプラットフォーム',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
           type: 'normal',
         },
       ],
@@ -128,11 +118,6 @@ export default {
           link: 'https://github.com/wuhan2020/wuhan2020',
           type: 'normal',
         },
-        {
-          text: '武汉新型冠状病毒防疫信息平台',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
-          type: 'normal',
-        },
       ],
     },
     features: {
@@ -164,11 +149,6 @@ export default {
         {
           text: 'Github',
           link: 'https://github.com/wuhan2020/wuhan2020',
-          type: 'normal',
-        },
-        {
-          text: 'Platform for Wuhan 2019-nCoV Epidemic Prevention',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
           type: 'normal',
         },
       ],

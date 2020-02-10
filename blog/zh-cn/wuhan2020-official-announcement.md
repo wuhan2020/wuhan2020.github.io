@@ -11,7 +11,7 @@ date: 2019-01-29
 
 wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者核心团队，在抗击非冠病毒的战役中，我们希望通过共同构建一个开源信息共享项目，帮助武汉自组织救援工作更有效、更准确地开展。我们当前在做的事是：**建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。**
 
-项目线上web入口：新型冠状病毒防疫信息平台 [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn) 
+项目线上web入口：新型冠状病毒防疫信息平台 [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/) 
 
 ## 一、合作方式：开源协作理念
 
@@ -32,7 +32,7 @@ wuhan2020的所有朋友，大家好，我们是 GitHub 开源社区的志愿者
 
 | 项目 | 地址          | 所属组      | 介绍                  |
 | --- | ------------- | ---------- | -------------------- |
-| 渐进式 Web 应用  | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wuhan2020.kaiyuanshe.cn/ 的前端源码 |
+| 渐进式 Web 应用  | https://github.com/wuhan2020/WebApp           | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | https://wh.opensource-service.cn/ 的前端源码 |
 | 数据同步    | https://github.com/wuhan2020/data-sync        |[#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P)|                                        |
 | API 服务 | https://github.com/wuhan2020/api-server       | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |               |
 | 地图可视化组件   | https://github.com/wuhan2020/map-viz | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |        |
