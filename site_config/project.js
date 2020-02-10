@@ -50,13 +50,13 @@ export default {
                     img: '/images/blog/wuhan2020.png',
                     title: '新型冠状病毒防疫信息收集平台',
                     description: '社区研发的一个信息系统。方便资源提供者(医疗资源捐献者、物流公司、酒店、义诊资源)和需要帮助者（医院、灾区群众）之间信息互通，以方便快速地使灾区人民得到救助。',
-                    link: 'https://wuhan2020.kaiyuanshe.cn/',
+                    link: 'https://wh.opensource-service.cn/',
                 },
                 {
                     img: '/images/blog/wuhan2020.png',
                     title: '2020援助武汉',
                     description: '建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。',
-                    link: 'https://wh.opensource-service.cn/',
+                    link: 'https://wuhan2020.kaiyuanshe.cn/',
                 },
                 {
                     img: '/images/blog/wuhan2020.png',
