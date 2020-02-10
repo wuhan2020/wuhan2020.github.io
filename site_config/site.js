@@ -145,8 +145,8 @@ export default {
             },
         ],
         vision: {
-            title: 'Visione',
-            content: 'Unisciti come uno e scaccia la peste!',
+            title: 'Il Nostro Motto',
+            content: 'Tutti insieme uniti, ce la faremo !',
         },
         documentation: {
             title: 'Documentazione',
