@@ -2975,6 +2975,11 @@ html {
       .footer-container .footer-body .copyright span {
         display: inline-block;
         margin: 0 auto; }
+    .footer-container .footer-body #google_translate_element {
+      margin-bottom: 40px; }
+      .footer-container .footer-body #google_translate_element img {
+        height: 14px;
+        margin-right: 0; }
 
 @media screen and (max-width: 640px) {
   .footer-container .footer-body .cols-container .col {
