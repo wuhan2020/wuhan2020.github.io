@@ -138,7 +138,7 @@ export default {
   },
   'fr-fr': {
     brand: {
-      brandName: 'Qu''est-ce que Wuhan2020 ?',
+      brandName: 'Qu\'est-ce que Wuhan2020 ?',
       briefIntroduction: 'Ce que nous faisons: mettre en place un service de données en temps réel et synchrone pour les hôpitaux, les usines et les achats, etc., et réunir tous ceux qui veulent contribuer à la campagne anti-virus, afin que toutes les personnes compétentes puissent participer dans le développement de sujets connexes, et le compléter de manière auto-organisée et collaborative avec la culture communautaire open source.',
       buttons: [
         {
@@ -158,13 +158,13 @@ export default {
       list: [
         {
           icon: 'fonctionnalité-1',
-          text: 'Plateforme d''informations anti-épidémiques 2019-nCoV',
-          content: 'Un système d''information développé par la communauté. Faciliter l''échange d''informations entre les fournisseurs de ressources (donateurs de ressources médicales, sociétés de services logistiques, hôtels et fournisseurs de soutien médical gratuit, etc.) et ceux qui ont besoin d''aide (hôpitaux et autres établissements de santé, patients, etc.), afin d''accélérer le soutien de la population dans les zones touchées.',
+          text: 'Plateforme d\'informations anti-épidémiques 2019-nCoV',
+          content: 'Un système d\'information développé par la communauté. Faciliter l\'échange d\'informations entre les fournisseurs de ressources (donateurs de ressources médicales, sociétés de services logistiques, hôtels et fournisseurs de soutien médical gratuit, etc.) et ceux qui ont besoin d''aide (hôpitaux et autres établissements de santé, patients, etc.), afin d\'accélérer le soutien de la population dans les zones touchées.',
         },
         {
           icon: 'fonctionnalité-2',
           title: 'Communauté Wuhan2020',
-          content: 'À ce jour, la communauté Wuhan2020 a accueilli plus de 3000 bénévoles de différents pays. Cela inclut les développeurs, les chefs de produit, les web designers, les chefs de projet, les analystes de données, les collecteurs d'informations, les traducteurs, les gens des médias, les étudiants, etc. Mise en place d'un système d'information, l'analyse des données, la communauté contribue à la lutte contre le coronavirus.',
+          content: 'À ce jour, la communauté Wuhan2020 a accueilli plus de 3000 bénévoles de différents pays. Cela inclut les développeurs, les chefs de produit, les web designers, les chefs de projet, les analystes de données, les collecteurs d\'informations, les traducteurs, les gens des médias, les étudiants, etc. Mise en place d\'un système d\'information, l\'analyse des données, la communauté contribue à la lutte contre le coronavirus.',
         }
       ],
     },
