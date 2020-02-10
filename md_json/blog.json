@@ -1,6 +1,17 @@
 {
   "zh-cn": [
     {
+      "filename": "coronavirus-protection-guide.md",
+      "link": "/zh-cn/blog/coronavirus-protection-guide.html",
+      "meta": {
+        "title": "疫情知识 -- 新型冠状病毒防护指南",
+        "keywords": "疫情, 防护指南",
+        "description": "新型冠状病毒防护指南",
+        "author": "中国疾控中心",
+        "date": "2019-02-09"
+      }
+    },
+    {
       "filename": "how-to-join-wuhan2020.md",
       "link": "/zh-cn/blog/how-to-join-wuhan2020.html",
       "meta": {

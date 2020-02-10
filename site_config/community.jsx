@@ -218,6 +218,13 @@ export default {
                   dateStr: '2020年2月7日',
                   link: '/zh-cn/blog/wuhan2020-media-channel.html',
                 },
+                {
+                  img: '/images/blog/wuhan2020.png',
+                  title: '疫情知识 -- 新型冠状病毒防护指南',
+                  content: '疫情知识 -- 新型冠状病毒防护指南',
+                  dateStr: '2020年2月9日',
+                  link: '/zh-cn/blog/coronavirus-protection-guide.html',   
+                }
             ],
         },
         contacts: {
