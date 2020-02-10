@@ -68,7 +68,7 @@ export default {
         },
     },
     'it-it': {
-        barText: 'Comunità',
+        barText: 'Community',
         events: {
             title: 'Eventi e notizie',
             list: [
@@ -111,7 +111,7 @@ export default {
                 {
                     img: '/images/channels/github_gray.svg',
                     title: 'Problema',
-                    content: <span>Invia un <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo numero</a>.</span>,
+                    content: <span>Invia una <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo issue</a>.</span>,
                 },
                 {
                     img: '/images/documents.png',
@@ -223,7 +223,7 @@ export default {
                   title: '疫情知识 -- 新型冠状病毒防护指南',
                   content: '疫情知识 -- 新型冠状病毒防护指南',
                   dateStr: '2020年2月9日',
-                  link: '/zh-cn/blog/coronavirus-protection-guide.html',   
+                  link: '/zh-cn/blog/coronavirus-protection-guide.html',
                 }
             ],
         },
