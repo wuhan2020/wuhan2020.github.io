@@ -241,7 +241,7 @@ export default {
                 title: 'Aperçu',
                 children: [
                     {
-                        title: 'Qu''est-ce que Wuhan2020 ?',
+                        title: 'Qu\'est-ce que Wuhan2020 ?',
                         link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                     },
                     {
@@ -252,7 +252,7 @@ export default {
             },
 
             {
-                title: 'Document d''utilisateur',
+                title: 'Document d\'utilisateur',
                 children: [
                     {
                         title: 'Guide de site web',
@@ -272,11 +272,11 @@ export default {
                         link: '/fr-fr/docs/dev/information-guide.html',
                     },
                     {
-                        title: 'Guide d''inscription à la liste de diffusion',
+                        title: 'Guide d\'inscription à la liste de diffusion',
                         link: '/fr-fr/docs/dev/mailing-list-guide.html',
                     },
                     {
-                        title: 'Diagramme d''architecture',
+                        title: 'Diagramme d\'architecture',
                         link: '/fr-fr/docs/dev/architecture.html',
                     },
                     {
