@@ -61,17 +61,17 @@ export default {
     'fr-fr': {
         sidemenu: [
             {
-                title: 'Developers List',
+                title: 'Liste de développeurs',
                 children: [
 
                     {
-                        title: 'Developers',
+                        title: 'Développeurs',
                         link: '/fr-fr/docs/developers/developers_dev.html',
                     },
                 ],
             },
         ],
-        barText: 'Developers',
+        barText: 'Développeurs',
     },
 }
 ;
