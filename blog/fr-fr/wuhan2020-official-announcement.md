@@ -35,7 +35,7 @@ info source： https://github.com/wuhan2020/data-sync
 
 | sub-projects               | links                                                        | #teams                                                       | specification                                         |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
-| Progressive Web App        | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | Code source frontal de la page   https://wh.opensource-service.cn/ |
+| Progressive Web App        | https://github.com/wuhan2020/WebApp                          | [#proj-front-pages](https://wuhan2020.slack.com/archives/CSTPXN533) | Code source frontal de la page   https://wuhan2020.kaiyuanshe.cn/ |
 | Synchronisation des donnés | https://github.com/wuhan2020/data-sync                       | [#proj-datasync](https://app.slack.com/client/TT5U1VCPQ/CT4AV807P) |                                                       |
 | Service d’IPA     | https://github.com/wuhan2020/api-server                      | [#proj-api-server](https://wuhan2020.slack.com/archives/CT3V5CDKJ) |                                                       |
 | Composants de visualisation de carte | https://github.com/wuhan2020/map-viz                         | [#team-backend](https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E) |                                                       |

@@ -21,7 +21,7 @@
 ### 渐进式 Web 应用
 
 - 代码仓库：https://github.com/wuhan2020/WebApp
-- 正式环境：https://wh.opensource-service.cn/
+- 正式环境：https://wuhan2020.kaiyuanshe.cn/
 
 ### API 服务
 

@@ -21,7 +21,7 @@ Tutte le parti del processo vengono effettuate automaticamente e non richiedono 
 ### applicazioni web front-end
 
 - code repository：https://github.com/wuhan2020/WebApp
-- pagina ufficiale del progetto：https://wh.opensource-service.cn/
+- pagina ufficiale del progetto：https://wuhan2020.kaiyuanshe.cn/
 
 ### servizi API
 

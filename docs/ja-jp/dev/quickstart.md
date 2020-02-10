@@ -23,7 +23,7 @@
 ### webフロントエンド開発
 
 - コードリポジトリ：https://github.com/wuhan2020/WebApp
-- 応用サイト：https://wh.opensource-service.cn/
+- 応用サイト：https://wuhan2020.kaiyuanshe.cn/
 
 ### API サービス
 
