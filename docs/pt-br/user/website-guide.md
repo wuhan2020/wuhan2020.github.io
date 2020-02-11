@@ -1,6 +1,6 @@
 ---
-title: Guidelines for using the new Coronavirus epidemic prevention information platform
+title: Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus
 keywords: Wuhan
-description: Guidelines for using the new Coronavirus epidemic prevention information platform.
+description: Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus.
 ---
 TODO

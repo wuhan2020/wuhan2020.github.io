@@ -1,22 +1,22 @@
 ---
-title: Contributors
-keywords: Wuhan2020, Contributors
-description: Wuhan2020 Team.
+title: Contribuidores
+keywords: Wuhan2020, Contribuidores
+description: Wuhan2020 Time.
 ---
 
-## Wuhan2020 Team
+## Wuhan2020 Time
 
-This page shows Seata developers and continues to expand. The list is not prioritized.
+Esta página exibe desenvolvedores Seata e continua a expandir. Essa lista não é priorizada.
 
-# Developer List
+# Lista de Desenvolvedores
 
 | name   | github          |  
 | ------ | --------------- | --------------- |
 | Shengyu Zhao   | [rank-zsy](https://github.com/rank-zsy)        | 
 | Yao Shi   | [TechQuery](https://github.com/TechQuery)        |
 
-# Data analyst
+# Análise de dados
 
 # Designers
 
-# Product managers
+# Gerentes de produto
