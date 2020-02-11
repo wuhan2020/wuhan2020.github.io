@@ -338,5 +338,68 @@
         "description": "Lignes directrices pour l'utilisation de la plateforme d'information sur la prévention des épidémies de Coronavirus"
       }
     }
+  ],
+  "pt-br": [
+    {
+      "filename": "architecture.md",
+      "link": "/pt-br/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/pt-br/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/pt-br/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/pt-br/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/pt-br/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/pt-br/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Contribuidores",
+        "keywords": "Wuhan2020, Contribuidores",
+        "description": "Wuhan2020 Time."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/pt-br/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/pt-br/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "O que é Wuhan2020",
+        "keywords": "Wuhan2020",
+        "description": "O que estamos fazendo agora é: estabelecer em tempo real e sincronizado um serviço de dados para hospitais, fábricas e compras e outras informações, e reunir todos aqueles que querem contribuir para a campanha anti-vírus, então aqueles com habilidades relevantes podem participar no desenvolvimento de tópicos relacionados, e completar-lo de forma organizada e colaborativa com a cúltura do código aberto."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/pt-br/docs/user/website-guide.html",
+      "meta": {
+        "title": "Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus",
+        "keywords": "Wuhan",
+        "description": "Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus."
+      }
+    }
   ]
 }
