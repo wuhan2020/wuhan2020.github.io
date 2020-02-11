@@ -8,6 +8,7 @@ const {
       { value: 'en-us', text: 'English' },
       { value: 'ja-jp', text: '日本語' },
       { value: 'it-it', text: 'Italiano' },
+      { value: 'pt-br', text: 'Português' }
     ]
 } = siteConfig;
 
