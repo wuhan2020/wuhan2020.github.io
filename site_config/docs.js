@@ -224,7 +224,7 @@ export default {
                     },
                     {
                       title: 'Slack Channle 列表',
-                      link: '/zh-cn/docs/dev/slack-channles.html',
+                      link: '/zh-cn/docs/dev/slack-channels.html',
                     },
                     {
                         title: '贡献指南',
