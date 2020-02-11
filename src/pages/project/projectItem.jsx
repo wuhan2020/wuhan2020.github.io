@@ -11,6 +11,7 @@ class ProjectItem extends React.Component {
         </div>
         <div className="project-text-container">
           <h4><a href={project.link}>{project.title}</a></h4>
+          <p>Github: <a href={project.repoLink}>{project.repoLink}</a></p>
           <p>{project.description}</p>
         </div>
       </div>
