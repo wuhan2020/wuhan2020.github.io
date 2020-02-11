@@ -159,4 +159,36 @@ export default {
             ],
         },
     },
+    'pt-br': {
+      barText: 'Projetos',
+      sectionDescription: "A comunidade lançou os seguintes projetos de código aberto",
+      projects: {
+          list: [
+              {
+                  img: '/images/blog/wuhan2020.png',
+                  title: 'Nova plataforma de coleta de informações sobre prevenção de epidemias de coronavírus',
+                  description: "Wuhan nova plataforma de coleta de informações sobre prevenção de epidemias de coronavírus",
+                  link: 'https://wh.opensource-service.cn/',
+              },
+              {
+                img: '/images/blog/wuhan2020.png',
+                title: '2020 aid Wuhan',
+                description: 'Estabelecer um serviço de dados para sincronização em tempo real de hospitais, fábricas, compras e outras informações. Ao mesmo tempo, todos aqueles que desejam contribuir para a luta contra o vírus serão convocados para que todos com habilidades relevantes possam participar do desenvolvimento de tópicos relacionados. Cultura comunitária, concluída de forma auto-organizada e colaborativa.',
+                link: 'https://wuhan2020.kaiyuanshe.cn/',
+              },
+              {
+                img: '/images/blog/wuhan2020.png',
+                title: 'Wuhan2020 site oficial da comunidade de código aberto',
+                description: 'Atualmente, o site oficial da comunidade Wuhan2020 pede que voluntários de diferentes países e profissões estabeleçam um sistema de informação de código aberto para contribuir com a luta contra o novo coronavírus.',
+                link: 'https://community.wuhan2020.org.cn/',
+              },
+              {
+                img: '/images/blog/wuhan2020.png',
+                title: '2019-nCoV-Nav Epidemic Information Navigation',
+                description: 'O site de navegação de informações sobre epidemias fornece um portal conveniente e abrangente de informações sobre epidemias para o público e organiza canais de rede que cobrem todos os aspectos das informações sobre epidemias.',
+                link: 'http://nav.werty.cn',
+              },
+          ],
+      },
+  },
 };

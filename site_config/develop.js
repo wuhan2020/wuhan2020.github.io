@@ -73,5 +73,20 @@ export default {
         ],
         barText: 'Developers',
     },
+    'pt-br': {
+      sidemenu: [
+          {
+              title: 'Lista de Desenvolvedores',
+              children: [
+
+                  {
+                      title: 'Desenvolvedores',
+                      link: '/pt-br/docs/developers/developers_dev.html',
+                  },
+              ],
+          },
+      ],
+      barText: 'Desenvolvedores',
+  },
 }
 ;

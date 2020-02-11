@@ -484,7 +484,7 @@ export default {
       pageMenu: [
           {
               key: 'home', // 用作顶部菜单的选中
-              text: 'HOME',
+              text: 'INÍCIO',
               link: '/pt-br/index.html',
           },
           {

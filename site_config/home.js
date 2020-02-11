@@ -168,5 +168,43 @@ export default {
         }
       ],
     },
-  }
+  },
+  'pt-br': {
+    brand: {
+      brandName: 'O que é a comunidade de wuhan2020 ?',
+      briefIntroduction: 'O que estamos fazendo agora é: estabelecer um serviço de dados síncrono e em tempo real para hospitais, fábricas, compras e outras informações, e reunir todos aqueles que desejam contribuir com a campanha antivírus, para que todos com habilidades relevantes possam participar do desenvolvimento de tópicos relacionados e concluí-lo de forma auto-organizada e colaborativa com a cultura da comunidade de código aberto.',
+      buttons: [
+        {
+          text: 'Comece agora',
+          link: '/en-us/docs/overview/what-is-wuhan2020.html',
+          type: 'primary',
+        },
+        {
+          text: 'Github',
+          link: 'https://github.com/wuhan2020/wuhan2020',
+          type: 'normal',
+        },
+        {
+          text: 'Plataforma de prevenção de epidêmia para Wuhan 2019-nCoV',
+          link: 'https://wh.opensource-service.cn/',
+          type: 'normal',
+        },
+      ],
+    },
+    features: {
+      title: 'Introdução a comunidade',
+      list: [
+        {
+          icon: 'feature-1',
+          title: '2019-nCov Information Platform',
+          content: 'Um sistema de informação desenvolvido pela comunidade. Facilitar a troca de informações entre provedores de recursos (doadores de recursos médicos, empresas de logística, hotéis, recursos clínicos gratuitos) e aqueles que precisam de ajuda (hospitais, pessoas na área do desastre), para facilitar e ajudar rapidamente as pessoas na área do desastre.',
+        },
+        {
+          icon: 'feature-2',
+          title: 'Wuhan2020 Community',
+          content: 'Atualmente, existem mais de 3000 voluntários de diferentes países na comunidade Wuhan 2020. Existem programadores, gerentes de produto, designers, gerentes de projeto, analistas de dados, coletores de informações, tradutores, profissionais da mídia, estudantes, etc. Através do estabelecimento de sistemas de informação, análise e previsão de dados, contribui para a resistência do novo coronavírus.',
+        }
+      ],
+    },
+  },
 }
