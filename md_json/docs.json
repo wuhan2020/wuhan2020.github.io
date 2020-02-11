@@ -44,6 +44,15 @@
       "meta": {}
     },
     {
+      "filename": "slack-channels.md",
+      "link": "/zh-cn/docs/dev/slack-channels.html",
+      "meta": {
+        "title": "Slack channel 列表",
+        "keywords": "Slack channel 列表",
+        "description": "Slack channel 列表"
+      }
+    },
+    {
       "filename": "team-workflow.md",
       "link": "/zh-cn/docs/dev/team-workflow.html",
       "meta": {

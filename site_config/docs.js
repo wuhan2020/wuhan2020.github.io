@@ -223,6 +223,10 @@ export default {
                         link: '/zh-cn/docs/dev/architecture.html',
                     },
                     {
+                      title: 'Slack Channle 列表',
+                      link: '/zh-cn/docs/dev/slack-channles.html',
+                    },
+                    {
                         title: '贡献指南',
                         link: '/zh-cn/docs/dev/contributing.html',
                     },
