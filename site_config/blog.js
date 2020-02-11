@@ -23,5 +23,10 @@
         barText: 'Blog',
         postsTitle: 'Articles',
         list: []
-    }
+    },
+    'pt-br': {
+      barText: 'Blog',
+      postsTitle: 'Todos as postagens',
+      list: []
+  },
 };

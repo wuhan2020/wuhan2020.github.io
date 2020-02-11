@@ -10,6 +10,7 @@ export default {
       { value: 'ja-jp', text: '日本語' },
       { value: 'it-it', text: 'Italiano' },
       { value: 'fr-fr', text: 'Français' },
+      { value: 'pt-br', text: 'Português' }
     ], // 支持的语言列表
     defaultLanguage: 'zh-cn',
     'en-us': {
@@ -479,4 +480,97 @@ export default {
           ]
         }
     },
+    'pt-br': {
+      pageMenu: [
+          {
+              key: 'home', // 用作顶部菜单的选中
+              text: 'INÍCIO',
+              link: '/pt-br/index.html',
+          },
+          {
+              key: 'docs',
+              text: 'DOCUMENTOS',
+              link: '/pt-br/docs/overview/what-is-wuhan2020.html',
+          },
+          {
+              key: 'developers',
+              text: 'CONTRIBUIDORES',
+              link: '/pt-br/docs/developers/developers_dev.html',
+          },
+          {
+              key: 'blog',
+              text: 'BLOG',
+              link: '/pt-br/blog/index.html',
+          },
+          {
+              key: 'community',
+              text: 'COMUNIDADE',
+              link: '/pt-br/community/index.html',
+          },
+          {
+              key: 'list',
+              text: 'PROJETOS',
+              link: '/pt-br/project/index.html',
+          },
+          {
+              key: 'mis',
+              text: '2019-NCOV INFORMATION PLATFORM',
+              link: 'https://wh.opensource-service.cn/',
+          },
+      ],
+      vision: {
+          title: 'Visão',
+          content: 'Unidos para expulsar a praga!',
+      },
+      documentation: {
+          title: 'Documentação',
+          list: [
+              {
+                  text: 'O que é Wuhan2020 ?',
+                  link: '/pt-br/docs/overview/what-is-wuhan2020.html',
+              },
+              {
+                  text: 'Começo rápido',
+                  link: '/pt-br/docs/dev/quickstart.html',
+              },
+              {
+                  text: 'Reporte um problema no documento',
+                  link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
+              },
+              {
+                  text: 'Edite esta página no Github',
+                  link: 'https://github.com/wuhan2020/wuhan2020.github.io',
+              }
+          ],
+      },
+      resources: {
+          title: 'Recursos',
+          list: [
+              {
+                  text: 'Blog',
+                  link: '/pt-br/blog/index.html',
+              },
+              {
+                  text: 'Comunidade',
+                  link: '/pt-br/community/index.html',
+              },
+          ],
+      },
+      copyright: 'Copyright © 2020 Wuhan2020',
+      sponsors: {
+        title: 'Sponsors',
+        list: [
+          {
+            text: 'Slack',
+            link: 'https://slack.com/',
+            target: '_blank'
+          },
+          {
+            text: 'Shimo',
+            link: 'https://shimo.im/',
+            target: '_blank'
+          }
+        ]
+      }
+  }
 };

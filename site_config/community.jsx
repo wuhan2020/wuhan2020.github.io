@@ -351,4 +351,75 @@ export default {
             ],
         },
     },
+    'pt-br': {
+        barText: 'Comunidade',
+        events: {
+            title: 'Eventos e Novidades',
+            list: [
+                {
+                    img: '/images/blog/wuhan2020.png',
+                    title: 'Wuhan2020 Anúncio Oficial',
+                    content: 'Wuhan2020 Anúncio Oficial',
+                    dateStr: 'Jan 29th，2020',
+                    link: '/en-us/blog/wuhan2020-official-announcement.html',
+                },
+                {
+                  img: '/images/blog/wuhan2020.png',
+                  title: 'Como participar do projeto de código aberto Wuhan2020 e ajudar Wuhan a sobreviver à crise do coronavírus',
+                  content: 'Como participar do projeto de código aberto Wuhan2020 e ajudar Wuhan a sobreviver à crise do coronavírus ',
+                  dateStr: 'Feb 1st, 2020',
+                  link: '/en-us/blog/how-to-join-wuhan2020.html',
+                },
+            ],
+        },
+        contacts: {
+            title: 'Fale conosco',
+            desc: 'Sinta-se livre para nos contactar através de um destes canais.',
+            list: [
+                {
+                    img: '/images/channels/mailinglist.png',
+                    imgHover: '/images/channels/mailinglist_hover.png',
+                    title: 'Lista de Email',
+                    link: 'mailto:wuhan2020+subscribe@googlegroups.com'
+                },
+                {
+                    img: '/images/channels/slack_gray.svg',
+                    imgHover: '/images/channels/slack_green.svg',
+                    title: '@Slack',
+                    link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_EN.md#slack-channel-navigation',
+                },
+                {
+                  img: '/images/channels/weixin_official_account.jpeg',
+                  imgHover: '/images/channels/weixin_official_account.jpeg',
+                  title: '@WeChat Official Account',
+                }
+            ],
+        },
+        contributorGuide: {
+            title: 'Guia do Contribuidor',
+            desc: 'Você sempre pode contribuir com Wuhan2020.',
+            list: [
+                {
+                    img: '/images/channels/email_gray.svg',
+                    title: 'Lista de Email',
+                    content: <span>Entre em nossa lista de email.</span>,
+                },
+                {
+                    img: '/images/channels/github_gray.svg',
+                    title: 'Problemas',
+                    content: <span>Submeta um <a href="https://github.com/wuhan2020/wuhan2020/issues/new">novo problema</a>.</span>,
+                },
+                {
+                    img: '/images/documents.png',
+                    title: 'Documentation',
+                    content: <span>Melhore nossa <a href="https://github.com/wuhan2020/wuhan2020.github.io">documentação</a>.</span>,
+                },
+                {
+                    img: '/images/pullrequest.png',
+                    title: 'Pull Request',
+                    content: <span>Cria um brilhante <a href="https://github.com/wuhan2020/wuhan2020/pulls">pull request</a>.</span>,
+                },
+            ],
+        },
+    },
 };

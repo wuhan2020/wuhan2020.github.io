@@ -296,4 +296,65 @@ export default {
         ],
         barText: 'Documentation'
     },
+    'pt-br': {
+      sidemenu: [
+          {
+              title: 'Visão Geral',
+              children: [
+                  {
+                      title: 'O que é Wuahan2020?',
+                      link: '/pt-br/docs/overview/what-is-wuhan2020.html',
+                  },
+                  {
+                      title: 'FAQ',
+                      link: '/pt-br/docs/overview/faq.html',
+                  }
+              ],
+          },
+
+          {
+              title: 'Guia do Site',
+              children: [
+                  {
+                      title: 'Website Guide',
+                      link: '/pt-br/docs/user/website-guide.html',
+                  }
+              ],
+          },
+          {
+              title: 'Guia do Desenvolvedor',
+              children: [
+                  {
+                      title: 'Comece agora',
+                      link: '/pt-br/docs/dev/quickstart.html',
+                  },
+                  {
+                    title: 'Fluxo do time (Chinese)',
+                    link: '/zh-cn/docs/dev/team-workflow.html', // pt-br is not ready
+                  },
+                  {
+                      title: 'Guia de coleta de dados',
+                      link: '/pt-br/docs/dev/information-guide.html',
+                  },
+                  {
+                    title: 'Guia de inscrição lista de Email (Chinese)',
+                    link: '/zh-cn/docs/dev/mailing-list-guide.html', // pt-br is not ready
+                  },
+                  {
+                      title: 'Diagrama de Arquitetura',
+                      link: '/pt-br/docs/dev/architecture.html',
+                  },
+                  {
+                      title: 'Guia para Contribuição',
+                      link: '/pt-br/docs/dev/contributing.html',
+                  },
+                  {
+                      title: 'Github processamento do repositório',
+                      link: '/pt-br/docs/dev/dev-env-setup.html',
+                  },
+              ],
+          },
+      ],
+      barText: 'Documentation'
+  },
 };
