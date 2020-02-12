@@ -12,7 +12,8 @@ import './index.scss';
 class Project extends Language {
     render() {
         const language = this.getLanguage();
-        const dataSource = projectConfig[language] || projectConfig[siteConfig.defaultLanguage];
+        //const dataSource = projectConfig[language] || projectConfig[siteConfig.defaultLanguage];
+        const dataSource = this.getLanguageDict(language, 'project');
         return (
             <div className="project-page">
                 <Header
