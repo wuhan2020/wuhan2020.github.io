@@ -9,16 +9,6 @@ import './index.scss';
 
 const { Option } = Select;
 
-const {
-  langList = [
-      { value: 'zh-cn', text: '简体中文' },
-      { value: 'en-us', text: 'English' },
-      { value: 'ja-jp', text: '日本語' },
-      { value: 'it-it', text: 'Italiano' },
-      { value: 'pt-br', text: 'Português' }
-    ]
-} = siteConfig;
-
 const searchSwitch = {
   baidu: {
     logo: 'https://img.alicdn.com/tfs/TB1n6DQayLaK1RjSZFxXXamPFXa-300-300.png',
@@ -34,7 +24,7 @@ const propTypes = {
   currentKey: PropTypes.string,
   logo: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['primary', 'normal']),
-  language: PropTypes.oneOf(langList.map(l => l.value)),
+  language: PropTypes.oneOf(siteConfig.langList.map(l => l.value)),
   onLanguageChange: PropTypes.func,
 };
 const defaultProps = {
@@ -159,7 +149,7 @@ class Header extends React.Component {
                 onSelect={this.switchLang}
               >
                 {
-                  langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
+                  siteConfig.langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
                 }
               </Select>
             )
