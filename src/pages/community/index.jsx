@@ -17,7 +17,8 @@ class Community extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = communityConfig[language] || communityConfig[siteConfig.defaultLanguage];
+    // const dataSource = communityConfig[language] || communityConfig[siteConfig.defaultLanguage];
+    const dataSource = this.getLanguageDict(language, 'community');
     return (
       <div className="community-page">
         <Header
