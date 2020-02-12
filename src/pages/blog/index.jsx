@@ -36,7 +36,8 @@ class Blog extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
+    //const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
+    const dataSource = this.getLanguageDict(language, 'blog');
     const blogList = blogs[language];
     return (
       <div className="blog-list-page">
