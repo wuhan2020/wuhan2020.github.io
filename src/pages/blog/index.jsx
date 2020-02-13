@@ -7,7 +7,6 @@ import PageSlider from '../../components/pageSlider';
 import BlogItem from './blogItem';
 import Footer from '../../components/footer';
 import siteConfig from '../../../site_config/site';
-import blogConfig from '../../../site_config/blog';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
 import './index.scss';
