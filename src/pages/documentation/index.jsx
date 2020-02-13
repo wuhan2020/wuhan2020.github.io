@@ -8,10 +8,6 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
-import siteConfig from '../../../site_config/site';
-import docsConfig from '../../../site_config/docs';
-// 开发者页面借用文档页面
-import developConfig from '../../../site_config/develop';
 import './index.scss';
 
 // 锚点正则

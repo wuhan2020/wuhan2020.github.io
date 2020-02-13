@@ -8,8 +8,6 @@ import EventCard from './eventCard';
 import ContactItem from './contactItem';
 import ContributorItem from './contributorItem';
 import Footer from '../../components/footer';
-import siteConfig from '../../../site_config/site';
-import communityConfig from '../../../site_config/community.jsx';
 
 import './index.scss';
 

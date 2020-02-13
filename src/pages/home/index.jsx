@@ -7,8 +7,6 @@ import Header from '../../components/header';
 import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import siteConfig from '../../../site_config/site';
-import homeConfig from '../../../site_config/home';
 import Item from './featureItem';
 import './index.scss';
 
