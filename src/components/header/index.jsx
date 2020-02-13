@@ -171,7 +171,8 @@ class Header extends React.Component {
               src={type === 'primary' ? getLink('/images/system/menu_white.png') : getLink('/images/system/menu_gray.png')}
             />
             <ul>
-              {(siteConfig[language] || siteConfig[siteConfig.defaultLanguage]).pageMenu.map(item => (
+              { // TODO: change this
+                (siteConfig[language] || siteConfig[siteConfig.defaultLanguage]).pageMenu.map(item => (
                 <li
                   className={classnames({
                     'menu-item': true,
