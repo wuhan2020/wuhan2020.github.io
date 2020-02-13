@@ -4,32 +4,32 @@ export default {
         sectionDescription: "The community has released the following open-sourced projects",
         projects: {
             list: [
-                {
+               {
                     img: '/images/blog/wuhan2020.png',
-                    title: 'Wuhan New Coronavirus Outbreak Prevention Information Collection Platform',
+                    title: 'Wuhan Novel Coronavirus Outbreak Prevention Information Collection Platform',
                     repoLink:'https://github.com/wuhan2020/wuhan2020',
-                    description: "Wuhan new coronavirus outbreak prevention information collection platform",
+                    description: "Wuhan novel coronavirus outbreak prevention information collection platform",
                     link: 'https://wh.opensource-service.cn/',
                 },
                 {
                   img: '/images/blog/wuhan2020.png',
-                  title: '2020 Support Wuhan',
+                  title: '2020 Wuhan Rescue',
                   repoLink: 'https://github.com/wuhan2020/data-sync',
-                  description: 'Establish a real-time data service with information on hospitals, factories and procurement. Convene everyone who wishes to contribute to this battle against coronavirus. Allow everyone with relevant skills to participate in the development under relevant topics.',
+                  description: 'Our goal is to establish a real-time data service platform with information on hospitals, factories and procurement, allowing anyone with relevant skills to participate in the initiative. We would like to call for anyone who wishes to contribute to the fight against the 2019-nCoV.',
                   link: 'https://wuhan2020.kaiyuanshe.cn/',
                 },
                 {
                   img: '/images/blog/wuhan2020.png',
                   title: 'Wuhan2020 Open Source Community Official Website',
                   repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
-                  description: 'Wuhan2020 community official website, convene volunteers all over the world from different backgrounds to establish an open-source information system and contribute to battling the 2019-nCoV',
+                  description: 'Wuhan2020 community calls for volunteers all over the world to establish an open-source information platform and contribute to the fight against the 2019-nCoV',
                   link: 'https://community.wuhan2020.org.cn/',
                 },
                 {
                   img: '/images/blog/wuhan2020.png',
                   title: '2019-nCoV Outbreak Navigation Site',
                   repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
-                  description: '2019-nCoV navigation site provides the public with a convenient and comprehensive information portal as well as systematically organize all online resources and useful channels related to 2019-nCoV.',
+                  description: '2019-nCoV navigation site provides the public with a convenient and comprehensive information portal with online resources and archival information related to 2019-nCoV.',
                   link: 'http://nav.werty.cn',
                 },
             ],
