@@ -6,6 +6,7 @@ import 'antd/lib/select/style/css';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import './index.scss';
+import Language from "../language";
 
 const { Option } = Select;
 
