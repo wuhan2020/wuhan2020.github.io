@@ -11,11 +11,39 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
+          title: '武漢給油オープンソースのメンバー全員への手紙です',
+          content: '武漢給油オープンソースのメンバー全員への手紙です',
+          dateStr: '2020年1月28日',
+          link: '/ja-jp/blog/to-all-members.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
           title: '武漢給油プロジェクトの新しいプロセスのリリース',
           content: '武漢給油プロジェクトの新しいプロセスのリリース',
-          dateStr: 'Jan 29th，2020',
+          dateStr: '2020年1月29日',
           link: '/ja-jp/blog/wuhan2020-official-announcement.html',
         },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
+          content: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
+          dateStr: '2020年2月1日',
+          link: '/ja-jp/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/media/banner.webp',
+          title: '武漢加油官宣ルートまとめ',
+          content: '武漢加油官宣ルートまとめ',
+          dateStr: '2020年2月7日',
+          link: '/ia-jp/blog/wuhan2020-media-channel.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '疫学知識——新型コロナウイルス防護指針',
+          content: '疫学知識——新型コロナウイルス防護指針',
+          dateStr: '2020年2月9日',
+          link: '/ia-jp/blog/coronavirus-protection-guide.html',
+        }
       ],
     },
     contacts: {
@@ -180,30 +208,30 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: '新型冠状病毒防疫信息收集平台',
+          title: '新型コロナウイルス防疫情報収集プラットフォーム',
           repoLink:'https://github.com/wuhan2020/wuhan2020',
           description: '武漢の新しいコロナウイルスの流行予防情報収集プラットフォーム',
           link: 'https://wh.opensource-service.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2020援助武汉',
+          title: '2020武漢',
           repoLink: 'https://github.com/wuhan2020/data-sync',
-          description: '建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。',
+          description: '病院、工場、購買などの情報をリアルタイムに同期させたデータサービスを構築し、同時に、このアンチウイルス戦に貢献したいすべての人を召集し、関連する技能を持っている人はすべて関連するテーマの開発に参与することができ、オープンソースのコミュニティ文化で、自己組織的な協力方式で完成した。',
           link: 'https://wuhan2020.kaiyuanshe.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan2020开源社区官网',
+          title: 'Wuhan2020オープンソース',
           repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
-          description: '目前Wuhan2020社区官方网站，召集不同国家不同职业的志愿者，建立开源信息系统，为抵抗新型冠状病毒做贡献。',
+          description: '現在、Wuhan2020コミュニティの公式サイトは、異なる国の異なる職業のボランティアを募集し、オープンソース情報システムを構築し、新型コロナウイルスに抵抗することに貢献している。',
           link: 'https://community.wuhan2020.org.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2019-nCoV-Nav 疫情信息导航',
+          title: '2019−nCoV−Nav疫学情報ナビゲーション',
           repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
-          description: '疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。',
+          description: '疫学情報ナビゲーションサイトは公衆に便利で全面的な疫学情報の入り口を提供し、疫学情報の各方面をカバーするネットワーク通路を整理した。',
           link: 'http://nav.werty.cn',
         },
       ],
