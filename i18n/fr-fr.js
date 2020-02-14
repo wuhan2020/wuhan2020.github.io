@@ -1,26 +1,54 @@
 export default {
   blog: {
     barText: 'Blog',
-    postsTitle: 'Articles',
+    postsTitle: 'Tous les articles',
     list: []
   },
   community: {
-    barText: 'Community',
+    barText: 'La communauté',
     events: {
-      title: 'Events & News',
+      title: 'Événements et actualités',
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan2020 Official Announcement',
-          content: 'Wuhan2020 Official Announcement',
-          dateStr: 'Jan 29th，2020',
+          title: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          content: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          dateStr: '28 janvier 2020',
+          link: '/fr-fr/blog/to-all-members.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          content: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          dateStr: '29 janvier 2020',
           link: '/fr-fr/blog/wuhan2020-official-announcement.html',
         },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
+          content: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
+          dateStr: '1er février 2020',
+          link: '/fr-fr/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/media/banner.webp',
+          title: 'Résumé des canaux de communication officiels de WUHAN2020',
+          content: 'Résumé des canaux de communication officiels de WUHAN2020',
+          dateStr: '7 février 2020',
+          link: '/fr-fr/blog/wuhan2020-media-channel.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Connaissance des épidémies — lignes directrices pour la protection contre les nouveaux coronavirus',
+          content: 'Connaissance des épidémies — lignes directrices pour la protection contre les nouveaux coronavirus',
+          dateStr: '9 février 2020',
+          link: '/fr-fr/blog/coronavirus-protection-guide.html',
+        }
       ],
     },
     contacts: {
-      title: 'Talk To Us',
-      desc: 'Feel free to contact us via the following channel.',
+      title: 'contactez-nous',
+      desc: 'Un problème nécessitant un retour d’information? Veuillez nous contacter par le biais de la messagerie suivante.',
       list: [
         {
           img: '/images/channels/mailinglist.png',
@@ -37,31 +65,31 @@ export default {
       ],
     },
     contributorGuide: {
-      title: 'Contributor Guide',
-      desc: 'You can always contribute to Wuhan2020.',
+      title: 'Lignes directrices pour les contributions',
+      desc: 'Les contributions à Wuhan2020 sont les bienvenues!',
       list: [
         {
           img: '/images/channels/email_gray.svg',
-          title: 'Mailing List',
-          content: 'Join our mailing list',
+          title: 'Liste de diffusion',
+          content: 'Rejoignez notre liste de diffusion.',
           link: ''
         },
         {
           img: '/images/channels/github_gray.svg',
-          title: 'Issue',
-          content: 'Submit a new issue',
+          title: 'Problèmes de notification',
+          content: 'Soumettre de nouvelles questions',
           link: "https://github.com/wuhan2020/wuhan2020/issues/new"
         },
         {
           img: '/images/documents.png',
-          title: 'Documentation',
-          content: 'Improve the documentation',
+          title: 'Amélioration de la documentation',
+          content: 'Amélioration de la documentation',
           link: "https://github.com/wuhan2020/wuhan2020.github.io"
         },
         {
           img: '/images/pullrequest.png',
-          title: 'Pull Request',
-          content: 'Create a brilliant pull request',
+          title: 'Présentation PR',
+          content: 'Création d’un PR',
           link: "https://github.com/wuhan2020/wuhan2020/pulls"
         },
       ],
