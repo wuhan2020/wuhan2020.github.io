@@ -34,7 +34,7 @@ const defaultProps = {
   onLanguageChange: noop,
 };
 
-class Header extends React.Component {
+class Header extends Language {
   constructor(props) {
     super(props);
     this.state = {
@@ -171,8 +171,7 @@ class Header extends React.Component {
               src={type === 'primary' ? getLink('/images/system/menu_white.png') : getLink('/images/system/menu_gray.png')}
             />
             <ul>
-              { // TODO: change this
-                (siteConfig[language] || siteConfig[siteConfig.defaultLanguage]).pageMenu.map(item => (
+              {this.getLanguageDict(language, 'site').pageMenu.map(item => (
                 <li
                   className={classnames({
                     'menu-item': true,
