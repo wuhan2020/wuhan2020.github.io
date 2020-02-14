@@ -10,11 +10,11 @@ class Language extends React.Component {
     window.location = newPathname;
   };
 
-  tryRequire = (lang_code) => {
+  tryRequire = (lang_code, default_lang_code) => {
     try {
       return require('../../../i18n/' + lang_code).default
     } catch (err) {
-      return require('../../../i18n/' + siteConfig.defaultLanguage).default
+      return require('../../../i18n/' + default_lang_code).default
     }
   };
 
@@ -34,7 +34,7 @@ class Language extends React.Component {
   };
 
   getLanguageDict = (lang_code, module) => {
-    const language = this.tryRequire(lang_code);
+    const language = this.tryRequire(lang_code, siteConfig.defaultLanguage);
 
     return language[module];
   }
