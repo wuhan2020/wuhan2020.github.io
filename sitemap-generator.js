@@ -39,7 +39,7 @@ function xml() {
   let root = builder.create('urlset', { encoding: 'utf-8' }).att('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
 
   for (var i = 0; i < files.length; i ++) {
-    let item = root.ele("url").ele("loc", files[i]);
+    root.ele("url").ele("loc", files[i]);
   }
 
   let xml = root.end({ pretty: true});
