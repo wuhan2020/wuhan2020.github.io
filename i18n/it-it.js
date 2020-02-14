@@ -48,22 +48,26 @@ export default {
         {
           img: '/images/channels/email_gray.svg',
           title: 'Mailing List',
-          content: <span>Unisciti alla nostra mailing list.</span>,
+          content: 'Unisciti alla nostra mailing list.',
+          link: ''
         },
         {
           img: '/images/channels/github_gray.svg',
           title: 'Problema',
-          content: <span>Invia una <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo issue</a>.</span>,
+          content: 'Invia una nuovo issue',
+          link: "https://github.com/wuhan2020/wuhan2020/issues/new"
         },
         {
           img: '/images/documents.png',
           title: 'Documentazione',
-          content: <span>Migliora la <a href="https://github.com/wuhan2020/wuhan2020.github.io">documentazione</a>.</span>,
+          content: 'Migliora la documentazione',
+          link: "https://github.com/wuhan2020/wuhan2020.github.io"
         },
         {
           img: '/images/pullrequest.png',
           title: 'Richiesta pull',
-          content: <span>Crea una brillante <a href="https://github.com/wuhan2020/wuhan2020/pulls">richiesta pull</a>.</span>,
+          content: 'Crea una brillante richiesta pull',
+          link: "https://github.com/wuhan2020/wuhan2020/pulls"
         },
       ],
     },
