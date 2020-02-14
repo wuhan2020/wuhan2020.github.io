@@ -8,8 +8,6 @@ import EventCard from './eventCard';
 import ContactItem from './contactItem';
 import ContributorItem from './contributorItem';
 import Footer from '../../components/footer';
-import siteConfig from '../../../site_config/site';
-import communityConfig from '../../../site_config/community.jsx';
 
 import './index.scss';
 
@@ -17,7 +15,8 @@ class Community extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = communityConfig[language] || communityConfig[siteConfig.defaultLanguage];
+    // const dataSource = communityConfig[language] || communityConfig[siteConfig.defaultLanguage];
+    const dataSource = this.getLanguageDict(language, 'community');
     return (
       <div className="community-page">
         <Header

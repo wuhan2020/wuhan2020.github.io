@@ -3,27 +3,18 @@ import PropTypes from 'prop-types';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import './index.scss';
-
-const {
-  langList = [
-      { value: 'zh-cn', text: '简体中文' },
-      { value: 'en-us', text: 'English' },
-      { value: 'ja-jp', text: '日本語' },
-      { value: 'it-it', text: 'Italiano' },
-      { value: 'pt-br', text: 'Português' }
-    ]
-} = siteConfig;
+import Language from "../language";
 
 const propTypes = {
   logo: PropTypes.string.isRequired, // logo地址
-  language: PropTypes.oneOf(langList.map(l => l.value)),
+  language: PropTypes.oneOf(siteConfig.langList.map(l => l.value)),
 };
 
-class Footer extends React.Component {
+class Footer extends Language {
 
   render() {
     const { logo, language } = this.props;
-    const dataSource = siteConfig[language] || siteConfig[siteConfig.defaultLanguage];
+    const dataSource = this.getLanguageDict(language, 'site');
     return (
       <footer className="footer-container">
         <div className="footer-body">

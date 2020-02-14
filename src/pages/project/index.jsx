@@ -4,15 +4,14 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import siteConfig from '../../../site_config/site';
-import projectConfig from '../../../site_config/project';
 import ProjectItem from './projectItem';
 import './index.scss';
 
 class Project extends Language {
     render() {
         const language = this.getLanguage();
-        const dataSource = projectConfig[language] || projectConfig[siteConfig.defaultLanguage];
+        //const dataSource = projectConfig[language] || projectConfig[siteConfig.defaultLanguage];
+        const dataSource = this.getLanguageDict(language, 'project');
         return (
             <div className="project-page">
                 <Header
