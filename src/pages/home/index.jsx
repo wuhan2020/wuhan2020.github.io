@@ -7,8 +7,6 @@ import Header from '../../components/header';
 import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import siteConfig from '../../../site_config/site';
-import homeConfig from '../../../site_config/home';
 import Item from './featureItem';
 import './index.scss';
 
@@ -49,7 +47,8 @@ class Home extends Language {
     render() {
         const { starCount, forkCount } = this.state;
         const language = this.getLanguage();
-        const dataSource = homeConfig[language] || homeConfig[siteConfig.defaultLanguage];
+        const dataSource = this.getLanguageDict(language, "home");
+        // const dataSource = homeConfig[language] || homeConfig[siteConfig.defaultLanguage];
         const { headerType } = this.state;
         const headerLogo = headerType === 'primary' ? '/images/wuhan2020-logo-white.png' : '/images/wuhan2020-logo.png';
         return (

@@ -7,7 +7,6 @@ import PageSlider from '../../components/pageSlider';
 import BlogItem from './blogItem';
 import Footer from '../../components/footer';
 import siteConfig from '../../../site_config/site';
-import blogConfig from '../../../site_config/blog';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
 import './index.scss';
@@ -36,7 +35,8 @@ class Blog extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
+    //const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
+    const dataSource = this.getLanguageDict(language, 'blog');
     const blogList = blogs[language];
     return (
       <div className="blog-list-page">

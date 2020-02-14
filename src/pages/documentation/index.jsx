@@ -8,10 +8,6 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
-import siteConfig from '../../../site_config/site';
-import docsConfig from '../../../site_config/docs';
-// 开发者页面借用文档页面
-import developConfig from '../../../site_config/develop';
 import './index.scss';
 
 // 锚点正则
@@ -92,7 +88,8 @@ class Documentation extends Language {
     const language = this.getLanguage();
     // 开发者页借助文档页载体
     const isDevelop = window.location.pathname.split('/').pop().lastIndexOf('_dev.html') !== -1;
-    const dataSource = isDevelop ? (developConfig[language] || developConfig[siteConfig.defaultLanguage]) : (docsConfig[language] || docsConfig[siteConfig.defaultLanguage]);
+    const dataSource = isDevelop ? this.getLanguageDict(language, 'develop') : this.getLanguageDict(language, 'docs');
+    // const dataSource = isDevelop ? (developConfig[language] || developConfig[siteConfig.defaultLanguage]) : (docsConfig[language] || docsConfig[siteConfig.defaultLanguage]);
     const __html = this.props.__html || this.state.__html;
     return (
       <div className="documentation-page">

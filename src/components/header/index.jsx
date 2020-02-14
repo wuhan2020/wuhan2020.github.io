@@ -6,18 +6,9 @@ import 'antd/lib/select/style/css';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import './index.scss';
+import Language from "../language";
 
 const { Option } = Select;
-
-const {
-  langList = [
-      { value: 'zh-cn', text: '简体中文' },
-      { value: 'en-us', text: 'English' },
-      { value: 'ja-jp', text: '日本語' },
-      { value: 'it-it', text: 'Italiano' },
-      { value: 'pt-br', text: 'Português' }
-    ]
-} = siteConfig;
 
 const searchSwitch = {
   baidu: {
@@ -34,7 +25,7 @@ const propTypes = {
   currentKey: PropTypes.string,
   logo: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['primary', 'normal']),
-  language: PropTypes.oneOf(langList.map(l => l.value)),
+  language: PropTypes.oneOf(siteConfig.langList.map(l => l.value)),
   onLanguageChange: PropTypes.func,
 };
 const defaultProps = {
@@ -43,7 +34,7 @@ const defaultProps = {
   onLanguageChange: noop,
 };
 
-class Header extends React.Component {
+class Header extends Language {
   constructor(props) {
     super(props);
     this.state = {
@@ -159,7 +150,7 @@ class Header extends React.Component {
                 onSelect={this.switchLang}
               >
                 {
-                  langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
+                  siteConfig.langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
                 }
               </Select>
             )
@@ -180,7 +171,7 @@ class Header extends React.Component {
               src={type === 'primary' ? getLink('/images/system/menu_white.png') : getLink('/images/system/menu_gray.png')}
             />
             <ul>
-              {(siteConfig[language] || siteConfig[siteConfig.defaultLanguage]).pageMenu.map(item => (
+              {this.getLanguageDict(language, 'site').pageMenu.map(item => (
                 <li
                   className={classnames({
                     'menu-item': true,
