@@ -23,8 +23,8 @@ Please also make sure your node version is higher than 8.x.
 If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
 
 1. Follow the [instructions](http://nvm.sh) to install nvm
-2. Run `nvm install 10` to install node v8
-3. Run `nvm use 10` to switch the working environment to node v8
+2. Run `nvm install 10` to install node 10.x
+3. Run `nvm use 10` to switch the working environment to node 10.x
 4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
