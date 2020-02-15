@@ -152,7 +152,7 @@ Il questionario è stato collegato come segue:
 
 https://shimo.im/forms/PWTTvkrdcCyXCGX6/fill
 
-您可以选择：
+Potete scegliere:
 
 * **Gruppo tecnico**：
 
