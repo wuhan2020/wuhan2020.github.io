@@ -68,6 +68,7 @@ R：Il progetto al momento è rivolto all'integrazione di sole informazioni uffi
 R：Accogliamo con piacere qualsiasi suggerimento volto al miglioramento del progetto, vi invitiamo ad includere più possibile spiegazioni e dettagli delle possibili soluzioni del problema. 
 
 **D：Perché la problematica (`issue`) da me sollevata su GitHub è stata chiusa?**
+
 R：Le `issue` sollevate su GitHub verranno chiuse non appena risolte. Problematiche che vengano considerate ripetezioni o non professionali possono essere chiuse immediatamente.
 
 ---
