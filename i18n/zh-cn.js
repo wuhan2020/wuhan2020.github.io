@@ -214,7 +214,7 @@ export default {
   },
   project: {
     barText: '项目列表',
-    sectionDescription: '目前社区已贡献以下开源项目',
+    sectionDescription: '目前社区孵化的项目/活动',
     projects: {
       list: [
         {
@@ -335,7 +335,7 @@ export default {
         },
         {
           text: '新冠战役信息平台',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          link: 'http://nav.werty.cn/',
           target: '_blank'
         },
         {
