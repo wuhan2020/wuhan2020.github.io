@@ -9,10 +9,10 @@ date: 2019-02-01
 # Comment se joindre au projet open-source Wuhan2020, et aider Wuhan à survivre la crise Covid-19 
 
 
-<iframe src="https://v.qq.com/iframe/player.html?vid=z3056185isw&amp;tiny=0&amp;auto=0" data-src="https://v.qq.com/x/page/z3056185isw.html" width="100%" height="400"></iframe>
+<iframe src="https://v.qq.com/iframe/player.html?vid=z3056185isw&amp;tiny=0&amp;auto=0" data-src="https://v.qq.com/x/page/z3056185isw.html" width="100%" height="400">
 
 <p style="font-size: 12px;color: rgb(136, 136, 136); text-align: center;">Discours de Bill Gates au TED après l'épidémie de virus Ebola en 2015</p>
-
+</iframe>
 ## Avant-propos
 
 C'est le discours TED présenté par Bill Gates après l'épidémie d'Ebola en 2015. Il pense que dans les prochaines décennies, s'il y a quelque chose qui peut tuer des millions de personnes, ce devrait être des microbes comme un virus hautement contagieux au lieu de guerres ou de missiles. À l'échelle mondiale, nous manquons d'investissements et de recherches sur ce sujet, et notre préparation à une flambée de maladies infectieuses est encore plus insuffisante.
