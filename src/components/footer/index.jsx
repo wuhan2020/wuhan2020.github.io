@@ -48,6 +48,16 @@ class Footer extends Language {
             </div>
             <div className="col col-6">
               <dl>
+                <dt>{dataSource.projects.title}</dt>
+                {
+                  dataSource.projects.list.map((d, i) => (
+                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
+                  ))
+                }
+              </dl>
+            </div>
+            <div className="col col-6">
+              <dl>
                 <dt>{dataSource.sponsors.title}</dt>
                 {
                   dataSource.sponsors.list.map((d, i) => (
