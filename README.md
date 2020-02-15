@@ -23,9 +23,9 @@ Please also make sure your node version is higher than 8.x.
 If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
 
 1. Follow the [instructions](http://nvm.sh) to install nvm
-2. Run `nvm install v8.16.0` to install node v8
-3. Run `nvm use v8.16.0` to switch the working environment to node v8
-4. Run ` npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
+2. Run `nvm install 10` to install node 10.x
+3. Run `nvm use 10` to switch the working environment to node 10.x
+4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
 
@@ -81,7 +81,7 @@ date: 2018-12-29
 
 ## How to Add a New Language
 
-If you want to add a new language, such as Thai. 
+If you want to add a new language, such as Thai.
 
 1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langList` variable of `site_config/site.js`.
 2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
