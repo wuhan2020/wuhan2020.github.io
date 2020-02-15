@@ -317,7 +317,7 @@ export default {
         },
         {
           text: '疫情信息导航',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          link: 'http://nav.werty.cn/',
           target: '_blank'
         }
       ]

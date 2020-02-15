@@ -316,7 +316,7 @@ export default {
         },
         {
           text: '新冠战役信息平台',
-          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          link: 'http://nav.werty.cn/',
           target: '_blank'
         },
         {
