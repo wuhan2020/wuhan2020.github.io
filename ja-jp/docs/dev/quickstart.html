@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="quickstart" />
+  <meta name="description" content="quickstart" />
+  <!-- 网页标签标题 -->
+  <title>quickstart</title>
+  <link rel="shortcut icon" href="/images/wuhan2020-mini.png" />
+  <link rel="stylesheet" href="/build/documentation.css" />
+</head>
+
+<body>
+  <div id="root"><div class="documentation-page" data-reactroot=""><header class="header-container header-container-ja-jp header-container-normal"><div class="header-body"><a href="/ja-jp/index.html"><img class="logo" src="/images/wuhan2020-logo.png"/></a><div class="ant-select-sm lang-select ant-select ant-select-enabled"><div class="ant-select-selection
+            ant-select-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="" aria-expanded="false" tabindex="0"><div class="ant-select-selection__rendered"><div class="ant-select-selection-selected-value" title="日本語" style="display:block;opacity:1">日本語</div></div><span class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"><i aria-label="icon: down" class="anticon anticon-down ant-select-arrow-icon"><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span></div></div><div class="header-menu"><img class="header-menu-toggle" src="/images/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/ja-jp/index.html" target="_self">ホーム</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/ja-jp/docs/overview/what-is-wuhan2020.html" target="_self">DOCS</a></li><li class="menu-item menu-item-normal"><a href="/ja-jp/docs/developers/developers_dev.html" target="_self">寄稿者</a></li><li class="menu-item menu-item-normal"><a href="/ja-jp/blog/index.html" target="_self">ブログ</a></li><li class="menu-item menu-item-normal"><a href="/ja-jp/community/index.html" target="_self">コミュニティ</a></li><li class="menu-item menu-item-normal"><a href="/ja-jp/project/index.html" target="_self">製品</a></li><li class="menu-item menu-item-normal"><a href="https://wh.opensource-service.cn/" target="_self">情報収集プラットフォーム</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="https://img.alicdn.com/tfs/TB1cm8nJwDqK1RjSZSyXXaxEVXa-160-160.png" class="front-img"/><span>ドキュメンテーション</span><img src="https://img.alicdn.com/tfs/TB1cm8nJwDqK1RjSZSyXXaxEVXa-160-160.png" class="back-img"/></div></div><section class="content-section"><div class="sidemenu"><div class="sidemenu-toggle"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"/></div><ul><li class="menu-item menu-item-level-1"><span>概要</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/ja-jp/docs/overview/what-is-wuhan2020.html" target="_self">Wuahan2020とは?</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/ja-jp/docs/overview/faq.html" target="_self">FAQ</a></li></ul></li><li class="menu-item menu-item-level-1"><span>ユーザードキュメント</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/ja-jp/docs/user/website-guide.html" target="_self">ウェブサイトガイド</a></li></ul></li><li class="menu-item menu-item-level-1"><span>開発者ガイド</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/ja-jp/docs/dev/quickstart.html" target="_self">クイックスタート</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/dev/information-guide.html" target="_self">データ収集ガイド</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/dev/architecture.html" target="_self">アーキテクチャ図</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/ja-jp/docs/dev/contributing.html" target="_self">貢献の手引き</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/dev/dev-env-setup.html" target="_self">Githubリポジトリ処理</a></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>新型コロナウイルス関連肺炎（2019-nCoV）情報共有サイト</h1>
+<p>11:00（CST）1/31/2020時点で更新,最新のアップデートについては、中国語版と英語版を確認してください。</p>
+<p>2020年初、武漢市に発生した新型コロナウイルス関連肺炎に対し、各病院、ホテル、工場、物流、寄贈、寄付金、予防、治療、活動などを統一収集又は公表、お互いに情報共有、又は有効に社会資源を上手く利用する出来るようにすることを目的としています。中国湖北省武漢より発生した新型コロナウイルス（2019-nCoV）と効率的に戦っていきます。すべてのコードはオープンソースであり、収集されたデータは慎重にレビュー・検証されたうえで、一般に公開されます。</p>
+<p>本プロジェクトはデータウェアハウスをメインとして、すべてのデータはスクリプトを使用し自動導入されています。<strong><em>直接データウェアハウスに提出することはご遠慮ください</em></strong>，具体的な提出ルートは以下を参照してください。</p>
+<h2>協力フローチャート</h2>
+<p>本プログラムでは皆さんが円滑に進めるために、以下のフローチャートを組み立てました。</p>
+<p><img src="https://yokii.cn/i/en.jpg" alt="img"></p>
+<p>提供された情報は、データの検証やレビューを除いてすべて自動的に処理されるため、手動での作業は必要ありません。</p>
+<h2>メインオープンソース</h2>
+<h3>データ同期</h3>
+<ul>
+<li>コードリポジトリ： <a href="https://github.com/wuhan2020/data-sync">https://github.com/wuhan2020/data-sync</a></li>
+</ul>
+<h3>webフロントエンド開発</h3>
+<ul>
+<li>コードリポジトリ：<a href="https://github.com/wuhan2020/WebApp">https://github.com/wuhan2020/WebApp</a></li>
+<li>応用サイト：<a href="https://wh.opensource-service.cn/">https://wh.opensource-service.cn/</a></li>
+</ul>
+<h3>API サービス</h3>
+<ul>
+<li>コードリポジトリ：<a href="https://github.com/wuhan2020/api-server">https://github.com/wuhan2020/api-server</a></li>
+</ul>
+<h3>ストーリーマップコンポーネント</h3>
+<ul>
+<li>コードリポジトリ：<a href="https://github.com/wuhan2020/map-viz">https://github.com/wuhan2020/map-viz</a></li>
+</ul>
+<h3>(shimo)ファイル同期コンポーネント</h3>
+<ul>
+<li>コードリポジトリ：<a href="https://github.com/wuhan2020/shimo-sheet2json">https://github.com/wuhan2020/shimo-sheet2json</a></li>
+</ul>
+<h2>情報提供</h2>
+<p>本プロジェクトで収集する情報は以下のように分類されています。それぞれに記入してください。</p>
+<p>本プロジェクトは(shimo)ファイルを利用して、情報収集を行います。そして、すべてのデータはスクリプトを使用し自動導入されてます。直接ファイルを書き換えることはご遠慮ください。</p>
+<p>参加人数が多いため、全ての人に編集権限を与えることができません。<a href="https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill">ここ</a>をクリックして申し込むと、招待メールが送られます。</p>
+<h3>(shimo)ファイル編集リンク：</h3>
+<ul>
+<li><a href="https://shimo.im/sheets/q6WP3DpKKgVW63Pr/4WbFN/">病院</a></li>
+<li><a href="https://shimo.im/sheets/Hd9C3QytrJK3RWxG/z1rye/">ホテル</a></li>
+<li><a href="https://shimo.im/sheets/RTHXp3ghtKXY3GcC/MODOC/">物流</a></li>
+<li><a href="https://shimo.im/sheets/pchvJ6ddyRHHdXtv/MODOC/">生産</a></li>
+<li><a href="https://shimo.im/sheets/W3gxW6cwkYTDY6DD/">寄贈</a></li>
+<li><a href="https://shimo.im/sheets/JgXjYCJJTRQxJ3GP/MODOC/">無料診療</a></li>
+<li><a href="https://shimo.im/sheets/pdHRcXyKqJdqPyGJ/MODOC/">在外武漢観光客の宿泊先</a></li>
+</ul>
+<p>もし新しいファイルを作りたい場合、[新規ファイル申し込み]（<a href="https://shimo.im/forms/rcThp3vPqqrtvChV/fill">https://shimo.im/forms/rcThp3vPqqrtvChV/fill</a> ）を記入してください。</p>
+<h2>貢献ガイド</h2>
+<p>ここを<a href="./CONTRIBUTING.md">クリック</a>してください。</p>
+<h2>情報収集ガイド</h2>
+<p>ここを<a href="./INFORMATION_GUIDE.md">クリック</a>してください。</p>
+<h1>Slack 交流グループ</h1>
+<p><a href="https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY">ここ</a>をクリックすると参加できます</p>
+<h2>Slackチャンネルナビゲーション</h2>
+<p>(最初にグループに参加する必要があります)</p>
+<table>
+<thead>
+<tr>
+<th>お名前</th>
+<th>リンク</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>デフォルトチャンネル</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CSS83MZUK"><img src="https://img.shields.io/badge/Slack%20Channel-%23anti--2019--ncov-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>一般情報リリース</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CSTGKFRCH"><img src="https://img.shields.io/badge/Slack%20Channel-%23general-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>デザインスキルグループ</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT70SHJQ0"><img src="https://img.shields.io/badge/Slack%20Channel-%23team--designer-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>製品要件管理チーム</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT99VDWS2"><img src="https://img.shields.io/badge/Slack%20Channel-%23team--requirement--management-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>フロントエンド開発チーム</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT93L48H5"><img src="https://img.shields.io/badge/Slack%20Channel-%23team--frontend-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>バックエンド開発チーム</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT93MCEJK"><img src="https://img.shields.io/badge/Slack%20Channel-%23team--backend-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>サブプロジェクト：データ同期</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT4AV807P"><img src="https://img.shields.io/badge/Slack%20Channel-%23proj--data--sync-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>サブプロジェクト：Webフロントエンド</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CSTPXN533"><img src="https://img.shields.io/badge/Slack%20Channel-%23proj--front--pages-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>サブプロジェクト：データマップの視覚化</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT6HW3X8E"><img src="https://img.shields.io/badge/Slack%20Channel-%23proj--map--visualization-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>サブプロジェクト：APIサーバー</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT3V5CDKJ"><img src="https://img.shields.io/badge/Slack%20Channel-%23api--server-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>提案</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CT7AABP53"><img src="https://img.shields.io/badge/Slack%20Channel-%23help--advisement-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>中国本土外</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CTAM5R65U"><img src="https://img.shields.io/badge/Slack%20Channel-%23team--overseas-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+<tr>
+<td>Slackチャネル運用チーム</td>
+<td><a href="https://app.slack.com/client/TT5U1VCPQ/CSX1X74M9"><img src="https://img.shields.io/badge/Slack%20Channel-%23proj--operation-green.svg?style=flat-square&amp;colorB=blue" alt="Github"></a></td>
+</tr>
+</tbody>
+</table>
+<p>初心者の方も経験者の方も貢献出来るように心からお待ちしております！こころをあわせて、一緒に危機を乗り越えましょう！</p>
+<h1>FAQ （更新中，ボランティア募集中）</h1>
+<p>よくある質問，<a href="../overview/faq.md">クリック</a></p>
+<p>情報グループFAQ，<a href="https://shimo.im/docs/JqX9CvrqphPV9T3J/">クリック</a></p>
+<p>クリックしてください<a href="https://shimo.im/docs/DdWvXvtvpxrqrJ83">shimoファイル</a></p>
+<p>翻訳者 Sakula Air, Yoki, 校正者 Yoki W, <a href="https://github.com/RRFHOUDEN">RRF</a></p>
+</div></section><footer class="footer-container"><div class="footer-body"><img src="/images/wuhan2020-logo-gray.png"/><p class="docsite-power">website powered by docsite</p><div id="google_translate_element"></div><div class="cols-container"><div class="col col-6"><h3>ビジョン</h3><p>Unite as one and drive out the plague! </p></div><div class="col col-6"><dl><dt>ドキュメンテーション</dt><dd><a href="/ja-jp/docs/overview/what-is-wuhan2020.html" target="_self">武漢2020とは何ですか？</a></dd><dd><a href="/ja-jp/docs/dev/quickstart.html" target="_self">クイックスタート</a></dd><dd><a href="https://github.com/wuhan2020/wuhan2020.github.io/issues/new" target="_self">ドキュメントの問題を報告する</a></dd><dd><a href="https://github.com/wuhan2020/wuhan2020.github.io" target="_self">GitHubでこのページを編集</a></dd></dl></div><div class="col col-6"><dl><dt>資源</dt><dd><a href="/ja-jp/blog/index.html" target="_self">ブログ</a></dd><dd><a href="/ja-jp/community/index.html" target="_self">コミュニティ</a></dd></dl></div><div class="col col-6"><dl><dt>社区项目</dt><dd><a href="https://wh.opensource-service.cn/" target="_blank">新型冠状病毒防疫信息收集平台 </a></dd><dd><a href="http://nav.werty.cn/" target="_blank">新冠战役信息平台</a></dd><dd><a href="http://nav.werty.cn/" target="_blank">疫情信息导航</a></dd></dl></div><div class="col col-6"><dl><dt>Sponsors</dt><dd><a href="https://slack.com/" target="_blank">Slack</a></dd><dd><a href="https://shimo.im/" target="_blank">Shimo</a></dd></dl></div></div><div class="copyright"><span>Copyright © 2020 Wuahan2020</span></div></div></footer></div></div>
+  <script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+  <script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+  <script>
+    window.rootPath = '';
+
+  </script>
+  <script src="/build/documentation.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b6e4b6fa9a64719756faaf4e9b314bb7";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type="text/javascript" src="https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({}, 'google_translate_element');
+  }
+</script>
+
+</body>
+
+</html>

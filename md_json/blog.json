@@ -1,0 +1,132 @@
+{
+  "zh-cn": [
+    {
+      "filename": "coronavirus-protection-guide.md",
+      "link": "/zh-cn/blog/coronavirus-protection-guide.html",
+      "meta": {
+        "title": "疫情知识 -- 新型冠状病毒防护指南",
+        "keywords": "疫情, 防护指南",
+        "description": "新型冠状病毒防护指南",
+        "author": "中国疾控中心",
+        "date": "2019-02-09"
+      }
+    },
+    {
+      "filename": "how-to-join-wuhan2020.md",
+      "link": "/zh-cn/blog/how-to-join-wuhan2020.html",
+      "meta": {
+        "title": "如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？",
+        "keywords": "Wuhan2020,开源项目",
+        "description": "如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？",
+        "author": "wuhan2020社区 Xlab开放实验室",
+        "date": "2019-02-01"
+      }
+    },
+    {
+      "filename": "to-all-members.md",
+      "link": "/zh-cn/blog/to-all-members.html",
+      "meta": {
+        "title": "致 WUHAN 2020 开源社区全体成员的一封信",
+        "keywords": "Wuhan2020,一封信",
+        "description": "致 WUHAN 2020 开源社区全体成员的一封信",
+        "author": "Wuhan2020 开源社区",
+        "date": "2019-01-28"
+      }
+    },
+    {
+      "filename": "wuhan2020-media-channel.md",
+      "link": "/zh-cn/blog/wuhan2020-media-channel.html",
+      "meta": {
+        "title": "WUHAN2020官宣渠道汇总",
+        "keywords": "WUHAN2020,官宣渠道",
+        "description": "WUHAN2020官宣渠道汇总",
+        "author": "阮华莉 莫晶璟 王伟 胡欢 91 三水小朋友 舒敏 Corrie 管媛野",
+        "date": "2019-02-07"
+      }
+    },
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/zh-cn/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "wuhan2020 官方公告 2020.1.29",
+        "keywords": "wuhan2020,官方公告",
+        "description": "wuhan2020 官方公告 2020.1.29",
+        "author": "XiaMai ，Xin Wang",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "en-us": [
+    {
+      "filename": "how-to-join-wuhan2020.md",
+      "link": "/en-us/blog/how-to-join-wuhan2020.html",
+      "meta": {
+        "title": "How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis",
+        "keywords": "Wuhan2020,Open Source Project",
+        "description": "How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis",
+        "author": "Wuhan2020 Community XLab",
+        "date": "2019-02-01"
+      }
+    },
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/en-us/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "Wuhan2020 Official Announcement 2020.1.29",
+        "keywords": "Wuhan2020 Official Announcement",
+        "description": "Wuhan2020 Official Announcement 2020.1.29",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "ja-jp": [
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/ja-jp/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "wuhan2020 お知らせ 2020.1.29",
+        "keywords": "Dubbo,Seata,Consistency",
+        "description": "wuhan2020 お知らせ  2020.1.29",
+        "author": "Ginda Chen, Isabella",
+        "proofread": "Yudai Yaguchi",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "it-it": [
+    {
+      "filename": "how-to-join-wuhan2020.md",
+      "link": "/it-it/blog/how-to-join-wuhan2020.html",
+      "meta": {
+        "title": "Come unirsi al progetto open-source Wuhan2020 per vincere questa guerra senza fumo?",
+        "keywords": "Wuhan2020,I progetti open source",
+        "description": "Come unirsi al progetto open-source Wuhan2020 per vincere questa guerra senza fumo?",
+        "author": "Wuhan2020 comunitario Xlab aperto",
+        "date": "2019-02-01"
+      }
+    },
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/it-it/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "wuhan2020 annuncio ufficiale 2020.1.29",
+        "keywords": "Wuhan2020 annuncio ufficiale",
+        "description": "wuhan2020 annuncio ufficiale 2020.1.29",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "fr-fr": [
+    {
+      "filename": "wuhan2020-official-announcement.md",
+      "link": "/fr-fr/blog/wuhan2020-official-announcement.html",
+      "meta": {
+        "title": "Annonce officielle de Wuhan2020 2020.1.29",
+        "keywords": "Annonce officielle de Wuhan2020",
+        "description": "Annonce officielle de Wuhan2020 2020.1.29",
+        "date": "2019-01-29"
+      }
+    }
+  ],
+  "pt-br": []
+}

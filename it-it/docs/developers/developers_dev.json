@@ -1,0 +1,10 @@
+{
+  "filename": "developers_dev.md",
+  "__html": "<h2>Wuhan2020 Team</h2>\n<p>Wuhan2020 lista dei volontari</p>\n<h1>Sviluppo tecnico</h1>\n<table>\n<thead>\n<tr>\n<th>name</th>\n<th>github</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shengyu Zhao</td>\n<td><a href=\"https://github.com/rank-zsy\">rank-zsy</a></td>\n</tr>\n<tr>\n<td>Yao Shi</td>\n<td><a href=\"https://github.com/TechQuery\">TechQuery</a></td>\n</tr>\n</tbody>\n</table>\n<h1>Analisi dati</h1>\n<h1>Progettazione</h1>\n<h1>Product management</h1>\n<h1>Coordinamento</h1>\n<h1>Traduzione</h1>\n<h1>Registrazione dati</h1>\n",
+  "link": "/it-it/docs/developers/developers_dev.html",
+  "meta": {
+    "title": "lista del volontari",
+    "keywords": "forza Wuhan, lista sostenitori",
+    "description": "Wuhan2020 Team."
+  }
+}
