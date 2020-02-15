@@ -63,7 +63,6 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scroll": "^1.7.9",
-    "whatwg-fetch": "^2.0.4",
-    "xmlbuilder": "^14.0.0"
+    "whatwg-fetch": "^2.0.4"
   }
 }
