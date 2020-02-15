@@ -18,7 +18,7 @@ R：L'obiettivo principale del progetto è la raccolta e la registrazione di dat
 
 **D: Qual'è il principale metodo di comunicazione della community Wuhan2020?**
 
-A：Abbiamo un gruppo di discussione sulla piattaforma Slack (URL: https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Invitiamo tutti coloro che desiderano contribuire e discutere in merito a questioni tecniche e non ad unirsi al gruppo.
+R：Abbiamo un gruppo di discussione sulla piattaforma Slack (URL: https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Invitiamo tutti coloro che desiderano contribuire e discutere in merito a questioni tecniche e non ad unirsi al gruppo.
 
 Collegamento di invito su Slack:
 
@@ -49,13 +49,13 @@ I canali specificatamente dedicati all'inserimento dati sono i seguenti:
 
 **D：Se non possiedo particoli abilità e competenze tecniche, come posso contribuire a Wuhan2020?**
 
-R：Il progetto ha anche necessità di progettazione della intefaccia utente (UI) interattiva, di addetti alla gestione e manutenzione file,  coordinatori di progetto, ecc. Inoltre, le operazioni di inserimento dati non richiedono particolari competenze tecniche e al momento abbiamo particolare necessità di supporto in questo senso.
+R：Il progetto ha anche necessità di progettazione della intefaccia utente (UI) interattiva, di addetti alla gestione e manutenzione file, coordinatori di progetto, ecc. Inoltre, le operazioni di inserimento dati non richiedono particolari competenze tecniche e al momento abbiamo particolare necessità di supporto in questo senso.
 
 **D：Coso posso iniziare a lavorare all'inserimento dati per Wuhan2020?**
 
 R：Al fine di coordinare il lavoro dei volontari che hanno espresso interesse verso il progetto e garantire una certa coerenza procedurale, l'accesso ai documenti non viene fornito automaticamente. Siete pregati di accedere a [questa pagina](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) per trasmetterci la vostra domanda di partecipazione, potremo così inviarvi degli inviti per prendere parte al processo di inserimento dati. Per questa attività, non richiediamo nessuna competenza tecnica specifica, tutti gli interessati sono invitati a partecipare.
 
-**D：Il progetto tratta che tipo di dati?**
+**D：Il progetto tratta quale tipo di dati?**
 
 R：Il progetto al momento è rivolto all'integrazione di sole informazioni ufficiali certificate, che provengano da: fonti governative, media ufficiali, ospedali ed altre strutture sanitarie, imprese, ecc. Fintanto che non sia esaurito l'inserimento di notizie ufficiali, qualsiasi informazione non certificata non sarà considerata.
 
@@ -63,9 +63,9 @@ R：Il progetto al momento è rivolto all'integrazione di sole informazioni uffi
 
 ## Altre domande:
 
-**D：Come posso suggerire dei miglioramenti?**
+**D：Volendo suggerire dei miglioramenti, ci sono accorgimenti da seguire?**
 
-R：When suggesting possible improvements, please try your best to include any possible solutions or tackle plan.
+R：Accogliamo con piacere qualsiasi suggerimento volto al miglioramento del progetto, vi invitiamo ad includere più possibile spiegazioni e dettagli delle possibili soluzioni del problema. 
 
 **D：Perché la problematica (`issue`) da me sollevata su GitHub è stata chiusa?**
 R：Le `issue` sollevate su GitHub verranno chiuse non appena risolte. Problematiche che vengano considerate ripetezioni o non professionali possono essere chiuse immediatamente.
