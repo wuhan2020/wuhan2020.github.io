@@ -316,6 +316,26 @@ export default {
       ],
     },
     copyright: 'Copyright © 2020 Wuahan2020',
+    projects: {
+      title: '社区项目',
+      list: [
+        {
+          text: '新型冠状病毒防疫信息收集平台 ',
+          link: 'https://wh.opensource-service.cn/',
+          target: '_blank'
+        },
+        {
+          text: '新冠战役信息平台',
+          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          target: '_blank'
+        },
+        {
+          text: '疫情信息导航',
+          link: 'https://wuhan2020.kaiyuanshe.cn/',
+          target: '_blank'
+        }
+      ]
+    },
     sponsors: {
       title: 'Sponsors',
       list: [
