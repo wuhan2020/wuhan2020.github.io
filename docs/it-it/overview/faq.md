@@ -51,7 +51,7 @@ I canali specificatamente dedicati all'inserimento dati sono i seguenti:
 
 R：Il progetto ha anche necessità di progettazione della intefaccia utente (UI) interattiva, di addetti alla gestione e manutenzione file, coordinatori di progetto, ecc. Inoltre, le operazioni di inserimento dati non richiedono particolari competenze tecniche e al momento abbiamo particolare necessità di supporto in questo senso.
 
-**D：Coso posso iniziare a lavorare all'inserimento dati per Wuhan2020?**
+**D：Come posso iniziare a lavorare all'inserimento dati per Wuhan2020?**
 
 R：Al fine di coordinare il lavoro dei volontari che hanno espresso interesse verso il progetto e garantire una certa coerenza procedurale, l'accesso ai documenti non viene fornito automaticamente. Siete pregati di accedere a [questa pagina](https://shimo.im/forms/YVJkGrGCWwQPTpqY/fill) per trasmetterci la vostra domanda di partecipazione, potremo così inviarvi degli inviti per prendere parte al processo di inserimento dati. Per questa attività, non richiediamo nessuna competenza tecnica specifica, tutti gli interessati sono invitati a partecipare.
 
