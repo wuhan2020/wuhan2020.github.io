@@ -44,7 +44,8 @@ function xml() {
 
   let xml = root.end({ pretty: true});
 
-  fs.writeFile("sitemap.xml", xml);
-
-  console.log("sitemap.xml has been generated!")
+  fs.writeFile("sitemap.xml", xml, function(err, result) {
+    if (err) console.log('error', err);
+    else console.log("sitemap.xml has been generated!");
+  });
 }
