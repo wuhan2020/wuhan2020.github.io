@@ -15,6 +15,7 @@ class Footer extends Language {
   render() {
     const { logo, language } = this.props;
     const dataSource = this.getLanguageDict(language, 'site');
+    const dataProject = this.getLanguageDict(language, 'project');
     return (
       <footer className="footer-container">
         <div className="footer-body">
@@ -48,10 +49,10 @@ class Footer extends Language {
             </div>
             <div className="col col-6">
               <dl>
-                <dt>{dataSource.projects.title}</dt>
+                <dt>{dataProject.barText}</dt>
                 {
-                  dataSource.projects.list.map((d, i) => (
-                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
+                  dataProject.projects.list.map((d, i) => (
+                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.title}</a></dd>
                   ))
                 }
               </dl>
