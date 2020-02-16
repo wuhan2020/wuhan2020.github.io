@@ -188,30 +188,30 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: '新型冠状病毒防疫信息收集平台',
+          title: 'Piattaforma per la raccolta di informazioni sulla vaccinazione del nuovo coronavirus',
           repoLink:'https://github.com/wuhan2020/wuhan2020',
           description: "Nuova piattaforma di raccolta di informazioni sulla prevenzione dell'epidemia di coronavirus di Wuhan",
           link: 'https://wh.opensource-service.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2020援助武汉',
+          title: '2020 per aiutare wuhan',
           repoLink: 'https://github.com/wuhan2020/data-sync',
-          description: '建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。',
+          description: 'Creare un servizio di dati che sincronizzi le informazioni in tempo reale negli ospedali, nelle fabbriche, negli acquisti, ecc. Riunire tutti coloro che desiderano contribuire a questa campagna contro il virus, in modo che tutti coloro che hanno le capacità necessarie possano partecipare allo sviluppo di un tema importante, utilizzando una cultura della comunità open source, da realizzare in modo collaborativo.',
           link: 'https://wuhan2020.kaiyuanshe.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan2020开源社区官网',
+          title: 'Wuhan2020, un ufficiale della comunità open-source',
           repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
-          description: '目前Wuhan2020社区官方网站，召集不同国家不同职业的志愿者，建立开源信息系统，为抵抗新型冠状病毒做贡献。',
+          description: 'Attualmente, il sito ufficiale della comunità di Wuhan2020 riunisce volontari di varie professioni in diversi paesi per creare un sistema di informazione open source che contribuisca a resistere ai nuovi tipi di canovirus.',
           link: 'https://community.wuhan2020.org.cn/',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2019-nCoV-Nav 疫情信息导航',
+          title: '2019-nCoV-Nav Navigazione delle informazioni sull’epidemia',
           repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
-          description: '疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。',
+          description: 'Il sito web di informazione sull’epidemia offre al pubblico un accesso facile e completo alle informazioni sull’epidemia e raccoglie i canali della rete che coprono tutti gli aspetti dell’informazione sull’epidemia.',
           link: 'http://nav.werty.cn',
         },
       ],
@@ -295,26 +295,6 @@ export default {
       ],
     },
     copyright: 'Copyright © 2020 Wuahan2020',
-    projects: {
-      title: '社区项目',
-      list: [
-        {
-          text: '新型冠状病毒防疫信息收集平台 ',
-          link: 'https://wh.opensource-service.cn/',
-          target: '_blank'
-        },
-        {
-          text: '新冠战役信息平台',
-          link: 'http://nav.werty.cn/',
-          target: '_blank'
-        },
-        {
-          text: '疫情信息导航',
-          link: 'http://nav.werty.cn/',
-          target: '_blank'
-        }
-      ]
-    },
     sponsors: {
       title: 'Sponsors',
       list: [

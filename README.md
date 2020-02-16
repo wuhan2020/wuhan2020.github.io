@@ -23,9 +23,9 @@ Please also make sure your node version is higher than 8.x.
 If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
 
 1. Follow the [instructions](http://nvm.sh) to install nvm
-2. Run `nvm install v8.16.0` to install node v8
-3. Run `nvm use v8.16.0` to switch the working environment to node v8
-4. Run ` npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
+2. Run `nvm install 10` to install node 10.x
+3. Run `nvm use 10` to switch the working environment to node 10.x
+4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
 
@@ -79,18 +79,17 @@ date: 2018-12-29
 ---
 ```
 
-## How To Add One New Language
+## How to Add a New Language
 
-If you want to add a new language, such as Thai. 
+If you want to add a new language, such as Thai.
 
-1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langlist` variable of `site config/site.js`. 
-2. Then please add directories named `th-th` in `docs`and `blog` directories , here you can add documents in this language . 
+1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langList` variable of `site_config/site.js`.
+2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
+3. Then please add directories named `th-th` in `docs`and `blog` directories. Here you can copy articles from `en-us`, translate them, and then add them to `th-th`. 
 
-notice : Of course, you can also see `langlist` variables in several other files. This is just a bottom line measure, and you don't have to modify it..
+## How to Add Sitemap for SEO
 
-## How To Add sitemap for SEO
-
-Please see the page : https://docsite.js.org/en-us/docs/SEO.html
+`sitemap.xml` is generated automatically by `sitemap-generator.js` during the deployment process.
 
 
 ## Others
