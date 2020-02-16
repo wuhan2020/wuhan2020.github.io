@@ -24,4 +24,4 @@ This page shows Seats developers and continues to expand. The list is not priori
 | [Rex Wang](https://github.com/rexwangcc) | api-server | [南漂一卒](https://github.com/TechQuery) | webApp |
 | [thinkinnight](https://github.com/thinkinnight) | data-sync | [wertycn](https://github.com/wertycn) | Navigation |
 | [Will Wang](https://github.com/will-ww) | | [XIAMAI2020](https://github.com/XIAMAI2020) |Coordination |
-
+| [sunshinemingo](https://github.com/sunshinemingo) | Information &Propaganda |
