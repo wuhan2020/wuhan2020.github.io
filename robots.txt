@@ -1,0 +1,15 @@
+# docsite robots.txt
+User-agent: *
+Allow: /
+Allow: /en-us/
+Allow: /fr-fr/
+Allow: /it-it/
+Allow: /ja-jp/
+Allow: /pt-br/
+Allow: /zh-cn/
+Allow: /build/
+Allow: /md_json/
+Allow: /site_config/
+Allow: /images/
+
+Sitemap: https://community.wuhan2020.org.cn/sitemap.xml
