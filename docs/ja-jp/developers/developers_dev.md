@@ -26,6 +26,7 @@ GitHubピンイン順で並べ替え
 | [Rex Wang](https://github.com/rexwangcc) | api-server | [南漂一卒](https://github.com/TechQuery) | webApp |
 | [thinkinnight](https://github.com/thinkinnight) | data-sync | [wertycn](https://github.com/wertycn) | ナビゲーション |
 | [Will Wang](https://github.com/will-ww) | | [XIAMAI2020](https://github.com/XIAMAI2020) |調整 |
+| [sunshinemingo](https://github.com/sunshinemingo) | 情報と宣伝 | 
 
 
 # 日本語訳
