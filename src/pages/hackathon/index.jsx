@@ -5,12 +5,12 @@ import "./index.css";
 import { Steps, Button, message } from "antd";
 import { Layout } from "antd";
 import { Row, Col } from "antd";
-import { Typography, Divider } from "antd";
+import { Typography} from "antd";
 
 
 const { Title, Paragraph, Text } = Typography;
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 const { Step } = Steps;
 
