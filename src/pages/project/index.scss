@@ -2,14 +2,6 @@
 @import '../../reset.scss';
 
 .project-page {
-  h3 {
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 36px;
-    color: #333;
-    text-align: center;
-    margin: 0 0 30px;
-  }
   p {
     font-family: Avenir-Medium;
   }
@@ -18,6 +10,14 @@
     padding-right: 5%;
     margin-top: 10px;
     margin-bottom: 20px;
+    h3 {
+      font-family: Avenir-Medium;
+      font-weight: 700;
+      font-size: 36px;
+      color: #333;
+      text-align: center;
+      margin: 0 0 30px;
+    }
   }
   .project-item {
     display: flex;
