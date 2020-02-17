@@ -6,10 +6,7 @@ import { Steps, Button, message } from "antd";
 import { Layout } from "antd";
 import { Row, Col } from "antd";
 import { Typography, Divider } from "antd";
-import Header from '../../components/header';
-import Bar from '../../components/bar';
-import Footer from '../../components/footer';
-import Language from '../../components/language';
+
 
 const { Title, Paragraph, Text } = Typography;
 
