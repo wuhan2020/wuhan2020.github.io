@@ -268,8 +268,12 @@ export default {
         key: 'list',
         text: '製品',
         link: '/ja-jp/project/index.html',
-      }
-      ,
+      },
+      {
+        key: 'hackathon',
+        text: 'ハッカソン',
+        link: '/ja-jp/hackathon/index.html',
+      },
       {
         key: 'mis',
         text: '情報収集プラットフォーム',

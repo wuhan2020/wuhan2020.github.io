@@ -272,6 +272,11 @@ export default {
         link: '/fr-fr/project/index.html',
       },
       {
+        key: 'hackathon',
+        text: 'HACKATHON',
+        link: '/fr-fr/hackathon/index.html',
+      },
+      {
         key: 'mis',
         text: 'Plateforme d\'informations 2019-nCoV',
         link: 'https://wh.opensource-service.cn/',

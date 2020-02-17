@@ -248,8 +248,12 @@ export default {
         key: 'list',
         text: 'RISULTATI',
         link: '/it-it/project/index.html',
-      }
-      ,
+      },
+      {
+        key: 'hackathon',
+        text: 'HACKATHON',
+        link: '/it-it/hackathon/index.html',
+      },
       {
         key: 'mis',
         text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',

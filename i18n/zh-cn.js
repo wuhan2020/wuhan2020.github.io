@@ -281,6 +281,11 @@ export default {
         link: '/zh-cn/project/index.html',
       },
       {
+        key: 'hackathon',
+        text: '黑客松',
+        link: '/zh-cn/hackathon/index.html',
+      },
+      {
         key: 'mis',
         text: '新型冠状病毒防疫信息平台',
         link: 'https://wh.opensource-service.cn/',
