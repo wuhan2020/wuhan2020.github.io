@@ -209,8 +209,8 @@ export default {
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2019-nCoV-Nav Navigazione delle informazioni sull’epidemia',
-          repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
+          title: 'COVID-19-Nav Navigazione delle informazioni sull’epidemia',
+          repoLink: 'https://github.com/wuhan2020/COVID-19-Nav',
           description: 'Il sito web di informazione sull’epidemia offre al pubblico un accesso facile e completo alle informazioni sull’epidemia e raccoglie i canali della rete che coprono tutti gli aspetti dell’informazione sull’epidemia.',
           link: 'http://nav.werty.cn',
         },

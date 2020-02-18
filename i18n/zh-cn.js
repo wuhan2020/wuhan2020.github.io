@@ -240,8 +240,8 @@ export default {
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2019-nCoV-Nav 疫情信息导航',
-          repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
+          title: 'COVID-19-Nav 疫情信息导航',
+          repoLink: 'https://github.com/wuhan2020/COVID-19-Nav',
           description: '疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。',
           link: 'http://nav.werty.cn',
         },

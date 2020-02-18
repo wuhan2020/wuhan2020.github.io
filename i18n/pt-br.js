@@ -218,7 +218,7 @@ export default {
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '2019-nCoV-Nav Epidemic Information Navigation',
+          title: 'COVID-19-Nav Epidemic Information Navigation',
           description: 'O site de navegação de informações sobre epidemias fornece um portal conveniente e abrangente de informações sobre epidemias para o público e organiza canais de rede que cobrem todos os aspectos das informações sobre epidemias.',
           link: 'http://nav.werty.cn',
         },
