@@ -222,7 +222,7 @@ export default {
         {
           img: '/images/blog/wuhan2020.png',
           title: 'COVID-19 Outbreak Navigation Site',
-          repoLink: 'https://github.com/wuhan2020/2019-nCoV-Nav',
+          repoLink: 'https://github.com/wuhan2020/COVID-19-Nav',
           description: 'COVID-19 navigation site provides the public with a convenient and comprehensive information portal with online resources and archival information related to COVID-19.',
           link: 'http://nav.werty.cn',
         },
