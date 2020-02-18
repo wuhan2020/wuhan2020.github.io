@@ -44,7 +44,7 @@ Quando submeter uma nova `issue`， por favor se atente ao tipo de `issue` e exp
 -   hotel: informação relacionada a hotéis
 -   donation：informação relacionada a doações
 -   clinic：informação relacionada a clinica voluntária
--   news：novidades na 2019-nCoV prevenção de epidemia
+-   news：novidades na COVID-19 prevenção de epidemia
 -   doc: sobre a documentacão
 -   bug： report de bug
 -   feature: novas funcionalidades

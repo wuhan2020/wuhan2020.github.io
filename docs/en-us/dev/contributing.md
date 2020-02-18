@@ -46,7 +46,7 @@ When submitting a new `issue`， please pay attention to the type of the `issue`
 -   hotel: information relating to hotels
 -   donation：information relating to donation
 -   clinic：information relating to voluntary clinic
--   news：news update on this 2019-nCoV epidemic prevention
+-   news：news update on this COVID-19 epidemic prevention
 -   doc: about documentation
 -   bug： bug report
 -   feature: new features

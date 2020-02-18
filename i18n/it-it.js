@@ -107,7 +107,7 @@ export default {
         title: 'Doc. Utente',
         children: [
           {
-            title: 'Guida alla piattaforma di prevenzione epidemica 2019-nCoV (Inglese)',
+            title: 'Guida alla piattaforma di prevenzione epidemica covid-19 (Inglese)',
             link: '/en-us/docs/user/website-guide.html',
           }
         ],
@@ -252,7 +252,7 @@ export default {
       ,
       {
         key: 'mis',
-        text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',
+        text: 'PIATTAFORMA INFORMATIVA COVID-19',
         link: 'https://wh.opensource-service.cn/',
       },
     ],

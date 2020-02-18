@@ -189,7 +189,7 @@ export default {
       list: [
         {
           icon: 'fonctionnalité-1',
-          text: 'Plateforme d\'informations anti-épidémiques 2019-nCoV',
+          text: 'Plateforme d\'informations anti-épidémiques COVID-19',
           content: 'Un système d\'information développé par la communauté. Faciliter l\'échange d\'informations entre les fournisseurs de ressources (donateurs de ressources médicales, sociétés de services logistiques, hôtels et fournisseurs de soutien médical gratuit, etc.) et ceux qui ont besoin d\'aide (hôpitaux et autres établissements de santé, patients, etc.), afin d\'accélérer le soutien de la population dans les zones touchées.',
         },
         {
@@ -208,7 +208,7 @@ export default {
         {
           img: '/images/blog/wuhan2020.png',
 
-          title: "Plateforme de collecte d'informations anti-épidémiques 2019-nCoV",
+          title: "Plateforme de collecte d'informations anti-épidémiques COVID-19",
           repoLink:'https://github.com/wuhan2020/wuhan2020',
           description: "Une plateforme d'information dévélopée par la communauté pour faciliter la communication entre les fournisseurs (dons des ressources médicales, entreprises de transport et logistique, hôtels, cliniques gratuites) et les parties qui en ont besoin (hôpitaux, population dans les zones touchées), pour que les gens dans les zones touchées peuvent avoir des aides rapidement.",
           link: 'https://wh.opensource-service.cn/',
@@ -273,7 +273,7 @@ export default {
       },
       {
         key: 'mis',
-        text: 'Plateforme d\'informations 2019-nCoV',
+        text: 'Plateforme d\'informations covid-19',
         link: 'https://wh.opensource-service.cn/',
       },
     ],

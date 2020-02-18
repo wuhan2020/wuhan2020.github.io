@@ -9,13 +9,13 @@ date: 2019-01-29
 
 # wuhan2020 annuncio ufficiale 2020.1.29
 
-Ciao a tutti i volontari, siamo il core team volontario di wuhan2020, un progetto ospitato su GitHub che mira a fornire supporto alla lotta contro il coronavirus, 2019-nCoV. Si tratta di un progetto OpenSource realizzato e sostenuto su base collaborativa al fine di migliorare e rendere piu efficace l'attività di organizzazione a supporto della comunità di Wuhan. Gli aspetti su cui stiamo lavorando sono:
+Ciao a tutti i volontari, siamo il core team volontario di wuhan2020, un progetto ospitato su GitHub che mira a fornire supporto alla lotta contro il coronavirus, COVID-19. Si tratta di un progetto OpenSource realizzato e sostenuto su base collaborativa al fine di migliorare e rendere piu efficace l'attività di organizzazione a supporto della comunità di Wuhan. Gli aspetti su cui stiamo lavorando sono:
 
 1. creare un servizio per la sincronizzazione in tempo reale di dati ed informazioni tra ospedali o altre strutture sanitarie, stabilimenti produttivi e servizi di approvigionamento;
 2. invitare più persone ad unirsi al progetto svolgendo un ruolo importante sulla base delle proprie capacità professionali;
 3. portare a successo l'organizzazione collaborativa con lo spirito della comunità OpenSource.
 
-Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus 2019-nCoV[https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
+Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus COVID-19[https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 ## OPEN SOURCE & COLLABORAZIONE
 
@@ -49,7 +49,7 @@ Info: https://github.com/wuhan2020/wuhan2020/
 
 ## RICHIESTA, ASSEGNAMENTO E GESTIONE PROGETTO
 
-Offriamo servizi di gestione e scambio dati ed informazioni a supporto della lotta contro il nuovo coronavirus (2019-nCoV), fornendo inoltre un robusto pool di esperti volontari e risorse; in accordo a tale proposito, invitiamo alla partecipazione all'attività di sviluppo autogestita. Ad esempio, il volontario interessato allo sviluppo di nuove funzionalità, può liberamente far domanda per il coordinamento e la creazione di un nuovo sottoprogetto, occupandosi in maniera indipendente del reclutamento dei partecipanti del relativo gruppo di sviluppo e sottoponendo poi la qualità ed i risultati del sottoprogetto stesso al controllo da parte del core team.
+Offriamo servizi di gestione e scambio dati ed informazioni a supporto della lotta contro il nuovo coronavirus (COVID-19), fornendo inoltre un robusto pool di esperti volontari e risorse; in accordo a tale proposito, invitiamo alla partecipazione all'attività di sviluppo autogestita. Ad esempio, il volontario interessato allo sviluppo di nuove funzionalità, può liberamente far domanda per il coordinamento e la creazione di un nuovo sottoprogetto, occupandosi in maniera indipendente del reclutamento dei partecipanti del relativo gruppo di sviluppo e sottoponendo poi la qualità ed i risultati del sottoprogetto stesso al controllo da parte del core team.
 
 ### 1. RICHIESTA E ASSEGNAMENTO DI PROGETTI
 

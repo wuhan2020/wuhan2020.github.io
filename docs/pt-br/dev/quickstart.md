@@ -1,7 +1,7 @@
-# Plataforma para coleta de informações para Wuhan 2019-nCoV Epidemic Prevention
+# Plataforma para coleta de informações para Wuhan COVID-19 Epidemic Prevention
 Esta tradução foi criada em 13:00 (UTC), 2020-02-10.
 
-Este projeto tem como objetivo a coleta e união de informações de hospitais, hotéis, fábricas, logísticas, doações, contribuições, prevenção, tratamento e qualquer informação a respeito oda prevenção a epidemia nacional de fontes confiáveis para ajudar todas as pessoas afetadas, organizações  organizações melhor se comunicam e coordenam entre si para combater de maneira eficiente e eficaz o novo Coronavirus (2019-nCoV) o surto que iniciou em Wuhan, Hubei, China. Todo o código será open-source e o dado coletado irá ser cuidadosamente revisto/validado e disponível ao público.
+Este projeto tem como objetivo a coleta e união de informações de hospitais, hotéis, fábricas, logísticas, doações, contribuições, prevenção, tratamento e qualquer informação a respeito oda prevenção a epidemia nacional de fontes confiáveis para ajudar todas as pessoas afetadas, organizações  organizações melhor se comunicam e coordenam entre si para combater de maneira eficiente e eficaz o novo Coronavirus (COVID-19) o surto que iniciou em Wuhan, Hubei, China. Todo o código será open-source e o dado coletado irá ser cuidadosamente revisto/validado e disponível ao público.
 
 Este repositório funciona como principal fonte de dados. Todos os dados visto aqui é importado automaticamente por scripts. **_ Por favor, não submeta nada diretamente neste repositório_**. Consulte outras seções deste documento para perguntas sobre envio de dados.
 
