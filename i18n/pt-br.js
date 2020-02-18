@@ -171,7 +171,7 @@ export default {
           type: 'normal',
         },
         {
-          text: 'Plataforma de prevenção de epidêmia para Wuhan 2019-nCoV',
+          text: 'Plataforma de prevenção de epidêmia para Wuhan COVID-19',
           link: 'https://wh.opensource-service.cn/',
           type: 'normal',
         },
@@ -182,7 +182,7 @@ export default {
       list: [
         {
           icon: 'feature-1',
-          title: '2019-nCov Information Platform',
+          title: 'COVID-19 Information Platform',
           content: 'Um sistema de informação desenvolvido pela comunidade. Facilitar a troca de informações entre provedores de recursos (doadores de recursos médicos, empresas de logística, hotéis, recursos clínicos gratuitos) e aqueles que precisam de ajuda (hospitais, pessoas na área do desastre), para facilitar e ajudar rapidamente as pessoas na área do desastre.',
         },
         {
@@ -259,7 +259,7 @@ export default {
       },
       {
         key: 'mis',
-        text: '2019-NCOV INFORMATION PLATFORM',
+        text: 'COVID-19 INFORMATION PLATFORM',
         link: 'https://wh.opensource-service.cn/',
       },
     ],

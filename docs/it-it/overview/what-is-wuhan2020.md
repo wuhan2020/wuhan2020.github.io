@@ -8,14 +8,14 @@ description: Ciò che stiamo facendo è: realizzare un servizio web per la condi
 
 ## Cos'è Wuhan2020?
 
-Questo progetto ha l'obiettivo di **raccogliere ed aggregare informazioni, ottenute da fonti attendibili, riguardanti ospedali ed altre strutture sanitarie, attività produttive, servizi logistici, donazioni e contributi, prevenzione e trattamento medico ed ogni altra informazione utile in relazione alla prevezione epidemica nazionale ed internazionale, al fine di aiutare tutte le persone ed organizzazioni coinvolte a comunicare tra loro e coordinarsi per combattere afficacemente ed efficientemente il focolaio del Nuovo Coronavirus (2019-nCoV) insorto ad Wuhan, Hubei, Cina**. Tutto il codice sorgente sarà open-source e i tutti i dati raccolti saranno sottoposti a revisione/validazione e quindi resi disponbili al pubblico.
+Questo progetto ha l'obiettivo di **raccogliere ed aggregare informazioni, ottenute da fonti attendibili, riguardanti ospedali ed altre strutture sanitarie, attività produttive, servizi logistici, donazioni e contributi, prevenzione e trattamento medico ed ogni altra informazione utile in relazione alla prevezione epidemica nazionale ed internazionale, al fine di aiutare tutte le persone ed organizzazioni coinvolte a comunicare tra loro e coordinarsi per combattere afficacemente ed efficientemente il focolaio del Nuovo Coronavirus (COVID-19) insorto ad Wuhan, Hubei, Cina**. Tutto il codice sorgente sarà open-source e i tutti i dati raccolti saranno sottoposti a revisione/validazione e quindi resi disponbili al pubblico.
 
 
 ## Cosa posso fare?
 
 ### Se vuoi fornire risorse o informazioni
 
-Inserisci i contenuti sulla nostra piattaforma di condivisione dati - **Piattaforma di Raccolta Informazioni per la Prevenzione Epidemica del Nuovo Coronavirus, Wuhan 2019-nCoV**: [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
+Inserisci i contenuti sulla nostra piattaforma di condivisione dati - **Piattaforma di Raccolta Informazioni per la Prevenzione Epidemica del Nuovo Coronavirus, Wuhan COVID-19**: [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
 
 La versione in lingua inglese del sito web è in via di realizzazione, ed al momento è richiesto un numero telefonico cinese valido per il caricamento di informazioni sulla piattaforma. Se incontri qualsiasi difficoltà, ti preghiamo di comunicarcelo [sollevando una problematica (`issue`) sulla pagina GitHub del progetto](https://github.com/wuhan2020/WebApp/issues) o [contattandoci su Slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Il tuo aiuto è e sarà sempre apprezzato.
 

@@ -43,7 +43,7 @@ Lorsque vous soumettez une nouvelle  `issue`, veuillez vérifier le type de  `is
 -   hôtel: information de hôtel
 -   donation：information de donation
 -   clinique：informations de la clinique volontaire
--   news：news sur l'anti-épidémiques 2019-nCoV
+-   news：news sur l'anti-épidémiques COVID-19
 -   doc: documentation
 -   bug： bug rapport
 -   fonction: nouvelle fonction

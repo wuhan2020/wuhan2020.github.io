@@ -1,7 +1,7 @@
 ---
-title: Guida alla piattaforma di prevenzione epidemica 2019-nCoV
+title: Guida alla piattaforma di prevenzione epidemica COVID-19
 keywords: Wuhan
-description: Guida alla piattaforma di prevenzione epidemica 2019-nCoV
+description: Guida alla piattaforma di prevenzione epidemica COVID-19
 ---
 
 TODO

@@ -8,7 +8,7 @@ date: 2019-01-29
 
 # WUHAN2020 Official Announcement 2020.1.29
 
-Dear friends and volunteers, we are the core organizers of `wuhan2020`, a project on GitHub aiming to serve this combat against `2019 Novel Coronavirus` (2019-nCoV).  This is an Open Source project constructed and maintained by all of us for a better and more effective collaboration that assists the self-organized rescue.  The things we are working on:  
+Dear friends and volunteers, we are the core organizers of `wuhan2020`, a project on GitHub aiming to serve this combat against `2019 Novel Coronavirus` (COVID-19).  This is an Open Source project constructed and maintained by all of us for a better and more effective collaboration that assists the self-organized rescue.  The things we are working on:  
 
 1. to create a data service for real-time synchronization among hospitals, factories and procurement.
 2. to call on more people to participate in this project with their professional skills and various resources.
@@ -16,7 +16,7 @@ Dear friends and volunteers, we are the core organizers of `wuhan2020`, a projec
 
 
 
-The online web entrance of our project: `Information Collection Platform for Wuhan 2019-nCoV Epidemic Prevention  (in Chinese 新型冠状病毒防疫信息平台)` [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
+The online web entrance of our project: `Information Collection Platform for Wuhan COVID-19 Epidemic Prevention  (in Chinese 新型冠状病毒防疫信息平台)` [https://wh.opensource-service.cn/](https://wh.opensource-service.cn/)
 
 
 
@@ -56,7 +56,7 @@ info source：https://github.com/wuhan2020/wuhan2020/
 
 ## Project application, Project assignment, Project management 
 
-We develop core data services for this combat against 2019-nCoV, and provide a robust resource pool. We look forward to all effective sub-projects and teams initialized by individuals and regulated by core team.
+We develop core data services for this combat against COVID-19, and provide a robust resource pool. We look forward to all effective sub-projects and teams initialized by individuals and regulated by core team.
 
 ### Project application & Project assignment
 
@@ -89,7 +89,7 @@ To meet your soul team , to fully play your own talent, to fulfill your voluntar
 - `#team-frontend`———— frontend development team 
 - `#team-backend`———— backend development team
 - `#team-data`———— data science team
-- `#team-translation`———— translation team: documentation translation and constant maintaining, including other relevant translation work focused on this combat against 2019-nCoV 
+- `#team-translation`———— translation team: documentation translation and constant maintaining, including other relevant translation work focused on this combat against COVID-19 
 - `#team-overseas`———— team for overseas Chinese volunteers who can also serve this medical combat
 
 ##### B: `proj-<project_name>-<tecnical_stack>` naming convention————project group `channel`

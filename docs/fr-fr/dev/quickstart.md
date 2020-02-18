@@ -1,8 +1,8 @@
-# Plateforme de collecte d'informations anti-épidémiques 2019-nCoV
+# Plateforme de collecte d'informations anti-épidémiques COVID-19
 
 Cette traduction a été mise à jour le 07/01/2020.
 
-<div style="text-align: justify">Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus 2019-nCoV. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
+<div style="text-align: justify">Ce projet vise à collecter des informations sur les hôpitaux, les hôtels, les usines, la logistique, les dons, les contributions, la prévention, le traitement et toutes informations à partir de sources fiables pour lutter contre le nouveau coronavirus COVID-19. Il y a eu plusieurs cas de pneumonie dans la ville de Wuhan, dans la province du Hubei, en Chine. 
 
 Ce dépôt fonctionne comme l'entrepôt de données principal. Toutes les données que vous voyez ici sont importées automatiquement par des scripts. **_Veuillez NE PAS soumettre de données directement à ce dépôt_**. Veuillez référer aux autres sections de ce document pour la soumission des données. Tous les codes seront open-source et les données collectées seront soigneusement examinées / validées et mises à la disposition du public.</div>
 
@@ -89,7 +89,7 @@ Cliquez ici pour rejoindre au [Slack Communication Groupe](https://join.slack.co
 
 wuhan2020 liste d'email: [wuhan2020@googlegroups.com](https://groups.google.com/forum/#!forum/wuhan2020) ([inscription](mailto:wuhan2020+subscribe@googlegroups.com), [désinscription](mailto:wuhan2020+unsubscribe@googlegroups.com), [archivage](https://groups.google.com/forum/#!forum/wuhan2020))
 
-Tout le monde est invité à se réunir pour à exprimer son opinion technique ou non technique. Travaillons tous ensemble pour atteindre un objectif commun : lutter contre le 2019-nCoV !
+Tout le monde est invité à se réunir pour à exprimer son opinion technique ou non technique. Travaillons tous ensemble pour atteindre un objectif commun : lutter contre le COVID-19 !
 
 # FAQ
 

@@ -8,7 +8,7 @@ description: What we are doing now is: to establish a real-time and synchronous 
 
 ## What is Wuhan2020
 
-This project aims at **collecting and gathering information of hospitals, hotels, factories, logistics, donations, contributions, prevention, treatment and any live information regarding national epidemic prevention from reliable sources to help all affected people, organizations better communicate and coordinate with each other to efficiently and effectively fight against the Novel Coronavirus (2019-nCoV) outbreak that started in Wuhan, Hubei, China**. All of the code will be open-source and the data collected will be carefully reviewed/validated and available to the public.
+This project aims at **collecting and gathering information of hospitals, hotels, factories, logistics, donations, contributions, prevention, treatment and any live information regarding national epidemic prevention from reliable sources to help all affected people, organizations better communicate and coordinate with each other to efficiently and effectively fight against the Novel Coronavirus (COVID-19) outbreak that started in Wuhan, Hubei, China**. All of the code will be open-source and the data collected will be carefully reviewed/validated and available to the public.
 
 
 
@@ -16,7 +16,7 @@ This project aims at **collecting and gathering information of hospitals, hotels
 
 ### If you want to provide resources and information
 
-Post on our data sharing platform - **Information Collection Platform for Wuhan 2019-nCoV Epidemic Prevention**: [https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
+Post on our data sharing platform - **Information Collection Platform for Wuhan COVID-19 Epidemic Prevention**: [https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 The English version of the website is under construction, and a valid Chinese telephone number is currently required to post your information on the platform. If that occurs to you, let us know by [raising an issue](https://github.com/wuhan2020/WebApp/issues) or [joining our slack channel](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Your help is and will be always appreciated.
 
