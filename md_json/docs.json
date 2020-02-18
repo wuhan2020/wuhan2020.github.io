@@ -234,9 +234,9 @@
       "filename": "developers_dev.md",
       "link": "/it-it/docs/developers/developers_dev.html",
       "meta": {
-        "title": "贡献者列表",
-        "keywords": "武汉加油, 贡献者列表",
-        "description": "Wuhan2020 Team."
+        "title": "Elenco dei collaboratori",
+        "keywords": "Rifornimento di wuhan, Elenco dei collaboratori",
+        "description": "Gruppo Wuhan2020."
       }
     },
     {
@@ -261,9 +261,9 @@
       "filename": "website-guide.md",
       "link": "/it-it/docs/user/website-guide.html",
       "meta": {
-        "title": "Guida alla piattaforma di prevenzione epidemica 2019-nCoV",
+        "title": "Guida alla piattaforma di prevenzione epidemica COVID-19",
         "keywords": "Wuhan",
-        "description": "Guida alla piattaforma di prevenzione epidemica 2019-nCoV"
+        "description": "Guida alla piattaforma di prevenzione epidemica COVID-19"
       }
     }
   ],
@@ -374,9 +374,9 @@
       "filename": "developers_dev.md",
       "link": "/pt-br/docs/developers/developers_dev.html",
       "meta": {
-        "title": "贡献者列表",
-        "keywords": "武汉加油, 贡献者列表",
-        "description": "Wuhan2020 Team."
+        "title": "Lista DOS contribuintes",
+        "keywords": "Wuhan reabastecimento, Lista DOS contribuintes",
+        "description": "Grupo Wuhan2020"
       }
     },
     {
