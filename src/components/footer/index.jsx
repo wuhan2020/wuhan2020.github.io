@@ -67,6 +67,12 @@ class Footer extends Language {
                 }
               </dl>
             </div>
+            <div className="col col-6">
+              <h3>{dataSource.statistics.title}</h3>
+              <p><span id="busuanzi_container_page_pv">{dataSource.statistics.page_pv}<span id="busuanzi_value_page_pv"></span></span></p>
+              <p><span id="busuanzi_container_site_pv">{dataSource.statistics.site_pv}<span id="busuanzi_value_site_pv"></span></span></p>
+              <p><span id="busuanzi_container_site_uv">{dataSource.statistics.site_uv}<span id="busuanzi_value_site_uv"></span></span></p>
+            </div>
           </div>
           <div className="copyright"><span>{dataSource.copyright}</span></div>
         </div>
