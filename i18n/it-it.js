@@ -309,6 +309,12 @@ export default {
           target: '_blank'
         }
       ]
+    },
+    statistics: {
+      title: 'Statistics',
+      page_pv: 'Total Visits to This Page: ',
+      site_pv: 'Total Visits to This Site: ',
+      site_uv: 'Total Guests to This Site: '
     }
   }
 }

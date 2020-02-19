@@ -23,11 +23,21 @@ class Footer extends Language {
           <p className="docsite-power">website powered by docsite</p>
           <div id="google_translate_element"></div>
           <div className="cols-container">
-            <div className="col col-6">
+            <div className="col col-4">
               <h3>{dataSource.vision.title}</h3>
               <p>{dataSource.vision.content}</p>
             </div>
-            <div className="col col-6">
+            <div className="col col-4">
+              <dl>
+                <dt>{dataSource.resources.title}</dt>
+                {
+                  dataSource.resources.list.map((d, i) => (
+                    <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
+                  ))
+                }
+              </dl>
+            </div>
+            <div className="col col-4">
               <dl>
                 <dt>{dataSource.documentation.title}</dt>
                 {
@@ -37,17 +47,7 @@ class Footer extends Language {
                 }
               </dl>
             </div>
-            <div className="col col-6">
-            <dl>
-            <dt>{dataSource.resources.title}</dt>
-            {
-              dataSource.resources.list.map((d, i) => (
-                <dd key={i}><a href={getLink(d.link)} target={d.target || '_self'}>{d.text}</a></dd>
-              ))
-            }
-            </dl>
-            </div>
-            <div className="col col-6">
+            <div className="col col-4">
               <dl>
                 <dt>{dataProject.barText}</dt>
                 {
@@ -57,7 +57,7 @@ class Footer extends Language {
                 }
               </dl>
             </div>
-            <div className="col col-6">
+            <div className="col col-4">
               <dl>
                 <dt>{dataSource.sponsors.title}</dt>
                 {
@@ -66,6 +66,12 @@ class Footer extends Language {
                   ))
                 }
               </dl>
+            </div>
+            <div className="col col-4">
+              <h3>{dataSource.statistics.title}</h3>
+              <p><span id="busuanzi_container_page_pv">{dataSource.statistics.page_pv}<span id="busuanzi_value_page_pv"></span></span></p>
+              <p><span id="busuanzi_container_site_pv">{dataSource.statistics.site_pv}<span id="busuanzi_value_site_pv"></span></span></p>
+              <p><span id="busuanzi_container_site_uv">{dataSource.statistics.site_uv}<span id="busuanzi_value_site_uv"></span></span></p>
             </div>
           </div>
           <div className="copyright"><span>{dataSource.copyright}</span></div>
