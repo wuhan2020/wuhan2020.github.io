@@ -248,6 +248,46 @@ export default {
       ],
     },
   },
+  hackathon: {
+    barText: '黑客松',
+    sectionDescription: 'Hack for Wuhan 黑客马拉松等你来战',
+    concepts: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '谁也不会预计到，新冠肺炎病毒的影响如此巨大，目前它已经发展为全球性紧急事件。虽然形势不容乐观，但我们也看到很多暖心的一幕幕在上演：众多志愿者的无私奉献，大量物资用品的捐赠，火神山、雷神山医院的火速建成，多地医疗队伍的驰援，都让这个冬天变的不那么寒冷。',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '而在全国对抗疫情的背后，技术支持也占据了重要的一环。民政部司长陈越良就曾公开喊话，呼吁互联网企业开发公益应用，并说到“开发一个有用的公益软件，比捐款十个亿还管用。”',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '怎么样让更多人参与其中，让信息科技等力量发挥更大的作用？',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '作为Wuhan2020社区的志愿者和开发人员，我们将发起另一场活动：在 2020年2月底，启动Hack for Wuhan黑客马拉松，在此诚邀您利用自己的技能，为抗击疫情贡献一份力量！',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '我们相信黑客马拉松不仅能创造出下一个独角兽企业，还能让更多人精诚团结、共赴使命、携手抗击世界性公共卫生危机。',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '我们期待这样的形式出现：新的构想设计、产品原型、业务或社会影响模型，我们深信所有的努力都将会产生深远的影响。',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '让你的灵感产生更大的价值，我们会提供专业的技术支持，你将有机会与包括来自斯坦福大学、麻省理工学院、哈佛大学、Andreessen Horowitz、金沙江创业投资、Google、Facebook、ByteDance以及硅谷、中国和印度的初创公司的优秀导师团队互动。',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: '全国人民共同对抗新冠肺炎疫情的种种，将会成为一段历史，而由此而迸发出的灵感，一定还会持续闪耀。活动中每一个有价值的想法都会得到重视，在帮助抗击疫情的同时，让我们为社会创作更多的共享价值。',
+        },
+      ],
+    },
+  },
   site: {
     pageMenu: [
       {
@@ -279,6 +319,11 @@ export default {
         key: 'list',
         text: '项目列表',
         link: '/zh-cn/project/index.html',
+      },
+      {
+        key: 'hackathon',
+        text: '黑客松',
+        link: '/zh-cn/hackathon/index.html',
       },
       {
         key: 'mis',

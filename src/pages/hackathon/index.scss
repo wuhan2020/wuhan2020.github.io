@@ -1,0 +1,65 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.hackathon-page {
+  p {
+    font-family: Avenir-Medium;
+  }
+  .hackathon-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    h3 {
+      font-family: Avenir-Medium;
+      font-weight: 700;
+      font-size: 36px;
+      color: #333;
+      text-align: center;
+      margin: 0 0 30px;
+    }
+  }
+  .hackathon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    @media screen and (max-width: $mobileWidth) {
+      display: block;
+      justify-content: initial;
+      align-items: initial;
+    }
+    .img-container {
+      width: 20%;
+      text-align: center;
+      @media screen and (max-width: $mobileWidth) {
+        width: initial;
+        text-align: initial;
+      }
+      img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+    .hackathon-text-container {
+      width: 60%;
+      padding-left: 2%;
+      h4 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        font-size: 16px;
+      }
+      @media screen and (max-width: $mobileWidth) {
+        width: inherit;
+        padding-left: 0;
+        h4 {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

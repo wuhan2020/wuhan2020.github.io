@@ -229,6 +229,46 @@ export default {
       ],
     },
   },
+  hackathon: {
+    barText: 'Hackathon',
+    sectionDescription: 'Hack for Wuhan',
+    concepts: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'The unexpected outbreak of COVID-19 has such massive influence that it has developed into a public health emergency of international concern (PHEIC). Despite the difficulties, warm-hearted helps are witnessed during this winter: the ongoing and continued dedication of numerous volunteers, the donation of urgent and necessary materials and supplies nationwide and worldwide, the highly-effective medical infrastructure construction of Huoshenshan Hospital and Leishenshan Hospital, and the support of medical teams from the other provinces of China. ',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'In this fight against the epidemic, technical support plays an essential role. Chen Yueliang, an official with the Ministry of Civil Affairs, once urged tech companies to develop applications for public welfare, which, to his opinion, is “more helpful than just donating one billion yuan."',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'We have endeavored to encourage more people into the development of applications and apply the power of technology into this race against the disease.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'As volunteers and developers of Wuhan2020 community, we would like to invite you to our Hackathon: Hack for Wuhan, on 27th and 28th  February, 2020. Let us hack together against the global crisis.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'We believe hackathon can not only inspire the next billion dollar unicorns, but also help unite mission-driven developers and innovators to combat an international outbreak crisis.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'We are looking forward to the novel designs, prototypes, business or social impact models. We believe that all efforts will make a profound impact.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'We will provide professional technical supports to accompany your inspiration, and you will have the opportunity to work with mentors from Stanford, MIT, Harvard, Andreessen Horowitz, GSR Venture, Google, Facebook, ByteDance and startups in Silicon Valley, China, and India.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Your every single effort for this fight against COVID-19 wherein all of us could keep the humanitarian spirits and open source values, can compose stories worth telling and precious memories to remember.  ',
+        },
+      ],
+    },
+  },
   site: {
     pageMenu: [
       {
@@ -260,6 +300,11 @@ export default {
         key: 'list',
         text: 'PROJECTS',
         link: '/en-us/project/index.html',
+      },
+      {
+        key: 'hackathon',
+        text: 'HACKATHON',
+        link: '/en-us/hackathon/index.html',
       },
       {
         key: 'mis',
