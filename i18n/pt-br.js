@@ -225,6 +225,46 @@ export default {
       ],
     },
   },
+  hackathon: {
+    barText: 'Hackathon',
+    sectionDescription: 'Hack for Wuhan',
+    concepts: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Ninguém esperaria que o impacto do novo vírus da pneumonia da coroa fosse tão grande que agora se transformou em uma emergência global. Embora a situação não seja otimista, também vimos muitas cenas de coração caloroso: a dedicação altruísta de muitos voluntários, a doação de um grande número de materiais e suprimentos, a rápida construção do Hospital Vulcan Mountain e Thunder God Mountain e o apoio de equipes médicas em muitos lugares. Faça este inverno menos frio.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Por trás da luta nacional contra a epidemia, o suporte técnico também ocupa uma parte importante. Chen Yueliang, diretor do Ministério de Assuntos Civis, uma vez chamado publicamente, apelando às empresas de Internet para desenvolver aplicativos de bem-estar público, e disse que "desenvolver um software útil de bem-estar público vale mais do que doar um bilhão de yuans".',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Como deixar que mais pessoas participem dela e deixar que a tecnologia da informação e outras forças tenham um papel maior?',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Como voluntários e desenvolvedores da comunidade Wuhan2020, lançaremos outro evento: no final de fevereiro de 2020, o hackathon Hack for Wuhan será lançado e convidamos você a usar suas habilidades para contribuir com a luta contra a epidemia!',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Acreditamos que o hackathon não apenas criará a próxima empresa unicórnio, mas também permitirá que mais pessoas se unam, participem da missão e combatam a crise global de saúde pública.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Esperamos ansiosamente o surgimento de novos projetos, protótipos, modelos de impacto comercial ou social, e estamos convencidos de que todos os esforços terão um impacto profundo.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Para tornar sua inspiração mais valiosa, forneceremos suporte técnico profissional e você terá a oportunidade de trabalhar com empresas de Stanford, MIT, Harvard, Andreessen Horowitz, Jinshajiang Venture Capital, Google, Facebook, ByteDance e Equipes de mentores destacados de startups no Vale do Silício, China e Índia.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'A luta contra a nova epidemia de pneumonia da coroa pelas pessoas em todo o país se tornará um pedaço da história, e a inspiração que emana dele certamente continuará a brilhar. Cada evento será um valioso ideias chamar a atenção, para ajudar a combater a epidemia, ao mesmo tempo, vamos criar mais valor compartilhado para a sociedade.',
+        },
+      ],
+    },
+  },
   site: {
     pageMenu: [
       {
@@ -256,6 +296,11 @@ export default {
         key: 'list',
         text: 'PROJETOS',
         link: '/pt-br/project/index.html',
+      },
+      {
+        key: 'hackathon',
+        text: 'HACKATHON',
+        link: '/pt-br/hackathon/index.html',
       },
       {
         key: 'mis',

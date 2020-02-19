@@ -217,6 +217,46 @@ export default {
       ],
     },
   },
+  hackathon: {
+    barText: 'Hackathon',
+    sectionDescription: 'Hack for Wuhan',
+    concepts: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Nessuno si sarebbe aspettato che l\'impatto del nuovo virus della polmonite corona fosse così grande che ora si è sviluppato in un\'emergenza globale. Sebbene la situazione non sia ottimista, abbiamo anche messo in scena molte scene di buon cuore: la dedizione disinteressata di molti volontari, la donazione di un gran numero di materiali e forniture, la rapida costruzione di Vulcan Mountain e Raytheon Mountain Hospital e il supporto di equipe mediche in molti luoghi. Rendi questo inverno meno freddo.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Dietro la lotta nazionale contro l\'epidemia, anche il supporto tecnico occupa una parte importante. Chen Yueliang, direttore del Ministero degli affari civili, una volta chiamato pubblicamente, ha invitato le aziende di Internet a sviluppare applicazioni di assistenza pubblica e ha affermato che "sviluppare un utile software di assistenza pubblica vale più di una donazione di un miliardo di yuan".',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Come consentire a più persone di parteciparvi e lasciare che la tecnologia dell\'informazione e altre forze abbiano un ruolo maggiore?',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Come volontari e sviluppatori della comunità Wuhan2020, lanceremo un altro evento: alla fine di febbraio 2020, verrà lanciato l\'hackathon di Hack for Wuhan e ti invitiamo a utilizzare le tue abilità per contribuire alla lotta contro l\'epidemia!',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Riteniamo che l\'hackathon non solo creerà la prossima impresa di unicorno, ma consentirà anche a più persone di unirsi, unirsi alla missione e combattere insieme la crisi globale della salute pubblica.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Non vediamo l\'ora che emergano nuovi progetti, prototipi, modelli di impatto sociale o aziendale e siamo convinti che tutti gli sforzi avranno un impatto profondo.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'Per rendere la tua ispirazione più preziosa, forniremo supporto tecnico professionale e avrai l\'opportunità di lavorare con aziende di Stanford, MIT, Harvard, Andreessen Horowitz, Jinshajiang Venture Capital, Google, Facebook, ByteDance e Squadre di eccellenti mentori di startup nella Silicon Valley, in Cina e in India.',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          description: 'La lotta contro la nuova epidemia di polmonite da corona da parte delle persone in tutto il paese diventerà un pezzo di storia e l\'ispirazione che emana da essa continuerà sicuramente a brillare. Ogni preziosa idea dell\'evento sarà valutata e, mentre contribuiamo a combattere l\'epidemia, creiamo un valore più condiviso per la società.',
+        },
+      ],
+    },
+  },
   site: {
     pageMenu: [
       {
@@ -248,8 +288,12 @@ export default {
         key: 'list',
         text: 'RISULTATI',
         link: '/it-it/project/index.html',
-      }
-      ,
+      },
+      {
+        key: 'hackathon',
+        text: 'HACKATHON',
+        link: '/it-it/hackathon/index.html',
+      },
       {
         key: 'mis',
         text: 'PIATTAFORMA INFORMATIVA COVID-19',
