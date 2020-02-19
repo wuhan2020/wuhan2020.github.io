@@ -1,5 +1,5 @@
 import React from 'react';
-import { getLink } from '../../../utils';
+// import { getLink } from '../../../utils';
 
 class HackathonItem extends React.Component {
   render() {
