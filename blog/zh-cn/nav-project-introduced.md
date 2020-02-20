@@ -1,6 +1,6 @@
 ---
 title: 开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区
-keywords: Wuhan2020,开源项目
+keywords: 疫情信息导航,wuhan2020开源社区
 description: 开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区
 author: wuhan2020开源社区
 date: 2019-02-10
