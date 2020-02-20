@@ -43,6 +43,13 @@ export default {
           content: '疫情知识 -- 新型冠状病毒防护指南',
           dateStr: '2020年2月9日',
           link: '/zh-cn/blog/coronavirus-protection-guide.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
+          content: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
+          dateStr: '2020年2月10日',
+          link: '/zh-cn/blog/nav-project-introduced.html',
         }
       ],
     },
