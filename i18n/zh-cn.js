@@ -50,8 +50,15 @@ export default {
           content: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
           dateStr: '2020年2月10日',
           link: '/zh-cn/blog/nav-project-introduced.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          dateStr: '2020年2月3日',
+          link: '/zh-cn/blog/need-questionnaire.html',
         }
-      ],
+      ]
     },
     contacts: {
       title: '联系我们',
