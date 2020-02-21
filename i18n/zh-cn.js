@@ -57,6 +57,13 @@ export default {
           content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
           dateStr: '2020年2月3日',
           link: '/zh-cn/blog/need-questionnaire.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          content: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          dateStr: '2020年1月26日',
+          link: '/zh-cn/blog/collaborative-process-publishing.html',
         }
       ]
     },
