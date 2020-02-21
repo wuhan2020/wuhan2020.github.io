@@ -1,6 +1,17 @@
 {
   "zh-cn": [
     {
+      "filename": "collaborative-process-publishing.md",
+      "link": "/zh-cn/blog/collaborative-process-publishing.html",
+      "meta": {
+        "title": "wuhan2020开源项目协作流程发布 & 征集专家人士",
+        "keywords": "协作流程发布,征集专家人士",
+        "description": "wuhan2020开源项目协作流程发布 & 征集专家人士",
+        "author": "Xlab开放实验室",
+        "date": "2020-01-26"
+      }
+    },
+    {
       "filename": "coronavirus-protection-guide.md",
       "link": "/zh-cn/blog/coronavirus-protection-guide.html",
       "meta": {
