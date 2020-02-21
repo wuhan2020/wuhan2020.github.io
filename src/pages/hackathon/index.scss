@@ -10,56 +10,281 @@
     padding-right: 5%;
     margin-top: 10px;
     margin-bottom: 20px;
-    h3 {
-      font-family: Avenir-Medium;
-      font-weight: 700;
-      font-size: 36px;
-      color: #333;
-      text-align: center;
-      margin: 0 0 30px;
+    
+    // h3 {
+    //   font-family: Avenir-Medium;
+    //   font-weight: 700;
+    //   font-size: 36px;
+    //   color: #333;
+    //   text-align: center;
+    //   margin: 0 0 30px;
+    // }
+    div{
+      width: 1200px;		
+      margin: auto;
     }
-  }
-  .hackathon-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    @media screen and (max-width: $mobileWidth) {
-      display: block;
-      justify-content: initial;
-      align-items: initial;
+
+    #register{
+				overflow: hidden;		 
+				background-color: #5D8AA6;
+				padding-top: 100px;
+				position: relative;
+      .register1{
+				float: left;
+				width: 30%;
+				margin-top: 158px;
+      }
+      .register2{
+				float: right;
+				width: 40%;
+      }
+      h1{
+				/* float: left; */
+				position: absolute;
+				color: #FFFFFF;
+				font-size: 120px;
+				left: 10%;
+				top: 5%;
+      }
+      h2{
+				display: block;
+				position: absolute;
+				color: #4A4A4A;
+				font-size: 60px;
+				width: 50%;
+				left: 25%;
+				top: 60%;
+				/* 文字居中 */
+				text-align: center;	
+        
+      }
+      h3{
+				position: absolute;
+				color: #FF6440;
+				left: 55%;
+				top: 35%;
+				font-size: 40px;	
+      }
+      button{
+				position: absolute;
+				color: #FFFFFF;
+				left: 35%;
+				top: 80%;
+				font-size: 50px;
+				background-color: #FF6440;
+				width: 30%;
+				/* 设置边角弧度 */
+				/* border-radius: 10%; */
+      }
     }
-    .img-container {
-      width: 20%;
-      text-align: center;
-      @media screen and (max-width: $mobileWidth) {
-        width: initial;
-        text-align: initial;
-      }
-      img {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    #hospital{
+      height: 380px;
+      background-image: url(/images/hackathon/hospital1.jpg);
+      background-size: cover;
+      color: #FFFFFF;
+      font-size: 30px;
+      text-align: right;
+      p{
+				/* margin-left: 500px; */
+				/* position: absolute; */
+				/* line-height: 100px; */
+				/* */
+				padding-top: 80px;
+				margin-right: 50px; 
+				margin-left: 450px;
+      
       }
     }
-    .hackathon-text-container {
-      width: 60%;
-      padding-left: 2%;
-      h4 {
-        margin: 0;
+    
+    #software{
+				/* 子块撑开父块 */
+				overflow: hidden;
+				height: 500px;
+				/* background-color: green; */
+      img{
+				height: 500px;
+				float: right;
       }
-      p {
-        margin: 0;
-        font-size: 16px;
+      h1{
+				color: #ff6440;
+				padding-top: 100px;
+				margin-right: 10px; 
+        margin-left: 200px;
+        font-size: 30px;
       }
-      @media screen and (max-width: $mobileWidth) {
-        width: inherit;
-        padding-left: 0;
-        h4 {
-          text-align: center;
+      p{
+				padding-top: 50px;
+				margin-right: 500px; 
+				margin-left: 50px;
+				font-size: 25px;
+      }
+    }
+    
+    #HackForWuhan {
+      .header{
+				background-color: #DA6C53;
+				/* height: 300px; */
+				overflow: hidden;
+				// height: 350px;
+        img{
+          display: block;
+          width: 30%;
+          // height: 350px;
+          float: right;
+          
+        }
+        h1{
+          margin-left: 100px;
+          margin-right: 300px;
+          padding-top: 40px;
+          color: #FFFFFF;	
+          font-size: 60px;
+        }
+        h2{
+          margin-left: 100px;
+          margin-right: 300px;
+          padding-top: 20px;
+          color: #4A4A4A;
+          font-size: 50px;
+        }
+        h3{
+          margin-left: 100px;
+          margin-right: 300px;
+          padding-top: 20px;
+          color: #FFFFFF;
+          font-size: 25px;
         }
       }
+      table{
+        margin: auto;
+        border-spacing: 40px;
+        display: table;
+        border-collapse: separate;
+        img{
+          display: block;
+          width:50%;
+          margin: auto;
+        }
+        .HackForWuhan1{
+          width: 300px;
+          height: 320px;
+          color: #FFFFFF;	
+          padding-left: 35px;
+          padding-right: 35px;
+          border-radius: 10%;
+          background-color: #5D8AA6;
+        }
+        .HackForWuhan2{
+          width: 300px;
+          height: 320px;
+          color: #FFFFFF;	
+          padding-left: 35px;
+          padding-right: 35px;
+          border-radius: 10%;
+          background-color: #DA6C53;
+        }
+        .HackForWuhan3{
+          width: 300px;
+          height: 320px;
+          color: #FFFFFF;	
+          padding-left: 35px;
+          padding-right: 35px;
+          border-radius: 10%;
+          background-color: #4A4A4A;
+        }
+      }
+      .buttom{
+        text-align: center;
+				padding-left: 100px;
+				padding-right: 100px;
+				font-weight: 800;
+				font-size: 20px;
+      }
+  }
+  
+    
+    #speaker {
+      margin-top: 50px;
+      table {
+        margin: auto;
+        width: 95%;
+        display: table;
+        border-collapse: separate;
+				border-spacing: 50px 20px;
+        th{
+          text-align: center;
+          font-size: 50px;
+          height: 150px;
+        } 
+        tbody td{
+          /* background-color: green; */
+          width: 100px;
+          height: 300px;
+          text-align: center;	
+          word-break: break-all;
+        }
     }
   }
+    #sponsor table {
+      margin: auto;
+      border-spacing: 30px;
+      display: table;
+      border-collapse: separate;
+      thead{
+        font-size: 50px;
+        text-align: center;
+				height: 150px;
+      }
+      tbody td{
+        /* background-color: green; */
+        width: 300px;
+        height: 200px;
+        text-align: center;	
+      } 
+    }
+  }
+
+  // .hackathon-item {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin: 10px 0;
+  //   @media screen and (max-width: $mobileWidth) {
+  //     display: block;
+  //     justify-content: initial;
+  //     align-items: initial;
+  //   }
+  //   .img-container {
+  //     width: 20%;
+  //     text-align: center;
+  //     @media screen and (max-width: $mobileWidth) {
+  //       width: initial;
+  //       text-align: initial;
+  //     }
+  //     img {
+  //       max-width: 100%;
+  //       margin-left: auto;
+  //       margin-right: auto;
+  //       display: block;
+  //     }
+  //   }
+    // .hackathon-text-container {
+    //   width: 60%;
+    //   padding-left: 2%;
+    //   h4 {
+    //     margin: 0;
+    //   }
+    //   p {
+    //     margin: 0;
+    //     font-size: 16px;
+    //   }
+    //   @media screen and (max-width: $mobileWidth) {
+    //     width: inherit;
+    //     padding-left: 0;
+    //     h4 {
+    //       text-align: center;
+    //     }
+    //   }
+    // }
+  // }
 }
