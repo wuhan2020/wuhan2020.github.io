@@ -9,12 +9,12 @@ class HackathonItem extends React.Component {
         {/* <div className="img-container">
           <img src={getLink(hackathon.img)} />
         </div> */}
-        <div className="hackathon-text-container">
+        {/* <div className="hackathon-text-container"> */}
           {/* <h4><a href={hackathon.link}>{hackathon.title}</a></h4> */}
           {/* <p>Github: <a href={hackathon.repoLink}>{hackathon.repoLink}</a></p> */}
-          <p>{hackathon.description}</p>
+          {/* <p>{hackathon.description}</p> */}
         </div>
-      </div>
+      // </div>
     );
   }
 }
