@@ -11,7 +11,7 @@ class Hackathon extends Language {
     render() {
         const language = this.getLanguage();
         //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
-        const dataSource = this.getLanguageDict(language, 'hackathon');
+        // const dataSource = this.getLanguageDict(language, 'hackathon');
         return (
             <div className="hackathon-page">
                 <Header
@@ -89,7 +89,7 @@ class Hackathon extends Language {
 			<div id="speaker">
 				<table>
 					<thead>
-						<th colspan="3">演讲人和评委</th>
+						<th colSpan="3">演讲人和评委</th>
 					</thead>
 					<tbody>
 						<tr>
@@ -128,7 +128,7 @@ class Hackathon extends Language {
 			<div  id="sponsor">
 				<table>
 					<thead>
-						<th colspan="3">主办方</th>
+						<th colSpan="3">主办方</th>
 					</thead>
 					<tbody>
 						<tr>

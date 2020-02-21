@@ -3,7 +3,7 @@ import React from 'react';
 
 class HackathonItem extends React.Component {
   render() {
-    const { hackathon } = this.props;
+    // const { hackathon } = this.props;
     return (
       <div className="hackathon-item">
         {/* <div className="img-container">
