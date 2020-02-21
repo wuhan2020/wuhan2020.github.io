@@ -90,34 +90,6 @@
     width: 100%;
     text-align: center;
     padding: 0; } }
-.bar {
-  margin-top: 66px;
-  background-image: linear-gradient(90deg, #d9452B 0%, #ff6440 100%); }
-  .bar .bar-body {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 200px;
-    line-height: 200px;
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 36px;
-    color: #FFF;
-    position: relative; }
-    .bar .bar-body .front-img {
-      width: 80px;
-      height: 80px;
-      vertical-align: middle;
-      margin: 0 28px 0 40px; }
-    .bar .bar-body .back-img {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      right: 184px;
-      bottom: 0;
-      opacity: 0.15; }
-    @media screen and (max-width: 640px) {
-      .bar .bar-body .front-img {
-        margin-left: 50px; } }
 .header-container {
   position: fixed;
   left: 0;
@@ -959,46 +931,6 @@
 .ant-select-dropdown-container-open .ant-select-dropdown,
 .ant-select-dropdown-open .ant-select-dropdown {
   display: block; }
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
-  margin: 0 8px;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center; }
-
-.ant-empty-image {
-  height: 100px;
-  margin-bottom: 8px; }
-
-.ant-empty-image img {
-  height: 100%; }
-
-.ant-empty-image svg {
-  height: 100%;
-  margin: auto; }
-
-.ant-empty-description {
-  margin: 0; }
-
-.ant-empty-footer {
-  margin-top: 16px; }
-
-.ant-empty-normal {
-  margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-normal .ant-empty-image {
-  height: 40px; }
-
-.ant-empty-small {
-  margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-small .ant-empty-image {
-  height: 35px; }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -2927,6 +2859,46 @@ html {
   overflow: hidden;
   -webkit-transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
   transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important; }
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-empty {
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; }
+
+.ant-empty-image {
+  height: 100px;
+  margin-bottom: 8px; }
+
+.ant-empty-image img {
+  height: 100%; }
+
+.ant-empty-image svg {
+  height: 100%;
+  margin: auto; }
+
+.ant-empty-description {
+  margin: 0; }
+
+.ant-empty-footer {
+  margin-top: 16px; }
+
+.ant-empty-normal {
+  margin: 32px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-normal .ant-empty-image {
+  height: 40px; }
+
+.ant-empty-small {
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-small .ant-empty-image {
+  height: 35px; }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -4353,47 +4325,182 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 5%;
   margin-top: 10px;
   margin-bottom: 20px; }
-  .hackathon-page .hackathon-section h3 {
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 36px;
-    color: #333;
-    text-align: center;
-    margin: 0 0 30px; }
-
-.hackathon-page .hackathon-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0; }
-  @media screen and (max-width: 640px) {
-    .hackathon-page .hackathon-item {
+  .hackathon-page .hackathon-section div {
+    width: 1200px;
+    margin: auto; }
+  .hackathon-page .hackathon-section #register {
+    overflow: hidden;
+    background-color: #5D8AA6;
+    padding-top: 100px;
+    position: relative; }
+    .hackathon-page .hackathon-section #register .register1 {
+      float: left;
+      width: 30%;
+      margin-top: 158px; }
+    .hackathon-page .hackathon-section #register .register2 {
+      float: right;
+      width: 40%; }
+    .hackathon-page .hackathon-section #register h1 {
+      /* float: left; */
+      position: absolute;
+      color: #FFFFFF;
+      font-size: 120px;
+      left: 10%;
+      top: 5%; }
+    .hackathon-page .hackathon-section #register h2 {
       display: block;
-      justify-content: initial;
-      align-items: initial; } }
-  .hackathon-page .hackathon-item .img-container {
-    width: 20%;
-    text-align: center; }
-    @media screen and (max-width: 640px) {
-      .hackathon-page .hackathon-item .img-container {
-        width: initial;
-        text-align: initial; } }
-    .hackathon-page .hackathon-item .img-container img {
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      display: block; }
-  .hackathon-page .hackathon-item .hackathon-text-container {
-    width: 60%;
-    padding-left: 2%; }
-    .hackathon-page .hackathon-item .hackathon-text-container h4 {
-      margin: 0; }
-    .hackathon-page .hackathon-item .hackathon-text-container p {
-      margin: 0;
-      font-size: 16px; }
-    @media screen and (max-width: 640px) {
-      .hackathon-page .hackathon-item .hackathon-text-container {
-        width: inherit;
-        padding-left: 0; }
-        .hackathon-page .hackathon-item .hackathon-text-container h4 {
-          text-align: center; } }
+      position: absolute;
+      color: #4A4A4A;
+      font-size: 60px;
+      width: 50%;
+      left: 25%;
+      top: 60%;
+      /* 文字居中 */
+      text-align: center; }
+    .hackathon-page .hackathon-section #register h3 {
+      position: absolute;
+      color: #FF6440;
+      left: 55%;
+      top: 35%;
+      font-size: 40px; }
+    .hackathon-page .hackathon-section #register button {
+      position: absolute;
+      color: #FFFFFF;
+      left: 35%;
+      top: 80%;
+      font-size: 50px;
+      background-color: #FF6440;
+      width: 30%;
+      /* 设置边角弧度 */
+      /* border-radius: 10%; */ }
+  .hackathon-page .hackathon-section #hospital {
+    height: 380px;
+    background-image: url(/images/hackathon/hospital1.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: right; }
+    .hackathon-page .hackathon-section #hospital p {
+      /* margin-left: 500px; */
+      /* position: absolute; */
+      /* line-height: 100px; */
+      /* */
+      padding-top: 80px;
+      margin-right: 50px;
+      margin-left: 450px; }
+  .hackathon-page .hackathon-section #software {
+    /* 子块撑开父块 */
+    overflow: hidden;
+    height: 500px;
+    /* background-color: green; */ }
+    .hackathon-page .hackathon-section #software img {
+      height: 500px;
+      float: right; }
+    .hackathon-page .hackathon-section #software h1 {
+      color: #ff6440;
+      padding-top: 100px;
+      margin-right: 10px;
+      margin-left: 200px;
+      font-size: 30px; }
+    .hackathon-page .hackathon-section #software p {
+      padding-top: 50px;
+      margin-right: 500px;
+      margin-left: 50px;
+      font-size: 25px; }
+  .hackathon-page .hackathon-section #HackForWuhan .header {
+    background-color: #DA6C53;
+    /* height: 300px; */
+    overflow: hidden; }
+    .hackathon-page .hackathon-section #HackForWuhan .header img {
+      display: block;
+      width: 30%;
+      float: right; }
+    .hackathon-page .hackathon-section #HackForWuhan .header h1 {
+      margin-left: 100px;
+      margin-right: 300px;
+      padding-top: 40px;
+      color: #FFFFFF;
+      font-size: 60px; }
+    .hackathon-page .hackathon-section #HackForWuhan .header h2 {
+      margin-left: 100px;
+      margin-right: 300px;
+      padding-top: 20px;
+      color: #4A4A4A;
+      font-size: 50px; }
+    .hackathon-page .hackathon-section #HackForWuhan .header h3 {
+      margin-left: 100px;
+      margin-right: 300px;
+      padding-top: 20px;
+      color: #FFFFFF;
+      font-size: 25px; }
+  .hackathon-page .hackathon-section #HackForWuhan table {
+    margin: auto;
+    border-spacing: 40px;
+    display: table;
+    border-collapse: separate; }
+    .hackathon-page .hackathon-section #HackForWuhan table img {
+      display: block;
+      width: 50%;
+      margin: auto; }
+    .hackathon-page .hackathon-section #HackForWuhan table .HackForWuhan1 {
+      width: 300px;
+      height: 320px;
+      color: #FFFFFF;
+      padding-left: 35px;
+      padding-right: 35px;
+      border-radius: 10%;
+      background-color: #5D8AA6; }
+    .hackathon-page .hackathon-section #HackForWuhan table .HackForWuhan2 {
+      width: 300px;
+      height: 320px;
+      color: #FFFFFF;
+      padding-left: 35px;
+      padding-right: 35px;
+      border-radius: 10%;
+      background-color: #DA6C53; }
+    .hackathon-page .hackathon-section #HackForWuhan table .HackForWuhan3 {
+      width: 300px;
+      height: 320px;
+      color: #FFFFFF;
+      padding-left: 35px;
+      padding-right: 35px;
+      border-radius: 10%;
+      background-color: #4A4A4A; }
+  .hackathon-page .hackathon-section #HackForWuhan .buttom {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 800;
+    font-size: 20px; }
+  .hackathon-page .hackathon-section #speaker {
+    margin-top: 50px; }
+    .hackathon-page .hackathon-section #speaker table {
+      margin: auto;
+      width: 95%;
+      display: table;
+      border-collapse: separate;
+      border-spacing: 50px 20px; }
+      .hackathon-page .hackathon-section #speaker table th {
+        text-align: center;
+        font-size: 50px;
+        height: 150px; }
+      .hackathon-page .hackathon-section #speaker table tbody td {
+        /* background-color: green; */
+        width: 100px;
+        height: 300px;
+        text-align: center;
+        word-break: break-all; }
+  .hackathon-page .hackathon-section #sponsor table {
+    margin: auto;
+    border-spacing: 30px;
+    display: table;
+    border-collapse: separate; }
+    .hackathon-page .hackathon-section #sponsor table thead {
+      font-size: 50px;
+      text-align: center;
+      height: 150px; }
+    .hackathon-page .hackathon-section #sponsor table tbody td {
+      /* background-color: green; */
+      width: 300px;
+      height: 200px;
+      text-align: center; }
