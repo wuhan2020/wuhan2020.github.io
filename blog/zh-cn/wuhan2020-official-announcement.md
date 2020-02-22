@@ -3,7 +3,7 @@ title: wuhan2020 官方公告 2020.1.29
 keywords: wuhan2020,官方公告
 description: wuhan2020 官方公告 2020.1.29
 author: XiaMai ，Xin Wang
-date: 2019-01-29
+date: 2020-01-29
 ---
 <img src="/images/blog/wuhan2020.png" alt="wuhan2020">
 

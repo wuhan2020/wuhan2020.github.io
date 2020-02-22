@@ -2,7 +2,7 @@
 title: Wuhan2020 Official Announcement 2020.1.29
 keywords: Wuhan2020 Official Announcement
 description: Wuhan2020 Official Announcement 2020.1.29
-date: 2019-01-29
+date: 2020-01-29
 ---
 <img src="/images/blog/wuhan2020.png" alt="wuhan2020">
 
