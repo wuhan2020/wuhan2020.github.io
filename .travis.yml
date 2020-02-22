@@ -1,0 +1,11 @@
+language: minimal
+branches:
+  only:
+  - master
+  - dev
+script:
+- git remote add gitee https://$GITEE_ROBOT@gitee.com/wuhan2020/wuhan2020.git
+- git push gitee master
+env:
+  global:
+    secure: aZOzD49bP1aYivTriI74v9fmeciuI296wElH8VsMbfZRdwPZ/wKzQZ9VxF0ZR4f48NgV8+51KNHvFskwhM6d6d4PR5IB6Z4ngtEcBCeThthM8Mqch7A5gkRqxgIg0YZJOxHShsR3IG/htWGkMxiZQlhLGHXv3blA3ToCSkixEzM5bgVzVDfUNOs1qEbOHfwfC6/OF1d/wqTrXGOgWPJTJCCvvA2NP80KwB+KV+eP0WT7UZE5/qDARGgRwbz/1wjFR8CIU5uZigqdbk4PcjHbDKKjS+OxkKxhHzp2C8itz7WOhzX8FkbKUvUjLp9p6x2PWDUqcmdG2KM/xDjTw0jVmE3Wcim6zpgntXtAcJTNioUHOOMN6P2LHOlvJsxnnb/l7ct/3q/lSIpV6dmQh2Wy7lpH3WKqPJC3P/kz0EddFSlS0JiOdvcv6gjfPeWKXyLam2jtU+JLve1pESP2LCgz1QVhz0FrQ/Kmebr1VaoUym/RPoplOde8SMctfzG1tsMUCbIi6emnc+XfKvsnCqBnetyL261Md7zbajkJ7Dvpws2Aloduqf8j7ovRlrlcMQbJU5P5SkBHk+UU78ZYaKIMsdpDGAJis94EaJOO1RBDTaW2RhRsvLAiGe3Z/cO2RUutGzmVAcYkXbjthmSbqK2VnGPBh0n4aA9oJjqlmgFx1mA=
