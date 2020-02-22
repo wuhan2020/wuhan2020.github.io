@@ -412,5 +412,6 @@ export default {
       site_pv: '本站总访问量：',
       site_uv: '本站总访客量：'
     }
+
   }
 }
