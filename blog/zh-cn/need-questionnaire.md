@@ -20,4 +20,4 @@ date: 2020-02-03
 
 请长按下图识别二维码或者[点击这里](https://www.wjx.cn/m/55148108.aspx)，即可开始！
 
-![img](/images/blog/media/need-questionnaire-2.webp)
+![img](/images/blog/media/need-questionnaire-3.webp)
