@@ -406,12 +406,12 @@ export default {
         }
       ]
     },
+
     statistics: {
       title: '访问统计',
       page_pv: '本文总访问量：',
       site_pv: '本站总访问量：',
       site_uv: '本站总访客量：'
     }
-
   }
 }
