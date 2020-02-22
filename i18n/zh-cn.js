@@ -406,7 +406,6 @@ export default {
         }
       ]
     },
-
     statistics: {
       title: '访问统计',
       page_pv: '本文总访问量：',
