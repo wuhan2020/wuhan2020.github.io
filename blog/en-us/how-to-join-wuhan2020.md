@@ -3,7 +3,7 @@ title: How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Cor
 keywords: Wuhan2020,Open Source Project
 description: How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis 
 author: Wuhan2020 Community XLab
-date: 2019-02-01
+date: 2020-02-01
 ---
 
 # How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis 

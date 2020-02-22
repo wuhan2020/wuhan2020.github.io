@@ -3,7 +3,7 @@ title: Comment se joindre au projet open-source Wuhan2020，et aider Wuhan à su
 keywords: Wuhan2020, projet open-source
 description: Comment se joindre au projet open-source Wuhan2020，et aider Wuhan à survivre la crise Covid-19？
 author: wuhan2020 Communauté Xlab
-date: 2019-02-01
+date: 2020-02-01
 ---
 
 # Comment se joindre au projet open-source Wuhan2020, et aider Wuhan à survivre la crise Covid-19 

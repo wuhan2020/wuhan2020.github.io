@@ -3,7 +3,7 @@ title: Come unirsi al progetto open-source Wuhan2020 per vincere questa guerra s
 keywords: Wuhan2020,I progetti open source
 description: Come unirsi al progetto open-source Wuhan2020 per vincere questa guerra senza fumo?
 author: Wuhan2020 comunitario Xlab aperto
-date: 2019-02-01
+date: 2020-02-01
 ---
 
 # Come unirsi al progetto open-source Wuhan2020 per vincere questa guerra senza fumo?

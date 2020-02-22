@@ -3,7 +3,7 @@ title: 致 WUHAN 2020 开源社区全体成员的一封信
 keywords: Wuhan2020,一封信
 description: 致 WUHAN 2020 开源社区全体成员的一封信
 author: Wuhan2020 开源社区
-date: 2019-01-28
+date: 2020-01-28
 ---
 # 致 WUHAN 2020 开源社区全体成员的一封信
 

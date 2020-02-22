@@ -3,7 +3,7 @@ title: 如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战�
 keywords: Wuhan2020,开源项目
 description: 如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？
 author: wuhan2020社区 Xlab开放实验室
-date: 2019-02-01
+date: 2020-02-01
 ---
 
 # 如何加入到 wuhan2020 开源项目，打赢这场没有硝烟的战争？
