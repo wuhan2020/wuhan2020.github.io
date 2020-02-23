@@ -97,7 +97,7 @@ export default {
             link: '/it-it/docs/overview/what-is-wuhan2020.html',
           },
           {
-            title: 'FAQ (Inglese)',
+            title: 'FAQ',
             link: '/it-it/docs/overview/faq.html',
           }
         ],
@@ -115,6 +115,10 @@ export default {
       {
         title: 'Guida per gli sviluppatori',
         children: [
+          {
+            title: 'Guida alla raccolta di informazioni',
+            link: '/it-it/docs/dev/information-guide.html',
+          },
           {
             title: 'Inizia subito',
             link: '/it-it/docs/dev/quickstart.html',
