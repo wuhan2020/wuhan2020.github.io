@@ -202,7 +202,7 @@ export default {
           img: '/images/blog/wuhan2020.png',
           title: 'Wuhan Novel Coronavirus Outbreak Prevention Information Collection Platform',
           repoLink:'https://github.com/wuhan2020/wuhan2020',
-          description: "Wuhan2020信息服务官网，是由程序员和开发者创建的疫情相关的资源对接综合类信息服务平台。以关注数据平台层面为核心，解决极端应急条件下，消息不对等和信息不透明导致的物资供应不足、就诊信息混乱、异地人员无法解决外宿等问题。主要面向政府、公益组织、企事业单位、医疗机构、患者、捐助者等相关机构和人群。开发者们均可以借助技术工具和数字平台，利用数字平台优势，实现供需数字化、提升信息透明度，让各供需方进行分布式自助对接，提升效率。参与wuhan2020 众多开发者们，用自己擅长的技术，做着力所能及的事情，共同应对这场战争。",
+          description: "Wuhan2020 information service website is a comprehensive information service platform for connecting resources related to the epidemic created by programmers and developers. With the focus on the data platform as the core, it can solve the problems such as the shortage of supplies, the confusion of medical information and the inability of people in different places to solve the problems caused by uneven information and opaque information under extreme emergency conditions. Mainly for the government, public welfare organizations, enterprises and institutions, medical institutions, patients, donors and other relevant institutions and groups. With the help of technical tools and digital platforms, developers can make use of the advantages of digital platforms to realize the digitalization of supply and demand, improve information transparency, and enable the supply and demand parties to conduct distributed self-service docking to improve efficiency. Many developers involved in wuhan2020 are doing what they can with their own technologies to cope with this war.",
           link: 'https://wh.opensource-service.cn/',
         },
         {
@@ -216,7 +216,7 @@ export default {
           img: '/images/blog/wuhan2020.png',
           title: 'Wuhan2020 Open Source Community Official Website',
           repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
-          description: 'Wuhan2020开源社区是在新冠肺炎疫情期间由开发者自主搭建的社区，社区为开发者提供技术交流、实践的平台，用开源的社区文化，以自组织协作的方式完成，帮助武汉自组织救援工作更有效、更准确地开展。社区上线至今吸引了自不同国家的3000多志愿者，通过建立信息系统、数据分析预测等为抵抗新型冠状病毒做贡献；目前已成功孵化“新型冠状病毒防疫信息收集平台”、2020援助武汉”、“Wuhan2020开源社区官网”、“COVID-19-Nav 疫情信息导航”等多个项目。',
+          description: 'Wuhan2020 open source community is a community independently built by developers during the outbreak of xinguan pneumonia. The community provides a platform for technical exchange and practice for developers. The community culture of open source is completed in a way of self-organization and collaboration, helping wuhan to carry out self-organization rescue work more effectively and accurately. Since its launch, the community has attracted more than 3,000 volunteers from different countries and made contributions to the resistance against the new coronavirus through the establishment of information system, data analysis and prediction. So far, several projects have been successfully incubated, including "new coronavirus epidemic prevention information collection platform", "2020 assistance to wuhan", "Wuhan2020 open source community website", and "covid-19-nav epidemic information navigation".',
           link: 'https://community.wuhan2020.org.cn/',
         },
         {
