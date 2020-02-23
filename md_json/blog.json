@@ -67,6 +67,17 @@
       }
     },
     {
+      "filename": "wuhan2020-intro.md",
+      "link": "/zh-cn/blog/wuhan2020-intro.html",
+      "meta": {
+        "title": "WUHAN 2020：新型冠状病毒防疫开源信息收集平台",
+        "keywords": "wuhan2020,开源信息收集平台",
+        "description": "WUHAN 2020：新型冠状病毒防疫开源信息收集平台",
+        "author": "wuhan2020开源社区",
+        "date": "2020-02-02"
+      }
+    },
+    {
       "filename": "wuhan2020-media-channel.md",
       "link": "/zh-cn/blog/wuhan2020-media-channel.html",
       "meta": {
