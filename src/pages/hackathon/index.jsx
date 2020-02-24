@@ -38,7 +38,7 @@ class Hackathon extends Language {
 				<h2>黑客马拉松等你来战</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>线上开跑 </h3>" }}></div>
-				<button> 立即报名 </button>
+				<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > 立即报名 </button> </a>
 				<img className="register1"  src="/images/hackathon/register1.png" />
 				<img className="register2"  src="/images/hackathon/register2.png" />
 			</div>
@@ -173,57 +173,88 @@ class Hackathon extends Language {
 			<div id="speaker">
 				<h1>演讲人和评委</h1>
 				<div className="s1">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Lu_Huimin.jpeg" />
+					<h2>Huimin Lu</h2>
+					<h3>Microsoft Cloud and AI Strategy Sr Manager</h3>
+					<p>I worked closely with the product to figure out product roadmap and go to market strategy.</p>
 				</div>
 				<div className="s2">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Chun_Jiang.jpeg" />
+					<h2>Chun Jiang</h2>
+					<h3>Product Design @ Scale AI</h3>
+					<p>Driven to create unique products that foster connection and innovation, Chun has had experience with consumer-facing product design, machine learning, data design, IoT, design system, and autonomous driving. Chun is now leading 3D annotation & data product design at Scale AI. Previously worked at Uber. Undergraduate & Graduate degrees at Cornell.</p>
 				</div>
 				<div className="s3">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Jason_Gui.jpeg" />
+					<h2>Jason Gui</h2>
+					<h3>Vue Glasses CTO</h3>
+					<p>As founder of Vigo and Vue, Jason has created innovative hardware products and raised over $2 million USD through Kickstarter. Jason brings a background of mechanical and electrical engineering, marketing, production, and business expertise.</p>
 				</div>
 				<div className="s4">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Zhiyang_Wang.jpeg" />
+					<h2>Zhiyang Wang</h2>
+					<h3>Facebook Software Engineer</h3>
+					<p>Let's see how we can help Wuhan by HACKING! Have been hacking in Facebook for 6 years across multiple products on mobile, on web, for users, for advertisers, for creators, from US, from LATAM and also from China! Let's unite everyone everywhere!</p>
 				</div>
 				<div className="s5">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Claire_Li.jpeg" />
+					<h2>Claire Li</h2>
+					<h3>Pinterest, Sr.Software Engineer</h3>
+					<p>Claire is a product builder, open source contributor, and Sr. engineer at Pinterest. She has built a open source project with 500+ stars on GitHub and holds two patents. She has shipped products to millions of users in eCommerce, payment and social media space. Claire also runs a community of aspiring entrepreneurs. She received her bachelor in CS from UC-Berkeley.</p>
 				</div>
 				<div className="s6">
-					<img  src="/images/hackathon/human.png" />
-					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<img  src="/images/hackathon/speaker/Zhao_Matthew.jpeg" />
+					<h2>Matth Zhao</h2>
+					<h3>Google/Software Engineer</h3>
+					<p>Matt is currently an enginner at Google and previously worked at Snapchat(2015-2019). Matt got his master and bachelor's degrees in CS from  Rice University. He attended various hackathons while in school and is excited to offer technical support for "Hack for Wuhan".</p>
 				</div>
 			</div>
 			
 			<div id="holder">
 				<h1>主办方</h1>
-				<img className="h1" src="/images/hackathon/007-01.png" />
-				<img className="h2" src="/images/hackathon/007-02.png" />
-				<img className="h3" src="/images/hackathon/007-03.png" />
+				<div className="h1"><img src="/images/hackathon/holder/holder1.png" /></div>
+				<div className="h2"><img src="/images/hackathon/holder/holder2.png" /></div>
+				<div className="h3"><img src="/images/hackathon/holder/holder3.png" /></div>
+				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
 			</div>
 			
-			<div id="sponsor">
-				<h1>赞助商</h1>
-				<img className="s1" src="/images/hackathon/007-01.png" />
-				<img className="s2" src="/images/hackathon/007-01.png" />
-				<img className="s3" src="/images/hackathon/007-01.png" />
+			<div id="holder">
+				<h1>协办方</h1>
+				<div className="h1"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></div>
+				<div className="h2"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></div>
+				<div className="h3"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></div>
+				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
 			</div>
 			
-			<div id="mediaCooperation">
+			<div id="holder">
+				<h1>平台支持</h1>
+				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
+				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
+				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
+				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+			</div>
+			
+			<div id="holder">
 				<h1>媒体合作</h1>
-				<img className="m1" src="/images/hackathon/007-01.png" />
-				<img className="m2" src="/images/hackathon/007-01.png" />
-				<img className="m3" src="/images/hackathon/007-01.png" />
-				<img className="m4" src="/images/hackathon/007-01.png" />
-				<img className="m5" src="/images/hackathon/007-01.png" />
+				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
+				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
+				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
+				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+			</div>
+			
+			<div id="holder">
+				<h1>社区合作</h1>
+				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
+				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
+				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
+				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
 			</div>
 			
 			<div id="application">
 				<h1>立即报名</h1>
-				<div className="a1"></div>
+				<div className="a1">
+					<p>敬请期待</p>
+				</div>
 			</div>
             </section>
 

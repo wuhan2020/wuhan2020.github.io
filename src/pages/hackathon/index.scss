@@ -207,8 +207,6 @@
       font-size: 20px;
       }
     
-    
-    
     #activity{
        position: relative;
        height: 550px;
@@ -390,7 +388,7 @@
     
     #speaker {
       position: relative;
-      height: 800px;
+      height: 950px;
       /* background-color: #5D8AA6; */
     }
     
@@ -404,52 +402,77 @@
     }
     
     #speaker div{
-      width: 250px;
-      height: 250px;
+      width: 350px;
+      height: 350px;
       /* background-color: #008000; */
       /* border: #000000 2px solid; */
-      border-radius: 10%;
+      /* border-radius: 10%; */
       overflow: hidden;
       position: absolute;
-      background-color: #FF6440;
     }
     
     #speaker .s1{	
-      left: 150px;
+      left: 50px;
       top: 150px;	
     }
     #speaker .s2{
-      left: 500px;
+      left: 425px;
       top: 150px;	
     }
     #speaker .s3{
-      left: 850px;
+      left: 800px;
       top: 150px;	
     }
     #speaker .s4{
-      left: 150px;
-      top: 450px;	
+      left: 50px;
+      top: 500px;	
     }
     #speaker .s5{
-      left: 500px;
-      top: 450px;	
+      left: 425px;
+      top: 500px;	
     }
     #speaker .s6{
-      left: 850px;
-      top: 450px;	
+      left: 800px;
+      top: 500px;	
     }
     
-    #speaker img{
-      width: 100px;			
+    #speaker img{		
+      width: 200px;		
+      height: 200px;	
+      margin-left: 75px;
+      border-radius: 20%;
+      background-color: #008000;
+    }
+    
+    #speaker h2{
+      position: absolute;
+      /* background-color: #5D8AA6; */
+      width: 350px;
+      top:160px;
+      left: 0px;
+      font-size: 30px;
+      text-align: center;
+      color: #FFFFFF; 
+    }
+    
+    #speaker .s4 h2{
+      font-size: 25px;
+    }
+    
+    #speaker h3{
+      text-align: center;
+      color: #7b7b7b;
+      font-size: 20px;
     }
     
     #speaker p{
       display: block;
-      word-break: break-all;
+      word-break: keep-all;
       height: 100px;
-      padding-top: 10px;
+      padding-top: 5px;
+      font-size: 10px;
+      color: #7b7b7b;
     }
-    
     
     #holder {
       position: relative;
@@ -465,9 +488,18 @@
       margin: auto;
     }
     
-    #holder img{
+    #holder div{
       height: 100px;
+      width: 250px ; 
       position: absolute;
+      display:flex;
+      align-items: center;   
+      justify-content:center; 
+    }
+    
+    #holder img{
+      max-width: 100%;
+      max-height: 100%;
     }
     
     #holder .h1{
@@ -475,14 +507,18 @@
       top: 150px;	
     }
     #holder .h2{
-      left: 450px;
+      left: 333px;
       top: 150px;	
     }
     #holder .h3{
-      left: 850px;
+      left: 616px;
       top: 150px;	
     }
     
+    #holder .h4{
+      left: 949px;
+      top: 150px;	
+    }
     
     #sponsor {
       position: relative;
@@ -498,28 +534,47 @@
       margin: auto;
     }
     
-    #sponsor img{
+    #sponsor div{
+      width: 200px;
       height: 100px;
+      /* height: 100px;
+      width: 200px; */
       position: absolute;
+      /* background-color: #008000; */
+      /* text-align: center; */
+      display:flex;
+      align-items: center;   
+      justify-content:center; 
     }
+    
+    
+    #sponsor img{
+      max-width: 200px;
+      max-height: 100px; 
+
+    } 
     
     #sponsor .s1{
       left: 50px;
       top: 150px;	
     }
     #sponsor .s2{
-      left: 450px;
+      left: 333px;
       top: 150px;	
     }
     #sponsor .s3{
-      left: 850px;
+      left: 616px;
       top: 150px;	
     }
     
-    #mediaCooperation {
+    #sponsor .s4{
+      left: 949px;
+      top: 150px;	
+    }
+    
+    /* #mediaCooperation {
       position: relative;
       height: 400px;
-      /* background-color: #5D8AA6; */
     }
     #mediaCooperation h1{
       text-align: center;
@@ -530,10 +585,15 @@
       margin: auto;
     }
     
-    #mediaCooperation img{
+    #mediaCooperation div{
       height: 150px;
       width: 150px;
       position: absolute;
+    }
+    
+    #mediaCooperation img{
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
     }
     
@@ -556,7 +616,7 @@
     #mediaCooperation .m5{
       left: 925px;
       top: 150px;	
-    }
+    } */
     
     
     #application {
@@ -575,6 +635,12 @@
       height: 200px;
       background-color: #5D8AA6;
       width: 800px;
+      font-size: 40px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    #application p{
+      padding-top: 50px;
     }
   }
 
