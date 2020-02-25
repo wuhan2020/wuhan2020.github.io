@@ -195,7 +195,7 @@ export default {
             link: '/zh-cn/docs/dev/architecture.html',
           },
           {
-            title: 'Slack Channle 列表',
+            title: 'Slack Channel 列表',
             link: '/zh-cn/docs/dev/slack-channels.html',
           },
           {
