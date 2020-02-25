@@ -11,6 +11,13 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          content: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          dateStr: '2020年1月26日',
+          link: '/zh-cn/blog/collaborative-process-publishing.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
           title: '致 WUHAN2020 开源社区全体成员的一封信',
           content: '致 WUHAN 2020 开源社区全体成员的一封信',
           dateStr: '2020年1月28日',
@@ -29,6 +36,20 @@ export default {
           content: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
           dateStr: '2020年2月1日',
           link: '/zh-cn/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
+          content: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
+          dateStr: '2020年2月2日',
+          link: '/zh-cn/blog/wuhan2020-intro.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          dateStr: '2020年2月3日',
+          link: '/zh-cn/blog/need-questionnaire.html',
         },
         {
           img: '/images/blog/media/banner.webp',
@@ -50,20 +71,6 @@ export default {
           content: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
           dateStr: '2020年2月10日',
           link: '/zh-cn/blog/nav-project-introduced.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
-          content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
-          dateStr: '2020年2月3日',
-          link: '/zh-cn/blog/need-questionnaire.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
-          content: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
-          dateStr: '2020年1月26日',
-          link: '/zh-cn/blog/collaborative-process-publishing.html',
         }
       ]
     },
@@ -166,6 +173,10 @@ export default {
           {
             title: '快速开始',
             link: '/zh-cn/docs/dev/quickstart.html',
+          },
+          {
+            title: '项目入驻社区指南',
+            link: '/zh-cn/docs/dev/project-donate-guide.html',
           },
           {
             title: '团队工作流程',
