@@ -175,6 +175,10 @@ export default {
             link: '/zh-cn/docs/dev/quickstart.html',
           },
           {
+            title: '项目入驻社区指南',
+            link: '/zh-cn/docs/dev/project-donate-guide.html',
+          },
+          {
             title: '团队工作流程',
             link: '/zh-cn/docs/dev/team-workflow.html',
           },
