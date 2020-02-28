@@ -13,7 +13,7 @@ class SpeakerProfile extends React.Component {
 	}
 	render() {
 		return (
-			<div class="speaker">
+			<div className="speaker">
 				<img src={"/images/hackathon/speaker/" + this.props.img} />
 				<h2>{this.props.name}</h2>
 				<h3>{this.props.job}</h3>
@@ -107,7 +107,7 @@ class Hackathon extends Language {
 				},
 				{
 					name:"Tianyu Wu",
-					img:"Tianyu_Wu.jpeg",	
+					img:"Tianyu_WU.jpeg",	
 					job:"Ex-Director, AI Product Development, Byte Dance",
 					introduction:"Tianyu believes in the intersection between data and design. Currently working as a Sr Product designer at FB, previously in Spotify and unicorn startups. She has been teaching UX for years and has a mixed background in product and design. She strives to create simple and delightful products to help people solve problems.",
 				},
