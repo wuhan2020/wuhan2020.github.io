@@ -157,14 +157,14 @@ class Hackathon extends Language {
 					<h2>{dataSource.subject.subject_name}</h2>
 					<ul>
 						{dataSource.subject.subject.map((item) => (
-							<li>{item}</li>))}
+							<li key={index}>{item}</li>))}
 					</ul>
 				</div>
 				<div className="s2">
 					<h2>{dataSource.subject.form_name}</h2>
 					<ul>
 					{dataSource.subject.form.map((item) => (
-							<li>{item}</li>))}
+							<li key={index}>{item}</li>))}
 					</ul>		
 				</div>
 			</div>
