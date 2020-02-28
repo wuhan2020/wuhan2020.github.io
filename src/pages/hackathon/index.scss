@@ -428,7 +428,12 @@
     #speaker .s4 h2{
       font-size: 25px;
     }
-    
+    #speaker .opacity {
+      opacity: 0; 
+    }
+    #speaker .transparency {
+      opacity: 1;
+    }
     #speaker h3{
       position: absolute;
       top: 0px;
@@ -436,7 +441,6 @@
       color: #FFFFFF;
       width:100%;
       height: 60px;
-      opacity: 0;
       border-bottom: 2px #FFFFFF solid;
       display: flex;
       align-items: center;

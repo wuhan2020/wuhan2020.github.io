@@ -9,14 +9,24 @@ import './index.scss';
 
 class SpeakerProfile extends React.Component {
     constructor(props){
-        super(props);
+		super(props);
+		this.handleMouseMove = this.handleMouseMove.bind(this);
+		this.handleMouseLeave = this.handleMouseLeave.bind(this);
+		this.state = {opacity: "opacity"}
 	}
-	render() {
+	handleMouseMove(props) {
+		this.setState({opacity: "transparency"})
+	}
+	handleMouseLeave(props) {
+		this.setState({opacity: "opacity"})
+	}
+	render() {		
 		return (
-			<div className="speaker">
+			<div className="speaker" onMouseMove={this.handleMouseMove}
+				onMouseLeave={this.handleMouseLeave}>
 				<img src={"/images/hackathon/speaker/" + this.props.img} />
-				<h2>{this.props.name}</h2>
-				<h3>{this.props.job}</h3>
+				<h2 className={this.state.opacity}>{this.props.name}</h2>
+				<h3 className={this.state.opacity}>{this.props.job}</h3>
 				<h4>{this.props.introducion}</h4>
 			</div>
 		);
