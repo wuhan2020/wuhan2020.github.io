@@ -524,14 +524,28 @@ export default {
     },
     activity: {
       detail: '活动详情',
-      time_name: '时间',
-      time: '2020年3月6号~3月8号',
-      way: '方式',
-      way_detail: '完全线上进行，鼓励分布式协作的方式',
-      content: '内容',
-      content_detail: '根据“武汉2020”提供的数据进行设计和开发比赛，完成作品提交以及介绍视频（创意、作品简介以及意义）。',
-      award: '奖励',
-      award_detail: '评委和社区对参与者和项目进行评选排名，向优胜者颁发奖励。'
+      activityList: [{
+        image_name: 'activity1.png',
+        class_name: 'a1',
+        name: '时间',
+        content: '2020年3月6号~3月8号'
+      },{
+        image_name: 'activity2.png',
+        class_name: 'a2',
+        name: '方式',
+        content: '完全线上进行，鼓励分布式协作的方式'
+      },{
+        image_name: 'activity3.png',
+        class_name: 'a3',
+        name: '内容',
+        content: '根据“武汉2020”提供的数据进行设计和开发比赛，完成作品提交以及介绍视频（创意、作品简介以及意义）。'
+      },{
+        image_name: 'activity4.png',
+        class_name: 'a4',
+        name: '奖励',
+        content: '评委和社区对参与者和项目进行评选排名，向优胜者颁发奖励。'
+      },
+      ]
     },
     holder: {
       main: '主办方',

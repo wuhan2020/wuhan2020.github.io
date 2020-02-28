@@ -7,6 +7,15 @@ import Language from '../../components/language';
 // import HackathonItem from './hackathonItem';
 import './index.scss';
 
+const ActivityProfile = (props) => {
+	return (<div className={props.class_name}>
+				<img src={"/images/hackathon/" + props.image_name} />
+				<div className="a">
+					<h2>{props.name}</h2>
+					<p>{props.content}</p>	
+				</div>
+			</div>);
+}
 class SpeakerProfile extends React.Component {
     constructor(props){
 		super(props);
@@ -120,35 +129,10 @@ class Hackathon extends Language {
 			
 			<div id="activity">
 				<h1>{dataSource.activity.detail}</h1>
-				<div className="a1">
-					<img src="/images/hackathon/activity1.png" />
-					<div className="a">
-						<h2>{dataSource.activity.time_name}</h2>
-						<p>{dataSource.activity.time}</p>	
-					</div>					
-				</div>
-				<div className="a2">
-					<img src="/images/hackathon/activity2.png" />
-					<div className="a">
-						<h2>{dataSource.activity.way}</h2>
-						<p>{dataSource.activity.way_detail}</p>
-					</div>
-				</div>
-				<div className="a3">
-					<img src="/images/hackathon/activity3.png" />
-					<div className="a">
-						<h2>{dataSource.activity.content}</h2>
-						<p>{dataSource.activity.content_detail}</p>
-					</div>
-		
-				</div>
-				<div className="a4">
-					<img src="/images/hackathon/activity4.png" />
-					<div className="a">
-						<h2>{dataSource.activity.award}</h2>
-						<p>{dataSource.activity.award_detail}</p>
-					</div>
-				</div>				
+				{dataSource.activity.activityList.map((item) => (
+                <div key={item.name}>
+                    <ActivityProfile {...item} />
+                </div>))}
 			</div>
 		
 			<div id="subject">

@@ -297,14 +297,7 @@ export default {
     },
     activity: {
       detail: '',
-      time_name: '',
-      time: '',
-      way: '',
-      way_detail: '',
-      content: '',
-      content_detail: '',
-      award: '',
-      award_detail: ''
+      activityList: []
     },
     holder: {
       main: '',
