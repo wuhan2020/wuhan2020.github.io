@@ -212,7 +212,7 @@ class Hackathon extends Language {
 					<img src="/images/hackathon/speaker/Haimo_Liu.jpeg" />
 					<h2>Haimo Liu</h2>
 					<h3>Alibaba Cloud, Staff Product Manager</h3>
-					<h4>'We can't help everyone, but everyone can help someone.' Wuhan might not be your home town or home country, but we are all part of this global community. Helping others in this community not only makes this community better, but also makes you feel great in the process.</h4>
+					<p>'We can't help everyone, but everyone can help someone.' Wuhan might not be your home town or home country, but we are all part of this global community. Helping others in this community not only makes this community better, but also makes you feel great in the process.</p>
 				</div>
 			</div>
 			
