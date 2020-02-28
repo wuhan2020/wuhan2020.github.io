@@ -7,11 +7,40 @@ import Language from '../../components/language';
 // import HackathonItem from './hackathonItem';
 import './index.scss';
 
+class SpeakerProfile extends React.Component {
+    constructor(props){
+		super(props);
+		this.handleMouseMove = this.handleMouseMove.bind(this);
+		this.handleMouseLeave = this.handleMouseLeave.bind(this);
+		this.state = {opacity: "opacity"}
+	}
+	handleMouseMove(props) {
+		this.setState({opacity: "transparency"})
+	}
+	handleMouseLeave(props) {
+		this.setState({opacity: "opacity"})
+	}
+	render() {		
+		return (
+			<div className="speaker" onMouseMove={this.handleMouseMove}
+				onMouseLeave={this.handleMouseLeave}>
+				<img src={"/images/hackathon/speaker/" + this.props.img} />
+				<h2>{this.props.name}</h2>
+				<h3 className={this.state.opacity}>{this.props.job}</h3>
+				<h4 className={this.state.opacity}>{this.props.introduction}</h4>
+			</div>
+		);
+	}
+}
 class Hackathon extends Language {
+    constructor(props) {
+		super(props);
+	}
     render() {
         const language = this.getLanguage();
         //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
-        // const dataSource = this.getLanguageDict(language, 'hackathon');
+		// const dataSource = this.getLanguageDict(language, 'hackathon');
+		const dataSource = this.getLanguageDict(language, 'hackathon');
         return (
             <div className="hackathon-page">
                 <Header
@@ -172,88 +201,73 @@ class Hackathon extends Language {
 		
 			<div id="speaker">
 				<h1>演讲人和评委</h1>
-				<div className="s1">
-					<img  src="/images/hackathon/speaker/Lu_Huimin.jpeg" />
-					<h2>Huimin Lu</h2>
-					<h3>Microsoft Cloud and AI Strategy Sr Manager</h3>
-					<p>I worked closely with the product to figure out product roadmap and go to market strategy.</p>
-				</div>
-				<div className="s2">
-					<img  src="/images/hackathon/speaker/Chun_Jiang.jpeg" />
-					<h2>Chun Jiang</h2>
-					<h3>Product Design @ Scale AI</h3>
-					<p>Driven to create unique products that foster connection and innovation, Chun has had experience with consumer-facing product design, machine learning, data design, IoT, design system, and autonomous driving. Chun is now leading 3D annotation & data product design at Scale AI. Previously worked at Uber. Undergraduate & Graduate degrees at Cornell.</p>
-				</div>
-				<div className="s3">
-					<img  src="/images/hackathon/speaker/Jason_Gui.jpeg" />
-					<h2>Jason Gui</h2>
-					<h3>Vue Glasses CTO</h3>
-					<p>As founder of Vigo and Vue, Jason has created innovative hardware products and raised over $2 million USD through Kickstarter. Jason brings a background of mechanical and electrical engineering, marketing, production, and business expertise.</p>
-				</div>
-				<div className="s4">
-					<img  src="/images/hackathon/speaker/Zhiyang_Wang.jpeg" />
-					<h2>Zhiyang Wang</h2>
-					<h3>Facebook Software Engineer</h3>
-					<p>Let's see how we can help Wuhan by HACKING! Have been hacking in Facebook for 6 years across multiple products on mobile, on web, for users, for advertisers, for creators, from US, from LATAM and also from China! Let's unite everyone everywhere!</p>
-				</div>
-				<div className="s5">
-					<img  src="/images/hackathon/speaker/Claire_Li.jpeg" />
-					<h2>Claire Li</h2>
-					<h3>Pinterest, Sr.Software Engineer</h3>
-					<p>Claire is a product builder, open source contributor, and Sr. engineer at Pinterest. She has built a open source project with 500+ stars on GitHub and holds two patents. She has shipped products to millions of users in eCommerce, payment and social media space. Claire also runs a community of aspiring entrepreneurs. She received her bachelor in CS from UC-Berkeley.</p>
-				</div>
-				<div className="s6">
-					<img  src="/images/hackathon/speaker/Zhao_Matthew.jpeg" />
-					<h2>Matth Zhao</h2>
-					<h3>Google/Software Engineer</h3>
-					<p>Matt is currently an enginner at Google and previously worked at Snapchat(2015-2019). Matt got his master and bachelor's degrees in CS from  Rice University. He attended various hackathons while in school and is excited to offer technical support for "Hack for Wuhan".</p>
-				</div>
-				<div className="s7">
-					<img src="img/speaker/Haimo_Liu.jpeg" />
-					<h2>Haimo Liu</h2>
-					<h3>Alibaba Cloud, Staff Product Manager</h3>
-					<h4>'We can't help everyone, but everyone can help someone.' Wuhan might not be your home town or home country, but we are all part of this global community. Helping others in this community not only makes this community better, but also makes you feel great in the process.</h4>
-				</div>
+				<div>{dataSource.speakerlist.map((item) => (
+                <div key={item.name}>
+                    <SpeakerProfile {...item} />
+                </div>))}
+            	</div>
 			</div>
 			
 			<div id="holder">
 				<h1>主办方</h1>
-				<div className="h1"><img src="/images/hackathon/holder/holder1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/holder/holder2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/holder/holder3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
+				<div></div>
+				<div><img src="/images/hackathon/holder/holder1.png" /></div>
+				<div><img src="/images/hackathon/holder/holder2.png" /></div>
+				<div><img src="/images/hackathon/holder/holder3.png" /></div>
 			</div>
 			
 			<div id="holder">
 				<h1>协办方</h1>
-				<div className="h1"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></div>
-				<div className="h2"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></div>
-				<div className="h3"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></div>
-				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
+				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.png" /></a></div>
+				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.png" /></a></div>
+				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.png" /></a></div>
+				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.png" /></a></div>
 			</div>
 			
 			<div id="holder">
 				<h1>平台支持</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div></div>
+				<div></div>
+				<div><a href="https://www.runtheworld.today/"><img src="/images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
-			
+
+			<div id="holder">
+				<h1>资源提供</h1>
+				<div></div>
+				<div></div>
+				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+			</div>
+
 			<div id="holder">
 				<h1>媒体合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/media/media1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media5.png" /></a></div>
 			</div>
 			
 			<div id="holder">
 				<h1>社区合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/community/community1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community5.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community6.png" /></a></div> 
+				<div ><a href=""><img src="/images/hackathon/community/community7.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community8.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community9.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community10.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community11.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community12.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community13.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community14.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community15.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community16.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
 			</div>
 			
 			<div id="application">
