@@ -218,6 +218,7 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>主办方</h1>
+				<div></div>
 				<div><img src="/images/hackathon/holder/holder1.png" /></div>
 				<div><img src="/images/hackathon/holder/holder2.png" /></div>
 				<div><img src="/images/hackathon/holder/holder3.png" /></div>
@@ -233,10 +234,7 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>平台支持</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div><a href="https://www.runtheworld.today/"><img src="images/hackathon/platform_support/platform_support1.png"></a></div>
 			</div>
 			
 			<div id="holder">
