@@ -225,10 +225,10 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>协办方</h1>
-				<div><a href="https://www.freecodecamp.org/"><img src="/images/holder_coorperation/holder_coorperation1.jpeg" /></a></div>
-				<div><a href="http://ceoceo.org/"><img src="/images/holder_coorperation/holder_coorperation2.jpeg" /></a></div>
-				<div><a href="https://www.linkstars.com/"><img src="/images/holder_coorperation/holder_coorperation3.jpeg" /></a></div>
-				<div><a href="https://www.agora.io/"><img src="/images/holder_coorperation/holder_coorperation4.jpeg" /></a></div>
+				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></a></div>
+				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></a></div>
+				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></a></div>
+				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.jpeg" /></a></div>
 			</div>
 			
 			<div id="holder">
