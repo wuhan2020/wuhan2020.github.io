@@ -163,15 +163,10 @@ class Hackathon extends Language {
 					</ul>
 				</div>
 				<div className="s2">
-					<h2>表现方式（不限于）</h2>
+					<h2>{dataSource.subject.form_name}</h2>
 					<ul>
-						<li>视频、动画等艺术设计作品</li>
-						<li>动态网页</li>
-						<li>开源数据	</li>
-						<li>数据的分析预测模型</li>
-						<li>可视化平台、网站</li>
-						<li>针对疫情的产品应用</li>
-						<li>分析调查报告、策划书</li>
+					{dataSource.subject.form.map((item) => (
+							<li>{item}</li>))}
 					</ul>		
 				</div>
 			</div>
