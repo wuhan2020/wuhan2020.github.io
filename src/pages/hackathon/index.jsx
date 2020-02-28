@@ -234,7 +234,7 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>平台支持</h1>
-				<div><a href="https://www.runtheworld.today/"><img src="images/hackathon/platform_support/platform_support1.png"></a></div>
+				<div><a href="https://www.runtheworld.today/"><img src="images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
 			
 			<div id="holder">
