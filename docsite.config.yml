@@ -44,3 +44,13 @@ pages:
       title: 'Projects'
       keywords: 'Wuhan2020, Projects'
       description: 'Wuhan2020 projects'
+  certification:
+    # apply the certification
+    zh-cn:
+      title: 'certification'
+      keywords: 'certification'
+      description: 'certification'
+    en-us:
+      title: 'certification'
+      keywords: 'certification'
+      description: 'certification'
