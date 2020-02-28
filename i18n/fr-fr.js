@@ -279,6 +279,14 @@ export default {
         },
       ],
     },
+    holder: {
+      main: '',
+      co: '',
+      support: '',
+      resource: '',
+      media: '',
+      community: ''
+    }
   },
   site: {
     pageMenu: [

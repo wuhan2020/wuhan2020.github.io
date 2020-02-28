@@ -501,6 +501,14 @@ export default {
         },
       ],
     },
+    holder: {
+      main: '主办方',
+      co: '协办方',
+      support: '平台支持',
+      resource: '资源提供',
+      media: '媒体合作',
+      community: '社区合作'
+    }
   },
   site: {
     pageMenu: [

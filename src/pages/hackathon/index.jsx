@@ -81,7 +81,7 @@ class Hackathon extends Language {
 				{/* <h1 class="software1">“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h1>“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1>" }}></div>
 				
-				<p>而在全国对抗疫情的背后，技术支持也占据了重要的一环。民政部司长陈越良就曾公开喊话，呼吁互联网企业开发公益应用。怎么样让更多人参与其中，让信息科技等力量发挥更大的作用？</p>
+				<p>{dataSource.concepts.list[1].description}</p>
 			</div>
 			
 			
@@ -90,7 +90,7 @@ class Hackathon extends Language {
 					<img src="/images/hackathon/HackForWuHanImg0.jpeg" />
 					<h1>黑客马拉松等你来战</h1>
 					<h2>Hack for Wuhan</h2>
-					<h3> 作为Wuhan2020社区的志愿者和开发人员，我们将发起另一场活动：在 2020年2月底，启动Hack for Wuhan黑客马拉松，在此诚邀您利用自己的技能，为抗击疫情贡献一份力量！ </h3>	
+					<h3> {dataSource.concepts.list[3].description} </h3>	
 					
 				</div>
 				
@@ -99,20 +99,20 @@ class Hackathon extends Language {
 			<div id="hopeful">
 				<div className="ho1">
 					<img src="/images/hackathon/HackForWuHanImg1.png" />
-					<p>我们相信黑客马拉松不仅能创造出下一个独角兽企业，还能让更多人精诚团结、共赴使命、携手抗击世界性公共卫生危机。</p>	
+					<p> {dataSource.concepts.list[4].description} </p>	
 				</div>
 				
 				<div className="ho2">
 					<img src="/images/hackathon/HackForWuHanImg2.png" />
-					<p>我们期待这样的形式出现：新的构想设计、产品原型、业务或社会影响模型，我们深信所有的努力都将会产生深远的影响。</p>
+					<p> {dataSource.concepts.list[5].description} </p>
 				</div>
 					
 				<div className="ho3">
 					<img src="/images/hackathon/HackForWuHanImg3.png" />
-					<p>让你的灵感产生更大的价值，我们会提供专业的技术支持，你将有机会与包括来自斯坦福大学、麻省理工学院、哈佛大学、Andreessen Horowitz、金沙江创业投资、Google、Facebook、ByteDance以及硅谷、中国和印度的初创公司的优秀导师团队互动。</p>	
+					<p> {dataSource.concepts.list[6].description} </p>	
 				</div>
 				
-				<h2 className="buttom">全国人民共同对抗新冠肺炎疫情的种种，将会成为一段历史，而由此而迸发出的灵感，一定还会持续闪耀。活动中每一个有价值的想法都会得到重视，在帮助抗击疫情的同时，让我们为社会创作更多的共享价值。</h2>
+				<h2 className="buttom"> {dataSource.concepts.list[7].description} </h2>
 			</div>	
 			
 			
@@ -209,7 +209,7 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="holder">
-				<h1>主办方</h1>
+				<h1>{dataSource.holder.main}</h1>
 				<div></div>
 				<div><img src="/images/hackathon/holder/holder1.png" /></div>
 				<div><img src="/images/hackathon/holder/holder2.png" /></div>
@@ -217,7 +217,7 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="holder">
-				<h1>协办方</h1>
+				<h1>{dataSource.holder.co}</h1>
 				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.png" /></a></div>
 				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.png" /></a></div>
 				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.png" /></a></div>
@@ -225,21 +225,21 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="holder">
-				<h1>平台支持</h1>
+				<h1>{dataSource.holder.support}</h1>
 				<div></div>
 				<div></div>
 				<div><a href="https://www.runtheworld.today/"><img src="/images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
 
 			<div id="holder">
-				<h1>资源提供</h1>
+				<h1>{dataSource.holder.media}</h1>
 				<div></div>
 				<div></div>
 				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
 			</div>
 
 			<div id="holder">
-				<h1>媒体合作</h1>
+				<h1>{dataSource.holder.media}</h1>
 				<div ><a href=""><img src="/images/hackathon/media/media1.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/media/media2.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/media/media3.png" /></a></div>
@@ -248,7 +248,7 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="holder">
-				<h1>社区合作</h1>
+				<h1>{dataSource.holder.community}</h1>
 				<div ><a href=""><img src="/images/hackathon/community/community1.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community2.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community3.png" /></a></div>
