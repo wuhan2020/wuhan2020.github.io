@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.certification-page {
+    width:  100%;
+    font-family: Avenir-Medium;
+    
+    header {
+        background-color: $brandColor;
+        height: $headerHeight;
+
+        img {
+            max-height: 100%;
+        }
+    }
+}

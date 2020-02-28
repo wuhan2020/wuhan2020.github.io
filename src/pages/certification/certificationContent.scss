@@ -1,0 +1,121 @@
+@import '../../variables.scss';
+
+$contentMarginTop: 40px;
+
+.certification-content {
+    width:  70%;
+    height: 80vh;
+    margin: $contentMarginTop auto 0 auto;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    .row {
+        width: 100%;
+    }
+
+    .certification-content-alerts {
+        text-align: center;
+        .alert {
+            min-width: 50%;
+            display: inline-block;
+            border: 1px solid grey;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 18px;
+            text-align: left;
+
+            &.successful {
+                border-color: $succeedColor;
+            }
+            
+            &.error {
+                border-color: $errorColor;
+            }
+
+            &.warn {
+                border-color: $warnColor;
+            }
+
+        }
+    }
+
+    .certification-content-main {
+        display: flex;
+        justify-content: space-around;
+        margin-top: $contentMarginTop + 20px;
+
+        .column {
+            flex: 50%;
+        }
+
+        aside {
+            width: 80%;
+            text-align: center;
+            img {
+                max-width: 100%;
+                width: 80%;
+            }
+        }
+
+        form {
+            fieldset,
+            legend {
+                border: none;
+                width: 100%;
+            }
+            
+            fieldset {
+                width: 70%;
+                margin-top: $contentMarginTop + 20px;
+            }
+
+            legend {
+                text-align: center;
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            .form-row {
+                width: 100%;
+                height: 100px;
+                margin: 40px;
+
+                &.name {
+                    height: 150px;
+                }
+
+                label,
+                span,
+                input {
+                    width: 100%;
+                    display: inline-block;
+                }
+
+                label {
+                    padding: 5px;
+                }
+
+                .description {
+                    font-size: 18px;
+                }
+
+                input {
+                    height: 50px;
+                    border: 1px solid $brandColor;
+                    border-radius: 5px;
+
+                    &[type="submit"] {
+                        font-size: 26px;
+                        color: #fff;
+                        background-color: $startColor;
+                        background-image: linear-gradient(to right, rgb(241, 54, 79), rgb(232, 142, 40));
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
