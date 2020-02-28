@@ -282,7 +282,8 @@ export default {
   },
   hackathon: {
     barText: '黑客松',
-    sectionDescription: 'Hack for Wuhan 黑客马拉松等你来战',
+    speakerTitle: '演讲人和评委',
+    sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
       {
           name:"Huimin Lu",
@@ -501,6 +502,63 @@ export default {
         },
       ],
     },
+    participant: {
+      name: '参赛人员',
+      person: '参赛选手',
+      person_description_1: '来自开源社区（例如Wuhan2020和GitHub上其他社区）的开发人员，有出色的想法和原型，能解决当下的挑战并创造共享价值；',
+      person_description_2: '希望通过开源方式来提高社会影响力的志愿者；',
+      person_description_3: '积极应对COVID-19挑战以及社会紧急危机的企业家、创业者.',
+      audience: '观众',
+      audience_description_1: 'Hackathon参赛个人及团队',
+      audience_description_2: '受邀人-评委，导师，专业人员（企业家，社会创新者，风险投资人等）',
+      audience_description_3: '任何对此活动感兴趣并想要观摩学习的人。',
+    },
+    subject: {
+      name: '赛题范围和形式',
+      subject_name: '可选的主题包括',
+      subject: ['针对疫情的标注数据','相关技术的创新应用', '社会公益和科普宣传',
+          '应对本次公共危机下出现的各类社会挑战的解决方案'],
+      form_name: '表现方式（不限于）',
+      form: ['视频、动画等艺术设计作品', '动态网页', '开源数据', '数据的分析预测模型', 
+        '可视化平台', '网站', '针对疫情的产品应用', '分析调查报告、策划书']
+    },
+    activity: {
+      detail: '活动详情',
+      activityList: [{
+        image_name: 'activity1.png',
+        class_name: 'a1',
+        name: '时间',
+        content: '2020年3月6号~3月8号'
+      },{
+        image_name: 'activity2.png',
+        class_name: 'a2',
+        name: '方式',
+        content: '完全线上进行，鼓励分布式协作的方式'
+      },{
+        image_name: 'activity3.png',
+        class_name: 'a3',
+        name: '内容',
+        content: '根据“武汉2020”提供的数据进行设计和开发比赛，完成作品提交以及介绍视频（创意、作品简介以及意义）。'
+      },{
+        image_name: 'activity4.png',
+        class_name: 'a4',
+        name: '奖励',
+        content: '评委和社区对参与者和项目进行评选排名，向优胜者颁发奖励。'
+      },
+      ]
+    },
+    holder: {
+      main: '主办方',
+      co: '协办方',
+      support: '平台支持',
+      resource: '资源提供',
+      media: '媒体合作',
+      community: '社区合作'
+    },
+    application: {
+      application: '立即报名',
+      waiting: '敬请期待'
+    }
   },
   certification: {
     formText: {
