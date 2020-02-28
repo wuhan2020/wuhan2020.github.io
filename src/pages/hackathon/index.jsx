@@ -73,7 +73,7 @@ class Hackathon extends Language {
 			</div>
 		
 			<div id="hospital">
-			<p>谁也不会预计到，新冠肺炎病毒的影响如此巨大，目前它已经发展为全球性紧急事件。虽然形势不容乐观，但我们也看到很多暖心的一幕幕在上演：众多志愿者的无私奉献，大量物资用品的捐赠，火神山、雷神山医院的火速建成，多地医疗队伍的驰援，都让这个冬天变的不那么寒冷。</p>	
+			<p>{dataSource.concepts.list[0].description}</p>	
 		</div>
 		
 			<div id="software">

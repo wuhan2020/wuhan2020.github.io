@@ -282,7 +282,7 @@ export default {
   },
   hackathon: {
     barText: '黑客松',
-    sectionDescription: 'Hack for Wuhan 黑客马拉松等你来战',
+    sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
       {
           name:"Huimin Lu",
