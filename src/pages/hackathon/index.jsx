@@ -218,10 +218,9 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>主办方</h1>
-				<div className="h1"><img src="/images/hackathon/holder/holder1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/holder/holder2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/holder/holder3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
+				<div><img src="/images/hackathon/holder/holder1.png" /></div>
+				<div><img src="/images/hackathon/holder/holder2.png" /></div>
+				<div><img src="/images/hackathon/holder/holder3.png" /></div>
 			</div>
 			
 			<div id="holder">
