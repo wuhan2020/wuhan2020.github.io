@@ -208,46 +208,74 @@ class Hackathon extends Language {
 					<h3>Google/Software Engineer</h3>
 					<p>Matt is currently an enginner at Google and previously worked at Snapchat(2015-2019). Matt got his master and bachelor's degrees in CS from  Rice University. He attended various hackathons while in school and is excited to offer technical support for "Hack for Wuhan".</p>
 				</div>
+				<div className="s7">
+					<img src="/images/hackathon/speaker/Haimo_Liu.jpeg" />
+					<h2>Haimo Liu</h2>
+					<h3>Alibaba Cloud, Staff Product Manager</h3>
+					<p>'We can't help everyone, but everyone can help someone.' Wuhan might not be your home town or home country, but we are all part of this global community. Helping others in this community not only makes this community better, but also makes you feel great in the process.</p>
+				</div>
 			</div>
 			
 			<div id="holder">
 				<h1>主办方</h1>
-				<div className="h1"><img src="/images/hackathon/holder/holder1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/holder/holder2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/holder/holder3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
+				<div></div>
+				<div><img src="/images/hackathon/holder/holder1.png" /></div>
+				<div><img src="/images/hackathon/holder/holder2.png" /></div>
+				<div><img src="/images/hackathon/holder/holder3.png" /></div>
 			</div>
 			
 			<div id="holder">
 				<h1>协办方</h1>
-				<div className="h1"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></div>
-				<div className="h2"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></div>
-				<div className="h3"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></div>
-				<div className="h4"><img src="/images/hackathon/holder/holder4.png" /></div>
+				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></a></div>
+				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></a></div>
+				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></a></div>
+				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.jpeg" /></a></div>
 			</div>
 			
 			<div id="holder">
 				<h1>平台支持</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div></div>
+				<div></div>
+				<div><a href="https://www.runtheworld.today/"><img src="/images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
-			
+
+			<div id="holder">
+				<h1>资源提供</h1>
+				<div></div>
+				<div></div>
+				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+			</div>
+
 			<div id="holder">
 				<h1>媒体合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/media/media1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media5.png" /></a></div>
 			</div>
 			
 			<div id="holder">
 				<h1>社区合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/community/community1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community5.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community6.png" /></a></div> 
+				<div ><a href=""><img src="/images/hackathon/community/community7.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community8.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community9.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community10.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community11.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community12.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community13.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community14.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community15.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community16.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
 			</div>
 			
 			<div id="application">
