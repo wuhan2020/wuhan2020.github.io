@@ -64,7 +64,7 @@ class Hackathon extends Language {
 				{/* <h1>Hack For <br> WuHan</h1> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h1>Hack For <br> WuHan</h1>" }}></div>
 				
-				<h2>黑客马拉松等你来战</h2>
+				<h2>{dataSource.sectionDescription}</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>线上开跑 </h3>" }}></div>
 				<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > 立即报名 </button> </a>
