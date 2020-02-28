@@ -298,6 +298,17 @@ export default {
       form_name: '',
       form: []
     },
+    activity: {
+      detail: '',
+      time_name: '',
+      time: '',
+      way: '',
+      way_detail: '',
+      content: '',
+      content_detail: '',
+      award: '',
+      award_detail: ''
+    },
    holder: {
       main: '',
       co: '',

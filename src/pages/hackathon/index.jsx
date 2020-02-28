@@ -119,38 +119,36 @@ class Hackathon extends Language {
 			
 			
 			<div id="activity">
-				<h1>活动详情</h1>
+				<h1>{dataSource.activity.detail}</h1>
 				<div className="a1">
 					<img src="/images/hackathon/activity1.png" />
 					<div className="a">
-						<h2>时间</h2>
-						<p>2020年3月6号~3月8号</p>	
-					</div>
-					
+						<h2>{dataSource.activity.time_name}</h2>
+						<p>{dataSource.activity.time}</p>	
+					</div>					
 				</div>
 				<div className="a2">
 					<img src="/images/hackathon/activity2.png" />
 					<div className="a">
-						<h2>方式</h2>
-						<p>完全线上进行，鼓励分布式协作的方式</p>
+						<h2>{dataSource.activity.way}</h2>
+						<p>{dataSource.activity.way_detail}</p>
 					</div>
 				</div>
 				<div className="a3">
 					<img src="/images/hackathon/activity3.png" />
 					<div className="a">
-						<h2>内容</h2>
-						<p>根据“武汉2020”提供的数据进行设计和开发比赛，完成作品提交以及介绍视频（创意、作品简介以及意义）。</p>
+						<h2>{dataSource.activity.content}</h2>
+						<p>{dataSource.activity.content_detail}</p>
 					</div>
 		
 				</div>
 				<div className="a4">
 					<img src="/images/hackathon/activity4.png" />
 					<div className="a">
-						<h2>奖励</h2>
-						<p>评委和社区对参与者和项目进行评选排名，向优胜者颁发奖励。</p>
+						<h2>{dataSource.activity.award}</h2>
+						<p>{dataSource.activity.award_detail}</p>
 					</div>
-				</div>
-				
+				</div>				
 			</div>
 		
 			<div id="subject">
