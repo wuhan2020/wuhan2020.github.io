@@ -25,9 +25,9 @@ class SpeakerProfile extends React.Component {
 			<div className="speaker" onMouseMove={this.handleMouseMove}
 				onMouseLeave={this.handleMouseLeave}>
 				<img src={"/images/hackathon/speaker/" + this.props.img} />
-				<h2 className={this.state.opacity}>{this.props.name}</h2>
+				<h2>{this.props.name}</h2>
 				<h3 className={this.state.opacity}>{this.props.job}</h3>
-				<h4>{this.props.introducion}</h4>
+				<h4 className={this.state.opacity}>{this.props.introducion}</h4>
 			</div>
 		);
 	}
@@ -226,7 +226,7 @@ class Hackathon extends Language {
 		// const dataSource = this.getLanguageDict(language, 'hackathon');
         const SpeakerList = this.state.speakerlist.map((item) => {
             return (
-                <div key={item.id}>
+                <div key={item.name}>
                     <SpeakerProfile {...item} />
                 </div>
             );
