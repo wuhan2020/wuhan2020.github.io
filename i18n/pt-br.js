@@ -272,6 +272,10 @@ export default {
       resource: '',
       media: '',
       community: ''
+    },
+    application: {
+      application: '',
+      waiting: ''
     }
   },
   site: {

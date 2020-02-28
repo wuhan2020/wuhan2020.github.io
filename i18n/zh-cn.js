@@ -508,6 +508,10 @@ export default {
       resource: '资源提供',
       media: '媒体合作',
       community: '社区合作'
+    },
+    application: {
+      application: '立即报名',
+      waiting: '敬请期待'
     }
   },
   site: {

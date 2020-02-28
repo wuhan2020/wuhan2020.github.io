@@ -271,9 +271,9 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="application">
-				<h1>立即报名</h1>
+				<h1>{dataSource.application.application}</h1>
 				<div className="a1">
-					<p>敬请期待</p>
+					<p>{dataSource.application.waiting}</p>
 				</div>
 			</div>
             </section>
