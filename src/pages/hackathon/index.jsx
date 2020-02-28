@@ -27,7 +27,7 @@ class SpeakerProfile extends React.Component {
 				<img src={"/images/hackathon/speaker/" + this.props.img} />
 				<h2>{this.props.name}</h2>
 				<h3 className={this.state.opacity}>{this.props.job}</h3>
-				<h4 className={this.state.opacity}>{this.props.introducion}</h4>
+				<h4 className={this.state.opacity}>{this.props.introduction}</h4>
 			</div>
 		);
 	}
