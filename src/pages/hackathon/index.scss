@@ -480,7 +480,8 @@
     
     #holder {
       position: relative;
-      height: 400px;
+      margin-top: 100px;
+      overflow: hidden;
       /* background-color: #5D8AA6; */
     }
     #holder h1{
@@ -505,24 +506,6 @@
     #holder img{
       max-width: 220px;
       max-height: 100px;
-    }
-    
-    #holder .h1{
-      left: 50px;
-      top: 150px;	
-    }
-    #holder .h2{
-      left: 333px;
-      top: 150px;	
-    }
-    #holder .h3{
-      left: 616px;
-      top: 150px;	
-    }
-    
-    #holder .h4{
-      left: 949px;
-      top: 150px;	
     }
     
     #sponsor {
