@@ -231,6 +231,11 @@
   ],
   "it-it": [
     {
+      "filename": "dev-env-setup.md",
+      "link": "/it-it/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
       "filename": "information-guide.md",
       "link": "/it-it/docs/dev/information-guide.html",
       "meta": {}
