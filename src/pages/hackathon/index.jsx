@@ -208,7 +208,7 @@ class Hackathon extends Language {
 					<h3>Google/Software Engineer</h3>
 					<p>Matt is currently an enginner at Google and previously worked at Snapchat(2015-2019). Matt got his master and bachelor's degrees in CS from  Rice University. He attended various hackathons while in school and is excited to offer technical support for "Hack for Wuhan".</p>
 				</div>
-				<div className="s7">
+				<div className="s1">
 					<img src="img/speaker/Haimo_Liu.jpeg" />
 					<h2>Haimo Liu</h2>
 					<h3>Alibaba Cloud, Staff Product Manager</h3>
