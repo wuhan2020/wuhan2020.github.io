@@ -502,6 +502,17 @@ export default {
         },
       ],
     },
+    participant: {
+      name: '参赛人员',
+      person: '参赛选手',
+      person_description_1: '来自开源社区（例如Wuhan2020和GitHub上其他社区）的开发人员，有出色的想法和原型，能解决当下的挑战并创造共享价值；',
+      person_description_2: '希望通过开源方式来提高社会影响力的志愿者；',
+      person_description_3: '积极应对COVID-19挑战以及社会紧急危机的企业家、创业者.',
+      audience: '观众',
+      audience_description_1: 'Hackathon参赛个人及团队',
+      audience_description_2: '受邀人-评委，导师，专业人员（企业家，社会创新者，风险投资人等）',
+      audience_description_3: '任何对此活动感兴趣并想要观摩学习的人。',
+    },
     holder: {
       main: '主办方',
       co: '协办方',

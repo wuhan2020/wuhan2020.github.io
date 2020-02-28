@@ -179,21 +179,21 @@ class Hackathon extends Language {
 			</div>
 			
 			<div id="participant">
-				<h1>参赛人员</h1>
+				<h1>{dataSource.participant.name}</h1>
 				<div className="p1">
-					<h2>参赛选手</h2>
+					<h2>{dataSource.participant.person}</h2>
 					<ul>
-						<li>来自开源社区（例如Wuhan2020和GitHub上其他社区）的开发人员，有出色的想法和原型，能解决当下的挑战并创造共享价值；</li>
-						<li>希望通过开源方式来提高社会影响力的志愿者；</li>
-						<li>积极应对COVID-19挑战以及社会紧急危机的企业家、创业者.</li>
+						<li>{dataSource.participant.person_description_1}</li>
+						<li>{dataSource.participant.person_description_2}</li>
+						<li>{dataSource.participant.person_description_3}</li>
 					</ul>
 				</div>
 				<div className="p2">
-					<h2>观众</h2>
+					<h2>{dataSource.participant.audience}</h2>
 					<ul>
-						<li>Hackathon参赛个人及团队</li>
-						<li>受邀人-评委，导师，专业人员（企业家，社会创新者，风险投资人等）</li>
-						<li>任何对此活动感兴趣并想要观摩学习的人。</li>
+						<li>{dataSource.participant.audience_description_1}</li>
+						<li>{dataSource.participant.audience_description_2}</li>
+						<li>{dataSource.participant.audience_description_3}</li>
 					</ul>
 				</div>
 			</div>
