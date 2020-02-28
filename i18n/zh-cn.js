@@ -282,6 +282,7 @@ export default {
   },
   hackathon: {
     barText: '黑客松',
+    speakerTitle: '演讲人和评委',
     sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
       {

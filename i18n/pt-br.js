@@ -227,6 +227,7 @@ export default {
   },
   hackathon: {
     barText: 'Hackathon',
+    speakerTitle: '',
     speakerlist: [],
     sectionDescription: 'Hack for Wuhan',
     concepts: {

@@ -239,6 +239,7 @@ export default {
   },
   hackathon: {
     barText: 'ハッカソン',
+    speakerTitle: '',
     speakerlist: [],
     sectionDescription: 'ハッカソンがあなたを待っています',
     concepts: {
