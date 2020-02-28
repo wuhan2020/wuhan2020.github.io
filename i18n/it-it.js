@@ -124,6 +124,10 @@ export default {
             link: '/it-it/docs/dev/quickstart.html',
           },
           {
+            title: 'Processo di Github Repo',
+            link: '/it-it/docs/dev/dev-env-setup.html',
+          },
+          {
             title: 'Flusso di lavoro del team (Cinese)',
             link: '/zh-cn/docs/dev/team-workflow.html',
           },
