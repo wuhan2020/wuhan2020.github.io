@@ -200,7 +200,7 @@ class Hackathon extends Language {
 			
 		
 			<div id="speaker">
-				<h1>{dateSource.speakerTitle}</h1>
+				<h1>{dataSource.speakerTitle}</h1>
 				<div>{dataSource.speakerlist.map((item) => (
                 <div key={item.name}>
                     <SpeakerProfile {...item} />
