@@ -513,6 +513,14 @@ export default {
       audience_description_2: '受邀人-评委，导师，专业人员（企业家，社会创新者，风险投资人等）',
       audience_description_3: '任何对此活动感兴趣并想要观摩学习的人。',
     },
+    subject: {
+      name: '赛题范围和形式',
+      subject_name: '可选的主题包括',
+      subject: ['针对疫情的标注数据','相关技术的创新应用', '社会公益和科普宣传',
+          '应对本次公共危机下出现的各类社会挑战的解决方案'],
+      form_name: '',
+      form: []
+    },
     holder: {
       main: '主办方',
       co: '协办方',

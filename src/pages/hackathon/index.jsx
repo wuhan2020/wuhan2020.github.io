@@ -154,15 +154,13 @@ class Hackathon extends Language {
 			</div>
 		
 			<div id="subject">
-				<h1>赛题范围和形式</h1>
+				<h1>{dataSource.subject.name}</h1>
 				<div className="s1">
-					<h2>可选的主题包括</h2>
+					<h2>{dataSource.subject.subject_name}</h2>
 					<ul>
-						<li>针对疫情的标注数据</li>
-						<li>相关技术的创新应用</li>
-						<li>社会公益和科普宣传</li>
-						<li>应对本次公共危机下出现的各类社会挑战的解决方案</li>
-					</ul>		
+						{dataSource.subject.subject.map((item) => (
+							<li>{item}</li>))}
+					</ul>
 				</div>
 				<div className="s2">
 					<h2>表现方式（不限于）</h2>

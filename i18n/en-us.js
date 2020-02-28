@@ -288,6 +288,13 @@ export default {
       audience_description_2: '',
       audience_description_3: '',
     },
+    subject: {
+      name: '',
+      subject_name: '',
+      subject: [],
+      form_name: '',
+      form: []
+    },
     holder: {
       main: '',
       co: '',
