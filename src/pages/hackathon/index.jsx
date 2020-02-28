@@ -234,9 +234,18 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>平台支持</h1>
+				<div></div>
+				<div></div>
 				<div><a href="https://www.runtheworld.today/"><img src="/images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
-			
+
+			<div id="holder">
+				<h1>资源提供</h1>
+				<div></div>
+				<div></div>
+				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+			</div>
+
 			<div id="holder">
 				<h1>媒体合作</h1>
 				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
