@@ -226,10 +226,10 @@ class Hackathon extends Language {
 			
 			<div id="holder">
 				<h1>协办方</h1>
-				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.jpeg" /></a></div>
-				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.jpeg" /></a></div>
-				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.jpeg" /></a></div>
-				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.jpeg" /></a></div>
+				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.png" /></a></div>
+				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.png" /></a></div>
+				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.png" /></a></div>
+				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.png" /></a></div>
 			</div>
 			
 			<div id="holder">
@@ -248,18 +248,34 @@ class Hackathon extends Language {
 
 			<div id="holder">
 				<h1>媒体合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/media/media1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media5.png" /></a></div>
 			</div>
 			
 			<div id="holder">
 				<h1>社区合作</h1>
-				<div className="h1"><img src="/images/hackathon/sponsor/sponsor1.png" /></div>
-				<div className="h2"><img src="/images/hackathon/sponsor/sponsor2.png" /></div>
-				<div className="h3"><img src="/images/hackathon/sponsor/sponsor3.png" /></div>
-				<div className="h4"><img src="/images/hackathon/sponsor/sponsor4.png" /></div>
+				<div ><a href=""><img src="/images/hackathon/community/community1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community5.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community6.png" /></a></div> 
+				<div ><a href=""><img src="/images/hackathon/community/community7.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community8.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community9.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community10.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community11.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community12.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community13.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community14.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community15.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community16.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
 			</div>
 			
 			<div id="application">
