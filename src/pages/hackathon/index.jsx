@@ -13,11 +13,11 @@ class SpeakerProfile extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div class="speaker">
 				<img src={"/images/hackathon/speaker/" + this.props.img} />
 				<h2>{this.props.name}</h2>
 				<h3>{this.props.job}</h3>
-				<p>{this.props.introducion}</p>						
+				<h4>{this.props.introducion}</h4>
 			</div>
 		);
 	}
