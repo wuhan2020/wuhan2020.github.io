@@ -1,37 +1,49 @@
 .certification-content {
   width: 70%;
+  max-width: 1050px;
   height: 80vh;
   margin: 40px auto 0 auto;
   font-size: 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  box-sizing: border-box; }
   .certification-content .row {
     width: 100%; }
   .certification-content .certification-content-alerts {
     text-align: center; }
     .certification-content .certification-content-alerts .alert {
-      min-width: 50%;
+      width: 616px;
+      max-width: 100%;
       display: inline-block;
-      border: 1px solid grey;
-      padding: 10px 15px;
+      border: 1px solid #B7EB8F;
+      background-color: #F6FFED;
+      padding: 15px 30px;
       border-radius: 4px;
-      font-size: 18px;
-      text-align: left; }
-      .certification-content .certification-content-alerts .alert.successful {
-        border-color: #81f181; }
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: 1px;
+      color: #000000;
+      box-sizing: border-box; }
+      .certification-content .certification-content-alerts .alert.successful .docsite-icon {
+        color: #52C41A; }
       .certification-content .certification-content-alerts .alert.error {
-        border-color: #e70505; }
+        border-color: #FFA39E; }
+        .certification-content .certification-content-alerts .alert.error .docsite-icon {
+          color: #F5222D; }
       .certification-content .certification-content-alerts .alert.warn {
-        border-color: #e8d563; }
+        border-color: #FFE58F; }
+        .certification-content .certification-content-alerts .alert.warn .docsite-icon {
+          color: #FAAD14; }
   .certification-content .certification-content-main {
     display: flex;
     justify-content: space-around;
     margin-top: 60px; }
-    .certification-content .certification-content-main .column {
-      flex: 50%; }
     .certification-content .certification-content-main aside {
       width: 80%;
+      min-width: 400px;
+      max-width: 510px;
       text-align: center; }
       .certification-content .certification-content-main aside img {
         max-width: 100%;
@@ -41,36 +53,51 @@
       border: none;
       width: 100%; }
     .certification-content .certification-content-main form fieldset {
-      width: 70%;
+      width: 410px;
       margin-top: 60px; }
     .certification-content .certification-content-main form legend {
       text-align: center;
-      font-size: 40px;
-      font-weight: 600; }
+      font-size: 36px;
+      font-weight: 500;
+      color: #333333; }
     .certification-content .certification-content-main form .form-row {
       width: 100%;
-      height: 100px;
-      margin: 40px; }
+      margin-bottom: 30px;
+      color: #333333; }
+      .certification-content .certification-content-main form .form-row.email {
+        margin-top: 24px; }
       .certification-content .certification-content-main form .form-row.name {
-        height: 150px; }
+        margin-bottom: 60px; }
+        .certification-content .certification-content-main form .form-row.name label {
+          position: relative;
+          padding-bottom: 25px; }
       .certification-content .certification-content-main form .form-row label,
       .certification-content .certification-content-main form .form-row span,
       .certification-content .certification-content-main form .form-row input {
         width: 100%;
         display: inline-block; }
       .certification-content .certification-content-main form .form-row label {
-        padding: 5px; }
+        padding: 5px;
+        font-size: 24px;
+        font-weight: 400; }
       .certification-content .certification-content-main form .form-row .description {
-        font-size: 18px; }
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        position: absolute;
+        bottom: 5px;
+        left: 5px; }
       .certification-content .certification-content-main form .form-row input {
         height: 50px;
         border: 1px solid #D9452B;
         border-radius: 5px; }
         .certification-content .certification-content-main form .form-row input[type="submit"] {
-          font-size: 26px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 500;
           color: #fff;
-          background-color: #d9452B;
-          background-image: linear-gradient(to right, #f1364f, #e88e28); }
+          border-radius: 4px;
+          background: linear-gradient(to right, #EA3E65 0%, #F08F38 100%); }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -1491,9 +1518,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .certification-page {
   width: 100%;
-  font-family: Avenir-Medium; }
+  font-family: PingFang SC; }
   .certification-page header {
     background-color: #D9452B;
-    height: 66px; }
+    height: 66px;
+    line-height: 66px; }
     .certification-page header img {
-      max-height: 100%; }
+      max-height: 100%;
+      height: 36px;
+      vertical-align: middle;
+      margin-left: 10px; }

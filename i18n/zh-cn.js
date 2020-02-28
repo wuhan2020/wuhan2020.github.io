@@ -328,6 +328,11 @@ export default {
       nicknameDescription: '昵称将填写在证书上',
       action: '提交验证',
     },
+    icons: {
+      successful: 'filled-check-circle',
+      error: 'filled-error-circle',
+      warn: 'filled-warn-circle',
+    },
     alertMsgs: {
       successful: '恭喜！您所提交的信息已经审核通过。',
       userError: '用户不存在，请稍后再试。',
