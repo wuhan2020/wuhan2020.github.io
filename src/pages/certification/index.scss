@@ -3,16 +3,11 @@
 
 .certification-page {
     width:  100%;
-<<<<<<< HEAD
     font-family: PingFang SC;
-=======
-    font-family: Avenir-Medium;
->>>>>>> dev
     
     header {
         background-color: $brandColor;
         height: $headerHeight;
-<<<<<<< HEAD
         line-height: $headerHeight;
 
         img {
@@ -20,11 +15,6 @@
             height: 36px;
             vertical-align: middle;
             margin-left: 10px;
-=======
-
-        img {
-            max-height: 100%;
->>>>>>> dev
         }
     }
 }
