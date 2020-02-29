@@ -470,11 +470,13 @@ export default {
       audience_description_3: 'Anyone who is interested in this activity and would like to watch and learn.',
     },
     subject: {
-      name: '',
-      subject_name: '',
-      subject: [],
-      form_name: '',
-      form: []
+      name: 'The scope and form of the questions',
+      subject_name: 'Optional topics include',
+      subject: ['Annotated data for outbreaks','Innovative application of relevant technologies',
+          'Solutions to various social challenges arising from this public crisis'],
+      form_name: 'Mode of expression (not limited to)',
+      form: ['Video, animation and other art design works','Dynamic web pages','Open source data','Analysis and prediction model of data',
+          'Visualization platform','Website','Product applications for outbreaks','Analyze investigation report and plan']
     },
     activity: {
       detail: '',
