@@ -575,6 +575,11 @@ export default {
       appliedWarn: '您所提交的信息已领取，请重新输入',
       notfoundWarn: '暂时没有您的信息，请耐心等待',
     },
+    icons: {
+      successful: 'filled-check-circle',
+      error: 'filled-error-circle',
+      warn: 'filled-warn-circle',
+    },
   },
   site: {
     pageMenu: [
