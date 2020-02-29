@@ -6,8 +6,11 @@ class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            email: 'test mail',
+            name: 'test user',
             status: 'notfoundWarn',
             isShowImage: false,
+            certToken: '',
         };
     }
     getAlertType(status) {
@@ -15,25 +18,36 @@ class CertificationContent extends React.Component {
         return  type || 'successful';
     }
 
-    handleSubmit = (event) => {
-        event.preventDefault();
-        this.setState({
-            status: 'userError'
-        });
-    };
-    
-    handleResizing = () => {
-        this.setState({
-            isShowImage: window.innerWidth > 1200
+    fetchCertificationApi = (api = '') => {
+        fetch(api).then(data => {
+            this.setState({
+                status: data.status,
+                certToken: data.certificationToken
+            });
         });
     };
 
+    handleSubmit = (event) => {
+        event.preventDefault();
+        const { email, name } = this.state;
+        console.log(email);
+        console.log(name);
+        // const tokenApi = "";
+        // this.fetchCertificationApi(tokenApi);
+    };
+    
+    handleResizing = () => void this.setState({ isShowImage: window.innerWidth > 1200 });
+
+    handleEmailChange = (e) => void this.setState({email: e.target.value});
+
+    handleNameChange = (e) => void this.setState( {name: e.target.value});
+
     componentDidMount() {
-        window.addEventListener('resize', handleResizing);
+        window.addEventListener('resize', this.handleResizing);
     }
 
     componentDidUpdate() {
-        window.addEventListener('resize', handleResizing);
+        window.addEventListener('resize', this.handleResizing);
     }
 
     componentWillUnmount() {
@@ -63,13 +77,13 @@ class CertificationContent extends React.Component {
                                 <legend>{formText.header}</legend>
                                 <div className="form-row email">
                                     <label>{formText.emailLabel}</label>
-                                    <input type="email" name="mail" />
+                                    <input type="email" name="mail" value={this.state.email} onChange={this.handleEmailChange}/>
                                 </div>
                                 <div className="form-row name">
                                     <label>{formText.nicknameLabel}
                                         <span className="description">{formText.nicknameDescription}</span>
                                     </label>
-                                    <input type="text" name="name" />
+                                    <input type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
                                 </div>
                                 <div className="form-row action">
                                     <input type="submit" value={formText.action} />
