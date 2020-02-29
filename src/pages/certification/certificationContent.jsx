@@ -12,31 +12,48 @@ class CertificationContent extends React.Component {
             name: 'mock user',
             status: 'error',
             isShowImage: false,
-            certToken: '',
+            token: '',
         };
     }
     getAlertType(status) {
         let type = ['error', 'warn'].filter( type => status.toLowerCase().includes(type))[0];
         return  type || 'successful';
     }
+    getParameterByName(name) {
+        const match = RegExp(`[?&]${name}=([^&]*)`).exec(window.location.search);
+        return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
 
-    fetchCertificationApi = (api = '') => {
-        fetch(api).then(data => {
-            this.setState({
-                status: data.status,
-                certToken: data.certificationToken
-            });
-        });
+    getToken = () => this.getParameterByName('token'); 
+
+    // return fetch promise
+    fetchCertificationApi = (api = '', data = {}, method='POST') => {
+       return  fetch(api, {
+           method: method,
+           headers: {
+               'Content-Type': 'application/json',
+           },
+           body: JSON.stringify(data)
+       });
     };
 
     handleSubmit = (event) => {
         event.preventDefault();
-        const { email, name } = this.state;
-        console.log(email);
-        console.log(name);
+        
+        /** @TODO waiting for API */
+        // const { email, name } = this.state;
         // const tokenApi = "";
-        // this.fetchCertificationApi(tokenApi);
-        // mock data
+        // const payloadData = {};
+        // this.fetchCertificationApi(tokenApi, payloadData)
+        //     .then( res => res.json() )
+        //     .then( (data) => {
+        //         this.setState({});
+        //     })
+        //     .catch( (error) => {
+        //         console.error('Error:', error);
+        //     });
+
+        // mock data test start
         const mockStatusMap = {
             successful: 'successful',
             error: 'error',
@@ -44,8 +61,8 @@ class CertificationContent extends React.Component {
         };
 
         this.setState({
-            status: mockStatusMap[name] || 'error'
-        });
+            status: mockStatusMap[this.state.name] || 'error'
+        }); // mock data test end
     };
     
     handleResizing = () => void this.setState({ isShowImage: window.innerWidth > 1200 });
@@ -57,6 +74,8 @@ class CertificationContent extends React.Component {
     componentDidMount() {
         this.handleResizing();
         window.addEventListener('resize', this.handleResizing);
+        const token = this.getToken();
+        this.setState( { token });
     }
 
     componentDidUpdate() {
