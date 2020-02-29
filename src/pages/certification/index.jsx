@@ -7,7 +7,10 @@ import CertificationContent from './certificationContent';
 import './index.scss';
 
 class Certification extends Language {
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
     render() {
         const language = ['zh-cn'];
         const dataSource = this.getLanguageDict(language, 'certification');

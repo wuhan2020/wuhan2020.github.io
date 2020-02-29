@@ -4,14 +4,20 @@ $contentMarginTop: 40px;
 
 .certification-content {
     width:  70%;
+<<<<<<< HEAD
     max-width: 1050px;
+=======
+>>>>>>> dev
     height: 80vh;
     margin: $contentMarginTop auto 0 auto;
     font-size: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+>>>>>>> dev
     
     .row {
         width: 100%;
@@ -19,6 +25,7 @@ $contentMarginTop: 40px;
 
     .certification-content-alerts {
         text-align: center;
+<<<<<<< HEAD
 
         .alert {
             width: 616px;
@@ -39,22 +46,41 @@ $contentMarginTop: 40px;
                 .docsite-icon {
                     color: $succeedIconColor;
                 }
+=======
+        .alert {
+            min-width: 50%;
+            display: inline-block;
+            border: 1px solid grey;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 18px;
+            text-align: left;
+
+            &.successful {
+                border-color: $succeedColor;
+>>>>>>> dev
             }
             
             &.error {
                 border-color: $errorColor;
+<<<<<<< HEAD
 
                 .docsite-icon {
                     color: $errorIconColor;
                 }
+=======
+>>>>>>> dev
             }
 
             &.warn {
                 border-color: $warnColor;
+<<<<<<< HEAD
 
                 .docsite-icon {
                     color: $warnIconColor;
                 }
+=======
+>>>>>>> dev
             }
 
         }
@@ -65,12 +91,22 @@ $contentMarginTop: 40px;
         justify-content: space-around;
         margin-top: $contentMarginTop + 20px;
 
+<<<<<<< HEAD
         aside {
             width: 80%;
             min-width: 400px;
             max-width: 510px;
             text-align: center;
 
+=======
+        .column {
+            flex: 50%;
+        }
+
+        aside {
+            width: 80%;
+            text-align: center;
+>>>>>>> dev
             img {
                 max-width: 100%;
                 width: 80%;
@@ -85,19 +121,29 @@ $contentMarginTop: 40px;
             }
             
             fieldset {
+<<<<<<< HEAD
                 width: 410px;
+=======
+                width: 70%;
+>>>>>>> dev
                 margin-top: $contentMarginTop + 20px;
             }
 
             legend {
                 text-align: center;
+<<<<<<< HEAD
                 font-size: 36px;
                 font-weight: 500;
                 color: #333333;
+=======
+                font-size: 40px;
+                font-weight: 600;
+>>>>>>> dev
             }
 
             .form-row {
                 width: 100%;
+<<<<<<< HEAD
                 margin-bottom: 30px;
                 color: #333333;
 
@@ -112,6 +158,13 @@ $contentMarginTop: 40px;
                         position: relative;
                         padding-bottom: 25px;
                     }
+=======
+                height: 100px;
+                margin: 40px;
+
+                &.name {
+                    height: 150px;
+>>>>>>> dev
                 }
 
                 label,
@@ -123,6 +176,7 @@ $contentMarginTop: 40px;
 
                 label {
                     padding: 5px;
+<<<<<<< HEAD
                     font-size: 24px;
                     font-weight: 400;
                 }
@@ -134,6 +188,12 @@ $contentMarginTop: 40px;
                     position: absolute;
                     bottom: 5px;
                     left: 5px;
+=======
+                }
+
+                .description {
+                    font-size: 18px;
+>>>>>>> dev
                 }
 
                 input {
@@ -142,12 +202,19 @@ $contentMarginTop: 40px;
                     border-radius: 5px;
 
                     &[type="submit"] {
+<<<<<<< HEAD
                         font-size: 18px;
                         line-height: 26px;
                         font-weight: 500;
                         color: #fff;
                         border-radius: 4px;
                         background: linear-gradient(to right, #EA3E65 0%, #F08F38 100%)
+=======
+                        font-size: 26px;
+                        color: #fff;
+                        background-color: $startColor;
+                        background-image: linear-gradient(to right, rgb(241, 54, 79), rgb(232, 142, 40));
+>>>>>>> dev
                     }
                 }
             }
