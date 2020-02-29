@@ -290,12 +290,12 @@ export default {
     },
     subject: {
       name: 'The scope and form of the questions',
-      subject_name: 'Optional topics include',
+      subject_name: 'Optional topics including',
       subject: ['Annotated data for outbreaks','Innovative application of relevant technologies',
-          'Solutions to various social challenges arising from this public crisis'],
-      form_name: 'Mode of expression (not limited to)',
+          'Solutions to various social challenges arising from reaction to this public crisis'],
+      form_name: 'Form of expression (not limited to)',
       form: ['Video, animation and other art design works','Dynamic web pages','Open source data','Analysis and prediction model of data',
-          'Visualization platform','Website','Product applications for outbreaks','Analyze investigation report and plan']
+          'Visualization platform','Website','Product applications for outbreaks','Analytical investigation report and plan']
     },
     activity: {
       detail: '',
