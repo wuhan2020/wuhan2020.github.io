@@ -4,6 +4,7 @@ node_modules/
 npm-debug.log
 *.orig
 *.iml
+build
 package-lock.json
 yarn.lock
 /en-us/

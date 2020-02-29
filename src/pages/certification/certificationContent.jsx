@@ -1,14 +1,16 @@
 import React from 'react';
 
+import Icon from 'antd/lib/icon';
+
 import './certificationContent.scss';
 
 class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            email: 'test mail',
-            name: 'test user',
-            status: 'notfoundWarn',
+            email: 'mail@example.io',
+            name: 'mock user',
+            status: 'error',
             isShowImage: false,
             certToken: '',
         };
@@ -34,6 +36,16 @@ class CertificationContent extends React.Component {
         console.log(name);
         // const tokenApi = "";
         // this.fetchCertificationApi(tokenApi);
+        // mock data
+        const mockStatusMap = {
+            successful: 'successful',
+            error: 'error',
+            warn: 'warn'
+        };
+
+        this.setState({
+            status: mockStatusMap[name] || 'error'
+        });
     };
     
     handleResizing = () => void this.setState({ isShowImage: window.innerWidth > 1200 });
@@ -43,6 +55,7 @@ class CertificationContent extends React.Component {
     handleNameChange = (e) => void this.setState( {name: e.target.value});
 
     componentDidMount() {
+        this.handleResizing();
         window.addEventListener('resize', this.handleResizing);
     }
 
@@ -55,13 +68,21 @@ class CertificationContent extends React.Component {
     }
 
     render() {
+        const iconTypeMap = {
+            successful: 'check-circle',
+            error: 'close-circle',
+            warn: 'exclamation-circle',
+        }; 
         const { formText, alertMsgs } = this.props.dataSource;
         const alertType = this.getAlertType(this.state.status);
         return (
             <section>
                 <div className="certification-content">
-                    <div className="certification-content-alerts row">
-                        <span className={`alert ${alertType}`}>{alertMsgs[this.state.status]}</span>
+                    <div className={`certification-content-alerts row ${alertType}`}>
+                        <Icon type={iconTypeMap[alertType]} theme="filled" /> 
+                        <span className="alert-msg">
+                            {alertMsgs[this.state.status]}
+                        </span>
                     </div>
                     <div className="certification-content-main row">
                         {

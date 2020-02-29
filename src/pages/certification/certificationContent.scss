@@ -8,55 +8,61 @@ $contentMarginTop: 40px;
     height: 80vh;
     margin: $contentMarginTop auto 0 auto;
     font-size: 30px;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
+    color: #000000;
     
     .row {
         width: 100%;
     }
 
     .certification-content-alerts {
-        text-align: center;
+        width: 616px;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 auto;
+        max-width: 100%;
+        border: 1px solid $succeedColor;
+        background-color: #F6FFED;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        box-sizing: border-box;
+        position: relative;
 
-        .alert {
-            width: 616px;
-            max-width: 100%;
-            display: inline-block;
-            border: 1px solid $succeedColor;
-            background-color: #F6FFED;
-            padding: 15px 30px;
-            border-radius: 4px;
-            font-size: 14px;
-            font-weight: 400;
-            text-align: left;
+        .anticon {
+            position: absolute;
+            left: 15px;
+            font-size: 20px;
+        }
+
+        &.successful {
+            .anticon {
+                color: $succeedIconColor;
+            }
+        }
+        
+        &.error {
+            border-color: $errorColor;
+
+            .anticon {
+                color: $errorIconColor;
+            }
+        }
+
+        &.warn {
+            border-color: $warnColor;
+
+            .anticon {
+                color: $warnIconColor;
+            }
+        }
+
+        .alert-msg {
             letter-spacing: 1px;
-            color: #000000;
-            box-sizing: border-box;
-
-            &.successful {
-                .docsite-icon {
-                    color: $succeedIconColor;
-                }
-            }
-            
-            &.error {
-                border-color: $errorColor;
-
-                .docsite-icon {
-                    color: $errorIconColor;
-                }
-            }
-
-            &.warn {
-                border-color: $warnColor;
-
-                .docsite-icon {
-                    color: $warnIconColor;
-                }
-            }
-
+            margin-left: 40px;
         }
     }
 
