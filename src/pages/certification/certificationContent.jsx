@@ -27,12 +27,14 @@ class CertificationContent extends React.Component {
     getToken = () => this.getParameterByName('token'); 
 
     // return fetch promise
-    fetchCertificationApi = (api = '', data = {}, method='POST') => {
-       return  fetch(api, {
-           method: method,
-           headers: {
-               'Content-Type': 'application/json',
-           },
+    fetchCertificationApi = (api, data) => {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        
+        return  fetch(api, {
+           method: 'POST',
+           mode: 'cors',
+           headers: headers,
            body: JSON.stringify(data)
        });
     };
@@ -41,13 +43,16 @@ class CertificationContent extends React.Component {
         event.preventDefault();
         
         /** @TODO waiting for API */
-        // const { email, name } = this.state;
-        // const tokenApi = "";
-        // const payloadData = {};
-        // this.fetchCertificationApi(tokenApi, payloadData)
+        /** @FIXME fetch not support by IE, fixed it by using polyfill */
+        // const { email, name, token } = this.state;
+        // const api = "http://localhost:3002/token"; // local testing api
+        // const payloadData = { email, name, token };
+        // this.fetchCertificationApi(api, payloadData)
         //     .then( res => res.json() )
         //     .then( (data) => {
-        //         this.setState({});
+        //         this.setState({
+        //             status: data.status
+        //         });
         //     })
         //     .catch( (error) => {
         //         console.error('Error:', error);
