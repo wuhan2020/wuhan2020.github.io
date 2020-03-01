@@ -209,8 +209,9 @@ class Hackathon extends Language {
 			<div id="holder">
 				<h1>{dataSource.holder.media}</h1>
 				<div></div>
-				<div></div>
 				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource2.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource3.png" /></a></div>
 			</div>
 
 			<div id="holder">
@@ -243,6 +244,8 @@ class Hackathon extends Language {
 				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community20.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community21.png" /></a></div>
 			</div>
 			
 			<div id="application">
