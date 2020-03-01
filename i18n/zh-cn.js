@@ -277,11 +277,20 @@ export default {
           description: '疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。',
           link: 'http://nav.werty.cn',
         },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '黑客松',
+          repoLink:'https://github.com/wuhan2020/Hackathon',
+          description: '黑客松活动是社区举办的创意设计大赛。为了呼吁更多人参与、创造包括产品原型，编码，用户体验设计以及业务/社会影响模型等形式的作品，以对抗新冠病毒疫情。此外，鼓励社会创新，以开源协作来帮助对抗疫情，并在志愿者，机构，企业和平台之间创造共享价值。',
+          link: 'https://community.wuhan2020.org.cn/zh-cn/hackathon/index.html',
+        },
       ],
     },
   },
   hackathon: {
     barText: '黑客松',
+    starter: '线上开跑',
+    slogan: '开发一个有用的公益软件，<br> 比捐款十个亿还管用。',
     speakerTitle: '演讲人和评委',
     sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
@@ -427,7 +436,7 @@ export default {
           name:"Xuan Jiang",
           img:"nobody.jpeg",  
           job:"Co-founder & CTO at Run The World",
-          introduction:"",
+          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
       },
       {
           name:"Weili Dong",
@@ -456,14 +465,14 @@ export default {
       {
           name:"Rick Zhuang",
           img:"nobody.jpeg",  
-          job:"",
-          introduction:"",
+          job:"Ex-CTO, Tmall New Retail at Alibaba",
+          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
       },
       {
           name:"Huan Xu",
           img:"Huan_Xu.jpeg", 
           job:"Serial Entrepreneur",
-          introduction:"",
+          introduction:"Graduated from Beihang University, Huan Xu co-founded ZHE800, a billion $ company. Huan Xu is a serial entrepreneur with deep insight of e-commerce product and operations.",
       }
     ],
     concepts: {
