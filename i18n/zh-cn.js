@@ -434,7 +434,7 @@ export default {
           name:"Xuan Jiang",
           img:"nobody.jpeg",  
           job:"Co-founder & CTO at Run The World",
-          introduction:"",
+          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
       },
       {
           name:"Weili Dong",
@@ -463,14 +463,14 @@ export default {
       {
           name:"Rick Zhuang",
           img:"nobody.jpeg",  
-          job:"",
-          introduction:"",
+          job:"Ex-CTO, Tmall New Retail at Alibaba",
+          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
       },
       {
           name:"Huan Xu",
           img:"Huan_Xu.jpeg", 
           job:"Serial Entrepreneur",
-          introduction:"",
+          introduction:"Graduated from Beihang University, Huan Xu co-founded ZHE800, a billion $ company. Huan Xu is a serial entrepreneur with deep insight of e-commerce product and operations.",
       }
     ],
     concepts: {
