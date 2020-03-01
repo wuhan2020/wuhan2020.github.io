@@ -289,6 +289,8 @@ export default {
   },
   hackathon: {
     barText: '黑客松',
+    starter: '线上开跑',
+    slogan: '开发一个有用的公益软件，<br> 比捐款十个亿还管用。',
     speakerTitle: '演讲人和评委',
     sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
