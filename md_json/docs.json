@@ -231,6 +231,11 @@
   ],
   "it-it": [
     {
+      "filename": "contributing.md",
+      "link": "/it-it/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
       "filename": "dev-env-setup.md",
       "link": "/it-it/docs/dev/dev-env-setup.html",
       "meta": {}
