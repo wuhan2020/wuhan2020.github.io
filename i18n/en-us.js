@@ -504,16 +504,16 @@ export default {
     ]
     },
     holder: {
-      main: '',
-      co: '',
-      support: '',
-      resource: '',
-      media: '',
-      community: ''
+      main: 'Organizer',
+      co: 'Co-organizers',
+      support: 'Platform support',
+      resource: 'Resources provided',
+      media: 'Media cooperation',
+      community: 'Community cooperation'
     },
     application: {
-      application: '',
-      waiting: ''
+      application: 'Apply now',
+      waiting: 'Stay tuned'
     }
   },
   site: {
