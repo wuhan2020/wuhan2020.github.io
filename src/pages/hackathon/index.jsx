@@ -75,7 +75,7 @@ class Hackathon extends Language {
 				
 				<h2>{dataSource.sectionDescription}</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>线上开跑 </h3>" }}></div>
+				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>" + dataSource.starter + "</h3>" }}></div>
 				<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > {dataSource.application.application} </button> </a>
 				<img className="register1"  src="/images/hackathon/register1.png" />
 				<img className="register2"  src="/images/hackathon/register2.png" />
@@ -88,7 +88,7 @@ class Hackathon extends Language {
 			<div id="software">
 				<img src="/images/hackathon/software1.png" />
 				{/* <h1 class="software1">“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h1>“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1>" }}></div>
+				<div dangerouslySetInnerHTML = {{ __html:"<h1>" + dataSource.slogan + "</h1>" }}></div>
 				
 				<p>{dataSource.concepts.list[1].description}</p>
 			</div>
