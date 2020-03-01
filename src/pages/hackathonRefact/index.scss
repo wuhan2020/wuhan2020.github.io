@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.hackathon-page {
+  min-width: 375px;
+  width: 80vw;
+  max-width: 100vw;
+  height: auto; 
+}
