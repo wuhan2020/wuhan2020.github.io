@@ -239,7 +239,7 @@ export default {
   hackathon: {
     barText: 'Hackathon',
     starter: 'Online competition',
-    slogan: 'Developing a useful public-domain software <br> is better than donating 1 billion',
+    slogan: 'Developing applications for public welfare <br> is more helpful than just donating one billion Yuan',
     sectionDescription: 'Hack for Wuhan',
     speakerTitle: 'Speaker and Judge',
     speakerlist: [
