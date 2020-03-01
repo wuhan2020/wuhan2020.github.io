@@ -130,7 +130,7 @@ $ git rebase upstream/master
 ### 7、推送新分支到自己的远程仓库
 
 ```bash
-$ git push -f origin my-fix-branch:my-fix-branch
+$ git push -f origin my-fix-branch
 ```
 
 ### 8、提 `Pull Request`
@@ -169,7 +169,7 @@ git rebase upstream/master
 ```bash
 git add my-fix-file
 git rebase --continue
-git push -f origin my-fix-branch
+git push origin my-fix-branch
 ```
 
 ### 10、当你的代码被合并进去以后，你可以：
