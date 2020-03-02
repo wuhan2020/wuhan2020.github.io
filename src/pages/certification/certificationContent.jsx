@@ -17,7 +17,7 @@ class CertificationContent extends React.Component {
         };
     }
     getUserInfo() {
-        let api = this.state.host + 'api/getUserInfo?token=' + token;
+        let api = this.state.host + 'api/getUserInfo?token=' + this.state.token;
         this.fetchCertificationApi(api, null, 'GET') 
             .then( res => res.json() )
             .then( (data) => {
