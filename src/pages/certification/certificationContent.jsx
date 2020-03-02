@@ -7,17 +7,16 @@ import './certificationContent.scss';
 class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
-        let search = window.location.search;
-        let params = new URLSearchParams(search);
-        let token = params.get('token');        
         this.state = {
             host: 'http://localhost:5000/',
             email: 'mail@example.io',
             name: 'mock user',
             status: 'error',
             isShowImage: false,
-            token: token,
+            token: '',
         };
+    }
+    getUserInfo() {
         let api = this.state.host + 'api/getUserInfo?token=' + token;
         this.fetchCertificationApi(api, null, 'GET') 
             .then( res => res.json() )
@@ -102,6 +101,7 @@ class CertificationContent extends React.Component {
         window.addEventListener('resize', this.handleResizing);
         const token = this.getToken();
         this.setState( { token });
+        this.getUserInfo();
     }
 
     componentDidUpdate() {
