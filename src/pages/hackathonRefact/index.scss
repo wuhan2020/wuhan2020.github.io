@@ -5,5 +5,39 @@
   min-width: 375px;
   width: 80vw;
   max-width: 100vw;
-  height: auto; 
+  height: auto;
+
+    section {
+      width: 375px;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .top-banner {
+      font-size: 1.2rem;
+    }
+
+    .anti-epidemic-situation {
+      position: relative;
+      width: 375px;
+      height: 200px;
+      background: linear-gradient(0deg, #FF6440 0%, rgba(118, 46, 30, 0.654427) 51.22%, rgba(0, 0, 0, 0.52) 99.74%);
+      
+      &__content {
+        position: absolute;
+        width: 339px;
+        height: 49px;
+        left: 15px;
+        top: 70px;
+
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+
+        color: #ffffff;
+      }
+    }
+    
 }

@@ -6,7 +6,7 @@ import Footer from "../../components/footer";
 
 class HackathonRefact extends Language {
     constructor(props) {
-		super(props);
+        super(props);
     }
     
     render() {
@@ -44,9 +44,13 @@ class HackathonRefact extends Language {
                                 </div>
                             </div>
                         </section>
+
                         <section className="anti-epidemic-situation">
-                            {antiEpidemicSituation}
+                            <div className="anti-epidemic-situation__content">
+                                {antiEpidemicSituation}
+                            </div>
                         </section>
+                        
                         <section className="software-importance">
 
                         </section>
