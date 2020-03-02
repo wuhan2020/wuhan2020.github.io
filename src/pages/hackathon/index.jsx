@@ -75,7 +75,7 @@ class Hackathon extends Language {
 				
 				<h2>{dataSource.sectionDescription}</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>线上开跑 </h3>" }}></div>
+				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>" + dataSource.starter + "</h3>" }}></div>
 				<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > {dataSource.application.application} </button> </a>
 				<img className="register1"  src="/images/hackathon/register1.png" />
 				<img className="register2"  src="/images/hackathon/register2.png" />
@@ -88,7 +88,7 @@ class Hackathon extends Language {
 			<div id="software">
 				<img src="/images/hackathon/software1.png" />
 				{/* <h1 class="software1">“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h1>“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1>" }}></div>
+				<div dangerouslySetInnerHTML = {{ __html:"<h1>" + dataSource.slogan + "</h1>" }}></div>
 				
 				<p>{dataSource.concepts.list[1].description}</p>
 			</div>
@@ -209,8 +209,9 @@ class Hackathon extends Language {
 			<div id="holder">
 				<h1>{dataSource.holder.media}</h1>
 				<div></div>
-				<div></div>
 				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource2.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource3.png" /></a></div>
 			</div>
 
 			<div id="holder">
@@ -243,6 +244,8 @@ class Hackathon extends Language {
 				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community20.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community21.png" /></a></div>
 			</div>
 			
 			<div id="application">
