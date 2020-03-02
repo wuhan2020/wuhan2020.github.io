@@ -16,8 +16,8 @@ class CertificationContent extends React.Component {
             token: '',
         };
     }
-    getUserInfo() {
-        let api = this.state.host + 'api/getUserInfo?token=' + this.state.token;
+    getUserInfo(token) {
+        let api = this.state.host + 'api/getUserInfo?token=' + token;
         this.fetchCertificationApi(api, null, 'GET') 
             .then( res => res.json() )
             .then( (data) => {
@@ -101,7 +101,7 @@ class CertificationContent extends React.Component {
         window.addEventListener('resize', this.handleResizing);
         const token = this.getToken();
         this.setState( { token });
-        this.getUserInfo();
+        this.getUserInfo(token);
     }
 
     componentDidUpdate() {
