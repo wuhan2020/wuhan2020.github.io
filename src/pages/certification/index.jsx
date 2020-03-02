@@ -11,9 +11,6 @@ import './index.scss';
 class Certification extends Language {
     constructor(props) {
         super(props);
-        let search = window.location.search;
-        let params = new URLSearchParams(search);
-        let token = params.get('token');
     }
     render() {
         const language = ['zh-cn'];

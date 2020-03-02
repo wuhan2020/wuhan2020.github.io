@@ -7,13 +7,30 @@ import './certificationContent.scss';
 class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
+        let search = window.location.search;
+        let params = new URLSearchParams(search);
+        let token = params.get('token');        
         this.state = {
+            host: 'http://localhost:5000/',
             email: 'mail@example.io',
             name: 'mock user',
             status: 'error',
             isShowImage: false,
-            token: '',
+            token: token,
         };
+        let api = this.state.host + 'api/getUserInfo?token=' + token;
+        this.fetchCertificationApi(api, null, 'GET') 
+            .then( res => res.json() )
+            .then( (data) => {
+                 if(data.code == 0)
+                    this.setState({
+                        email: data.data.email,
+                        name: data.data.name
+                    });
+             })
+             .catch( (error) => {
+                 console.error('Error:', error);
+             });
     }
     getAlertType(status) {
         let type = ['error', 'warn'].filter( type => status.toLowerCase().includes(type))[0];
@@ -27,12 +44,12 @@ class CertificationContent extends React.Component {
     getToken = () => this.getParameterByName('token'); 
 
     // return fetch promise
-    fetchCertificationApi = (api, data) => {
+    fetchCertificationApi = (api, data, method='POST') => {
         let headers = new Headers();
         headers.append('Content-Type', 'application/json');
         
         return  fetch(api, {
-           method: 'POST',
+           method: method,
            mode: 'cors',
            headers: headers,
            body: JSON.stringify(data)
