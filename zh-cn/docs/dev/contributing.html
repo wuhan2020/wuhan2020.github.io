@@ -117,7 +117,7 @@ $ git fetch upstream
 <pre><code class="language-bash">$ git rebase upstream/master
 </code></pre>
 <h3>7、推送新分支到自己的远程仓库</h3>
-<pre><code class="language-bash">$ git push -f origin my-fix-branch:my-fix-branch
+<pre><code class="language-bash">$ git push origin my-fix-branch
 </code></pre>
 <h3>8、提 <code>Pull Request</code></h3>
 <p>在自己仓库的页面上提<code>pull request</code> 到上游仓库。如下图所示。</p>
@@ -126,7 +126,7 @@ $ git fetch upstream
 如果其他人 <code>review</code> 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 PR 将会自动同步该 <code>commit</code> 。</p>
 <pre><code class="language-bash">git add .
 git commit --amend
-git push -f origin my-fix-branch
+git push origin my-fix-branch
 </code></pre>
 <h3>9、如果你的代码合并时出现冲突时，你可以：</h3>
 <blockquote>
@@ -147,7 +147,7 @@ git push -f origin my-fix-branch
 </ul>
 <pre><code class="language-bash">git add my-fix-file
 git rebase --<span class="hljs-built_in">continue</span>
-git push -f origin my-fix-branch
+git push origin my-fix-branch
 </code></pre>
 <h3>10、当你的代码被合并进去以后，你可以：</h3>
 <ul>
