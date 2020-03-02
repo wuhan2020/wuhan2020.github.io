@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
+
 import Language from '../../components/language';
 import { getLink } from '../../../utils';
 import siteConfig from '../../../site_config/site';
@@ -7,6 +9,9 @@ import CertificationContent from './certificationContent';
 import './index.scss';
 
 class Certification extends Language {
+    constructor(props) {
+        super(props);
+    }
     render() {
         const language = ['zh-cn'];
         const dataSource = this.getLanguageDict(language, 'certification');
@@ -28,5 +33,7 @@ class Certification extends Language {
     }
 
 }
+
+document.getElementById('root') && ReactDOM.render(<Certification />, document.getElementById('root'));
 
 export default Certification
