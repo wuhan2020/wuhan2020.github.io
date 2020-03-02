@@ -10,6 +10,8 @@ class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
         let host = siteConfig.api;
+        if (host[host.length - 1] != '/')
+            host = host + '/'
         this.state = {
             host: host,
             email: 'mail@example.io',
