@@ -62,15 +62,15 @@ class CertificationContent extends React.Component {
         
         /** @TODO waiting for API */
         /** @FIXME fetch not support by IE, fixed it by using polyfill */
-        const { email, name, token } = this.state;
+        const { name, token } = this.state;
         const api = this.state.host + "api/submitUserInfo"; // local testing api
         const payloadData = { name, token };
         this.fetchCertificationApi(api, payloadData)
             .then( res => res.json() )
             .then( (data) => {
-                let status_text = 'submit failed'
+                let status_text = 'notfoundWarn'
                 if(data.code == 0)
-                    status_text = 'Submit successfully. Check your email.'
+                    status_text = 'successful'
                 this.setState({
                     status: status_text
                 });
