@@ -963,46 +963,6 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
-  margin: 0 8px;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center; }
-
-.ant-empty-image {
-  height: 100px;
-  margin-bottom: 8px; }
-
-.ant-empty-image img {
-  height: 100%; }
-
-.ant-empty-image svg {
-  height: 100%;
-  margin: auto; }
-
-.ant-empty-description {
-  margin: 0; }
-
-.ant-empty-footer {
-  margin-top: 16px; }
-
-.ant-empty-normal {
-  margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-normal .ant-empty-image {
-  height: 40px; }
-
-.ant-empty-small {
-  margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-small .ant-empty-image {
-  height: 35px; }
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 /* stylelint-disable at-rule-no-unknown */
 html,
 body {
@@ -2927,6 +2887,137 @@ html {
   overflow: hidden;
   -webkit-transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
   transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important; }
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-empty {
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; }
+
+.ant-empty-image {
+  height: 100px;
+  margin-bottom: 8px; }
+
+.ant-empty-image img {
+  height: 100%; }
+
+.ant-empty-image svg {
+  height: 100%;
+  margin: auto; }
+
+.ant-empty-description {
+  margin: 0; }
+
+.ant-empty-footer {
+  margin-top: 16px; }
+
+.ant-empty-normal {
+  margin: 32px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-normal .ant-empty-image {
+  height: 40px; }
+
+.ant-empty-small {
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-small .ant-empty-image {
+  height: 35px; }
+.sidemenu {
+  background: #f8f8f8;
+  width: 295px;
+  position: relative;
+  display: inline-block;
+  padding: 20px 0; }
+  .sidemenu .sidemenu-toggle {
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    right: -40px;
+    height: 30px;
+    line-height: 30px;
+    background: #f8f8f8;
+    border-radius: 0 4px 4px 0;
+    display: none; }
+    .sidemenu .sidemenu-toggle img {
+      width: 16px;
+      text-align: center;
+      vertical-align: middle; }
+  .sidemenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .sidemenu li {
+    line-height: 0; }
+  .sidemenu span, .sidemenu a {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .sidemenu .menu-item-selected a {
+    background: white; }
+  .sidemenu .menu-item-selected a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #D9452B; }
+  .sidemenu .menu-item-level-1 > span {
+    font-family: Avenir-Medium;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px; }
+  .sidemenu .menu-item-level-2, .sidemenu .menu-item-level-3 {
+    cursor: pointer; }
+    .sidemenu .menu-item-level-2 > span, .sidemenu .menu-item-level-2 > a, .sidemenu .menu-item-level-3 > span, .sidemenu .menu-item-level-3 > a {
+      font-family: Avenir-Medium;
+      font-size: 14px;
+      color: #666; }
+      .sidemenu .menu-item-level-2 > span:hover, .sidemenu .menu-item-level-2 > a:hover, .sidemenu .menu-item-level-3 > span:hover, .sidemenu .menu-item-level-3 > a:hover {
+        background: white; }
+        .sidemenu .menu-item-level-2 > span:hover::before, .sidemenu .menu-item-level-2 > a:hover::before, .sidemenu .menu-item-level-3 > span:hover::before, .sidemenu .menu-item-level-3 > a:hover::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 4px;
+          height: 100%;
+          background-color: #D9452B; }
+  .sidemenu .menu-item-level-2 > span, .sidemenu .menu-item-level-2 > a {
+    padding-left: 40px;
+    height: 36px;
+    line-height: 36px; }
+    .sidemenu .menu-item-level-2 > span img.menu-toggle, .sidemenu .menu-item-level-2 > a img.menu-toggle {
+      float: right;
+      width: 13px;
+      height: 8px;
+      margin: 14px 20px 14px 0; }
+  .sidemenu .menu-item-level-3 > a {
+    padding-left: 60px;
+    height: 36px;
+    line-height: 36px; }
+
+@media screen and (max-width: 640px) {
+  .sidemenu {
+    width: 0; }
+    .sidemenu .sidemenu-toggle {
+      display: inline-block; }
+    .sidemenu.sidemenu-open {
+      width: 295px; } }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -5777,94 +5868,3 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     z-index: 100;
     left: 0;
     top: 40px; } }
-.sidemenu {
-  background: #f8f8f8;
-  width: 295px;
-  position: relative;
-  display: inline-block;
-  padding: 20px 0; }
-  .sidemenu .sidemenu-toggle {
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    width: 40px;
-    right: -40px;
-    height: 30px;
-    line-height: 30px;
-    background: #f8f8f8;
-    border-radius: 0 4px 4px 0;
-    display: none; }
-    .sidemenu .sidemenu-toggle img {
-      width: 16px;
-      text-align: center;
-      vertical-align: middle; }
-  .sidemenu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-  .sidemenu li {
-    line-height: 0; }
-  .sidemenu span, .sidemenu a {
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
-  .sidemenu .menu-item-selected a {
-    background: white; }
-  .sidemenu .menu-item-selected a::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4px;
-    height: 100%;
-    background-color: #D9452B; }
-  .sidemenu .menu-item-level-1 > span {
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 18px;
-    color: #333;
-    padding-left: 20px;
-    height: 40px;
-    line-height: 40px; }
-  .sidemenu .menu-item-level-2, .sidemenu .menu-item-level-3 {
-    cursor: pointer; }
-    .sidemenu .menu-item-level-2 > span, .sidemenu .menu-item-level-2 > a, .sidemenu .menu-item-level-3 > span, .sidemenu .menu-item-level-3 > a {
-      font-family: Avenir-Medium;
-      font-size: 14px;
-      color: #666; }
-      .sidemenu .menu-item-level-2 > span:hover, .sidemenu .menu-item-level-2 > a:hover, .sidemenu .menu-item-level-3 > span:hover, .sidemenu .menu-item-level-3 > a:hover {
-        background: white; }
-        .sidemenu .menu-item-level-2 > span:hover::before, .sidemenu .menu-item-level-2 > a:hover::before, .sidemenu .menu-item-level-3 > span:hover::before, .sidemenu .menu-item-level-3 > a:hover::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 0;
-          width: 4px;
-          height: 100%;
-          background-color: #D9452B; }
-  .sidemenu .menu-item-level-2 > span, .sidemenu .menu-item-level-2 > a {
-    padding-left: 40px;
-    height: 36px;
-    line-height: 36px; }
-    .sidemenu .menu-item-level-2 > span img.menu-toggle, .sidemenu .menu-item-level-2 > a img.menu-toggle {
-      float: right;
-      width: 13px;
-      height: 8px;
-      margin: 14px 20px 14px 0; }
-  .sidemenu .menu-item-level-3 > a {
-    padding-left: 60px;
-    height: 36px;
-    line-height: 36px; }
-
-@media screen and (max-width: 640px) {
-  .sidemenu {
-    width: 0; }
-    .sidemenu .sidemenu-toggle {
-      display: inline-block; }
-    .sidemenu.sidemenu-open {
-      width: 295px; } }
