@@ -4,6 +4,8 @@ import Language from "../../components/language";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
+import './index.scss';
+
 class HackathonRefact extends Language {
     constructor(props) {
         super(props);

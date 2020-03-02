@@ -1,0 +1,48 @@
+@import './breakpoints'
+
+$font-family: PingFang SC, sans-serif;
+
+$font-weight-map: (
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    ultrabold: 800
+);
+
+
+$font-types: (
+    F14: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 14px,
+        line-height: 20px,
+    ),
+    F16: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 16px,
+        line-height: 20px,
+    )
+    F34: (
+        font-weight: map-get($font-weight-map, "ultrabold"),
+        font-size: 34px,
+        line-height: 86px,
+    )
+);
+
+@mixin font($font-type, $color: $C1, $style: "normal") {
+    $font-config: map-get($fon-types, $font-type);
+
+    font-family: $font-family;
+    color: $color;
+    font-style: $style;
+    @each $key, $val in $font-config {
+        #{$key}: #{val};
+    }
+
+    @if ($fon-type == 'F14') {
+        @include apply-form(tablet) {
+            font-size: 16px;
+        }
+    }
+}

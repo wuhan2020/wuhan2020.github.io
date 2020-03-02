@@ -4,7 +4,7 @@ $breakpoints-map: (
 );
 
 
-@mixin apply-from {
+@mixin apply-from($breakpoint) {
     $min-width: map-get($breakpoints-map, $breakpoint);
 
     @media (min-width: $min-width) {
