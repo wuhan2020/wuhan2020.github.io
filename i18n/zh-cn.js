@@ -187,7 +187,7 @@ export default {
         ]
       },
     ],
-    barText: '开发者',
+    barText: '贡献者',
   },
   docs: {
     sidemenu: [
