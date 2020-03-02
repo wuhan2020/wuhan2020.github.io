@@ -47,13 +47,14 @@ class CertificationContent extends React.Component {
     fetchCertificationApi = (api, data, method='POST') => {
         let headers = new Headers();
         headers.append('Content-Type', 'application/json');
-        
-        return  fetch(api, {
-           method: method,
-           mode: 'cors',
-           headers: headers,
-           body: JSON.stringify(data)
-       });
+        let configurations = {
+            method: method,
+            mode: 'cors',
+            headers: headers,            
+        }
+        if(method == 'POST')
+            configurations['body'] = JSON.stringify(data);
+        return  fetch(api, configurations);
     };
 
     handleSubmit = (event) => {
