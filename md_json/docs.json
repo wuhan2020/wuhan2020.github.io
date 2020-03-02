@@ -76,6 +76,41 @@
       }
     },
     {
+      "filename": "workreport-data_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-data_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-hackathon_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-hackathon_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-media_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-media_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-pm_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-pm_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-pmo_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-pmo_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-product_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-product_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-rd_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-rd_dev.html",
+      "meta": {}
+    },
+    {
       "filename": "faq.md",
       "link": "/zh-cn/docs/overview/faq.html",
       "meta": {
