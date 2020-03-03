@@ -4,11 +4,16 @@ import Icon from 'antd/lib/icon';
 
 import './certificationContent.scss';
 
+const siteConfig = require('./../../../site_config/site').default;
+
 class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
+        let host = siteConfig.api;
+        if (host[host.length - 1] != '/')
+            host = host + '/'
         this.state = {
-            host: 'http://localhost:5000/',
+            host: host,
             email: 'mail@example.io',
             name: 'mock user',
             status: 'error',

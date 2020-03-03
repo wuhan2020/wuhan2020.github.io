@@ -3,6 +3,7 @@ export default {
   rootPath: '',
   port: 8080,
   domain: 'wuhan2020.github.io', // 站点部署域名，无需协议和path等
+  api: 'https://api.wuhan2020.org.cn',
   // defaultSearch: 'baidu', // 默认搜索引擎，baidu或者google
   langList: [
     { value: 'zh-cn', text: '简体中文' },
