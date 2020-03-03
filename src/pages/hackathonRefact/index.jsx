@@ -14,8 +14,7 @@ class HackathonRefact extends Language {
     render() {
         const language = this.getLanguage();
         const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonRefact');
-        const { topBanner, antiEpidemicSituation } = dataSource;
-        const { slogan, kickoff, invitation } = topBanner;
+        const { invitation, antiEpidemicSituation, softwareImportance } = dataSource;
 
         return(
             <div className="hackathon-page">
@@ -29,21 +28,17 @@ class HackathonRefact extends Language {
                 <main>
                     <article>
                         <section className="top-banner">
-                            <div className="top-banner__slogan">
-                                <h1 className="top-banner__slogan__motivation">{slogan.motivation}</h1>
-                                <h1 className="top-banner__slogan__city">{slogan.city}</h1>
-                            </div>
-                            <div className="top-banner__kickoff">
-                                <span>{kickoff.time}</span>
-                                <span>{kickoff.description}</span>
-                            </div>
                             <div className="top-banner__invitation">
-                                <div className="top-banner__invitation__callout">
+                                <label className="top-banner__invitation__kickoff">
+                                    {invitation.kickoff.date} {invitation.kickoff.description}
+                                </label>
+                                <label className="top-banner__invitation__callout">
                                     {invitation.callout}
-                                </div>
-                                <div className="top-banner__invitation__registration">
-                                    <a target="_blank" href={invitation.link}>{invitation.registration}</a>
-                                </div>
+                                </label>
+                                <a className="top-banner__invitation__registration"
+                                    target="_blank" 
+                                    href={invitation.link}>{invitation.registration}
+                                </a>
                             </div>
                         </section>
 
@@ -54,7 +49,12 @@ class HackathonRefact extends Language {
                         </section>
                         
                         <section className="software-importance">
-
+                            <label className="software-importance__quote1">
+                                {softwareImportance.quote1}
+                            </label>
+                            <label className="software-importance__quote2">
+                                {softwareImportance.quote2}
+                            </label>
                         </section>
                         <section className="callout-banner">
 

@@ -617,24 +617,20 @@ export default {
     }
   },
   hackathonRefact: {
-    topBanner: {
-      slogan: {
-        motivation: 'Hack For',
-        city: 'WuHan',
-      },
+    invitation: {
       kickoff: {
         date: '3月6-8日',
-        description: '线上开跑',
+        description: '线上开跑'
       },
-      invitation: {
-        callout: '黑客马拉松等你来战',
-        registration: '立即报名',
-        link: 'https://www.bagevent.com/event/6368833?preview=1'
-      },
+      callout: '黑客马拉松等你来战',
+      registration: '立即报名',
+      link: 'https://www.bagevent.com/event/6368833?preview=1'
     },
     antiEpidemicSituation: '谁也不会预计到，新冠肺炎病毒的影响如此巨大，目前它已经发展为全球性紧急事件。虽然形势不容乐观，但我们也看到很多暖心的一幕幕在上演：众多志愿者的无私奉献，大量物资用品的捐赠，火神山、雷神山医院的火速建成，多地医疗队伍的驰援，都让这个冬天变的不那么寒冷。',
-    barText: '黑客松',
-    speakerTitle: '演讲人和评委',
+    softwareImportance: {
+      quote1: '“开发一个有用的公益软件，比捐款十个亿还管用。”',
+      quote2: '而在全国对抗疫情的背后，技术支持也占据了重要的一环。民政部司长陈越良就曾公开喊话，呼吁互联网企业开发公益应用。怎么样让更多人参与其中，让信息科技等力量发挥更大的作用？'
+    },
     speakerlist: [
       {
           name:"Huimin Lu",

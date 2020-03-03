@@ -1,4 +1,4 @@
-@import './breakpoints'
+@import './breakpoints';
 
 $font-family: PingFang SC, sans-serif;
 
@@ -13,35 +13,49 @@ $font-weight-map: (
 
 
 $font-types: (
+    F10: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 10px
+    ),
+    F12: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 12px,
+    ),
     F14: (
         font-weight: map-get($font-weight-map, "semibold"),
         font-size: 14px,
-        line-height: 20px,
     ),
     F16: (
         font-weight: map-get($font-weight-map, "normal"),
         font-size: 16px,
-        line-height: 20px,
-    )
+    ),
+    F20: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 20px,
+    ),
+    F24B:(
+        font-weight: map-get($font-weight-map, "bold"),
+        font-size: 24px,
+    ),
     F34: (
         font-weight: map-get($font-weight-map, "ultrabold"),
         font-size: 34px,
-        line-height: 86px,
     )
 );
 
-@mixin font($font-type, $color: $C1, $style: "normal") {
-    $font-config: map-get($fon-types, $font-type);
+
+@mixin font($font-type, $color: $C1, $style: normal) {
+    $font-config: map-get($font-types, $font-type);
 
     font-family: $font-family;
     color: $color;
     font-style: $style;
     @each $key, $val in $font-config {
-        #{$key}: #{val};
+        #{$key}: #{$val};
     }
 
-    @if ($fon-type == 'F14') {
-        @include apply-form(tablet) {
+    @if ($font-type == 'F12') {
+        @include apply-from(tablet) {
             font-size: 16px;
         }
     }
