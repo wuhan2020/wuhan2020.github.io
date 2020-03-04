@@ -36,8 +36,7 @@ class CertificationContent extends React.Component {
                      email,
                      name,
                      message,
-                     status: code == 0 ? 'none' : 'error',
-                     message
+                     status: code == 0 ? 'none' : 'error'
                    });
              })
              .catch( (error) => {
@@ -100,7 +99,8 @@ class CertificationContent extends React.Component {
     componentDidMount() {
         this.handleResizing();
         window.addEventListener('resize', this.handleResizing);
-        const { token } = this.state;
+        const token = this.getToken();
+        this.setState( { token });
         this.getUserInfo(token);
     }
 
@@ -110,8 +110,6 @@ class CertificationContent extends React.Component {
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.handleResizing);
-        const token = this.getToken();
-        this.setState( { token });
     }
 
     render() {
