@@ -7,62 +7,72 @@ $contentMarginTop: 40px;
     max-width: 1050px;
     height: 80vh;
     margin: $contentMarginTop auto 0 auto;
+    padding-top: 60px;
     font-size: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
     color: #000000;
-    
+    position: relative;
+
     .row {
         width: 100%;
     }
 
-    .certification-content-alerts {
+    .certification-content-alerts-wrapper {
+        position: absolute;
         width: 616px;
         height: 60px;
-        line-height: 60px;
-        margin: 0 auto;
-        max-width: 100%;
-        border: 1px solid $succeedColor;
-        background-color: #F6FFED;
-        border-radius: 4px;
-        font-size: 14px;
-        font-weight: 400;
-        text-align: left;
-        box-sizing: border-box;
-        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
 
-        .anticon {
-            position: absolute;
-            left: 15px;
-            font-size: 20px;
-        }
-
-        &.successful {
+        .certification-content-alerts {
+            line-height: 60px;
+            margin: 0 auto;
+            max-width: 100%;
+            border: 1px solid $succeedColor;
+            background-color: #F6FFED;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            box-sizing: border-box;
+            position: relative;
+    
             .anticon {
-                color: $succeedIconColor;
+                position: absolute;
+                left: 15px;
+                font-size: 20px;
             }
-        }
-        
-        &.error {
-            border-color: $errorColor;
-
-            .anticon {
-                color: $errorIconColor;
+    
+            &.successful {
+                .anticon {
+                    color: $succeedIconColor;
+                }
             }
-        }
-
-        &.warn {
-            border-color: $warnColor;
-
-            .anticon {
-                color: $warnIconColor;
+            
+            &.error {
+                border-color: $errorColor;
+    
+                .anticon {
+                    color: $errorIconColor;
+                }
             }
-        }
-
-        .alert-msg {
-            letter-spacing: 1px;
-            margin-left: 40px;
+    
+            &.warn {
+                border-color: $warnColor;
+    
+                .anticon {
+                    color: $warnIconColor;
+                }
+            }
+    
+            .alert-msg {
+                letter-spacing: 1px;
+                margin-left: 40px;
+            }
         }
     }
 
@@ -148,6 +158,10 @@ $contentMarginTop: 40px;
                     border-radius: 5px;
                     font-size: 20px;
                     padding-left: 5px;
+                    &:disabled {
+                        color: #bfb8b8;
+                        border-color: #bfb8b8;
+                    }
 
                     &[type="submit"] {
                         font-size: 18px;
