@@ -135,7 +135,7 @@ class CertificationContent extends React.Component {
             error: 'close-circle',
             warn: 'exclamation-circle',
         };
-        const { formText, alertMsgs } = this.props.dataSource;
+        const { formText } = this.props.dataSource;
         const alertType = this.getAlertType(this.state.status);
         return (
             <section>
