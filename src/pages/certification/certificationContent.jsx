@@ -23,13 +23,14 @@ class CertificationContent extends React.Component {
     }
     getUserInfo(token) {
         let api = this.state.host + 'api/getUserInfo?token=' + token;
-        this.fetchCertificationApi(api, null, 'GET') 
+        this.fetchCertificationApi(api, null, 'GET')
             .then( res => res.json() )
             .then( (data) => {
                  if(data.code == 0)
                     this.setState({
                         email: data.data.email,
-                        name: data.data.name
+                        name: data.data.name,
+                        status: 'successful'
                     });
              })
              .catch( (error) => {
@@ -45,7 +46,7 @@ class CertificationContent extends React.Component {
         return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
     }
 
-    getToken = () => this.getParameterByName('token'); 
+    getToken = () => this.getParameterByName('token');
 
     // return fetch promise
     fetchCertificationApi = (api, data, method='POST') => {
@@ -54,7 +55,7 @@ class CertificationContent extends React.Component {
         let configurations = {
             method: method,
             mode: 'cors',
-            headers: headers,            
+            headers: headers,
         }
         if(method == 'POST')
             configurations['body'] = JSON.stringify(data);
@@ -63,7 +64,7 @@ class CertificationContent extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        
+
         /** @TODO waiting for API */
         /** @FIXME fetch not support by IE, fixed it by using polyfill */
         const { name, token } = this.state;
@@ -94,7 +95,7 @@ class CertificationContent extends React.Component {
             status: mockStatusMap[this.state.name] || 'error'
         }); // mock data test end
     };
-    
+
     handleResizing = () => void this.setState({ isShowImage: window.innerWidth > 1200 });
 
     handleEmailChange = (e) => void this.setState({email: e.target.value});
@@ -122,21 +123,21 @@ class CertificationContent extends React.Component {
             successful: 'check-circle',
             error: 'close-circle',
             warn: 'exclamation-circle',
-        }; 
+        };
         const { formText, alertMsgs } = this.props.dataSource;
         const alertType = this.getAlertType(this.state.status);
         return (
             <section>
                 <div className="certification-content">
                     <div className={`certification-content-alerts row ${alertType}`}>
-                        <Icon type={iconTypeMap[alertType]} theme="filled" /> 
+                        <Icon type={iconTypeMap[alertType]} theme="filled" />
                         <span className="alert-msg">
                             {alertMsgs[this.state.status]}
                         </span>
                     </div>
                     <div className="certification-content-main row">
                         {
-                            this.state.isShowImage && 
+                            this.state.isShowImage &&
                             <aside className="column">
                                 <figure>
                                     <img src="/images/certification/illustration.png" />
@@ -148,7 +149,7 @@ class CertificationContent extends React.Component {
                                 <legend>{formText.header}</legend>
                                 <div className="form-row email">
                                     <label>{formText.emailLabel}</label>
-                                    <input type="email" name="mail" value={this.state.email} onChange={this.handleEmailChange}/>
+                                    <input type="email" name="mail" value={this.state.email} disabled/>
                                 </div>
                                 <div className="form-row name">
                                     <label>{formText.nicknameLabel}
