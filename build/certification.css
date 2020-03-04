@@ -3,44 +3,52 @@
   max-width: 1050px;
   height: 80vh;
   margin: 40px auto 0 auto;
+  padding-top: 60px;
   font-size: 30px;
   flex-direction: row;
   flex-wrap: wrap;
   box-sizing: border-box;
-  color: #000000; }
+  color: #000000;
+  position: relative; }
   .certification-content .row {
     width: 100%; }
-  .certification-content .certification-content-alerts {
+  .certification-content .certification-content-alerts-wrapper {
+    position: absolute;
     width: 616px;
     height: 60px;
-    line-height: 60px;
-    margin: 0 auto;
-    max-width: 100%;
-    border: 1px solid #B7EB8F;
-    background-color: #F6FFED;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    box-sizing: border-box;
-    position: relative; }
-    .certification-content .certification-content-alerts .anticon {
-      position: absolute;
-      left: 15px;
-      font-size: 20px; }
-    .certification-content .certification-content-alerts.successful .anticon {
-      color: #52C41A; }
-    .certification-content .certification-content-alerts.error {
-      border-color: #FFA39E; }
-      .certification-content .certification-content-alerts.error .anticon {
-        color: #F5222D; }
-    .certification-content .certification-content-alerts.warn {
-      border-color: #FFE58F; }
-      .certification-content .certification-content-alerts.warn .anticon {
-        color: #FAAD14; }
-    .certification-content .certification-content-alerts .alert-msg {
-      letter-spacing: 1px;
-      margin-left: 40px; }
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto; }
+    .certification-content .certification-content-alerts-wrapper .certification-content-alerts {
+      line-height: 60px;
+      margin: 0 auto;
+      max-width: 100%;
+      border: 1px solid #B7EB8F;
+      background-color: #F6FFED;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      box-sizing: border-box;
+      position: relative; }
+      .certification-content .certification-content-alerts-wrapper .certification-content-alerts .anticon {
+        position: absolute;
+        left: 15px;
+        font-size: 20px; }
+      .certification-content .certification-content-alerts-wrapper .certification-content-alerts.successful .anticon {
+        color: #52C41A; }
+      .certification-content .certification-content-alerts-wrapper .certification-content-alerts.error {
+        border-color: #FFA39E; }
+        .certification-content .certification-content-alerts-wrapper .certification-content-alerts.error .anticon {
+          color: #F5222D; }
+      .certification-content .certification-content-alerts-wrapper .certification-content-alerts.warn {
+        border-color: #FFE58F; }
+        .certification-content .certification-content-alerts-wrapper .certification-content-alerts.warn .anticon {
+          color: #FAAD14; }
+      .certification-content .certification-content-alerts-wrapper .certification-content-alerts .alert-msg {
+        letter-spacing: 1px;
+        margin-left: 40px; }
   .certification-content .certification-content-main {
     display: flex;
     justify-content: space-around;
@@ -98,6 +106,9 @@
         border-radius: 5px;
         font-size: 20px;
         padding-left: 5px; }
+        .certification-content .certification-content-main form .form-row input:disabled {
+          color: #bfb8b8;
+          border-color: #bfb8b8; }
         .certification-content .certification-content-main form .form-row input[type="submit"] {
           font-size: 18px;
           line-height: 26px;
