@@ -1,0 +1,136 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+%absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.hackathon-page {
+  min-width: 375px;
+  width: 90vm;
+  max-width: 100vw;
+  height: auto;
+  margin: 0 auto;
+
+    section {
+      width: 375px;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+
+    .top-banner {
+      height: 263px;
+      background: #5D8AA6;
+      text-align: center;
+      
+      &__invitation {
+        width: 225px;
+        height: 115px;
+        position: absolute;
+        left: 0;
+        top: 136px;
+        right: 0;
+        margin: auto;
+        border: 1px solid red;
+        text-align: center;
+
+        > label, a {
+          display: inline-block;
+        }
+
+        &__kickoff {
+          width:120px;
+          height: 15px;
+          line-height: 15px;
+          @include font(F12SB);
+          color: $C6;
+        }
+
+        &__callout {
+          width: 220px;
+          height: 43px;
+          line-height: 43px;
+          @include font(F24B);
+          color: $C13;
+          margin-top: 10px;
+        }
+
+        &__registration {
+          width: 106px;
+          height: 24px;
+          line-height: 24px;
+          @include font(F10SB);
+          background-color: $C6;
+          border-radius: 13px;
+          margin-top: 14px;
+        }
+      }
+    }
+
+    .anti-epidemic-situation {
+      height: 200px;
+      background: linear-gradient(0deg, #FF6440 0%, rgba(118, 46, 30, 0.654427) 51.22%, rgba(0, 0, 0, 0.52) 99.74%);
+
+      &__content {
+        width: 265px;
+        height: 104px;
+        top: 70px;
+        @extend %absolute-center;
+        @include font(F12SB);
+      }
+    }
+    
+    .software-importance {
+      height: 385px;
+      margin: 28px auto;
+      background: $C1 url() top 42px center no-repeat;
+      background-size: 60%;
+
+      > label {
+        display: inline-block;
+        @extend %absolute-center;
+      }
+
+      &__quote1 {
+        width: 260px;
+        height: 60px;
+        text-align: center;
+        @include font(F20SB);
+        color: $C6;
+        top: 0;
+      }
+
+      &__quote2 {
+        width: 340px;
+        height: 50px;
+        bottom: 0;
+        @include font(F12SB);
+        color: $C13;
+      }
+    }
+
+    .callout-banner {
+      height: 163px;
+
+      h2, label, p {
+        width: 255px;
+        display: inline-block;
+      }
+
+      &__title {
+        @include font(F24SB);
+      }
+
+      &__slogan {
+        @include font(F18UB);
+      }
+
+      &__description {
+        @include font(F12SB);
+      }
+    }
+}
