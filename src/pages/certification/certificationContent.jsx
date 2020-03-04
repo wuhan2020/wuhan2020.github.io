@@ -14,11 +14,12 @@ class CertificationContent extends React.Component {
             host = host + '/'
         this.state = {
             host: host,
-            email: 'mail@example.io',
-            name: 'mock user',
-            status: 'error',
+            email: '',
+            name: '',
+            status: 'none',
             isShowImage: false,
             token: '',
+            message: ''
         };
     }
     getUserInfo(token) {
@@ -26,12 +27,21 @@ class CertificationContent extends React.Component {
         this.fetchCertificationApi(api, null, 'GET')
             .then( res => res.json() )
             .then( (data) => {
-                 if(data.code == 0)
-                    this.setState({
-                        email: data.data.email,
-                        name: data.data.name,
-                        status: 'successful'
-                    });
+                 if(data.code == 0) {
+                   this.setState({
+                     email: data.data.email,
+                     name: data.data.name,
+                     status: 'none'
+                   });
+                 } else {
+                   this.setState({
+                       email: "",
+                       name: "",
+                       status: 'error',
+                       message: data.message
+                     });
+                 }
+
              })
              .catch( (error) => {
                  console.error('Error:', error);
@@ -77,7 +87,8 @@ class CertificationContent extends React.Component {
                 if(data.code == 0)
                     status_text = 'successful'
                 this.setState({
-                    status: status_text
+                    status: status_text,
+                    message: data.message
                 });
             })
             .catch( (error) => {
@@ -129,12 +140,17 @@ class CertificationContent extends React.Component {
         return (
             <section>
                 <div className="certification-content">
-                    <div className={`certification-content-alerts row ${alertType}`}>
-                        <Icon type={iconTypeMap[alertType]} theme="filled" />
-                        <span className="alert-msg">
-                            {alertMsgs[this.state.status]}
+                  {
+                    this.state.status == 'none' ? null :
+                      <div className={`certification-content-alerts row ${alertType}`}>
+                      <Icon type={iconTypeMap[alertType]} theme="filled" />
+                      <span className="alert-msg">
+                            {/*{alertMsgs[this.state.status]}*/
+                            this.state.message}
                         </span>
                     </div>
+                  }
+
                     <div className="certification-content-main row">
                         {
                             this.state.isShowImage &&
