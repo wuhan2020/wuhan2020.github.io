@@ -90,34 +90,6 @@
     width: 100%;
     text-align: center;
     padding: 0; } }
-.bar {
-  margin-top: 66px;
-  background-image: linear-gradient(90deg, #d9452B 0%, #ff6440 100%); }
-  .bar .bar-body {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 200px;
-    line-height: 200px;
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 36px;
-    color: #FFF;
-    position: relative; }
-    .bar .bar-body .front-img {
-      width: 80px;
-      height: 80px;
-      vertical-align: middle;
-      margin: 0 28px 0 40px; }
-    .bar .bar-body .back-img {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      right: 184px;
-      bottom: 0;
-      opacity: 0.15; }
-    @media screen and (max-width: 640px) {
-      .bar .bar-body .front-img {
-        margin-left: 50px; } }
 .header-container {
   position: fixed;
   left: 0;
@@ -364,6 +336,34 @@
     .header-container-it-it .header-body .header-menu-open .menu-item-normal-active a {
       color: #fff;
       opacity: 1; } }
+.bar {
+  margin-top: 66px;
+  background-image: linear-gradient(90deg, #d9452B 0%, #ff6440 100%); }
+  .bar .bar-body {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 200px;
+    line-height: 200px;
+    font-family: Avenir-Medium;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+    position: relative; }
+    .bar .bar-body .front-img {
+      width: 80px;
+      height: 80px;
+      vertical-align: middle;
+      margin: 0 28px 0 40px; }
+    .bar .bar-body .back-img {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      right: 184px;
+      bottom: 0;
+      opacity: 0.15; }
+    @media screen and (max-width: 640px) {
+      .bar .bar-body .front-img {
+        margin-left: 50px; } }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -959,46 +959,6 @@
 .ant-select-dropdown-container-open .ant-select-dropdown,
 .ant-select-dropdown-open .ant-select-dropdown {
   display: block; }
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
-  margin: 0 8px;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center; }
-
-.ant-empty-image {
-  height: 100px;
-  margin-bottom: 8px; }
-
-.ant-empty-image img {
-  height: 100%; }
-
-.ant-empty-image svg {
-  height: 100%;
-  margin: auto; }
-
-.ant-empty-description {
-  margin: 0; }
-
-.ant-empty-footer {
-  margin-top: 16px; }
-
-.ant-empty-normal {
-  margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-normal .ant-empty-image {
-  height: 40px; }
-
-.ant-empty-small {
-  margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-small .ant-empty-image {
-  height: 35px; }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -2927,6 +2887,46 @@ html {
   overflow: hidden;
   -webkit-transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
   transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important; }
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-empty {
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; }
+
+.ant-empty-image {
+  height: 100px;
+  margin-bottom: 8px; }
+
+.ant-empty-image img {
+  height: 100%; }
+
+.ant-empty-image svg {
+  height: 100%;
+  margin: auto; }
+
+.ant-empty-description {
+  margin: 0; }
+
+.ant-empty-footer {
+  margin-top: 16px; }
+
+.ant-empty-normal {
+  margin: 32px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-normal .ant-empty-image {
+  height: 40px; }
+
+.ant-empty-small {
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-small .ant-empty-image {
+  height: 35px; }
 .sidemenu {
   background: #f8f8f8;
   width: 295px;
@@ -4435,6 +4435,9 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
+
+html {
+  font-size: 62.5%; }
 
 @font-face {
   font-family: octicons-link;
