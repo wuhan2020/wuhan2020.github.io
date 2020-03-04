@@ -1,0 +1,82 @@
+@import './breakpoints';
+
+$font-family: PingFang SC, sans-serif;
+
+$font-weight-map: (
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    ultrabold: 800
+);
+
+
+$font-types: (
+    F10: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 10px
+    ),
+    F10SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 10px
+    ),
+    F12: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 12px
+    ),
+    F12SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 12px
+    ),
+    F14SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 14px
+    ),
+    F16: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 16px
+    ),
+    F18: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 18px
+    ),
+    F18UB: (
+        font-weight: map-get($font-weight-map, "ultrabold"),
+        font-size: 18px
+    ),
+    F20SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 20px
+    ),
+    F24SB:(
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 24px
+    ),
+    F24B:(
+        font-weight: map-get($font-weight-map, "bold"),
+        font-size: 24px
+    ),
+    F34UB: (
+        font-weight: map-get($font-weight-map, "ultrabold"),
+        font-size: 34px
+    )
+);
+
+
+@mixin font($font-type, $color: $C1, $style: normal) {
+    $font-config: map-get($font-types, $font-type);
+
+    font-family: $font-family;
+    color: $color;
+    font-style: $style;
+    @each $key, $val in $font-config {
+        #{$key}: #{$val};
+    }
+
+    @if ($font-type == 'F12') {
+        @include apply-from(tablet) {
+            font-size: 16px;
+        }
+    }
+}
