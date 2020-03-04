@@ -3,12 +3,19 @@
 $contentMarginTop: 40px;
 
 .certification-content {
-    width:  70%;
-    max-width: 1050px;
+    width: 370px;
+    max-width: 100%;
+    font-size: 20px;
+    @include apply-from(tablet) {
+        width:  70%;
+        max-width: 1050px;
+        font-size: 30px;
+    }
+    
     height: 80vh;
     margin: $contentMarginTop auto 0 auto;
     padding-top: 60px;
-    font-size: 30px;
+    
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -21,7 +28,7 @@ $contentMarginTop: 40px;
 
     .certification-content-alerts-wrapper {
         position: absolute;
-        width: 616px;
+        width: 100%;
         height: 60px;
         left: 0;
         right: 0;
@@ -94,6 +101,8 @@ $contentMarginTop: 40px;
         }
 
         form {
+            width: 100%;
+            
             fieldset,
             legend {
                 border: none;
@@ -101,8 +110,11 @@ $contentMarginTop: 40px;
             }
             
             fieldset {
-                width: 410px;
-                margin-top: $contentMarginTop + 20px;
+                width: 100%; 
+                @include apply-from(tablet) {
+                    width: 410px;
+                    margin-top: $contentMarginTop + 20px;
+                }
             }
 
             legend {
@@ -113,7 +125,12 @@ $contentMarginTop: 40px;
             }
 
             .form-row {
-                width: 100%;
+                width: 85%;
+                @include apply-from(tablet) {
+                    width: 95%;
+                }
+                margin-left: auto;
+                margin-right: auto;
                 margin-bottom: 30px;
                 color: #333333;
 
