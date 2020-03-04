@@ -46,7 +46,7 @@
           width:120px;
           height: 15px;
           line-height: 15px;
-          @include font(F12);
+          @include font(F12SB);
           color: $C6;
         }
 
@@ -63,7 +63,7 @@
           width: 106px;
           height: 24px;
           line-height: 24px;
-          @include font(F10);
+          @include font(F10SB);
           background-color: $C6;
           border-radius: 13px;
           margin-top: 14px;
@@ -80,14 +80,18 @@
         height: 104px;
         top: 70px;
         @extend %absolute-center;
-        @include font(F12);
+        @include font(F12SB);
       }
     }
     
     .software-importance {
       height: 385px;
       margin: 28px auto;
+      background: $C1 url() top 42px center no-repeat;
+      background-size: 60%;
+
       > label {
+        display: inline-block;
         @extend %absolute-center;
       }
 
@@ -95,7 +99,7 @@
         width: 260px;
         height: 60px;
         text-align: center;
-        @include font(F20);
+        @include font(F20SB);
         color: $C6;
         top: 0;
       }
@@ -104,8 +108,29 @@
         width: 340px;
         height: 50px;
         bottom: 0;
-        @include font(F12);
+        @include font(F12SB);
         color: $C13;
+      }
+    }
+
+    .callout-banner {
+      height: 163px;
+
+      h2, label, p {
+        width: 255px;
+        display: inline-block;
+      }
+
+      &__title {
+        @include font(F24SB);
+      }
+
+      &__slogan {
+        @include font(F18UB);
+      }
+
+      &__description {
+        @include font(F12SB);
       }
     }
 }

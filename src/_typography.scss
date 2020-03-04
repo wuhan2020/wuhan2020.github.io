@@ -17,29 +17,49 @@ $font-types: (
         font-weight: map-get($font-weight-map, "normal"),
         font-size: 10px
     ),
+    F10SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 10px
+    ),
     F12: (
         font-weight: map-get($font-weight-map, "normal"),
-        font-size: 12px,
+        font-size: 12px
     ),
-    F14: (
+    F12SB: (
         font-weight: map-get($font-weight-map, "semibold"),
-        font-size: 14px,
+        font-size: 12px
+    ),
+    F14SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 14px
     ),
     F16: (
         font-weight: map-get($font-weight-map, "normal"),
-        font-size: 16px,
+        font-size: 16px
     ),
-    F20: (
+    F18: (
+        font-weight: map-get($font-weight-map, "normal"),
+        font-size: 18px
+    ),
+    F18UB: (
+        font-weight: map-get($font-weight-map, "ultrabold"),
+        font-size: 18px
+    ),
+    F20SB: (
         font-weight: map-get($font-weight-map, "semibold"),
-        font-size: 20px,
+        font-size: 20px
+    ),
+    F24SB:(
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 24px
     ),
     F24B:(
         font-weight: map-get($font-weight-map, "bold"),
-        font-size: 24px,
+        font-size: 24px
     ),
-    F34: (
+    F34UB: (
         font-weight: map-get($font-weight-map, "ultrabold"),
-        font-size: 34px,
+        font-size: 34px
     )
 );
 

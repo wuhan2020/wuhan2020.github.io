@@ -631,6 +631,11 @@ export default {
       quote1: '“开发一个有用的公益软件，比捐款十个亿还管用。”',
       quote2: '而在全国对抗疫情的背后，技术支持也占据了重要的一环。民政部司长陈越良就曾公开喊话，呼吁互联网企业开发公益应用。怎么样让更多人参与其中，让信息科技等力量发挥更大的作用？'
     },
+    calloutBanner: {
+      title: '黑客马拉松等你来',
+      slogan: 'Hack for Wuhan',
+      description: '作为Wuhan2020社区的志愿者和开发人员，我们将发起另一场活动：在 2020年2月底，启动Hack for Wuhan黑客马拉松，在此诚邀您利用自己的技能，为抗击疫情贡献一份力量！'
+    },
     speakerlist: [
       {
           name:"Huimin Lu",

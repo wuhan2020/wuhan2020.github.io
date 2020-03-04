@@ -14,7 +14,7 @@ class HackathonRefact extends Language {
     render() {
         const language = this.getLanguage();
         const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonRefact');
-        const { invitation, antiEpidemicSituation, softwareImportance } = dataSource;
+        const { invitation, antiEpidemicSituation, softwareImportance, calloutBanner } = dataSource;
 
         return(
             <div className="hackathon-page">
@@ -56,17 +56,19 @@ class HackathonRefact extends Language {
                                 {softwareImportance.quote2}
                             </label>
                         </section>
-                        <section className="callout-banner">
 
+                        <section className="callout-banner">
+                            <h2 className="callout-banner__title">{calloutBanner.title}</h2>
+                            <label className="callout-banner__slogan">{calloutBanner.slogan}</label>
+                            <p className="callout-banner__description">{calloutBanner.description}</p>
                         </section>
 
-                        
+                        <section className="">
 
-                        <section className="bottom-banner">
-                        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
                         </section>
                     </article>
                 </main>
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );
     }
