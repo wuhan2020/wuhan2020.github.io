@@ -54,13 +54,3 @@ pages:
       title: 'certification'
       keywords: 'certification'
       description: 'certification'
-  hackathonrefact:
-    zh-cn:
-      title: '黑客松'
-      keywords: '黑客松'
-      description: '黑客松'
-    en-us:
-      title: 'hackathon'
-      keywords: 'hackathon'
-      description: 'hackathon'
-      
