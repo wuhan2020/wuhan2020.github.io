@@ -506,8 +506,8 @@ export default {
       {
           name:"方晰",
           img:"Xi_Fang.jpeg",
-          job:"巴特恩创始合伙人",
-          introduction:"方晰博士是巴特恩资本的创始合伙人",
+          job:"Button创始合伙人",
+          introduction:"方晰博士是Button资本的创始合伙人",
       },
       {
           name:"庄子明",
