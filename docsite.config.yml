@@ -47,7 +47,7 @@ pages:
   certification:
     # apply the certification
     zh-cn:
-      title: 'certification'
+      title: '证书'
       keywords: 'certification'
       description: 'certification'
     en-us:
