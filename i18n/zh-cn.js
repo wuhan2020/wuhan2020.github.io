@@ -471,7 +471,7 @@ export default {
           name:"硅谷大舅",
           img:"Big_Joe.jpeg",
           job:"Google产品经理",
-          introduction:"谷歌产品经理，在硅谷人称"大舅"。现湾区MBA俱乐部管理员。毕业于北京大学计算机专业，有七年Google产品经理经验，是MBA毕业后去Google总部做产品经理的第一位华人。",
+          introduction:"谷歌产品经理，在硅谷人称\"大舅\"。现湾区MBA俱乐部管理员。毕业于北京大学计算机专业，有七年Google产品经理经验，是MBA毕业后去Google总部做产品经理的第一位华人。",
       },
       {
           name:"Kate Jia",
