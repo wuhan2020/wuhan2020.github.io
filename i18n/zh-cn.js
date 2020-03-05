@@ -363,7 +363,7 @@ export default {
           name:"Zhiyang Wang",
           img:"Zhiyang_Wang.jpeg",
           job:"Facebook软件工程师",
-          introduction:"让我们通过HACKING帮助武汉！ Sean在Facebook "Hack"了六年，横跨移动端、网页端产品，面向用户、广告商、创作者，他们来自美国，拉美，还有中国。让我们联合抗“疫”！",
+          introduction:"让我们通过HACKING帮助武汉！ Sean在Facebook \"Hack\"了六年，横跨移动端、网页端产品，面向用户、广告商、创作者，他们来自美国，拉美，还有中国。让我们联合抗\“疫\”！",
       },
       {
           name:"Claire Li",
