@@ -36,7 +36,7 @@ $contentMarginTop: 40px;
         margin: auto;
 
         .certification-content-alerts {
-            line-height: 60px;
+            height: 60px;
             margin: 0 auto;
             max-width: 100%;
             border: 1px solid $succeedColor;
@@ -52,6 +52,10 @@ $contentMarginTop: 40px;
                 position: absolute;
                 left: 15px;
                 font-size: 20px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                height: 20px;
             }
     
             &.successful {
@@ -77,8 +81,10 @@ $contentMarginTop: 40px;
             }
     
             .alert-msg {
-                letter-spacing: 1px;
+                height: 100%;
                 margin-left: 40px;
+                display: flex;
+                align-items: center;
             }
         }
     }
