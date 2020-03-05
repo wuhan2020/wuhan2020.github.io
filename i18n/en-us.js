@@ -29,7 +29,14 @@ export default {
           content: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis ',
           dateStr: 'Feb 1st, 2020',
           link: '/en-us/blog/how-to-join-wuhan2020.html',
-        }
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Recruiting! Thanks to those supporting project wuhan2020!',
+          content: 'Recruiting! Thanks to those supporting project wuhan2020!',
+          dateStr: 'Jan 31th, 2020',
+          link: '/en-us/blog/en-us/thank-supporting-project.html',
+        },
       ],
     },
     contacts: {
