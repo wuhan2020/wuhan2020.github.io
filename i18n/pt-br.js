@@ -227,6 +227,10 @@ export default {
   },
   hackathon: {
     barText: 'Hackathon',
+    starter: '',
+    slogan: '',
+    speakerTitle: '',
+    speakerlist: [],
     sectionDescription: 'Hack for Wuhan',
     concepts: {
       list: [
@@ -264,6 +268,40 @@ export default {
         },
       ],
     },
+    participant: {
+      name: '',
+      person: '',
+      person_description_1: '',
+      person_description_2: '',
+      person_description_3: '',
+      audience: '',
+      audience_description_1: '',
+      audience_description_2: '',
+      audience_description_3: '',
+    },
+    subject: {
+      name: '',
+      subject_name: '',
+      subject: [],
+      form_name: '',
+      form: []
+    },
+    activity: {
+      detail: '',
+      activityList: []
+    },
+    holder: {
+      main: '',
+      co: '',
+      support: '',
+      resource: '',
+      media: '',
+      community: ''
+    },
+    application: {
+      application: '',
+      waiting: ''
+    }
   },
   site: {
     pageMenu: [
