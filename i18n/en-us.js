@@ -396,14 +396,14 @@ export default {
       {
           name:"Cindy Cao",
           img:"nobody.jpeg",
-          job:"Didi?Senior Software Engineer",
+          job:"Didi Senior Software Engineer",
           introduction:"",
       },
       {
           name:"Wen Han",
           img:"Wen_Han.jpeg",
           job:"GSR Ventures, Investor",
-          introduction:"GSR Ventures ????? was the first and biggest investor in Didi ($56bn), Eleme ($9bn), Qunar ($11bn), Xiaohongshu ($3bn), amongst other transformative companies.",
+          introduction:"GSR Ventures was the first and biggest investor in Didi ($56bn), Eleme ($9bn), Qunar ($11bn), Xiaohongshu ($3bn), amongst other transformative companies.",
       },
       {
           name:"Xi Fang",
