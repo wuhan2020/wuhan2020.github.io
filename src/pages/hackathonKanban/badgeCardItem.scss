@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.badge-card-item {
+    width: 168px;
+    height: 168px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .quantity {
+        width: 100%;
+        @extend %absolute-h-center;
+        top: 25px;
+        height: 20px;
+        text-align: center;
+        
+        @include font(F24SB);
+    }
+}

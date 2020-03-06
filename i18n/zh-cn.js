@@ -630,12 +630,60 @@ export default {
   },
   hackathonKanban: {
     contentTitle: '比赛看板',
-    timer: {
-      title: '',
-      startFrom: '06/03/2020',
-      endTo: ''
+    kanbanTimer: {
+      title: '黑客松火爆进行中...',
+      from: 'March 6 2020 00:00:00 GMT+08:00',
+      timeSlots: [
+        {
+          unit: 'd', 
+          text: '天'
+        },
+        {
+          unit: 'h',
+          text: '时'
+        },
+        {
+          unit: 'm',
+          text: '分'
+        },
+        {
+          unit: 's',
+          text: '秒'
+        }
+      ]
+    },
+    badgeCards: {
+      country: {
+        quantity: '30个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
+        } 
+      },
+      participant: {
+        quantity: '184位',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/participant-s.png)'
+        } 
+      },
+      team: {
+        quantity: '60个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/team-s.png)'
+        } 
+      },
+      star: {
+        quantity: '25000个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/star-s.png)'
+        } 
+      },
+      pv: {
+        quantity: '8372'
+      },
+      audience: {
+        quantity: '335位'
+      }
     }
-
   },
   certification: {
     formText: {
