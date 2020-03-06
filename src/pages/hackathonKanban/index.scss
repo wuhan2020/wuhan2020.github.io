@@ -2,16 +2,13 @@
 @import '../../reset.scss';
 
 .kanban-page {
-    width: 350px;
-    margin: 0;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 
     section {
         width: 350px;
         margin: 0 auto;
-
-        @include apply-from(desktop) {
-            width: 1400px;
-        };
 
         &.content-title {
             width: 220px;

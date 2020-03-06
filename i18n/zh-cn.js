@@ -630,10 +630,27 @@ export default {
   },
   hackathonKanban: {
     contentTitle: '比赛看板',
-    timer: {
-      title: '',
-      startFrom: '06/03/2020',
-      endTo: ''
+    kanbanTimer: {
+      title: '黑客松火爆进行中...',
+      from: 'March 6 2020 00:00:00 GMT+08:00',
+      timeSlots: [
+        {
+          unit: 'd', 
+          text: '天'
+        },
+        {
+          unit: 'h',
+          text: '时'
+        },
+        {
+          unit: 'm',
+          text: '分'
+        },
+        {
+          unit: 's',
+          text: '秒'
+        }
+      ]
     }
 
   },

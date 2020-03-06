@@ -13,6 +13,25 @@ $mobileWidth: 640px;
 // 页面主体最大宽度
 $contentWidth: 1280px;
 
+%absolute-h-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+%absolute-v-middle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
 
-
+%absolute-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
