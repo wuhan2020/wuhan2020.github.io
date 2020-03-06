@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.kanban-page {
+    width: 350px;
+    margin: 0;
+
+    section {
+        width: 350px;
+        margin: 0 auto;
+
+        @include apply-from(desktop) {
+            width: 1400px;
+        };
+
+        &.content-title {
+            width: 220px;
+            border-bottom: 3px solid $C6; 
+            height: 66px;
+            text-align: center;
+    
+            .content-title-text {
+                width: 100%;
+                height: 66px;
+                line-height: 66px;
+                @include font(F32B);
+                color: $C13;
+            }
+        }
+    }
+}
