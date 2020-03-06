@@ -727,6 +727,11 @@ export default {
           text: '石墨文档',
           link: 'https://shimo.im/',
           target: '_blank'
+        },
+        {
+          text: '京东智联云',
+          link: 'https://www.jdcloud.com/cn/?utm_source=PMM_wuhan&utm_medium=wechat&utm_campaign=ReadMore&utm_term=NA',
+          target: '_blank'
         }
       ]
     },
