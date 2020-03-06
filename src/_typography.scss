@@ -33,6 +33,10 @@ $font-types: (
         font-weight: map-get($font-weight-map, "semibold"),
         font-size: 14px
     ),
+    F15SB: (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 15px
+    ),
     F16: (
         font-weight: map-get($font-weight-map, "normal"),
         font-size: 16px
@@ -61,9 +65,17 @@ $font-types: (
         font-weight: map-get($font-weight-map, "bold"),
         font-size: 32px
     ),
+    F34SB:  (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 34px
+    ),
     F34UB: (
         font-weight: map-get($font-weight-map, "ultrabold"),
         font-size: 34px
+    ),
+    F54SB:  (
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 54px
     )
 );
 
