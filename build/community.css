@@ -2927,28 +2927,6 @@ html {
 
 .ant-empty-small .ant-empty-image {
   height: 35px; }
-.slider {
-  overflow: hidden; }
-  .slider .slider-list {
-    overflow: visible; }
-    .slider .slider-list .slider-screen {
-      display: inline-flex;
-      justify-content: space-around;
-      overflow: hidden; }
-  .slider .slider-control {
-    text-align: center;
-    margin-top: 20px; }
-    .slider .slider-control .slider-control-item {
-      cursor: pointer;
-      display: inline-block;
-      width: 20px;
-      height: 4px;
-      margin-right: 4px;
-      background: #ccc; }
-      .slider .slider-control .slider-control-item-active {
-        width: 40px;
-        height: 6px;
-        background-color: #D9452B; }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -4531,3 +4509,25 @@ html {
       border-radius: 2px;
       text-align: center;
       margin: 0 10px 10px 0; }
+.slider {
+  overflow: hidden; }
+  .slider .slider-list {
+    overflow: visible; }
+    .slider .slider-list .slider-screen {
+      display: inline-flex;
+      justify-content: space-around;
+      overflow: hidden; }
+  .slider .slider-control {
+    text-align: center;
+    margin-top: 20px; }
+    .slider .slider-control .slider-control-item {
+      cursor: pointer;
+      display: inline-block;
+      width: 20px;
+      height: 4px;
+      margin-right: 4px;
+      background: #ccc; }
+      .slider .slider-control .slider-control-item-active {
+        width: 40px;
+        height: 6px;
+        background-color: #D9452B; }
