@@ -628,6 +628,15 @@ export default {
       waiting: '敬请期待'
     }
   },
+  hackathonKanban: {
+    contentTitle: '比赛看板',
+    timer: {
+      title: '',
+      startFrom: '06/03/2020',
+      endTo: ''
+    }
+
+  },
   certification: {
     formText: {
       header: '志愿者证书领取',
