@@ -1,0 +1,54 @@
+@import '../../variables.scss';
+
+.timer-wrapper {
+    width: 350px;
+    margin-top: 15px;
+    padding-top: 25px;
+
+    .timer-title {
+        width: 100%;
+        height: 36px;
+        text-align: center;
+        @include font(F24SB);
+        color: $C14;
+    }
+
+    .timer-board {
+        width: 350px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .time-slot {
+        position: relative;
+        width: 76px;
+        height: 94px;
+        background: linear-gradient(to bottom, $C3 0 47%, $C1 47% 53%, $C3 53% 100%);
+        border-radius: 12px;
+
+        span {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+
+            &.time {
+                height: 50px;
+                @extend %absolute-center;
+                @include font(F34SB);
+                color: #D9452B;
+            }
+
+            &.text {
+                height: 21px;
+                @extend %absolute-h-center;
+                bottom: 2px;
+                @include font(F15SB);
+                color: #D9452B;
+            }
+
+            
+        }
+    }
+}

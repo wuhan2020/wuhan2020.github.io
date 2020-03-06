@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import BadgeCardList from './badgeCardList';
+import KanbanTimer from './kanbanTimer';
 import Language from "../../components/language";
 
 import './index.scss';
@@ -13,6 +14,7 @@ class HackathonKanban extends Language {
         const { contentTitle, badgeCards } = dataSource;
         const firstItemList = ['country', 'participant', 'team', 'star'].map( item => badgeCards[item] );
         
+        const { contentTitle, kanbanTimer } = dataSource;
         return (
             <div className="kanban-page">
                 <main>
@@ -24,6 +26,9 @@ class HackathonKanban extends Language {
                             <BadgeCardList itemList={firstItemList} /> 
                         </section>
 
+                        <section className="kanban-timer">
+                            <KanbanTimer {...kanbanTimer} />
+                        </section>
                     </article>
                 </main>
             </div>
