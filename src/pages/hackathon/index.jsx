@@ -207,11 +207,11 @@ class Hackathon extends Language {
 			</div>
 
 			<div id="holder">
-				<h1>{dataSource.holder.media}</h1>
-				<div></div>
+				<h1>{dataSource.holder.resource}</h1>
 				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
 				<div><a href=""><img src="/images/hackathon/resource/resource2.png" /></a></div>
 				<div><a href=""><img src="/images/hackathon/resource/resource3.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource4.png" /></a></div>
 			</div>
 
 			<div id="holder">
@@ -246,6 +246,13 @@ class Hackathon extends Language {
 				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community20.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community21.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community22.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community23.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community24.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community25.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community26.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community27.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community28.png" /></a></div>
 			</div>
 			
 			<div id="application">
