@@ -629,13 +629,14 @@ export default {
     }
   },
   hackathonKanban: {
+    barText: '比赛看板',
     contentTitle: '比赛看板',
     kanbanTimer: {
       title: '黑客松火爆进行中...',
       from: 'March 6 2020 00:00:00 GMT+08:00',
       timeSlots: [
         {
-          unit: 'd', 
+          unit: 'd',
           text: '天'
         },
         {
@@ -657,25 +658,25 @@ export default {
         quantity: '30个',
         itemStyle: {
           backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
-        } 
+        }
       },
       participant: {
         quantity: '184位',
         itemStyle: {
           backgroundImage: 'url(/images/hackathon/badge_cards/participant-s.png)'
-        } 
+        }
       },
       team: {
         quantity: '60个',
         itemStyle: {
           backgroundImage: 'url(/images/hackathon/badge_cards/team-s.png)'
-        } 
+        }
       },
       star: {
         quantity: '25000个',
         itemStyle: {
           backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
-        } 
+        }
       },
       pv: {
         quantity: '8372'
@@ -738,6 +739,11 @@ export default {
         key: 'hackathon',
         text: '黑客松',
         link: '/zh-cn/hackathon/index.html',
+      },
+      {
+        key: 'hackathonKanban',
+        text: '比赛看板',
+        link: '/zh-cn/hackathonKanban/index.html',
       },
       {
         key: 'mis',
