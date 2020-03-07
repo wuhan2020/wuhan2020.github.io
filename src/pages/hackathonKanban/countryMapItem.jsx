@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactEcharts from 'echarts-for-react';  // or var ReactEcharts = require('echarts-for-react');
-require('echarts/map/js/world')
-import x from 'echarts';
+import './countryMapItem.scss';
+require('echarts/map/js/world');
 
 const mockData = [
     {
@@ -23,13 +23,26 @@ function Map(props) {
           showDelay: 0,
           transitionDuration: 0.2
         },
-        toolbox: {
-          show: false,
-          left: 'left',
-          top: 'top',
-          feature: {
-            saveAsImage: {},
-          },
+        visualMap: {
+            type: 'piecewise',
+            show: false,
+            min: 0,
+            max: 10000,
+            maxOpen: true,
+            left: 'left',
+            realtime: true,
+            calculable: true,
+            inRange: {
+              color: ['#F8D199', '#FFD20A', '#EA3300', '#8B0000'],
+              symbol: 'circle',
+            },
+            pieces: [
+              {gte: 10000},
+              {gte: 1000, lte: 9999},
+              {gte: 500, lte: 999},
+              {gte: 100, lte: 499},
+              {gte: 1, lte: 99},
+            ],
         },
         series: [
           {
@@ -38,6 +51,7 @@ function Map(props) {
             mapType: 'world',
             roam: false,
             zoom: 1.2,
+            // aspectRatio: 0.2,
             data: data,
             label: {
               normal: {
@@ -76,9 +90,19 @@ function Map(props) {
     }
   
     return (
-      <ReactEcharts
-        option={getOption(mockData)}
-        className='map-chart' />
+        <div className="map-wrapper">
+            <div className="content-title">
+                <div className="content-title-text">{'xx个国家全球协作'}</div>
+            </div>
+            <div className="content">
+                <div className="content-text">{'中国'}</div>
+                <div className="content-text">{'美国'}</div>
+            </div>
+            <ReactEcharts
+                option={getOption(mockData)}
+                style={{height: '200px', width: '100%'}}
+                className='map-chart' />
+        </div>
     );
 }
 
