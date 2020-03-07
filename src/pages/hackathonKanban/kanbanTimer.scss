@@ -2,8 +2,12 @@
 
 .timer-wrapper {
     width: 350px;
+    height: 223px;
     margin-top: 15px;
     padding-top: 25px;
+    background: $C1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 
     .timer-title {
         width: 100%;
