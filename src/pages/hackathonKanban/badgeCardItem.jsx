@@ -5,13 +5,18 @@ import './badgeCardItem.scss';
 
 const propTypes = {
     quantity: PropTypes.string.isRequired,
-    itemStyle: PropTypes.object.isRequired,
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    bgColor: PropTypes.string.isRequired,
+    itemStyle: PropTypes.object.isRequired
 };
 const BadgeCardItem = (props) => {
-    const { quantity, itemStyle } = props;
+    const { quantity, title, icon, bgColor } = props;
     return (
-        <div className="badge-card-item" style={itemStyle}>
-            <span className="quantity">{quantity}</span>
+        <div className="badge-card-item" style={{backgroundColor: bgColor}}>
+            <p className="quantity">{quantity}</p>
+            <p className="title">{title}</p>
+            <img src={icon} alt=""/>
         </div>
     );
 };

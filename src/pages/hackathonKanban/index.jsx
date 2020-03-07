@@ -13,7 +13,11 @@ class HackathonKanban extends Language {
         const language = ['zh-cn'];
         const dataSource = this.getLanguageDict(language, 'hackathonKanban');
         const { kanbanTimer, contentTitle, badgeCards } = dataSource;
+      
+        // Data for 11 badge cards (divided into 3 sections)
         const firstItemList = ['country', 'participant', 'team', 'star'].map( item => badgeCards[item] );
+        const secondItemList = ['visits', 'audience', 'community', 'exposure'].map( item => badgeCards[item] );
+        const thirdItemList = ['media', 'volunteers', 'vip'].map( item => badgeCards[item] );
 
         return (
             <div className="kanban-page">
@@ -34,6 +38,12 @@ class HackathonKanban extends Language {
                         </section>
                         <section className="badge-card-list-first">
                             <BadgeCardList itemList={firstItemList} />
+                        </section>
+                        <section className="badge-card-list-second">
+                            <BadgeCardList itemList={secondItemList} />
+                        </section>
+                        <section className="badge-card-list-third">
+                            <BadgeCardList itemList={thirdItemList} />
                         </section>
                     </article>
                 </main>

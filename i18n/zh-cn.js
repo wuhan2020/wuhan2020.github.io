@@ -656,33 +656,69 @@ export default {
     badgeCards: {
       country: {
         quantity: '30个',
-        itemStyle: {
-          backgroundImage: 'url(/images/hackathonKanban/badge_cards/country-s.png)'
-        }
+        title: '参赛国家',
+        icon: '/images/hackathon/badge_cards/icon-1-country.svg',
+        bgColor: '#D9452B'
       },
       participant: {
         quantity: '184位',
-        itemStyle: {
-          backgroundImage: 'url(/images/hackathonKanban/badge_cards/participant-s.png)'
-        }
+        title: '初赛报名选手',
+        icon: '/images/hackathon/badge_cards/icon-2-participant.svg',
+        bgColor: '#448ABD'
       },
       team: {
         quantity: '60个',
-        itemStyle: {
-          backgroundImage: 'url(/images/hackathonKanban/badge_cards/team-s.png)'
-        }
+        title: '参赛团队',
+        icon: '/images/hackathon/badge_cards/icon-3-team.svg',
+        bgColor: '#E89C35'
       },
       star: {
-        quantity: '25000个',
-        itemStyle: {
-          backgroundImage: 'url(/images/hackathonKanban/badge_cards/star-s.png)'
-        }
+        quantity: '增长中...',
+        title: 'GitHub Star',
+        icon: '/images/hackathon/badge_cards/icon-4-star.svg',
+        bgColor: '#D9452B'
       },
-      pv: {
-        quantity: '8372'
+      visits: {
+        quantity: '14500+',
+        title: '大赛活动浏览量',
+        icon: '/images/hackathon/badge_cards/icon-5-visits.svg',
+        bgColor: '#448ABD'
       },
       audience: {
-        quantity: '335位'
+        quantity: '500+',
+        title: '赛事观摩团员',
+        icon: '/images/hackathon/badge_cards/icon-6-audience.svg',
+        bgColor: '#E89C35'
+      },
+      community: {
+        quantity: '43',
+        title: '合作社区',
+        icon: '/images/hackathon/badge_cards/icon-7-community.svg',
+        bgColor: '#E89C35'
+      },
+      exposure: {
+        quantity: '70万+',
+        title: '全网曝光度',
+        icon: '/images/hackathon/badge_cards/icon-8-exposure.svg',
+        bgColor: '#D9452B'
+      },
+      media: {
+        quantity: '5+',
+        title: '技术媒体',
+        icon: '/images/hackathon/badge_cards/icon-9-media.svg',
+        bgColor: '#448ABD'
+      },
+      volunteers: {
+        quantity: '50+',
+        title: '赛事志愿者',
+        icon: '/images/hackathon/badge_cards/icon-10-volunteers.svg',
+        bgColor: '#E89C35'
+      },
+      vip: {
+        quantity: '37位',
+        title: '硅谷大V评委，导师',
+        icon: '/images/hackathon/badge_cards/icon-11-vip.svg',
+        bgColor: '#D9452B'
       }
     }
   },
