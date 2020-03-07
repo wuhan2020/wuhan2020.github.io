@@ -5,6 +5,7 @@ import KanbanTimer from './kanbanTimer';
 import Language from "../../components/language";
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import TeamItem from './teamItem';
 import './index.scss';
 
 class HackathonKanban extends Language {
@@ -13,6 +14,7 @@ class HackathonKanban extends Language {
         const language = this.language;
         const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonKanban');
         const { kanbanTimer, contentTitle, badgeCards } = dataSource;
+
       
         // Data for 11 badge cards (divided into 3 sections)
         const firstItemList = ['country', 'participant', 'team', 'star'].map( item => badgeCards[item] );
@@ -44,6 +46,8 @@ class HackathonKanban extends Language {
                         </section>
                         <section className="badge-card-list-third">
                             <BadgeCardList itemList={thirdItemList} />
+                        </section>
+                        <section className="preliminary-round">
                         </section>
                     </article>
                 </main>

@@ -724,7 +724,7 @@ export default {
     teamData: {
       sectionHeader: '',
       sectionDescription: '',
-      tableHeader: ['id','name', 'leader', 'members', 'tutor', 'star', 'abstract'],
+      tableHeader: ['name', 'leader', 'members', 'tutor', 'abstract'],
       list: [
         {"id":"1","name":"认识病毒","leader":"Rug","members":["Rug"],"tutor":"-","abstract":"关于病毒的一个趣味性教育App"},
         {"id":"2","name":"Aid Tracker捐赠直连——捐赠对接与追踪一体化平台","leader":"Icy","members":["Icy 综合负责 irisicy@outlook.com","Victoria 开发跟进负责 jianruanvictoria@outlook.com","毛昌启 开发跟进型PM 393403787@qq.com","Sheryn 内容策划型PM sugaryun428@gmail.com","Andrew 内容策划型PM andrewsu2001@hotmail.com","Sean 内容策划型PM 729095779@qq.com","许小狼 程序开发工程师 xxp930529@gmail.com","Linsons 程序开发工程顾问+优化期小数据运营PM Linsons_z@hotmail.com","陈崇强 前端程序开发工程师 chongqiangchen@gmail.com","Wesley 程序开发工程师 zhaop.wesley2018@gdhfi.com","Sheryn 内容策划型PM","Ivy 平面设计师 1838050734@qq.com","何晓姗 交互设计师+程序开发工程师 xshe@umich.edu","James 程序开发工程师 1941631170@qq.com"],"abstract":"捐赠对接与追踪一体化平台"},
