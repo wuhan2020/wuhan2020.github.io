@@ -24,5 +24,10 @@
                 color: $C13;
             }
         }
+
+        &.badge-card-list-first {
+            width: 350px;
+            margin: 0 auto;
+        }
     }
 }

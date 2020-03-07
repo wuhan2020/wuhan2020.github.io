@@ -61,6 +61,10 @@ $font-types: (
         font-weight: map-get($font-weight-map, "bold"),
         font-size: 24px
     ),
+    F28SB:(
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 28px
+    ),
     F32B: (
         font-weight: map-get($font-weight-map, "bold"),
         font-size: 32px

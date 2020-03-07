@@ -651,8 +651,39 @@ export default {
           text: '秒'
         }
       ]
+    },
+    badgeCards: {
+      country: {
+        quantity: '30个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
+        } 
+      },
+      participant: {
+        quantity: '184位',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/participant-s.png)'
+        } 
+      },
+      team: {
+        quantity: '60个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/team-s.png)'
+        } 
+      },
+      star: {
+        quantity: '25000个',
+        itemStyle: {
+          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
+        } 
+      },
+      pv: {
+        quantity: '8372'
+      },
+      audience: {
+        quantity: '335位'
+      }
     }
-
   },
   certification: {
     formText: {
