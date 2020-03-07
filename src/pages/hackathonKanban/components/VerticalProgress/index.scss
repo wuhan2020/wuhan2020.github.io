@@ -1,0 +1,39 @@
+.progress_wrapper {
+  width: 12px;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+
+  .progress_background {
+    position: absolute;
+    left: 33.33%;
+    background: #ffceba;
+    width: 33.33%;
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  .progress {
+    position: relative;
+    height: 100%;
+
+    .progress_bar {
+      width: 33.33%;
+      border-radius: 3px;
+      left: 33.33%;
+      height: 100%;
+      background: #d9452b;
+      position: absolute;
+    }
+
+    .progress_ball {
+      position: absolute;
+      bottom: 0;
+      left: -1px;
+      width: 14px;
+      height: 14px;
+      background-color: #d9452b;
+      border-radius: 50%;
+    }
+  }
+}
