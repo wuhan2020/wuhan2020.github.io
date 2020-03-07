@@ -5,6 +5,7 @@ import KanbanTimer from './kanbanTimer';
 import Language from "../../components/language";
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import CountryMapList from './countryMapItem';
 import './index.scss';
 
 class HackathonKanban extends Language {
@@ -38,6 +39,9 @@ class HackathonKanban extends Language {
                         </section>
                         <section className="badge-card-list-first">
                             <BadgeCardList itemList={firstItemList} />
+                        </section>
+                        <section className="country-map">
+                            <CountryMapList />
                         </section>
                         <section className="badge-card-list-second">
                             <BadgeCardList itemList={secondItemList} />
