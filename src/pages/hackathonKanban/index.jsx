@@ -21,14 +21,14 @@ class HackathonKanban extends Language {
 
         return (
             <div className="kanban-page">
-              <Header
-                currentKey="hackathon"
-                type="normal"
-                logo="/images/wuhan2020-logo-gray.png"
-                language={language}
-                onLanguageChange={this.onLanguageChange}
-              />
                 <main>
+                    <Header
+                        currentKey="hackathon"
+                        type="normal"
+                        logo="/images/wuhan2020-logo-gray.png"
+                        language={language}
+                        onLanguageChange={this.onLanguageChange}
+                    />
                     <article>
                         <section className="content-title">
                             <div className="content-title-text">{contentTitle}</div>
