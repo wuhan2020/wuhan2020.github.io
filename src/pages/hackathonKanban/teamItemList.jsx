@@ -6,6 +6,7 @@ import './teamItemList.scss';
 
 const propTypes = {
     viewport: PropTypes.string.isRequired,
+    tableHeader: PropTypes.array.isRequired,
     teamListData: PropTypes.array.isRequired,
 };
 
@@ -18,7 +19,7 @@ const headerLangMap = {
 };
 
 const TeamItemList = (props) => {
-    const { viewport, teamListData: { tableHeader, list } } = props;
+    const { viewport, teamListData, tableHeader } = props;
     return (
         <div className="team-item-list">
             {
@@ -28,7 +29,7 @@ const TeamItemList = (props) => {
                 </div>
             }
             
-            { list.map( (item, idx) => <TeamItem {...{viewport, tableHeader, itemData: item}} key={idx} /> )}
+            { teamListData.map( (item, idx) => <TeamItem {...{viewport, tableHeader, itemData: item}} key={idx} /> )}
         </div>
     );
 };

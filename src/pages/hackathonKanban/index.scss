@@ -35,6 +35,23 @@
         &.preliminary-round {
             width: 350px;
             height: auto;
+
+            .section-title {
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                border-left: 8px solid $C6;
+                padding-left: 12px;
+                @include font(F20SB);
+                color: $C6;
+            }
+
+            .section-description {
+                margin-top: 10px;
+                height: 55px;
+                @include font(F16SB);
+                color: #152235;
+            }
         }
     }
 }

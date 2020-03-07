@@ -1,0 +1,39 @@
+@import '../../variables.scss';
+
+.map-wrapper {
+    width: 350px;
+    padding-top: 25px;
+    background: $C1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    .content-title {
+        width: 220px;
+        border-bottom: 3px solid $C6; 
+        text-align: center;
+        margin: auto;
+
+        .content-title-text {
+            width: 100%;
+            @include font(F20SB);
+            color: $C6;
+        }
+    }
+
+    .content {
+        text-align: center;
+        margin: 10px 4% 0 0;
+
+        .content-text {
+            display: inline;
+            margin-left: 4%;
+            white-space: nowrap;
+            @include font(F14);
+            color: $C14;
+        }
+    }
+
+    .map-chart {
+        height: 200px;
+    }
+}

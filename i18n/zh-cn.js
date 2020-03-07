@@ -764,9 +764,35 @@ export default {
         {"id":"36","name":"COEXvsVIRUS","leader":"ili","members":[],"tutor":"-","abstract":"\"Building a convertible multi-purpose ecosystem of drones, thus giving a wholesome answer to challenges caused by epidemics and other emergencies--- performing: "},
         {"id":"37","name":"autovax","leader":"Tim Heath","members":["Tim Heath"],"tutor":"-","abstract":"-"},
         {"id":"38","name":"smart疫情防控大屏","leader":"Nimo","members":["nimo:120160209@qq.com"],"tutor":"-","abstract":"smart疫情防控指挥大屏；更直观的展示疫情状态，辅助疫情指挥决策分析"}
-     ]
+     ],
+    },
+    finalTeamData: {
+      sectionHeader: '',
+      sectionDescription: '',
+      teamIdList: []
+    },
+    winningTeamData: {
+      first: {
+        desc: "一等奖",
+        teamIdList: []
+      },
+      second: {
+        desc: "二等奖",
+        teamIdList: []
+      },
+      third: {
+        desc: "三等奖",
+        teamIdList: []
+      },
+      audienceFavorite: {
+        desc: "观众最喜爱奖",
+        teamIdList: []
+      },
+      tutorFavorite: {
+        desc: "导师最喜爱奖",
+        teamIdList: []
+      },
     }
-
   },
   certification: {
     formText: {

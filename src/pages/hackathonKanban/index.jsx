@@ -5,8 +5,9 @@ import KanbanTimer from './kanbanTimer';
 import Language from "../../components/language";
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import HackathonProgress from './hackathonProgress';
+import CountryMapList from './countryMapItem';
 import TeamItemList from './teamItemList';
+import HackathonProgress from './hackathonProgress';
 
 import './index.scss';
 
@@ -64,6 +65,9 @@ class HackathonKanban extends Language {
                         <section className="badge-card-list-first">
                             <BadgeCardList itemList={firstItemList} />
                         </section>
+                        <section className="country-map">
+                            <CountryMapList />
+                        </section>
                         <section className="badge-card-list-second">
                             <BadgeCardList itemList={secondItemList} />
                         </section>
@@ -77,7 +81,7 @@ class HackathonKanban extends Language {
                             <div className="section-title">{teamData.sectionTitle}</div>
                             <div className="section-description">{teamData.sectionDescription}</div>
                             <div className="team-list-wrapper">
-                                <TeamItemList teamListData={teamData.list} viewport='mobile' />
+                                <TeamItemList teamListData={teamData.list} tableHeader={teamData.tableHeader} viewport='mobile' />
                             </div>
                         </section>
                     </article>

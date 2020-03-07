@@ -3390,6 +3390,30 @@
         "safer-buffer": "^2.1.0"
       }
     },
+    "echarts": {
+      "version": "4.6.0",
+      "resolved": "https://registry.npmjs.org/echarts/-/echarts-4.6.0.tgz",
+      "integrity": "sha512-xKkcr6v9UVOSF+PMuj7Ngt3bnzLwN1sSXWCvpvX+jYb3mePYsZnABq7wGkPac/m0nV653uGHXoHK8DCKCprdNg==",
+      "requires": {
+        "zrender": "4.2.0"
+      }
+    },
+    "echarts-for-react": {
+      "version": "2.0.15-beta.1",
+      "resolved": "https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-2.0.15-beta.1.tgz",
+      "integrity": "sha512-wR8XaI3j/4JvTidZrrJVfP/RqSggLRlzKOwcruytyLSA6AyE51T7mK+EucfwZ0NkX8H6tPFCHCvgJH1LyXjiIg==",
+      "requires": {
+        "fast-deep-equal": "^2.0.1",
+        "size-sensor": "^0.2.0"
+      },
+      "dependencies": {
+        "fast-deep-equal": {
+          "version": "2.0.1",
+          "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz",
+          "integrity": "sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk="
+        }
+      }
+    },
     "ee-first": {
       "version": "1.1.1",
       "resolved": "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz",
@@ -11221,6 +11245,11 @@
       "resolved": "http://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz",
       "integrity": "sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0="
     },
+    "size-sensor": {
+      "version": "0.2.6",
+      "resolved": "https://registry.npmjs.org/size-sensor/-/size-sensor-0.2.6.tgz",
+      "integrity": "sha512-0EZ0tXXjyRl9R9+JpoBdH57Xpnbf5NTyDdj7fnFL6KqCsdKyah286ShMflnV2SonnrSFH4OAT/52Jy8qqnoerg=="
+    },
     "slice-ansi": {
       "version": "2.1.0",
       "resolved": "https://registry.npm.taobao.org/slice-ansi/download/slice-ansi-2.1.0.tgz",
@@ -13108,6 +13137,11 @@
           "integrity": "sha1-MvxLn82vhF/N9+c7uXysImHwqwo="
         }
       }
+    },
+    "zrender": {
+      "version": "4.2.0",
+      "resolved": "https://registry.npmjs.org/zrender/-/zrender-4.2.0.tgz",
+      "integrity": "sha512-YJ9hxt5uFincYYU3KK31+Ce+B6PJmYYK0Q9fQ6jOUAoC/VHbe4kCKAPkxKeT7jGTxrK5wYu18R0TLGqj2zbEOA=="
     }
   }
 }
