@@ -37,7 +37,7 @@ class KanbanTimer extends React.Component {
         this.setState( {interval} );   
     }
 
-    componentWillUnMount() {
+    componentWillUnmount() {
         const { interval } = this.state;
         clearInterval(interval);
     }
