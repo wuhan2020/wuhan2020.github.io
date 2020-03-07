@@ -41,8 +41,16 @@ $font-types: (
         font-weight: map-get($font-weight-map, "normal"),
         font-size: 16px
     ),
+    F18L: (
+        font-weight: map-get($font-weight-map, "light"),
+        font-size: 18px
+    ),
     F18: (
         font-weight: map-get($font-weight-map, "normal"),
+        font-size: 18px
+    ),
+    F18M: (
+        font-weight: map-get($font-weight-map, "medium"),
         font-size: 18px
     ),
     F18UB: (

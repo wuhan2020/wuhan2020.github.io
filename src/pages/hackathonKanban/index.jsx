@@ -71,6 +71,8 @@ class HackathonKanban extends Language {
                         <section className="badge-card-list-third">
                             <BadgeCardList itemList={thirdItemList} />
                         </section>
+                        <section className="preliminary-round">
+                        </section>
                     </article>
                 </main>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
