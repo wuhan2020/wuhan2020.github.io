@@ -66,7 +66,7 @@ class HackathonKanban extends Language {
                             <BadgeCardList itemList={secondItemList} />
                         </section>
                         <section>
-                            <HackathonProgress title="当前比赛进程" timeStart="2020/2/28" timeEnd="2020/3/8" mileStones={mockMilestones} />
+                            <HackathonProgress title="当前比赛进程" timeStart="2020/02/28" timeEnd="2020/03/08" mileStones={mockMilestones} />
                         </section>
                         <section className="badge-card-list-third">
                             <BadgeCardList itemList={thirdItemList} />
