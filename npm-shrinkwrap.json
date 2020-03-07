@@ -3390,6 +3390,30 @@
         "safer-buffer": "^2.1.0"
       }
     },
+    "echarts": {
+      "version": "4.6.0",
+      "resolved": "https://registry.npmjs.org/echarts/-/echarts-4.6.0.tgz",
+      "integrity": "sha512-xKkcr6v9UVOSF+PMuj7Ngt3bnzLwN1sSXWCvpvX+jYb3mePYsZnABq7wGkPac/m0nV653uGHXoHK8DCKCprdNg==",
+      "requires": {
+        "zrender": "4.2.0"
+      }
+    },
+    "echarts-for-react": {
+      "version": "2.0.15-beta.1",
+      "resolved": "https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-2.0.15-beta.1.tgz",
+      "integrity": "sha512-wR8XaI3j/4JvTidZrrJVfP/RqSggLRlzKOwcruytyLSA6AyE51T7mK+EucfwZ0NkX8H6tPFCHCvgJH1LyXjiIg==",
+      "requires": {
+        "fast-deep-equal": "^2.0.1",
+        "size-sensor": "^0.2.0"
+      },
+      "dependencies": {
+        "fast-deep-equal": {
+          "version": "2.0.1",
+          "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz",
+          "integrity": "sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk="
+        }
+      }
+    },
     "ee-first": {
       "version": "1.1.1",
       "resolved": "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz",
@@ -6335,6 +6359,12 @@
             "minimatch": "~0.2.11"
           }
         },
+        "graceful-fs": {
+          "version": "1.2.3",
+          "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz",
+          "integrity": "sha1-FaSAaldUfLLS2/J/QuiajDRRs2Q=",
+          "dev": true
+        },
         "inherits": {
           "version": "1.0.2",
           "resolved": "https://registry.npm.taobao.org/inherits/download/inherits-1.0.2.tgz?cache=0&sync_timestamp=1560975547815&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Finherits%2Fdownload%2Finherits-1.0.2.tgz",
@@ -8489,8 +8519,8 @@
     },
     "moment": {
       "version": "2.24.0",
-      "resolved": "http://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz",
-      "integrity": "sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s="
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.24.0.tgz",
+      "integrity": "sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg=="
     },
     "ms": {
       "version": "2.1.2",
@@ -8554,6 +8584,12 @@
         "snapdragon": "^0.8.1",
         "to-regex": "^3.0.1"
       }
+    },
+    "natives": {
+      "version": "1.1.6",
+      "resolved": "https://registry.npmjs.org/natives/-/natives-1.1.6.tgz",
+      "integrity": "sha512-6+TDFewD4yxY14ptjKaS63GVdtKiES1pTPyxn9Jb0rBqPMZ7VcCiooEhPNsr+mqHtMGxa/5c/HhcC4uPEUw/nA==",
+      "dev": true
     },
     "natural-compare": {
       "version": "1.4.0",
@@ -11209,6 +11245,11 @@
       "resolved": "http://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz",
       "integrity": "sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0="
     },
+    "size-sensor": {
+      "version": "0.2.6",
+      "resolved": "https://registry.npmjs.org/size-sensor/-/size-sensor-0.2.6.tgz",
+      "integrity": "sha512-0EZ0tXXjyRl9R9+JpoBdH57Xpnbf5NTyDdj7fnFL6KqCsdKyah286ShMflnV2SonnrSFH4OAT/52Jy8qqnoerg=="
+    },
     "slice-ansi": {
       "version": "2.1.0",
       "resolved": "https://registry.npm.taobao.org/slice-ansi/download/slice-ansi-2.1.0.tgz",
@@ -12334,6 +12375,15 @@
           "integrity": "sha1-xhJqkK1Pctv1rNskPMN3JP6T/B8=",
           "dev": true
         },
+        "graceful-fs": {
+          "version": "3.0.12",
+          "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+          "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+          "dev": true,
+          "requires": {
+            "natives": "^1.1.3"
+          }
+        },
         "isarray": {
           "version": "0.0.1",
           "resolved": "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz?cache=0&sync_timestamp=1562592096220&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fisarray%2Fdownload%2Fisarray-0.0.1.tgz",
@@ -13087,6 +13137,11 @@
           "integrity": "sha1-MvxLn82vhF/N9+c7uXysImHwqwo="
         }
       }
+    },
+    "zrender": {
+      "version": "4.2.0",
+      "resolved": "https://registry.npmjs.org/zrender/-/zrender-4.2.0.tgz",
+      "integrity": "sha512-YJ9hxt5uFincYYU3KK31+Ce+B6PJmYYK0Q9fQ6jOUAoC/VHbe4kCKAPkxKeT7jGTxrK5wYu18R0TLGqj2zbEOA=="
     }
   }
 }

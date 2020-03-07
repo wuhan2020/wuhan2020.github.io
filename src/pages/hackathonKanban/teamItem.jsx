@@ -33,7 +33,14 @@ const TeamItem = (props) => {
                                     { item !== 'name' && 
                                         <span className="header">{headerLangMap[item]}</span>
                                     }
-                                    <span className="content">{itemData[item]}</span>
+                                    <span className="content">
+                                        { Array.isArray(itemData[item]) ?
+                                            itemData[item].map( (member, idx) => 
+                                                <span className="member" key={idx}>{member}</span> 
+                                            ) :
+                                            itemData[item]
+                                        }
+                                    </span>
                                 </div>
                             );
                         })

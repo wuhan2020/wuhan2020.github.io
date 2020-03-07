@@ -6,7 +6,9 @@ import Language from "../../components/language";
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import CountryMapList from './countryMapItem';
+import TeamItemList from './teamItemList';
 import HackathonProgress from './hackathonProgress';
+
 import './index.scss';
 
 const mockMilestones = [{
@@ -36,7 +38,7 @@ class HackathonKanban extends Language {
     render() {
         const language = this.language;
         const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonKanban');
-        const { kanbanTimer, contentTitle, badgeCards } = dataSource;
+        const { kanbanTimer, contentTitle, badgeCards, teamData} = dataSource;
 
         // Data for 11 badge cards (divided into 3 sections)
         const firstItemList = ['country', 'participant', 'team', 'star'].map(item => badgeCards[item]);
@@ -76,6 +78,11 @@ class HackathonKanban extends Language {
                             <BadgeCardList itemList={thirdItemList} />
                         </section>
                         <section className="preliminary-round">
+                            <div className="section-title">{teamData.sectionTitle}</div>
+                            <div className="section-description">{teamData.sectionDescription}</div>
+                            <div className="team-list-wrapper">
+                                <TeamItemList teamListData={teamData.list} tableHeader={teamData.tableHeader} viewport='mobile' />
+                            </div>
                         </section>
                     </article>
                 </main>
