@@ -11,7 +11,7 @@ const propTypes = {
     itemStyle: PropTypes.object.isRequired
 };
 const BadgeCardItem = (props) => {
-    const { quantity, title, icon, bgColor, itemStyle } = props;
+    const { quantity, title, icon, bgColor } = props;
     return (
         <div className="badge-card-item" style={{backgroundColor: bgColor}}>
             <p className="quantity">{quantity}</p>
