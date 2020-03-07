@@ -4347,6 +4347,63 @@ html {
     .kanban-page section.badge-card-list-first {
       width: 350px;
       margin: 0 auto; }
+.progress_wrapper {
+  width: 12px;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative; }
+  .progress_wrapper .progress_background {
+    position: absolute;
+    left: 33.33%;
+    background: #ffceba;
+    width: 33.33%;
+    height: 100%;
+    border-radius: 3px; }
+  .progress_wrapper .progress {
+    position: relative;
+    height: 100%; }
+    .progress_wrapper .progress .progress_bar {
+      width: 33.33%;
+      border-radius: 3px;
+      left: 33.33%;
+      height: 100%;
+      background: #d9452b;
+      position: absolute; }
+    .progress_wrapper .progress .progress_ball {
+      position: absolute;
+      bottom: 0;
+      left: -1px;
+      width: 14px;
+      height: 14px;
+      background-color: #d9452b;
+      border-radius: 50%; }
+.hackathon_progress_wrapper {
+  padding: 20px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px; }
+  .hackathon_progress_wrapper .progress_title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000; }
+  .hackathon_progress_wrapper .progress_date_list {
+    margin-top: 10px;
+    position: relative; }
+    .hackathon_progress_wrapper .progress_date_list .date_list {
+      margin: 0 10px 0 30px;
+      display: flex;
+      flex-direction: column; }
+      .hackathon_progress_wrapper .progress_date_list .date_list .date_item {
+        display: flex;
+        padding: 4px; }
+        .hackathon_progress_wrapper .progress_date_list .date_list .date_item > span:nth-child(1) {
+          flex: 2; }
+        .hackathon_progress_wrapper .progress_date_list .date_list .date_item > span:nth-child(2) {
+          flex: 3; }
+    .hackathon_progress_wrapper .progress_date_list .vertical_progress {
+      position: absolute;
+      left: 30%;
+      top: 0; }
 .badge-card-list {
   width: 350px;
   margin: 0 auto;
@@ -4354,30 +4411,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-.badge-card-item {
-  width: 168px;
-  height: 168px;
-  position: relative;
-  border-radius: 20px;
-  padding: 25px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-bottom: 10px; }
-  .badge-card-item .quantity {
-    width: 100%;
-    margin-bottom: 6px;
-    font-family: PingFang SC, sans-serif;
-    color: white;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px; }
-  .badge-card-item .title {
-    margin-bottom: 6px;
-    font-family: PingFang SC, sans-serif;
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px; }
 .timer-wrapper .time-slot span.text {
   position: absolute;
   left: 0;
@@ -4443,3 +4476,27 @@ html {
         font-weight: 600;
         font-size: 15px;
         color: #D9452B; }
+.badge-card-item {
+  width: 168px;
+  height: 168px;
+  position: relative;
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 10px; }
+  .badge-card-item .quantity {
+    width: 100%;
+    margin-bottom: 6px;
+    font-family: PingFang SC, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px; }
+  .badge-card-item .title {
+    margin-bottom: 6px;
+    font-family: PingFang SC, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; }
