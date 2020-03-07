@@ -655,25 +655,25 @@ export default {
     },
     badgeCards: {
       country: {
-        quantity: '30个',
+        quantity: '33个',
         title: '参赛国家',
         icon: '/images/hackathon/badge_cards/icon-1-country.svg',
         bgColor: '#D9452B'
       },
       participant: {
-        quantity: '184位',
+        quantity: '875位',
         title: '初赛报名选手',
         icon: '/images/hackathon/badge_cards/icon-2-participant.svg',
         bgColor: '#448ABD'
       },
       team: {
-        quantity: '60个',
+        quantity: '56个',
         title: '参赛团队',
         icon: '/images/hackathon/badge_cards/icon-3-team.svg',
         bgColor: '#E89C35'
       },
       star: {
-        quantity: '增长中...',
+        quantity: '6198个',
         title: 'GitHub Star',
         icon: '/images/hackathon/badge_cards/icon-4-star.svg',
         bgColor: '#D9452B'
@@ -720,7 +720,16 @@ export default {
         icon: '/images/hackathon/badge_cards/icon-11-vip.svg',
         bgColor: '#D9452B'
       }
+    },
+    teamData: {
+      sectionHeader: '',
+      sectionDescription: '',
+      tableHeader: ['id','name', 'leader', 'members', 'tutor', 'star', 'abstract'],
+      list: [
+
+      ]
     }
+
   },
   certification: {
     formText: {
