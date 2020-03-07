@@ -674,7 +674,7 @@ export default {
       star: {
         quantity: '25000个',
         itemStyle: {
-          backgroundImage: 'url(/images/hackathon/badge_cards/star-s.png)'
+          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
         } 
       },
       pv: {
