@@ -1451,6 +1451,28 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+.badge-card-item .quantity {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.badge-card-item {
+  width: 168px;
+  height: 168px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .badge-card-item .quantity {
+    width: 100%;
+    top: 25px;
+    height: 20px;
+    text-align: center;
+    font-family: PingFang SC, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px; }
 .timer-wrapper .time-slot span.text {
   position: absolute;
   left: 0;
@@ -1516,25 +1538,3 @@ html {
         font-weight: 600;
         font-size: 15px;
         color: #D9452B; }
-.badge-card-item .quantity {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto; }
-
-.badge-card-item {
-  width: 168px;
-  height: 168px;
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat; }
-  .badge-card-item .quantity {
-    width: 100%;
-    top: 25px;
-    height: 20px;
-    text-align: center;
-    font-family: PingFang SC, sans-serif;
-    color: white;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px; }
