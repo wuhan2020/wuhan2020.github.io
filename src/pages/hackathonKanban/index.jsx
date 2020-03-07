@@ -10,8 +10,8 @@ import './index.scss';
 class HackathonKanban extends Language {
 
     render() {
-        const language = ['zh-cn'];
-        const dataSource = this.getLanguageDict(language, 'hackathonKanban');
+        const language = this.language;
+        const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonKanban');
         const { kanbanTimer, contentTitle, badgeCards } = dataSource;
       
         // Data for 11 badge cards (divided into 3 sections)
@@ -21,13 +21,13 @@ class HackathonKanban extends Language {
 
         return (
             <div className="kanban-page">
-              <Header
-                currentKey="hackathon"
-                type="normal"
-                logo="/images/wuhan2020-logo-gray.png"
-                language={language}
-                onLanguageChange={this.onLanguageChange}
-              />
+                <Header
+                    currentKey="hackathon"
+                    type="normal"
+                    logo="/images/wuhan2020-logo-gray.png"
+                    language={language}
+                    onLanguageChange={this.onLanguageChange}
+                />
                 <main>
                     <article>
                         <section className="content-title">
@@ -47,7 +47,7 @@ class HackathonKanban extends Language {
                         </section>
                     </article>
                 </main>
-              <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );
     }
