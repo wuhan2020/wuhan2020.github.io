@@ -44,3 +44,23 @@ pages:
       title: 'Projects'
       keywords: 'Wuhan2020, Projects'
       description: 'Wuhan2020 projects'
+  certification:
+    # apply the certification
+    zh-cn:
+      title: '证书'
+      keywords: 'certification'
+      description: 'certification'
+    en-us:
+      title: 'certification'
+      keywords: 'certification'
+      description: 'certification'
+  hackathonKanban:
+    # apply the certification
+    zh-cn:
+      title: '黑客松看板'
+      keywords: '黑客松看板'
+      description: '黑客松看板'
+    en-us:
+      title: 'hackathon kanban'
+      keywords: 'hackathon kanban'
+      description: 'hackathon kanban'

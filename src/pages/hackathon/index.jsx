@@ -7,11 +7,49 @@ import Language from '../../components/language';
 // import HackathonItem from './hackathonItem';
 import './index.scss';
 
+const ActivityProfile = (props) => {
+	return (<div className={props.class_name}>
+				<img src={"/images/hackathon/" + props.image_name} />
+				<div className="a">
+					<h2>{props.name}</h2>
+					<p>{props.content}</p>	
+				</div>
+			</div>);
+}
+class SpeakerProfile extends React.Component {
+    constructor(props){
+		super(props);
+		this.handleMouseMove = this.handleMouseMove.bind(this);
+		this.handleMouseLeave = this.handleMouseLeave.bind(this);
+		this.state = {opacity: "opacity"}
+	}
+	handleMouseMove(props) {
+		this.setState({opacity: "transparency"})
+	}
+	handleMouseLeave(props) {
+		this.setState({opacity: "opacity"})
+	}
+	render() {		
+		return (
+			<div className="speaker" onMouseMove={this.handleMouseMove}
+				onMouseLeave={this.handleMouseLeave}>
+				<img src={"/images/hackathon/speaker/" + this.props.img} />
+				<h2>{this.props.name}</h2>
+				<h3 className={this.state.opacity}>{this.props.job}</h3>
+				<h4 className={this.state.opacity}>{this.props.introduction}</h4>
+			</div>
+		);
+	}
+}
 class Hackathon extends Language {
+    constructor(props) {
+		super(props);
+	}
     render() {
         const language = this.getLanguage();
         //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
-        // const dataSource = this.getLanguageDict(language, 'hackathon');
+		// const dataSource = this.getLanguageDict(language, 'hackathon');
+		const dataSource = this.getLanguageDict(language, 'hackathon');
         return (
             <div className="hackathon-page">
                 <Header
@@ -35,112 +73,195 @@ class Hackathon extends Language {
 				{/* <h1>Hack For <br> WuHan</h1> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h1>Hack For <br> WuHan</h1>" }}></div>
 				
-				<h2>黑客马拉松等你来战</h2>
+				<h2>{dataSource.sectionDescription}</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>线上开跑 </h3>" }}></div>
-				<button> 立即报名 </button>
+				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>" + dataSource.starter + "</h3>" }}></div>
+				<a href="https://www.bagevent.com/event/6368833?preview=1"> <button > {dataSource.application.application} </button> </a>
 				<img className="register1"  src="/images/hackathon/register1.png" />
 				<img className="register2"  src="/images/hackathon/register2.png" />
 			</div>
 		
 			<div id="hospital">
-				<p>谁也不会预计到，新冠肺炎病毒的影响如此巨大，目前它已经发展为全球性紧急事件。虽然形势不容乐观，但我们也看到很多暖心的一幕幕在上演：众多志愿者的无私奉献，大量物资用品的捐赠，火神山、雷神山医院的火速建成，多地医疗队伍的驰援，都让这个冬天变的不那么寒冷。</p>	
-			</div>
-			
+			<p>{dataSource.concepts.list[0].description}</p>	
+		</div>
+		
 			<div id="software">
 				<img src="/images/hackathon/software1.png" />
 				{/* <h1 class="software1">“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1> */}
-				<div dangerouslySetInnerHTML = {{ __html:"<h1>“开发一个有用的公益软件，<br> 比捐款十个亿还管用。” </h1>" }}></div>
+				<div dangerouslySetInnerHTML = {{ __html:"<h1>" + dataSource.slogan + "</h1>" }}></div>
 				
-				<p>而在全国对抗疫情的背后，技术支持也占据了重要的一环。民政部司长陈越良就曾公开喊话，呼吁互联网企业开发公益应用。怎么样让更多人参与其中，让信息科技等力量发挥更大的作用？</p>
+				<p>{dataSource.concepts.list[1].description}</p>
 			</div>
 			
 			
 			<div id="HackForWuhan">
 				<div className="header">
 					<img src="/images/hackathon/HackForWuHanImg0.jpeg" />
-					<h1>黑客马拉松等你来战</h1>
+					<h1>{dataSource.sectionDescription}</h1>
 					<h2>Hack for Wuhan</h2>
-					<h3> 作为Wuhan2020社区的志愿者和开发人员，我们将发起另一场活动：在 2020年2月底，启动Hack for Wuhan黑客马拉松，在此诚邀您利用自己的技能，为抗击疫情贡献一份力量！ </h3>	
+					<h3> {dataSource.concepts.list[3].description} </h3>	
 					
 				</div>
 				
-				<table>
-					<tr>
-                        <td className="HackForWuhan1">
-							<img src="/images/hackathon/HackForWuHanImg1.png" />
-							<p >我们相信黑客马拉松不仅能创造出下一个独角兽企业，还能让更多人精诚团结、共赴使命、携手抗击世界性公共卫生危机。</p>
-						</td>
-						<td className="HackForWuhan2">
-							<img src="/images/hackathon/HackForWuHanImg2.png" />
-							<p >我们期待这样的形式出现：新的构想设计、产品原型、业务或社会影响模型，我们深信所有的努力都将会产生深远的影响。</p>
-						</td>
-						<td className="HackForWuhan3">
-							<img src="/images/hackathon/HackForWuHanImg3.png" />
-							<p >让你的灵感产生更大的价值，我们会提供专业的技术支持，你将有机会与包括来自斯坦福大学、麻省理工学院、哈佛大学、Andreessen Horowitz、金沙江创业投资、Google、Facebook、ByteDance以及硅谷、中国和印度的初创公司的优秀导师团队互动。</p>	
-						</td>	
-					</tr>
-				</table>		
-				<p className="buttom">全国人民共同对抗新冠肺炎疫情的种种，将会成为一段历史，而由此而迸发出的灵感，一定还会持续闪耀。活动中每一个有价值的想法都会得到重视，在帮助抗击疫情的同时，让我们为社会创作更多的共享价值。</p>
+			</div>
+			
+			<div id="hopeful">
+				<div className="ho1">
+					<img src="/images/hackathon/HackForWuHanImg1.png" />
+					<p> {dataSource.concepts.list[4].description} </p>	
+				</div>
 				
+				<div className="ho2">
+					<img src="/images/hackathon/HackForWuHanImg2.png" />
+					<p> {dataSource.concepts.list[5].description} </p>
+				</div>
+					
+				<div className="ho3">
+					<img src="/images/hackathon/HackForWuHanImg3.png" />
+					<p> {dataSource.concepts.list[6].description} </p>	
+				</div>
+				
+				<h2 className="buttom"> {dataSource.concepts.list[7].description} </h2>
+			</div>	
+			
+			
+			
+			
+			<div id="activity">
+				<h1>{dataSource.activity.detail}</h1>
+				{dataSource.activity.activityList.map((item) => (
+                <div key={item.name}>
+                    <ActivityProfile {...item} />
+                </div>))}
+			</div>
+		
+			<div id="subject">
+				<h1>{dataSource.subject.name}</h1>
+				<div className="s1">
+					<h2>{dataSource.subject.subject_name}</h2>
+					<ul>
+						{dataSource.subject.subject.map((item, index) => (
+							<li key={index}>{item}</li>))}
+					</ul>
+				</div>
+				<div className="s2">
+					<h2>{dataSource.subject.form_name}</h2>
+					<ul>
+					{dataSource.subject.form.map((item, index) => (
+							<li key={index}>{item}</li>))}
+					</ul>		
+				</div>
 			</div>
 			
+			<div id="participant">
+				<h1>{dataSource.participant.name}</h1>
+				<div className="p1">
+					<h2>{dataSource.participant.person}</h2>
+					<ul>
+						<li>{dataSource.participant.person_description_1}</li>
+						<li>{dataSource.participant.person_description_2}</li>
+						<li>{dataSource.participant.person_description_3}</li>
+					</ul>
+				</div>
+				<div className="p2">
+					<h2>{dataSource.participant.audience}</h2>
+					<ul>
+						<li>{dataSource.participant.audience_description_1}</li>
+						<li>{dataSource.participant.audience_description_2}</li>
+						<li>{dataSource.participant.audience_description_3}</li>
+					</ul>
+				</div>
+			</div>
 			
+		
 			<div id="speaker">
-				<table>
-					<thead>
-						<th colSpan="3">演讲人和评委</th>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-						</tr>	
-						<tr>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-							<td>
-								<img src="/images/hackathon/human.png" />
-								<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							</td>
-						</tr>	
-					</tbody>	
-				</table>	
+				<h1>{dataSource.speakerTitle}</h1>
+				<div>{dataSource.speakerlist.map((item) => (
+                <div key={item.name}>
+                    <SpeakerProfile {...item} />
+                </div>))}
+            	</div>
 			</div>
 			
+			<div id="holder">
+				<h1>{dataSource.holder.main}</h1>
+				<div></div>
+				<div><img src="/images/hackathon/holder/holder1.png" /></div>
+				<div><img src="/images/hackathon/holder/holder2.png" /></div>
+				<div><img src="/images/hackathon/holder/holder3.png" /></div>
+			</div>
 			
-			<div  id="sponsor">
-				<table>
-					<thead>
-						<th colSpan="3">主办方</th>
-					</thead>
-					<tbody>
-						<tr>
-							<td><img src="/images/hackathon/007-01.png" /></td>
-							<td><img src="/images/hackathon/007-02.png" /></td>
-							<td><img src="/images/hackathon/007-03.png" /></td>
-						</tr>	
-					</tbody>	
-				</table>	
+			<div id="holder">
+				<h1>{dataSource.holder.co}</h1>
+				<div><a href="https://www.freecodecamp.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation1.png" /></a></div>
+				<div><a href="http://ceoceo.org/"><img src="/images/hackathon/holder_coorperation/holder_coorperation2.png" /></a></div>
+				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.png" /></a></div>
+				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.png" /></a></div>
+			</div>
+			
+			<div id="holder">
+				<h1>{dataSource.holder.support}</h1>
+				<div></div>
+				<div></div>
+				<div><a href="https://www.runtheworld.today/"><img src="/images/hackathon/platform_support/platform_support1.png" /></a></div>
 			</div>
 
-                    </section>
+			<div id="holder">
+				<h1>{dataSource.holder.resource}</h1>
+				<div><a href="https://developer.ibm.com/"><img src="/images/hackathon/resource/resource1.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource2.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource3.png" /></a></div>
+				<div><a href=""><img src="/images/hackathon/resource/resource4.png" /></a></div>
+			</div>
+
+			<div id="holder">
+				<h1>{dataSource.holder.media}</h1>
+				<div ><a href=""><img src="/images/hackathon/media/media1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/media/media5.png" /></a></div>
+			</div>
+			
+			<div id="holder">
+				<h1>{dataSource.holder.community}</h1>
+				<div ><a href=""><img src="/images/hackathon/community/community1.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community2.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community3.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community4.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community5.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community6.png" /></a></div> 
+				<div ><a href=""><img src="/images/hackathon/community/community7.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community8.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community9.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community10.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community11.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community12.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community13.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community14.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community15.png" /></a></div>	
+				<div ><a href=""><img src="/images/hackathon/community/community16.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community17.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community18.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community19.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community20.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community21.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community22.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community23.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community24.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community25.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community26.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community27.png" /></a></div>
+				<div ><a href=""><img src="/images/hackathon/community/community28.png" /></a></div>
+			</div>
+			
+			<div id="application">
+				<h1>{dataSource.application.application}</h1>
+				<div className="a1">
+					<p>{dataSource.application.waiting}</p>
+				</div>
+			</div>
+            </section>
 
 
             

@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.kanban-page {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    section {
+        width: 350px;
+        margin: 0 auto;
+
+        &.content-title {
+            width: 220px;
+            border-bottom: 3px solid $C6; 
+            height: 66px;
+            text-align: center;
+    
+            .content-title-text {
+                width: 100%;
+                height: 66px;
+                line-height: 66px;
+                @include font(F32B);
+                color: $C13;
+            }
+        }
+
+        &.badge-card-list-first {
+            width: 350px;
+            margin: 0 auto;
+        }
+    }
+}
