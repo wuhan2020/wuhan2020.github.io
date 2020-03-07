@@ -629,6 +629,7 @@ export default {
     }
   },
   hackathonKanban: {
+    barText: '比赛看板',
     contentTitle: '比赛看板',
     kanbanTimer: {
       title: '黑客松火爆进行中...',
@@ -774,6 +775,11 @@ export default {
         key: 'hackathon',
         text: '黑客松',
         link: '/zh-cn/hackathon/index.html',
+      },
+      {
+        key: 'hackathonKanban',
+        text: '比赛看板',
+        link: '/zh-cn/hackathonKanban/index.html',
       },
       {
         key: 'mis',
