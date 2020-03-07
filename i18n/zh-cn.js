@@ -657,25 +657,25 @@ export default {
       country: {
         quantity: '30个',
         itemStyle: {
-          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
+          backgroundImage: 'url(/images/hackathonKanban/badge_cards/country-s.png)'
         }
       },
       participant: {
         quantity: '184位',
         itemStyle: {
-          backgroundImage: 'url(/images/hackathon/badge_cards/participant-s.png)'
+          backgroundImage: 'url(/images/hackathonKanban/badge_cards/participant-s.png)'
         }
       },
       team: {
         quantity: '60个',
         itemStyle: {
-          backgroundImage: 'url(/images/hackathon/badge_cards/team-s.png)'
+          backgroundImage: 'url(/images/hackathonKanban/badge_cards/team-s.png)'
         }
       },
       star: {
         quantity: '25000个',
         itemStyle: {
-          backgroundImage: 'url(/images/hackathon/badge_cards/country-s.png)'
+          backgroundImage: 'url(/images/hackathonKanban/badge_cards/star-s.png)'
         }
       },
       pv: {
