@@ -13,7 +13,9 @@ class HackathonKanban extends Language {
         const dataSource = this.getLanguageDict(language, 'hackathonKanban');
         const { kanbanTimer, contentTitle, badgeCards } = dataSource;
         const firstItemList = ['country', 'participant', 'team', 'star'].map( item => badgeCards[item] );
-        
+        const secondItemList = ['visits', 'audience', 'community', 'exposure'].map( item => badgeCards[item] );
+        const thirdItemList = ['media', 'volunteers', 'vip'].map( item => badgeCards[item] );
+
         return (
             <div className="kanban-page">
                 <main>
@@ -25,7 +27,13 @@ class HackathonKanban extends Language {
                             <KanbanTimer {...kanbanTimer} />
                         </section>
                         <section className="badge-card-list-first">
-                            <BadgeCardList itemList={firstItemList} /> 
+                            <BadgeCardList itemList={firstItemList} />
+                        </section>
+                        <section className="badge-card-list-second">
+                            <BadgeCardList itemList={secondItemList} />
+                        </section>
+                        <section className="badge-card-list-third">
+                            <BadgeCardList itemList={thirdItemList} />
                         </section>
                     </article>
                 </main>
