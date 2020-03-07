@@ -33,8 +33,8 @@ const mockMilestones = [{
 class HackathonKanban extends Language {
 
     render() {
-        const language = ['zh-cn'];
-        const dataSource = this.getLanguageDict(language, 'hackathonKanban');
+        const language = this.language;
+        const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonKanban');
         const { kanbanTimer, contentTitle, badgeCards } = dataSource;
 
         // Data for 11 badge cards (divided into 3 sections)

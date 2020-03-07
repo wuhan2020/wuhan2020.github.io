@@ -15,6 +15,8 @@
             border-bottom: 3px solid $C6; 
             height: 66px;
             text-align: center;
+            margin-top: $headerHeight;
+            position: relative;
     
             .content-title-text {
                 width: 100%;
