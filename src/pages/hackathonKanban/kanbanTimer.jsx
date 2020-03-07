@@ -12,7 +12,7 @@ class KanbanTimer extends React.Component {
         };
     }
 
-    getTimeDiffFrom = (start) => {
+    getTimeDiffFrom (start) {
         let diffMs = new Date().getTime() - new Date(start).getTime();
         let diminution = 0;
         const [dayMs, hourMs, minuteMs, secondMs] = [1000 * 60 * 60 * 24, 1000 * 60 * 60, 1000 * 60, 1000 ];
@@ -35,6 +35,11 @@ class KanbanTimer extends React.Component {
         }, 1000); 
 
         this.setState( {interval} );   
+    }
+
+    componentWillUnMount() {
+        const { interval } = this.state;
+        clearInterval(interval);
     }
 
     render() {
