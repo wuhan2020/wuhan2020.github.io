@@ -5,17 +5,6 @@ require('echarts/map/js/world');
 const countryArray = ['中国',	'厄瓜多尔',	'澳大利亚',	'马来西亚',	'俄罗斯',	'加拿大',	'印度',	'印度尼西亚',	'圣卢西亚',	'孟加拉国',	'巴西',	'巴基斯坦',	'德国',	'斯里兰卡',	'新加坡',	'新西兰',	'日本',	'法国',	'泰国',	'瑞典',	'秘鲁',	'美国',	'肯尼亚',	'荷兰',	'葡萄牙',	'阿联酋',	'阿根廷',	'韩国',	'马尔代夫',	'墨西哥',	'布基纳法索',	'古巴',	'英国']
 const nameMap = {'China': '中国', 	 'Ecuador': '厄瓜多尔',	 'Australia': '澳大利亚',	 'Malaysia': '马来西亚',	 'Russia': '俄罗斯',	 'Canada': '加拿大',	 'India': '印度',	 'Indonesia': '印度尼西亚',	 'Saint Lucia': '圣卢西亚',	 'Bangladesh': '孟加拉国',	 'Brazil': '巴西',	 'Pakistan': '巴基斯坦',	 'Germany': '德国',	 'Sri Lanka': '斯里兰卡',	 'Singapore': '新加坡',	 'New Zealand': '新西兰',	 'Japan': '日本',	 'France': '法国',	 'Thailand': '泰国',	 'Sweden': '瑞典',	 'Peru': '秘鲁',	 'United States': '美国',	 'Kenya': '肯尼亚',	 'Netherlands': '荷兰',	 'Portugal': '葡萄牙',	 'United Arab Emirates': '阿联酋',	 'Argentina': '阿根廷',	 'Korea': '韩国',	 'Maldives': '马尔代夫',	 'Mexico': '墨西哥',	 'Burkina Faso': '布基纳法索',	 'Cuba': '古巴',	 'United Kingdom': '英国'};
 
-const mockData = [
-    {
-        name: "中国",
-        value: 10
-    },
-    {
-        name: "美国",
-        value: 5
-    }
-];
-
 function convertData(data) {
   let res = [];
   for (let i = 0; i < data.length; i++) {
