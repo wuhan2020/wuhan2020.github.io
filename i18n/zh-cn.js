@@ -722,8 +722,8 @@ export default {
       }
     },
     teamData: {
-      sectionHeader: '',
-      sectionDescription: '',
+      sectionTitle: '初赛团队',
+      sectionDescription: '共有来自20个国家的1万人报名黑客松，组成350支队伍加入初赛',
       tableHeader: ['name', 'leader', 'members', 'tutor', 'abstract'],
       list: [
         {"id":"1","name":"认识病毒","leader":"Rug","members":["Rug"],"tutor":"-","abstract":"关于病毒的一个趣味性教育App"},
