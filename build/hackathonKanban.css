@@ -1,3 +1,75 @@
+.timer-wrapper .time-slot span.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.timer-wrapper .time-slot span.time {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.timer-wrapper {
+  width: 350px;
+  height: 223px;
+  margin-top: 15px;
+  padding-top: 25px;
+  background: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; }
+  .timer-wrapper .timer-title {
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    font-family: PingFang SC, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: black; }
+  .timer-wrapper .timer-board {
+    width: 350px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .timer-wrapper .time-slot {
+    position: relative;
+    width: 76px;
+    height: 94px;
+    background: linear-gradient(to bottom, #ffece3 0 47%, white 47% 53%, #ffece3 53% 100%);
+    border-radius: 12px; }
+    .timer-wrapper .time-slot span {
+      width: 100%;
+      display: inline-block;
+      text-align: center; }
+      .timer-wrapper .time-slot span.time {
+        height: 50px;
+        font-family: PingFang SC, sans-serif;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        color: #D9452B; }
+      .timer-wrapper .time-slot span.text {
+        height: 21px;
+        bottom: 2px;
+        font-family: PingFang SC, sans-serif;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #D9452B; }
+.badge-card-list {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -1441,68 +1513,28 @@ html {
         font-weight: 700;
         font-size: 32px;
         color: #4a4a4a; }
-.timer-wrapper .time-slot span.text {
+    .kanban-page section.badge-card-list-first {
+      width: 350px;
+      margin: 0 auto; }
+.badge-card-item .quantity {
   position: absolute;
   left: 0;
   right: 0;
   margin: auto; }
 
-.timer-wrapper .time-slot span.time {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto; }
-
-.timer-wrapper {
-  width: 350px;
-  height: 223px;
-  margin-top: 15px;
-  padding-top: 25px;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; }
-  .timer-wrapper .timer-title {
+.badge-card-item {
+  width: 168px;
+  height: 168px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .badge-card-item .quantity {
     width: 100%;
-    height: 36px;
+    top: 25px;
+    height: 20px;
     text-align: center;
     font-family: PingFang SC, sans-serif;
     color: white;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    color: black; }
-  .timer-wrapper .timer-board {
-    width: 350px;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .timer-wrapper .time-slot {
-    position: relative;
-    width: 76px;
-    height: 94px;
-    background: linear-gradient(to bottom, #ffece3 0 47%, white 47% 53%, #ffece3 53% 100%);
-    border-radius: 12px; }
-    .timer-wrapper .time-slot span {
-      width: 100%;
-      display: inline-block;
-      text-align: center; }
-      .timer-wrapper .time-slot span.time {
-        height: 50px;
-        font-family: PingFang SC, sans-serif;
-        color: white;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 34px;
-        color: #D9452B; }
-      .timer-wrapper .time-slot span.text {
-        height: 21px;
-        bottom: 2px;
-        font-family: PingFang SC, sans-serif;
-        color: white;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        color: #D9452B; }
+    font-size: 24px; }
