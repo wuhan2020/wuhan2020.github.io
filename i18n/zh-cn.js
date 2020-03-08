@@ -675,7 +675,7 @@ export default {
       star: {
         quantity: '6198个',
         title: 'GitHub Star',
-        icon: '/images/hackathon/badge_cards/icon-4-star.svg',
+        icon: '/images/hackathon/badge_cards/icon-4-github-star.svg',
         bgColor: '#D9452B'
       },
       visits: {
