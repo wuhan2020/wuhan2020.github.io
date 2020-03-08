@@ -64,3 +64,13 @@ pages:
       title: 'hackathon kanban'
       keywords: 'hackathon kanban'
       description: 'hackathon kanban'
+  testAsyncReactHooks:
+    # apply the certification
+    zh-cn:
+      title: 'test page'
+      keywords: 'test page'
+      description: 'test page'
+    en-us:
+      title: 'test'
+      keywords: 'test'
+      description: 'test'
