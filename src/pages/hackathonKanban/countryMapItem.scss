@@ -25,7 +25,7 @@
         margin: 10px 4% 0 0;
 
         .content-text {
-            display: inline;
+            display: inline-block;
             margin-left: 4%;
             white-space: nowrap;
             @include font(F14);
