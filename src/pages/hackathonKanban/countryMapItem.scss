@@ -9,7 +9,7 @@
 
     .content-title {
         width: 220px;
-        border-bottom: 3px solid $C6; 
+        border-bottom: 3px solid $C6;
         text-align: center;
         margin: auto;
 
@@ -22,11 +22,13 @@
 
     .content {
         text-align: center;
-        margin: 10px 4% 0 0;
+        margin: 10px auto;
+        width: 80%;
 
         .content-text {
             display: inline;
-            margin-left: 4%;
+            margin-left: 2%;
+            margin-right: 2%;
             white-space: nowrap;
             @include font(F14);
             color: $C14;
