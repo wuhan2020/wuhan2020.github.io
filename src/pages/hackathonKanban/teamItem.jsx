@@ -20,9 +20,7 @@ const headerLangMap = {
 const TeamItem = (props) => {
     const { viewport, tableHeader, itemData } = props;
     const headerClone = [...tableHeader];
-    // console.log(headerClone)
     headerClone.pop();
-    console.log(headerClone)
 
     return (
         <div className="team-item-wrapper">
