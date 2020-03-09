@@ -20,7 +20,9 @@ const headerLangMap = {
 const TeamItem = (props) => {
     const { viewport, tableHeader, itemData } = props;
     const headerClone = [...tableHeader];
+    // console.log(headerClone)
     headerClone.pop();
+    console.log(headerClone)
 
     return (
         <div className="team-item-wrapper">
@@ -38,7 +40,7 @@ const TeamItem = (props) => {
                                             itemData[item].map( (member, idx) => 
                                                 <span className="member" key={idx}>{member}</span> 
                                             ) :
-                                            itemData[item]
+                                            ((item === 'name') ? itemData['id'] + '. ' : '') + itemData[item]
                                         }
                                     </span>
                                 </div>
@@ -56,7 +58,7 @@ const TeamItem = (props) => {
                 tableHeader.map( (item, idx) => {
                     return (
                         <div className={`team-item ${item}`} key={idx} >
-                            <span className="content">{itemData[item]}</span>
+                            <span className="content">{((item === 'name') ? itemData['id'] + '. ' : '') + itemData[item]}</span>
                         </div>
                     );
                 })
