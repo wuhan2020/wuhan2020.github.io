@@ -624,7 +624,7 @@ export default {
       community: '社区合作'
     },
     application: {
-      application: '立即报名',
+      application: '查看比赛',
       waiting: '敬请期待'
     }
   },
@@ -847,11 +847,6 @@ export default {
         key: 'hackathon',
         text: '黑客松',
         link: '/zh-cn/hackathon/index.html',
-      },
-      {
-        key: 'hackathonKanban',
-        text: '比赛看板',
-        link: '/zh-cn/hackathonKanban/index.html',
       },
       {
         key: 'mis',
