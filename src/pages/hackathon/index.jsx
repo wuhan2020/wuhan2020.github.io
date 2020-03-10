@@ -5,6 +5,8 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
 // import HackathonItem from './hackathonItem';
+import { getLink } from '../../../utils';
+
 import './index.scss';
 
 const ActivityProfile = (props) => {
