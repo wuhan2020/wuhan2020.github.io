@@ -521,7 +521,7 @@ export default {
       community: 'Community cooperation'
     },
     application: {
-      application: 'Apply now',
+      application: 'Watch contest',
       waiting: 'Stay tuned'
     }
   },
