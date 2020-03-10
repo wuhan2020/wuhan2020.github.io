@@ -255,12 +255,6 @@ class Hackathon extends Language {
 				<div ><a href=""><img src="/images/hackathon/community/community28.png" /></a></div>
 			</div>
 
-			<div id="application">
-				<h1>{dataSource.application.application}</h1>
-				<div className="a1">
-					<p>{dataSource.application.waiting}</p>
-				</div>
-			</div>
             </section>
 
 
