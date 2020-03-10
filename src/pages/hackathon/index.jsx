@@ -76,7 +76,7 @@ class Hackathon extends Language {
 				<h2>{dataSource.sectionDescription}</h2>
 				{/* <h3>2月27-28日<br>线上开跑 </h3> */}
 				<div dangerouslySetInnerHTML = {{ __html:"<h3>3月6-8日<br>" + dataSource.starter + "</h3>" }}></div>
-				<a href="../hackathonKanban/index.html"> <button style={{ cursor: "pointer" }}> {dataSource.application.application} </button> </a>
+				<a href={getLink(`/${language}/hackathonKanban/index.html`)}> <button style={{ cursor: "pointer" }}> {dataSource.application.application} </button> </a>
 				<img className="register1"  src="/images/hackathon/register1.png" />
 				<img className="register2"  src="/images/hackathon/register2.png" />
 			</div>
