@@ -4,6 +4,10 @@ import './index.scss';
 
 const TestAsyncReactHooks = () => {
   const [ count, setCount ] = useState(0);
+  // const count = 'zero';
+  // const handleClick = () => {
+  //     () => setCount(count => count + 1);
+  // };
   const [ response, setResponse ] = useState('no result');
 
   const resolveAfter10Seconds = () =>{
