@@ -14,19 +14,18 @@ import VerticalProgress from './components/VerticalProgress';
 function getDates(timeStart, timeEnd) {
     const startMoment = moment(timeStart)
     const diffDay = moment(timeEnd).diff(startMoment, 'days') + 1;
-    const today = moment().format('YYYY/MM/DD');
+    const today = moment().format('YYYY-MM-DD');
     const nowDiffDay = moment(timeEnd).diff(today, 'days');
 
     return {
-        dates: Array.from({ length: diffDay }).map((_, key) => startMoment.add(key ? 1 : 0, 'days').format('MM/DD')),
+        dates: Array.from({ length: diffDay }).map((_, key) => startMoment.add(key ? 1 : 0, 'days').format('MM-DD')),
         num: diffDay,
-        precent: (diffDay - nowDiffDay) / diffDay
+        percent: Math.min( (diffDay - nowDiffDay) / diffDay, 1)
     }
 }
 
 const HackathonProgress = ({ title, timeStart, timeEnd, mileStones }) => {
-    const { dates, num, precent } = getDates(timeStart, timeEnd);
-
+    const { dates, num, percent } = getDates(timeStart, timeEnd);
     return <div className="hackathon_progress_wrapper">
         <div className="progress_title">
             {title}
@@ -44,7 +43,7 @@ const HackathonProgress = ({ title, timeStart, timeEnd, mileStones }) => {
                 }
             </div>
             <div className="vertical_progress" style={{ height: num * (21 + 8) }}>
-                <VerticalProgress precent={precent} />
+                <VerticalProgress percent={percent} />
             </div>
         </div>
     </div>
@@ -63,4 +62,4 @@ HackathonProgress.propTypes = {
         event: PropTypes.string,
         color: PropTypes.string
     }))
-}
+};
