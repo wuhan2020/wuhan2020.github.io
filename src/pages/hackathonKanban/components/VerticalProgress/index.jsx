@@ -8,13 +8,13 @@
 import React from "react";
 import "./index.scss";
 
-const Progress = ({ precent, total, progress }) => {
-    const mPrecent = precent || progress / total;
+const Progress = ({ percent, total, progress }) => {
+    const mPercent = percent || progress / total;
 
     return (
         <div className="progress_wrapper">
             <div className="progress_background" />
-            <div className="progress" style={{ height: `calc(${mPrecent * 100}% - 8px)` }}>
+            <div className="progress" style={{ height: `calc(${mPercent * 100}% - 8px)` }}>
                 <div className="progress_bar" />
                 <div className="progress_ball" />
             </div>

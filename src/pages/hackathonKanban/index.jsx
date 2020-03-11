@@ -12,23 +12,23 @@ import HackathonProgress from './hackathonProgress';
 import './index.scss';
 
 const mockMilestones = [{
-    time: '02/28',
+    time: '02-28',
     event: '热身',
     color: ''
 }, {
-    time: '02/29',
+    time: '02-29',
     event: '注册 入群 预热 组队',
     color: ''
 }, {
-    time: '03/06',
+    time: '03-06',
     event: '初赛',
     color: ''
 }, {
-    time: '03/07',
+    time: '03-07',
     event: '提交项目截止',
     color: ''
 }, {
-    time: '03/08',
+    time: '03-08',
     event: '决赛',
     color: ''
 }]
@@ -72,7 +72,7 @@ class HackathonKanban extends Language {
                             <BadgeCardList itemList={secondItemList} />
                         </section>
                         <section>
-                            <HackathonProgress title="当前比赛进程" timeStart="2020/02/28" timeEnd="2020/03/08" mileStones={mockMilestones} />
+                            <HackathonProgress title="当前比赛进程" timeStart="2020-02-28" timeEnd="2020-03-08" mileStones={mockMilestones} />
                         </section>
                         <section className="badge-card-list-third">
                             <BadgeCardList itemList={thirdItemList} />
