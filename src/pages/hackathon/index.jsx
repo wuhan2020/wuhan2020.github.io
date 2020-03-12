@@ -52,6 +52,7 @@ class Hackathon extends Language {
         //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
 		// const dataSource = this.getLanguageDict(language, 'hackathon');
 		const dataSource = this.getLanguageDict(language, 'hackathon');
+        const sponsorSource = this.getLanguageDict(language, 'sponsors');
         return (
             <div className="hackathon-page">
                 <Header
@@ -200,7 +201,14 @@ class Hackathon extends Language {
 				<div><a href="https://www.linkstars.com/"><img src="/images/hackathon/holder_coorperation/holder_coorperation3.png" /></a></div>
 				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.png" /></a></div>
 			</div>
-
+            <div id="holder">
+                <h1>Sponsor</h1>
+				{sponsorSource.list.map((item, index) => (
+					<div key={index}>
+                        <a href={item.link}><img src="/images/hackathon/" + {item.image} />
+                        </a>
+                    </div>))}
+            </div>
 			<div id="holder">
 				<h1>{dataSource.holder.support}</h1>
 				<div></div>
@@ -249,9 +257,7 @@ class Hackathon extends Language {
 				<div ><a href=""><img src="/images/hackathon/community/community20.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community21.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community22.png" /></a></div>
-				<div ><a href=""><img src="/images/hackathon/community/community23.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community24.png" /></a></div>
-				<div ><a href=""><img src="/images/hackathon/community/community25.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community26.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community27.png" /></a></div>
 				<div ><a href=""><img src="/images/hackathon/community/community28.png" /></a></div>
