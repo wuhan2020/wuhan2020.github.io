@@ -766,31 +766,30 @@ export default {
         {"id":"38","name":"smart疫情防控大屏","leader":"Nimo","members":["nimo:120160209@qq.com"],"tutor":"-","abstract":"smart疫情防控指挥大屏；更直观的展示疫情状态，辅助疫情指挥决策分析"}
      ],
     },
-    finalTeamData: {
-      sectionHeader: '',
-      sectionDescription: '',
-      teamIdList: []
-    },
     winningTeamData: {
       first: {
         desc: "一等奖",
-        teamIdList: []
+        teamIdList: [15]
       },
       second: {
         desc: "二等奖",
-        teamIdList: []
+        teamIdList: [37,30]
       },
       third: {
         desc: "三等奖",
-        teamIdList: []
+        teamIdList: [25,2,20]
       },
       audienceFavorite: {
         desc: "观众最喜爱奖",
-        teamIdList: []
+        teamIdList: [4]
       },
       tutorFavorite: {
         desc: "导师最喜爱奖",
-        teamIdList: []
+        teamIdList: [22]
+      },
+      final: {
+        desc: "入围决赛",
+        teamIdList: [6,12,14,26]
       },
     }
   },
