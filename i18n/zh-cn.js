@@ -910,6 +910,11 @@ export default {
           text: '京东智联云',
           link: 'https://www.jdcloud.com/cn/?utm_source=PMM_wuhan&utm_medium=wechat&utm_campaign=ReadMore&utm_term=NA',
           target: '_blank'
+        },
+        {
+          text: 'AWS 云服务',
+          link: 'https://aws.amazon.com/',
+          target: '_blank'
         }
       ]
     },
