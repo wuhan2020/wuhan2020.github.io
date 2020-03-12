@@ -205,7 +205,7 @@ class Hackathon extends Language {
                 <h1>Sponsor</h1>
 				{sponsorSource.list.map((item, index) => (
 					<div key={index}>
-                        <a href={item.link}><img src="/images/hackathon/" + {item.image} />
+                        <a href={item.link}><img src={"/images/hackathon/" + item.image} />
                         </a>
                     </div>))}
             </div>
