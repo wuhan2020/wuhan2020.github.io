@@ -52,7 +52,7 @@ class Hackathon extends Language {
         //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
 		// const dataSource = this.getLanguageDict(language, 'hackathon');
 		const dataSource = this.getLanguageDict(language, 'hackathon');
-        const sponsorSource = this.getLanguageDict(language, 'sponsors');
+        const sponsorSource = this.getLanguageDict(language, 'site').sponsors;
         return (
             <div className="hackathon-page">
                 <Header
