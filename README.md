@@ -13,10 +13,10 @@ Please also make sure your node version is higher than 8.x.
 
 ## Build instruction
 
-2. Run `npm i` in the root directory to install the dependencies.
-3. Run `npm run start` in the root directory to start a local server, you will see the website in 'http://127.0.0.1:8080'.
-4. Run `npm run build` to build source code.
-5. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
+1. Run `npm i` in the root directory to install the dependencies.
+1. Run `npm run start` in the root directory to start a local server, you will see the website in 'http://127.0.0.1:8080'.
+1. Run `npm run build` to build source code.
+1. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
 
 If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
 
