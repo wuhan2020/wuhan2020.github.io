@@ -632,7 +632,7 @@ export default {
     barText: '比赛看板',
     contentTitle: '比赛看板',
     kanbanTimer: {
-      title: '黑客松火爆进行中...',
+      title: '黑客松：2020-03-06  至03-08 ',
       from: 'March 6 2020 00:00:00 GMT+08:00',
       timeSlots: [
         {
@@ -661,13 +661,13 @@ export default {
         bgColor: '#D9452B'
       },
       participant: {
-        quantity: '875位',
+        quantity: '902位',
         title: '初赛报名选手',
         icon: '/images/hackathon/badge_cards/icon-2-participant.svg',
         bgColor: '#448ABD'
       },
       team: {
-        quantity: '56个',
+        quantity: '58个',
         title: '参赛团队',
         icon: '/images/hackathon/badge_cards/icon-3-team.svg',
         bgColor: '#E89C35'
