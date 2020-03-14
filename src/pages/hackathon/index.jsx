@@ -202,7 +202,7 @@ class Hackathon extends Language {
 				<div><a href="https://www.agora.io/"><img src="/images/hackathon/holder_coorperation/holder_coorperation4.png" /></a></div>
 			</div>
             <div id="holder">
-                <h1>Sponsor</h1>
+                <h1>{sponsorSource.title}</h1>
 				{sponsorSource.list.map((item, index) => (
 					<div key={index}>
                         <a href={item.link}><img src={"/images/hackathon/" + item.image} />
