@@ -8,21 +8,26 @@ All website material  of https://community.wuhan2020.org.cn
 
 ## Prerequisite
 
-wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please read [https://docsite.js.org](https://docsite.js.org)
+wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite).please read [https://docsite.js.org](https://docsite.js.org)
+Please make sure your version of docsite is `docsite@wuhan2020`.
 Please also make sure your node version is higher than 8.x.
 
 ## Build instruction
 
-1. Run `npm i` in the root directory to install the dependencies.
-1. Run `npm run start` in the root directory to start a local server, you will see the website in 'http://127.0.0.1:8080'.
-1. Run `npm run build` to build source code.
-1. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
+1. Run ` npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
+2. Run `npm i` in the root directory to install the dependencies.
+3. Run `docsite start` in the root directory to start a local server, you will see the website in 'http://127.0.0.1:8080'.
+4. Run `docsite build` to build source code.
+5. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
 
 If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
 
 1. Follow the [instructions](http://nvm.sh) to install nvm
 2. Run `nvm install 10` to install node 10.x
 3. Run `nvm use 10` to switch the working environment to node 10.x
+4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
+
+Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
 
 Then you are all set to run and build the website. Follow the build instruction above for the details.
 
