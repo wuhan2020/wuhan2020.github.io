@@ -342,185 +342,197 @@ export default {
     sectionDescription: '黑客马拉松等你来战',
     speakerlist: [
       {
-          name:"Huimin Lu",
+          name:"逯慧敏",
           img:"Lu_Huimin.jpeg",
-          job:"Microsoft Cloud and AI Strategy Sr Manager",
-          introduction:"I worked closely with the product to figure out product roadmap and go to market strategy.",
+          job:"微软云和AI战略高级经理",
+          introduction:"Huimin在微软总部担任云及AI战略高级经理。她与产品团队紧密合作制定产品路标及市场进入及推广策略。",
       },
       {
-          name:"Chun Jiang",
+          name:"蒋寸寸",
           img:"Chun_Jiang.jpeg",
-          job:"Product Design @ Scale AI",
-          introduction:"Driven to create unique products that foster connection and innovation, Chun has had experience with consumer-facing product design, machine learning, data design, IoT, design system, and autonomous driving. Chun is now leading 3D annotation & data product design at Scale AI. Previously worked at Uber. Undergraduate & Graduate degrees at Cornell.",
+          job:"产品设计师@Scale AI",
+          introduction:"蒋寸寸是Scale AI的产品设计师。她致力于创建促进连接和创新的独特产品，在面向消费者的产品设计，机器学习，数据设计，物联网，设计系统和自动驾驶方面拥有丰富的经验。 Chun现在Scale AI领导3D标注和数据产品设计。 之前在优步工作。 康奈尔大学本科和研究生学位。",
       },
       {
-          name:"Jason Gui",
+          name:"桂家勋",
           img:"Jason_Gui.jpeg",
           job:"Vue Glasses CTO",
-          introduction:"As founder of Vigo and Vue, Jason has created innovative hardware products and raised over $2 million USD through Kickstarter. Jason brings a background of mechanical and electrical engineering, marketing, production, and business expertise.",
+          introduction:"作为Vigo和Vue的创始人，Jason开发了创新的硬件产品，并通过Kickstarter筹集了超过200万美元资金。 Jason拥有机械和电气工程，市场营销，生产和商科专业背景。",
       },
       {
           name:"Zhiyang Wang",
           img:"Zhiyang_Wang.jpeg",
-          job:"Facebook Software Engineer",
-          introduction:"Let's see how we can help Wuhan by HACKING! Have been hacking in Facebook for 6 years across multiple products on mobile, on web, for users, for advertisers, for creators, from US, from LATAM and also from China! Let's unite everyone everywhere!",
+          job:"Facebook软件工程师",
+          introduction:"让我们通过HACKING帮助武汉！ Sean在Facebook \"Hack\"了六年，横跨移动端、网页端产品，面向用户、广告商、创作者，他们来自美国，拉美，还有中国。让我们联合抗\“疫\”！",
       },
       {
           name:"Claire Li",
           img:"Claire_Li.jpeg",
-          job:"Pinterest, Sr.Software Engineer",
-          introduction:"Claire is a product builder, open source contributor, and Sr. engineer at Pinterest. She has built a open source project with 500+ stars on GitHub and holds two patents. She has shipped products to millions of users in eCommerce, payment and social media space. Claire also runs a community of aspiring entrepreneurs. She received her bachelor in CS from UC-Berkeley.",
+          job:"Pnterest 高级软件工程师",
+          introduction:"Claire是Pinterest的产品构建者、开源贡献者和高级工程师。 她在GitHub上建立的开源项目有500多颗星并拥有两项专利。 她的产品拥有数百万电商、支付、社交媒体的用户。Claire还运营创业者社区。 获加州大学伯克利分校计算机科学学士学位。",
       },
       {
           name:"Matth Zhao",
           img:"Zhao_Matthew.jpeg",
-          job:"Google/Software Engineer",
-          introduction:"Matt is currently an enginner at Google and previously worked at Snapchat(2015-2019). Matt got his master and bachelor's degrees in CS from  Rice University. He attended various hackathons while in school and is excited to offer technical support for 'Hack for Wuhan'.",
+          job:"Google 软件工程师",
+          introduction:"Matt是Google的工程师，于2015-2019在Snapchat工作。 Matt获莱斯大学CS硕士学位和学士学位。 他在校期间参加过各种黑客松比赛，并很高兴为“ Hack for Wuhan”提供技术支持。",
       },
       {
           name:"Haimo Liu",
           img:"Haimo_Liu.jpeg",
-          job:"Alibaba Cloud, Staff Product Manager",
-          introduction:"'We can't help everyone, but everyone can help someone.' Wuhan might not be your home town or home country, but we are all part of this global community. Helping others in this community not only makes this community better, but also makes you feel great in the process.",
+          job:"阿里云主任产品经理",
+          introduction:"“我们不能帮助所有人，但每个人都可以帮助某人。” 武汉可能不是您的故乡，但我们都是全球社区的一分子。 帮助他人不仅让社区变得更好，也让我们在此过程中感觉良好。",
       },
       {
           name:"Tianyu Bao",
           img:"Tianyu_Bao.jpeg",
-          job:"Product Manager at Uber",
-          introduction:"I'm a product manager at Uber Eats, dedicated to offering a seamless food delivery experience to our users. As a PM, I hope to contribute my efforts to Wuhan by supporting hackers to build better product solutions.",
+          job:"Uber产品经理",
+          introduction:"我是Uber Eats的产品经理，致力于为用户提供无缝的送餐体验。 作为产品经理，我希望通过支持开发者构建更好的产品解决方案，为武汉做出自己的努力。",
       },
       {
-          name:"Xander Wu",
+          name:"吴雪",
           img:"Xander_Wu.jpeg",
-          job:"Founder of Hack for Wuhan@wuhan2020",
-          introduction:"As the founder of Hack for Wuhan @wuhan2020, Xander is passionate about working with you to align social and commercial value, tailor product-market fit, and seek go-to-market fit.He has achieved many #1 in global 4G and 5G market and advised a number of startups in B2B business growth.",
+          job:"Hack for Wuhan发起人，wuhan2020成员",
+          introduction:"作为Hack for Wuhan的发起人和组织者，吴雪致力于探索社会价值和商业价值的结合，并且在寻找产品/市场契合度和市场推广方面有丰富经验。他在全球4G和5G领域取得了多项业界第一，并为初创公司担任B2B业务增长方面的顾问。",
       },
       {
           name:"Borui Wang",
           img:"Borui_Wang.jpeg",
-          job:"Polarr, Founder and CEO",
-          introduction:"Borui started Polarr in 2015 after he graduated from Stanford studying Computer Science. Today Polarr powers millions of creators to craft their own creative styles. The company's apps have won Apple Best of App Store three times over the last four years; its computational photography engine also powers key systems in flagship consumer devices made by Samsung, OPPO, etc.",
+          job:"泼辣修图，创始人、CEO",
+          introduction:"Borui毕业于斯坦福大学计算机科学专业。他于2015年创立了Polarr，其使命是将人们与美学联系起来。 如今，Polarr推动着数百万创作者制定自己的创作风格。 该公司的应用程序在过去四年中三度获得了Apple Best of App Store的称号； 其计算摄影引擎被三星、OPPO等厂商的旗舰机采用。",
       },
       {
           name:"Han Chen",
           img:"Han_Chen.jpeg",
-          job:"Software Engineer/ Blogger",
-          introduction:"Han is a Software Tech Lead engineer in one of the Silicon Valley internet company. He had the experience on Monetization solution, ads, SMB business, social media and mobile infra. He is also a Best Seller book writer. His new book The Thinking of Silicon Valley (????) achieved Top 2 New Tech book award, the Korean and English version will be published soon as well.",
+          job:"硅谷大厂软件工程师，大V博主",
+          introduction:"Han是硅谷一家互联网公司的软件技术主管工程师。 他在变现、广告、中小企业业务、社交媒体和移动基础设施方面拥有丰富的经验。 他还是畅销书作家。 他的新书《硅谷思维》获得了Top 2 New Tech图书奖，其韩文和英文版本也将很快出版。",
       },
       {
           name:"Gordon Cheng",
           img:"Gordon_Cheng.jpeg",
-          job:"Wilson Sonsini, Attorney",
-          introduction:"Gordon practices corporate and securities law in the Silicon Valley. He primarily works with tech companies and startups, but has done quite some pro bono legal work as well. He looks forward to providing legal support for the participants.",
+          job:"Wilson Sonsini, 律师",
+          introduction:"Gordon在硅谷从事公司法和证券法。 他主要与科技公司和初创公司合作，也做过很多公益法律工作。 他期待为参与者提供法律支持。",
       },
       {
-          name:"Jaggie Zhu",
+          name:"朱辰",
           img:"Jaggie_Zhu.jpeg",
-          job:"Ex-Director, AI Product Development, Byte Dance",
-          introduction:"Jaggie most recently led investment and the development of AI innovations at Bytedance. Before that, she and three Stanford GSB alumni co-founded a Beijing e-commerce startup dealing with secondhand cars. Chen started her career at P&G as a PM. Her investments range from leading self-driving AI to Craigslist.",
+          job:"前投资与AI产品总监，字节跳动",
+          introduction:"Jaggie曾在字节跳动主管投资和AI创新的开发。在此之前，她与斯坦福GSB的三位校友共同创立了一家北京二手电商创业公司。 她曾在宝洁（P＆G）担任项目经理。 她的投资范围从领先的自动驾驶AI到Craigslist。",
       },
       {
           name:"Tianyu Wu",
           img:"Tianyu_WU.jpeg",
-          job:"Ex-Director, AI Product Development, Byte Dance",
-          introduction:"Tianyu believes in the intersection between data and design. Currently working as a Sr Product designer at FB, previously in Spotify and unicorn startups. She has been teaching UX for years and has a mixed background in product and design. She strives to create simple and delightful products to help people solve problems.",
+          job:"Facebook",
+          introduction:"天宇相信数据与设计之间的交集。 她目前在FB担任高级产品设计师，之前在Spotify和独角兽初创公司工作。 她已经教了UX多年，并且在产品和设计方面有着混合的背景。 她致力于创造简单有趣的产品来帮助人们解决问题。",
       },
       {
-          name:"Jack Duan",
+          name:"段一鸣",
           img:"Jack_Duan.jpeg",
-          job:"Gliding Eagle Inc., Founder and CEO",
-          introduction:"Former Sr Technologist (Sun Microsystems) and Big Data Product Manager (Marketing Strategy, Safeway). Dual-cultural in the US and China. BS in CS, Indiana U.; MBA, Berkeley-Haas.",
+          job:"翔鹰，创始人、CEO",
+          introduction:"Jack是Sun的前高级技术员和Safeway的市场策略和大数据产品经理。他熟悉美国和中国的双重文化。获美国印第安纳州CS的学士学位； 伯克利·哈斯（MBA）学位。",
       },
       {
-          name:"Xiaoyin Qu",
+          name:"曲晓音",
           img:"Xiaoyin_Qu.jpeg",
           job:"CEO, Run The World",
-          introduction:"Xiaoyin is CEO of Run The World, a platform that enables live online events. Previously she was a senior Product Manager at Facebook and Instagram, and a bestselling author for Silicon Valley Products, a product management book published in China.",
+          introduction:"Xiaoyin是实时在线活动平台Run The World的首席执行官。 此前，她曾是Facebook和Instagram的高级产品经理，并且是畅销书《硅谷产品》（在中国发行的产品管理书）的作者。",
       },
       {
           name:"Klaus Wang",
           img:"Klaus_Wang.jpeg",
-          job:"Sequoia Capital, VP",
-          introduction:"Am working with Sequoia Capital Singapore office covering SEA and Indian market.",
+          job:"红杉资本，VP",
+          introduction:"我在红杉资本新加坡办公室，负责东南亚和印度市场。",
       },
       {
           name:"Peter Qian",
           img:"Peter_Qian.jpeg",
-          job:"covariant.ai, Head of Engineering",
+          job:"covariant.ai, 研发主管",
           introduction:"",
       },
       {
           name:"Thomas Reese",
-          img:"nobody.jpeg",
+          img:"Thomas_Reese.jpeg",
           job:"Run The World",
-          introduction:"Thomas led engineering products in Video for Facebook and co-founded FlipWord. He attained a CS Masters from the University of Illinois. He is currently the tech lead of Run the World.",
+          introduction:"Thomas领导了Video for Facebook的工程产品，并共同创立了FlipWord。 他获得了伊利诺伊大学的CS硕士学位。 他目前是Run the World的技术负责人。",
       },
       {
-          name:"Anna Fang",
+          name:"方爱之",
           img:"Anna_Fang.jpeg",
-          job:"Founding Partner & CEO at ZhenFund",
-          introduction:"Anna Fang is CEO and Partner of ZhenFund, an early stage venture capital firm in China focused on consumer Internet and technologies enabled compaines. In her role as CEO, Anna leads Zhenfund's investments, portfolio management, and operations. Anna led ZhenFund's investments in unicorns such as RED (XiaoHongShu), Perfect Diary, Mia, Club Factory, Yitu, Mobvoi, Horizon Robotics, and VIPKID.",
+          job:"真格基金创始合伙人兼首席执行官",
+          introduction:"方爱之女士是真格基金创始合伙人兼CEO，负责真格基金的投资、投资组合管理及基金的整体运营，她领导投资了小红书、完美日记、蜜芽、Club Factory、依图科技、出门问问、地平线机器人，及VIPKID在内的众多独角兽项目。",
       },
       {
-          name:"Eva Woo",
+          name:"吴莹",
           img:"Eva_Woo.jpeg",
           job:"China Program Manager",
-          introduction:"Eva is the China Program Manager at Stanford PACS. Prior to joining PACS, Eva spent 15 years as a journalist and entrepreneur focused on U.S.-China innovation and impact. A financial journalist by training, she worked as a business and economics reporter at Bloomberg, Caixin, South China Morning Post, and the Washington Post.",
+          introduction:"Eva是斯坦福PACS的中国项目经理。 在加入PACS之前，Eva从事新闻工作者和企业家工作长达15年，专注于中美的创新和影响力。作为一名接受过培训的财经记者，她曾在彭博社、财新、南华早报和华盛顿邮报担任商务和经济记者。",
       },
       {
-          name:"Big Joe",
+          name:"硅谷大舅",
           img:"Big_Joe.jpeg",
-          job:"Product Manager?Google",
-          introduction:"Joe is an experienced product manager at Google on ads, enterprise software, and video streaming products. He was innovative in measuring ads effectiveness for SMB advertisers and filed a patent in that field. Meanwhile, Joe is a frequent speaker and trainer at top MBA programs such as Wharton at UPenn and mentors many Chinese MBA students. Joe has double bachelor's degrees in CS and English from Huazhong University of Science and Technology, a Master?s degree in CS from Peking University and an MBA from Emory University.",
+          job:"Google产品经理",
+          introduction:"谷歌产品经理，在硅谷人称\"大舅\"。现湾区MBA俱乐部管理员。毕业于北京大学计算机专业，有七年Google产品经理经验，是MBA毕业后去Google总部做产品经理的第一位华人。",
       },
       {
           name:"Kate Jia",
           img:"Kate_Jia.jpeg",
-          job:"Sr Product Designer  @devicebook Product Lead of Wuhan 2020",
-          introduction:"Leading the design for most pioneer IoT products for more than 5 years. Since Jan 2020, Kate has been leading the volunteers in Wuhan2020 product team to craft the most meaningful product for this global public health situations. Graduate from Tsinghua University.",
+          job:"Wuhan 2020高级产品设计师",
+          introduction:"致力于物联网创新产品设计多年。从2020年1月开始，带领wuhan2020 的产品志愿者团队开发最有温度和深度的疫情数据产品。毕业于清华大学。",
       },
       {
-          name:"Xuan Jiang",
+          name:"蒋璇",
           img:"nobody.jpeg",
-          job:"Co-founder & CTO at Run The World",
-          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
+          job:"Run The World联合创始人兼CTO",
+          introduction:"前Facebook软件工程师，现Run The World联合创始人兼CTO。",
       },
       {
-          name:"Weili Dong",
-          img:"nobody.jpeg",
-          job:"CEO, President",
-          introduction:"",
+          name:"董韦利",
+          img:"Weili_Dong.jpeg",
+          job:"华人创业者协会 会长，斯坦福 MBA2",
+          introduction:"华尔街摸爬滚打过年，从零创办集团全球电子交易系统。在硅谷成立华人创业者协会孵化器，擅长帮助前沿科技落地包括金融在内的传统行业。作为新手妈妈，十分关注女性创业。",
       },
       {
           name:"Cindy Cao",
           img:"nobody.jpeg",
-          job:"Didi?Senior Software Engineer",
+          job:"滴滴，高级软件工程师",
           introduction:"",
       },
       {
-          name:"Wen Han",
+          name:"韩文",
           img:"Wen_Han.jpeg",
-          job:"GSR Ventures, Investor",
-          introduction:"GSR Ventures ????? was the first and biggest investor in Didi ($56bn), Eleme ($9bn), Qunar ($11bn), Xiaohongshu ($3bn), amongst other transformative companies.",
+          job:"金沙江创业投资，投资人",
+          introduction:"斯坦福大学MBA，金沙江创业投资，投资人。金沙江创投是滴滴（560亿美元），Eleme（90亿美元），去哪儿（110亿美元），Xiaohongshu（30亿美元）以及其他转型公司的最大投资者。",
       },
       {
-          name:"Xi Fang",
-          img:"nobody.jpeg",
-          job:"Founding Partner of Button",
-          introduction:"Dr Xi Fang is Founding Partner of Button",
+          name:"方晰",
+          img:"Xi_Fang.jpeg",
+          job:"Button创始合伙人",
+          introduction:"方晰博士是Button资本的创始合伙人",
       },
       {
-          name:"Rick Zhuang",
-          img:"nobody.jpeg",
-          job:"Ex-CTO, Tmall New Retail at Alibaba",
-          introduction:"Rick is a Sloan Fellow at Stanford working on a stealth startup. He spent more than a decade building Internet products and platforms in both Silicon Valley and China. Most recently he led the development of Tmall New Retail, and built and scaled Taobao Content Platform at Alibaba. When he’s not 996-ing, he enjoys reading, Lego building, trail running, and a bowl of Reganmian.",
+          name:"庄子明",
+          img:"Rick_Zhuang.jpeg",
+          job:"前CTO，阿里巴巴天猫新零售",
+          introduction:"Rick现在是斯坦福大学商学院的斯隆学者，同时也是一家初创企业的联合创始人。他在硅谷和中国的互联网行业工作了超过10年，参与并见证了移动互联网社交和电商的崛起。之前他领导了阿里巴巴天猫新零售的研发，并从零到一建立了淘宝内容电商生态的平台。在996之余，他喜欢阅读、搭乐高、长距离越野跑、和吃一碗热干面。",
       },
       {
-          name:"Huan Xu",
+          name:"许欢",
           img:"Huan_Xu.jpeg",
-          job:"Serial Entrepreneur",
-          introduction:"Graduated from Beihang University, Huan Xu co-founded ZHE800, a billion $ company. Huan Xu is a serial entrepreneur with deep insight of e-commerce product and operations.",
-      }
+          job:"连续创业者",
+          introduction:"毕业于北京航空航天大学应用数学专业，连续的互联网创业者。折800（10亿美金）联合创始人。对互联网流量、产品和运营有通透的了解。",
+      },
+	  {
+	      name:"李扬",
+	      img:"Yang_Li.jpeg",
+	      job:"wuhan2020创始人之一，AI工程师",
+	      introduction:"wuhan2020创始人之一。 控制工程硕士毕业，目前在医疗企业担任AI工程师，之前在物联网准独角兽公司工作，精通多项编程语言并发表多项核心论文及相关科研专利，有工业与互联网结合背景。“从技术出发，但远不止于技术”是他的理念。",
+	  },
+	  {
+	      name:"",
+	      img:"Xuwen_Cao.jpeg",
+	      job:"奇迹创坛合伙人",
+	      introduction:"奇绩创坛创业营合伙人，投资早期技术项目，并帮助他们从0到1加速成长。此前曹勖文毕业于斯坦福大学计算机系，曾在硅谷创业多年，两次被YCombinator选中孵化，最后项目回声锁屏被微软于2015年收购。",
+	  }
     ],
     concepts: {
       list: [
@@ -612,8 +624,173 @@ export default {
       community: '社区合作'
     },
     application: {
-      application: '立即报名',
+      application: '查看比赛',
       waiting: '敬请期待'
+    }
+  },
+  hackathonKanban: {
+    barText: '比赛看板',
+    contentTitle: '比赛看板',
+    kanbanTimer: {
+      title: '黑客松：2020-03-06  至03-08 ',
+      from: 'March 6 2020 00:00:00 GMT+08:00',
+      timeSlots: [
+        {
+          unit: 'd',
+          text: '天'
+        },
+        {
+          unit: 'h',
+          text: '时'
+        },
+        {
+          unit: 'm',
+          text: '分'
+        },
+        {
+          unit: 's',
+          text: '秒'
+        }
+      ]
+    },
+    badgeCards: {
+      country: {
+        quantity: '33个',
+        title: '参赛国家',
+        icon: '/images/hackathon/badge_cards/icon-1-country.svg',
+        bgColor: '#D9452B'
+      },
+      participant: {
+        quantity: '902位',
+        title: '初赛报名选手',
+        icon: '/images/hackathon/badge_cards/icon-2-participant.svg',
+        bgColor: '#448ABD'
+      },
+      team: {
+        quantity: '58个',
+        title: '参赛团队',
+        icon: '/images/hackathon/badge_cards/icon-3-team.svg',
+        bgColor: '#E89C35'
+      },
+      star: {
+        quantity: '6198个',
+        title: 'GitHub Star',
+        icon: '/images/hackathon/badge_cards/icon-4-github-star.svg',
+        bgColor: '#D9452B'
+      },
+      visits: {
+        quantity: '14500+',
+        title: '大赛活动浏览量',
+        icon: '/images/hackathon/badge_cards/icon-5-visits.svg',
+        bgColor: '#448ABD'
+      },
+      audience: {
+        quantity: '500+',
+        title: '赛事观摩团员',
+        icon: '/images/hackathon/badge_cards/icon-6-audience.svg',
+        bgColor: '#E89C35'
+      },
+      community: {
+        quantity: '43',
+        title: '合作社区',
+        icon: '/images/hackathon/badge_cards/icon-7-community.svg',
+        bgColor: '#E89C35'
+      },
+      exposure: {
+        quantity: '70万+',
+        title: '全网曝光度',
+        icon: '/images/hackathon/badge_cards/icon-8-exposure.svg',
+        bgColor: '#D9452B'
+      },
+      media: {
+        quantity: '5+',
+        title: '技术媒体',
+        icon: '/images/hackathon/badge_cards/icon-9-media.svg',
+        bgColor: '#448ABD'
+      },
+      volunteers: {
+        quantity: '50+',
+        title: '赛事志愿者',
+        icon: '/images/hackathon/badge_cards/icon-10-volunteers.svg',
+        bgColor: '#E89C35'
+      },
+      vip: {
+        quantity: '37位',
+        title: '硅谷大V评委，导师',
+        icon: '/images/hackathon/badge_cards/icon-11-vip.svg',
+        bgColor: '#D9452B'
+      }
+    },
+    teamData: {
+      sectionTitle: '初赛团队',
+      sectionDescription: '共有来自20个国家的1万人报名黑客松，组成350支队伍加入初赛',
+      tableHeader: ['name', 'leader', 'members', 'tutor', 'abstract'],
+      list: [
+        {"id":"1","name":"认识病毒","leader":"Rug","members":["Rug"],"tutor":"-","abstract":"关于病毒的一个趣味性教育App"},
+        {"id":"2","name":"Aid Tracker捐赠直连——捐赠对接与追踪一体化平台","leader":"Icy","members":["Victoria","毛昌启","Sheryn","Andrew","Sean","许小狼","Linsons","陈崇强","Wesley","Sheryn","Ivy","何晓姗","James"],"abstract":"捐赠对接与追踪一体化平台"},
+        {"id":"3","name":"特效药和疫苗研发团队沟通社区","leader":"Jerry权泉","members":[],"tutor":"-","abstract":"通过连接各国特效药和疫苗研发团队，促进沟通和经验分享，提高研发效率"},
+        {"id":"4","name":"高校健康打卡平台","leader":"张齐勋（沧海猎人）","members":[],"tutor":"-","abstract":"针对高校设计一套开源的可本地部署的疫情健康打卡管理平台"},
+        {"id":"5","name":"安全出行地图小程序","leader":"liuchangfreeman","members":[],"tutor":"-","abstract":"在地图上显示新冠肺炎感染情况"},
+        {"id":"6","name":"DiagnoseMe","leader":"inedibf","members":["Sy TRAORE"," Maxime KONKOBO"," Flavie Boris BAGBILA"],"tutor":"-","abstract":"Diagnosis, alert and geolocation plateform for detection of suspect cases in real time"},
+        {"id":"7","name":"病毒传播预测模型","leader":"herozabai","members":[],"tutor":"-","abstract":"模型预测每一个选择会对病毒传播趋势产生的影响"},
+        {"id":"8","name":"Geographic Map of Genomic Epidemiology","leader":"肚肚","members":[],"tutor":"－","abstract":"A Geographic map can help us understand the virus spreading history"},
+        {"id":"9","name":"数字建模分析ncov海外疫情对中国的影响","leader":"liumce1","members":[],"tutor":"-","abstract":"运用有效的数据采集建立数学模型，分析国外疫情对中国的影响，，有无疫情反转的可能，及日韩等国家对中国经济的影响"},
+        {"id":"10","name":"智能健康出行","leader":"lexi","members":[],"tutor":"-","abstract":"实时展示景区（公共场所）的人员汇集情况，以及智能规划出游路线"},
+        {"id":"11","name":"（待定：居家宅急便）","leader":"Siyu Chen ","members":["Helen Chang","Shulu Fu"],"tutor":"-","abstract":"解决疫情期间由于出行限制，物流，销售渠道受限，以及信息不对称造成的鲜蔬果，海鲜以及shelf life较短的物品供给问题 - 消费者更难买到，供给商/农民更难卖出，同时提高居家生活质量，帮助鼓励市民减少出行，从而进一步帮助控制疫情"},
+        {"id":"12","name":"中医AI诊断系统","leader":"都市熊","members":["飞龙"],"tutor":"-","abstract":"患者自己在家通过症状描述，AI系统给出专业的中医建议。"},
+        {"id":"13","name":"MapCure","leader":"楼楼 ","members":"肉饭","tutor":"-","abstract":"前线地图交互，中路助力打榜，后方信息汇总。"},
+        {"id":"14","name":"Nedelp 设计 联名 众筹","leader":"何忠豪 ","members":["团队有4名小伙伴"],"tutor":"-","abstract":"联名品牌做疫情特别版，收入的一部分短期用于抗疫，长期用来系统地为世界完善公共卫生系统以防类似瘟疫降临作准备。"},
+        {"id":"15","name":"一站式疫情数据开放平台","leader":"Sm1les","members":["胡稳","谷勇杰","陈焕森","于鸿飞","伊雪","刘广月","李青","张峰","江水","居居"],"abstract":"一个用来收集疫情数据的标注平台"},
+        {"id":"16","name":"疫城记","leader":"孔令远","members":[],"abstract":"通过高维疫情数据可视化去呈现各城市的疫情发展，通过对比不同城市的情况为决策提供依据"},
+        {"id":"17","name":"『H』(hope&happiness)","leader":"姚欣兰","members":["折光润"],"tutor":"-","abstract":"\"提供小故事、小练习等形式的精神食粮，帮助焦虑人群，重新认识我们与世界、我们与自然、我们与自己的关系。"},
+        {"id":"18","name":"医书（medical-book）","leader":"change","members":[],"tutor":"-","abstract":"一个快速发现疫情的知识型平台"},
+        {"id":"19","name":"身心医学提升免疫力社区","leader":"Belfort","members":[],"tutor":"-","abstract":"为隔离在家人员营造譬如冥想、太极这样有利于提升免疫力以及改善情绪的线上打卡和教学的环境"},
+        {"id":"20","name":"Predication + Notification","leader":"Leona","members":["Ashfaq","Abdul ","Ghaffar ","Muhammad ","Shahzad"],"tutor":"-","abstract":"\"A prediction system that will form a model to show the worst scenario when the first infected case is confirmed; therefore, sending notifications to major factories so they can prepare enough e.g. masks and disinfectant."},
+        {"id":"21","name":"“疫”记","leader":"iuming","members":[],"tutor":"-","abstract":"用户通过日记方式记录“战疫”的故事，小程序以时间线的形式来展现疫情期间人们的故事，以及不同时间段人们日记中探讨最多的关键字！"},
+        {"id":"22","name":"疫情智能机器人-小源 ","leader":"宋永乐","members":["有四位小伙伴"],"tutor":"-","abstract":"搭建小源疫情机器人，为用户提供有关疫情信息的查询"},
+        {"id":"23","name":"白疫陵园","leader":"宝塔","members":["JuliaLau","eva_chenaw"],"tutor":"-","abstract":"纪念疫情逝去的英雄人物，在线祭奠"},
+        {"id":"24","name":"SmartKG ","leader":"李烨","members":["有一位小伙伴"],"tutor":"-","abstract":"国际物资捐赠信息溯源"},
+        {"id":"25","name":"翔鹰验收","leader":"x13415822542","members":["Dingle","Panos ","Anna"],"abstract":"国际物资捐赠信息溯源"},
+        {"id":"26","name":"疫情故事商店","leader":"谢克生","members":["x13415822542"],"tutor":"-","abstract":"一个分享普通用户在疫情期间的故事，在故事商店中出售，收益转化为公益基金"},
+        {"id":"27","name":"从2020年起新生","leader":"xubicheng","members":[],"tutor":"-","abstract":"如果没有明天，请从此刻起开始热爱地球、热爱生命"},
+        {"id":"28","name":"volunteer certificate","leader":"zhaofeng","members":[],"tutor":"-","abstract":"generalize the volunteer digital certificate from a template picture and a list of names"},
+        {"id":"29","name":"智能防护面罩","leader":" eva_chenaw","members":["－"],"tutor":"-","abstract":"解决物理隔离+出行安全系数监测+其他健康贴心服务"},
+        {"id":"30","name":"City Hero","leader":"赵靓","members":["赵靓 ","惠 ","黎杨 ","植 ","小舟从此逝 ","唐雨欣"],"abstract":"以一个平凡人的视角重现一段不平凡的历史"},
+        {"id":"31","name":"寻找接触者","leader":"lfg ","members":[],"tutor":"-","abstract":"提供寻找接触过病毒者，或者寻找疑似病毒者的信息展示平台"},
+        {"id":"32","name":"求助地图","leader":"LEE","members":[],"tutor":"-","abstract":"基于地图地理位置进行求助与援助动作的平台"},
+        {"id":"33","name":"疫情命运共同体","leader":"韩布丹","members":["Kira Killerhanbudan@126.com Lucy"],"tutor":"-","abstract":"给予部分缺乏防护意识的群众以有针对的提醒"},
+        {"id":"34","name":"基于区块链的中医药溯源系统","leader":"Mars19990123","members":["rhh19980305","Mars19990123"],"abstract":"将区块链技术与供应链溯源系统相结合，利用区块链技术的优势解决疫情结束后中医药供应链溯源系统中存在的诸多问题"},
+        {"id":"35","name":"Safe Zone","leader":"13585769800","members":[],"tutor":"-","abstract":"基于公开的疑似，确诊病例发现地，根据当前地理位置推送警告通知"},
+        {"id":"36","name":"COEXvsVIRUS","leader":"ili","members":[],"tutor":"-","abstract":"\"Building a convertible multi-purpose ecosystem of drones, thus giving a wholesome answer to challenges caused by epidemics and other emergencies--- performing: "},
+        {"id":"37","name":"autovax","leader":"Tim Heath","members":["Tim Heath"],"tutor":"-","abstract":"-"},
+        {"id":"38","name":"smart疫情防控大屏","leader":"Nimo","members":["nimo:120160209@qq.com"],"tutor":"-","abstract":"smart疫情防控指挥大屏；更直观的展示疫情状态，辅助疫情指挥决策分析"}
+     ],
+    },
+    winningTeamData: {
+      first: {
+        desc: "一等奖",
+        teamIdList: [15]
+      },
+      second: {
+        desc: "二等奖",
+        teamIdList: [37,30]
+      },
+      third: {
+        desc: "三等奖",
+        teamIdList: [25,2,20]
+      },
+      audienceFavorite: {
+        desc: "观众最喜爱奖",
+        teamIdList: [4]
+      },
+      tutorFavorite: {
+        desc: "导师最喜爱奖",
+        teamIdList: [22]
+      },
+      final: {
+        desc: "入围决赛",
+        teamIdList: [6,12,14,26]
+      },
     }
   },
   certification: {
@@ -721,12 +898,26 @@ export default {
         {
           text: 'Slack',
           link: 'https://slack.com/',
-          target: '_blank'
+          target: '_blank',
+          image: 'slack.png'
         },
         {
           text: '石墨文档',
           link: 'https://shimo.im/',
-          target: '_blank'
+          target: '_blank',
+          image: 'community/community25.png'
+        },
+        {
+          text: '京东智联云',
+          link: 'https://www.jdcloud.com/cn/?utm_source=PMM_wuhan&utm_medium=wechat&utm_campaign=ReadMore&utm_term=NA',
+          target: '_blank',
+          image: 'community/community22.png'
+        },
+        {
+          text: 'AWS 云服务',
+          link: 'https://aws.amazon.com/',
+          target: '_blank',
+          image: 'aws.png',
         }
       ]
     },

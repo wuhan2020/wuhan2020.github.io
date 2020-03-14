@@ -8,7 +8,7 @@ All website material  of https://community.wuhan2020.org.cn
 
 ## Prerequisite
 
-wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite).please read [https://docsite.js.org](https://docsite.js.org)
+wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please read [https://docsite.js.org](https://docsite.js.org)
 Please make sure your version of docsite is `docsite@wuhan2020`.
 Please also make sure your node version is higher than 8.x.
 
@@ -27,7 +27,7 @@ If you have higher version of node installed, you may consider `nvm` to allow di
 3. Run `nvm use 10` to switch the working environment to node 10.x
 4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
-Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos
+Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos.
 
 Then you are all set to run and build the website. Follow the build instruction above for the details.
 

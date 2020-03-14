@@ -10,10 +10,13 @@ class CertificationContent extends React.Component {
     constructor(props) {
         super(props);
         let host = siteConfig.api;
-        if (host[host.length - 1] != '/')
-            host = host + '/'
+        
+        if (host[host.length - 1] != '/') {
+            host = host + '/';
+        }
+            
         this.state = {
-            host: host,
+            host,
             email: '',
             name: '',
             status: 'none',
@@ -23,32 +26,25 @@ class CertificationContent extends React.Component {
         };
     }
     getUserInfo(token) {
-        let api = this.state.host + 'api/getUserInfo?token=' + token;
+        const { host } = this.state;
+        let api = `${host}api/getUserInfo?token=${token}`;
         this.fetchCertificationApi(api, null, 'GET')
             .then( res => res.json() )
-            .then( (data) => {
-                 if(data.code == 0) {
+            .then( (result) => {
+                const { code, data: {email, name}, message } = result;
                    this.setState({
-                     email: data.data.email,
-                     name: data.data.name,
-                     status: 'none'
+                     email,
+                     name,
+                     message,
+                     status: code == 0 ? 'none' : 'error'
                    });
-                 } else {
-                   this.setState({
-                       email: "",
-                       name: "",
-                       status: 'error',
-                       message: data.message
-                     });
-                 }
-
              })
              .catch( (error) => {
                  console.error('Error:', error);
              });
     }
     getAlertType(status) {
-        let type = ['error', 'warn'].filter( type => status.toLowerCase().includes(type))[0];
+        let type = ['error', 'none', 'warn'].filter( type => status.toLowerCase().includes(type))[0];
         return  type || 'successful';
     }
     getParameterByName(name) {
@@ -63,53 +59,40 @@ class CertificationContent extends React.Component {
         let headers = new Headers();
         headers.append('Content-Type', 'application/json');
         let configurations = {
-            method: method,
+            method,
             mode: 'cors',
-            headers: headers,
-        }
-        if(method == 'POST')
+            headers
+        };
+
+        if (method == 'POST') {
             configurations['body'] = JSON.stringify(data);
+        }
+            
         return  fetch(api, configurations);
     };
 
     handleSubmit = (event) => {
         event.preventDefault();
 
-        /** @TODO waiting for API */
-        /** @FIXME fetch not support by IE, fixed it by using polyfill */
-        const { name, token } = this.state;
-        const api = this.state.host + "api/submitUserInfo"; // local testing api
+        const { name, token, host } = this.state;
+        const api = `${host}api/submitUserInfo`; 
         const payloadData = { name, token };
+
         this.fetchCertificationApi(api, payloadData)
             .then( res => res.json() )
-            .then( (data) => {
-                let status_text = 'notfoundWarn'
-                if(data.code == 0)
-                    status_text = 'successful'
+            .then( (result) => {
+                const { code, message } = result;
                 this.setState({
-                    status: status_text,
-                    message: data.message
+                    status: code === 0 ? 'successful' : 'error',
+                    message
                 });
             })
             .catch( (error) => {
                console.error('Error:', error);
             });
-
-        // mock data test start
-        const mockStatusMap = {
-            successful: 'successful',
-            error: 'error',
-            warn: 'warn'
-        };
-
-        this.setState({
-            status: mockStatusMap[this.state.name] || 'error'
-        }); // mock data test end
     };
 
     handleResizing = () => void this.setState({ isShowImage: window.innerWidth > 1200 });
-
-    handleEmailChange = (e) => void this.setState({email: e.target.value});
 
     handleNameChange = (e) => void this.setState( {name: e.target.value});
 
@@ -140,16 +123,18 @@ class CertificationContent extends React.Component {
         return (
             <section>
                 <div className="certification-content">
+                <div className="certification-content-alerts-wrapper">
                   {
-                    this.state.status == 'none' ? null :
-                      <div className={`certification-content-alerts row ${alertType}`}>
-                      <Icon type={iconTypeMap[alertType]} theme="filled" />
-                      <span className="alert-msg">
-                            {/*{alertMsgs[this.state.status]}*/
-                            this.state.message}
-                        </span>
-                    </div>
+                    this.state.status == 'none' ? null : (
+                        <div className={`certification-content-alerts row ${alertType}`}>
+                            <Icon type={iconTypeMap[alertType]} theme="filled" />
+                            <span className="alert-msg">
+                                {this.state.message}
+                            </span>
+                        </div>
+                    )
                   }
+                  </div>
 
                     <div className="certification-content-main row">
                         {
@@ -165,13 +150,13 @@ class CertificationContent extends React.Component {
                                 <legend>{formText.header}</legend>
                                 <div className="form-row email">
                                     <label>{formText.emailLabel}</label>
-                                    <input type="email" name="mail" value={this.state.email} disabled/>
+                                    <input type="email" name="mail" value={ this.state.email} disabled />
                                 </div>
                                 <div className="form-row name">
                                     <label>{formText.nicknameLabel}
                                         <span className="description">{formText.nicknameDescription}</span>
                                     </label>
-                                    <input type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
+                                    <input type="text" name="name" value={this.state.name} onChange={this.handleNameChange} />
                                 </div>
                                 <div className="form-row action">
                                     <input type="submit" value={formText.action} />

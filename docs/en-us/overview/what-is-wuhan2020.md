@@ -16,7 +16,7 @@ This project aims at **collecting and gathering information of hospitals, hotels
 
 ### If you want to provide resources and information
 
-Post on our data sharing platform - **Information Collection Platform for Wuhan COVID-19 Epidemic Prevention**: [https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
+Post on our data sharing platform - **Information Collection Platform for COVID-19 Epidemic Prevention**: [https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 The English version of the website is under construction, and a valid Chinese telephone number is currently required to post your information on the platform. If that occurs to you, let us know by [raising an issue](https://github.com/wuhan2020/WebApp/issues) or [joining our slack channel](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Your help is and will be always appreciated.
 

@@ -1,0 +1,57 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.kanban-page {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    section {
+        width: 350px;
+        margin: 0 auto;
+
+        &.content-title {
+            width: 220px;
+            border-bottom: 3px solid $C6; 
+            height: 66px;
+            text-align: center;
+            margin-top: $headerHeight;
+            position: relative;
+    
+            .content-title-text {
+                width: 100%;
+                height: 66px;
+                line-height: 66px;
+                @include font(F32B);
+                color: $C13;
+            }
+        }
+
+        &.badge-card-list-first {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        &.preliminary-round {
+            width: 350px;
+            height: auto;
+
+            .section-title {
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                border-left: 8px solid $C6;
+                padding-left: 12px;
+                @include font(F20SB);
+                color: $C6;
+            }
+
+            .section-description {
+                margin-top: 10px;
+                height: 55px;
+                @include font(F16SB);
+                color: #152235;
+            }
+        }
+    }
+}
