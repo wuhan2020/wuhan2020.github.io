@@ -19,7 +19,7 @@ jobs:
         npm run build
         node sitemap-generator.js
         mkdir deploy-dist
-        cp -R zh-cn/ en-us/ ja-jp/ it-it/ fr-fr/ pt-br/ build/ images/ md_json/ site_config/ deploy-dist/ lib/
+        cp -R zh-cn/ en-us/ ja-jp/ it-it/ fr-fr/ pt-br/ build/ images/ md_json/ site_config/ lib/ deploy-dist/
         mv .htaccess *.html deploy-dist/
         mv sitemap.xml robots.txt deploy-dist/
     - name: Deploy
