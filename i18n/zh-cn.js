@@ -632,8 +632,9 @@ export default {
     barText: '比赛看板',
     contentTitle: '比赛看板',
     kanbanTimer: {
-      title: '黑客松：2020-03-06  至03-08 ',
+      title: '黑客松：2020-03-06 至 03-08 ',
       from: 'March 6 2020 00:00:00 GMT+08:00',
+      to: 'March 8 2020 23:59:59 GMT+08:00',
       timeSlots: [
         {
           unit: 'd',
