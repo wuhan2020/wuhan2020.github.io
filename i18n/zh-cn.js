@@ -742,7 +742,7 @@ export default {
         {"id":"14","name":"Nedelp设计联名众筹","leader":"何忠豪 ","members":["陈思晓","何忠豪"],"tutor":"-","abstract":"联名品牌做疫情特别版，收入的一部分短期用于抗疫，长期用来系统地为世界完善公共卫生系统以防类似瘟疫降临作准备。"},
         {"id":"15","name":"一站式疫情数据开放平台","leader":"谢文睿","members":["谢文睿","胡稳 ","谷勇杰 ","陈焕森","于鸿飞","伊雪 ","刘广月 ","李青 ","张峰 ","江水","居居"],"abstract":"一个用来收集疫情数据的标注平台"},
         {"id":"16","name":"疫城记","leader":"孔令远","members":["孔令远","黄智仁","地才"],"abstract":"通过高维疫情数据可视化去呈现各城市的疫情发展，通过对比不同城市的情况为决策提供依据"},
-        {"id":"17","name":"『H』(hope&happiness)","leader":"姚欣兰","members":["姚欣兰","折光润","林芷若","Kaiqi Zhu 朱恺琦","谢翠红","施泽强","张国杰","谢如歌"],"tutor":"-","abstract":"\"提供小故事、小练习等形式的精神食粮，帮助焦虑人群，重新认识我们与世界、我们与自然、我们与自己的关系。"},
+        {"id":"17","name":"『H』(hope&happiness)","leader":"姚欣兰","members":["姚欣兰","折光润","林芷若","Kaiqi Zhu 朱恺琦","谢翠红","施泽强","张国杰","谢如歌"],"tutor":"-","abstract":"提供小故事、小练习等形式的精神食粮，帮助焦虑人群，重新认识我们与世界、我们与自然、我们与自己的关系。"},
         {"id":"18","name":"医书","leader":"change","members":[],"tutor":"-","abstract":"一个快速发现疫情的知识型平台"},
         {"id":"19","name":"身心医学提升免疫力社区","leader":"谢翠红","members":[],"tutor":"-","abstract":"为隔离在家人员营造譬如冥想、太极这样有利于提升免疫力以及改善情绪的线上打卡和教学的环境"},
         {"id":"20","name":"Epidemic prediction and notification triggering system","leader":"Leona Lee","members":["Leona Lee","Muhammad Ashfaq","Muhammad Shahzad","Abu Sad Muhammed Arif Ali","Abdul Ghaffar"],"tutor":"-","abstract":"\"A prediction system that will form a model to show the worst scenario when the first infected case is confirmed; therefore, sending notifications to major factories so they can prepare enough e.g. masks and disinfectant."},
