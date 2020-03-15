@@ -7,10 +7,13 @@ class KanbanTimer extends React.Component {
         super(props);
         this.getTimeDiffFrom = this.getTimeDiffFrom.bind(this);
         this.state = {
-            diff: this.getTimeDiffFrom(this.props.from),
+            diff: {d: 0, h: 0, m: 0, s: 0},
             interval: null,
+            isEnd: this.isTimeToEnd(this.props.to),
         };
     }
+
+    isTimeToEnd = (end) => new Date().getTime() - new Date(end).getTime() > 0;
 
     getTimeDiffFrom (start) {
         let diffMs = new Date().getTime() - new Date(start).getTime();
@@ -29,17 +32,21 @@ class KanbanTimer extends React.Component {
     
     componentDidMount() {
         const { from } = this.props;
-        const interval = setInterval(() => {
+        if (!this.state.isEnd) {
+            const interval = setInterval(() => {
                 const diff = this.getTimeDiffFrom(from);
                 this.setState({ diff });
-        }, 1000); 
+            }, 1000); 
 
-        this.setState( {interval} );   
+            this.setState( {interval} );  
+        }
     }
 
     componentWillUnmount() {
         const { interval } = this.state;
-        clearInterval(interval);
+        if (interval) {
+            clearInterval(interval);
+        }
     }
 
     render() {
