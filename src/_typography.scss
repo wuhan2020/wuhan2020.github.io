@@ -65,6 +65,10 @@ $font-types: (
         font-weight: map-get($font-weight-map, "semibold"),
         font-size: 20px
     ),
+    F22SB:(
+        font-weight: map-get($font-weight-map, "semibold"),
+        font-size: 22px
+    ),
     F24SB:(
         font-weight: map-get($font-weight-map, "semibold"),
         font-size: 24px
