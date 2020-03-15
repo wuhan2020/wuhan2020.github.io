@@ -11,11 +11,10 @@ class SideMenu extends React.Component {
     };
   }
 
-  toggleMenuBody = () => {
-    this.setState({
-      menuBodyVisible: !this.state.menuBodyVisible,
-    });
-  }
+  toggleMenuBody = () => void this.setState((prevState) => ({
+        menuBodyVisible: !prevState.menuBodyVisible,
+      }));
+
 
   render() {
     const { dataSource } = this.props;
