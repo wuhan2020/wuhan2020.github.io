@@ -6,6 +6,7 @@ npm-debug.log
 *.iml
 build
 package-lock.json
+npm-shrinkwrap.json
 yarn.lock
 /en-us/
 /zh-cn/
