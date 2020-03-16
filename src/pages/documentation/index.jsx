@@ -11,7 +11,7 @@ import Footer from '../../components/footer';
 import './index.scss';
 import GitalkComponent from "gitalk/dist/gitalk-component";
 import 'gitalk/dist/gitalk.css';
-import Gitalk from 'gitalk';
+
 
 // 锚点正则
 const anchorReg = /^#[^/]/;
