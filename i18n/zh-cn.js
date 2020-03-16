@@ -922,6 +922,12 @@ export default {
         }
       ]
     },
+    friendlyLink: {
+      title: '友情链接',
+      list: [
+      ]
+    },
+
     statistics: {
       title: '访问统计',
       page_pv: '本文总访问量：',
