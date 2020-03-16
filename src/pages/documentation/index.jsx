@@ -10,6 +10,8 @@ import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
 import './index.scss';
 import GitalkComponent from "gitalk/dist/gitalk-component";
+import 'gitalk/dist/gitalk.css';
+
 
 // 锚点正则
 const anchorReg = /^#[^/]/;
