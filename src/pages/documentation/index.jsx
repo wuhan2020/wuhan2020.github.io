@@ -116,7 +116,7 @@ class Documentation extends Language {
           repo: 'wuhan2020.github.io',
           owner: 'wuhan2020',
           admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
-          id: 'wuhan2020-gitalk'
+          id: 'wuhan2020-gitalk',
           distractionFreeMode: false // Facebook-like distraction free mode
         }} />
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
