@@ -26,12 +26,10 @@ class Item extends React.Component {
     e.stopPropagation();
   }
 
-  toggle = () => {
-    this.setState({
-      opened: !this.state.opened,
-    });
-  }
-
+  toggle = () => void this.setState( prevState => ({ 
+            opened: !prevState.opened, 
+      }) );
+  
   renderSubMenu = (data) => {
     return (
       <ul>
