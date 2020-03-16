@@ -422,6 +422,11 @@ export default {
         }
       ]
     },
+    friendlyLink: {
+      title: 'Friendly Link',
+      list: [
+      ]
+    },
     statistics: {
       title: 'Statistics',
       page_pv: 'Total Visits to This Page: ',
