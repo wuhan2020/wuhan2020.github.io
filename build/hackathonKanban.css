@@ -4506,6 +4506,45 @@ html {
         margin-top: 5px;
         color: white;
         padding: 20px; }
+.map-wrapper {
+  width: 350px;
+  padding-top: 25px;
+  background: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; }
+  .map-wrapper .content-title {
+    width: 220px;
+    border-bottom: 3px solid #ff6440;
+    text-align: center;
+    margin: auto; }
+    .map-wrapper .content-title .content-title-text {
+      width: 100%;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ff6440; }
+  .map-wrapper .content {
+    text-align: center;
+    margin: 10px 4% 0 0; }
+    .map-wrapper .content .content-text {
+      display: inline-block;
+      margin-left: 4%;
+      white-space: nowrap;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      color: black; }
+  .map-wrapper .map-chart {
+    height: 200px; }
+.badge-card-list {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 .timer-wrapper .time-slot span.text {
   position: absolute;
   left: 0;
@@ -4571,45 +4610,6 @@ html {
         font-weight: 600;
         font-size: 15px;
         color: #D9452B; }
-.badge-card-list {
-  width: 350px;
-  margin: 0 auto;
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-.map-wrapper {
-  width: 350px;
-  padding-top: 25px;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; }
-  .map-wrapper .content-title {
-    width: 220px;
-    border-bottom: 3px solid #ff6440;
-    text-align: center;
-    margin: auto; }
-    .map-wrapper .content-title .content-title-text {
-      width: 100%;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 20px;
-      color: #ff6440; }
-  .map-wrapper .content {
-    text-align: center;
-    margin: 10px 4% 0 0; }
-    .map-wrapper .content .content-text {
-      display: inline-block;
-      margin-left: 4%;
-      white-space: nowrap;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      color: black; }
-  .map-wrapper .map-chart {
-    height: 200px; }
 .badge-card-item {
   width: 168px;
   height: 168px;
