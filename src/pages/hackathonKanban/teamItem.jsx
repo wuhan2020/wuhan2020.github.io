@@ -1,16 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 
 import './teamItem.scss';
 
-const propTypes = {
-    viewport: PropTypes.string.isRequired,
-    tableHeader: PropTypes.array.isRequired,
-    itemData: PropTypes.object.isRequired,
-};
-
 const headerLangMap = {
-    name: '项目名称',
+    subject: '项目名称',
     leader: '队长姓名', 
     members: '队员姓名',
     tutor: '导师',
@@ -18,19 +11,33 @@ const headerLangMap = {
 };
 
 const TeamItem = (props) => {
-    const { viewport, tableHeader, itemData } = props;
+    const [isAbstractShown, setIsAbstractShown] = useState(false);
+    const { viewport, tableHeader, itemData, award=null } = props;
     const headerClone = [...tableHeader];
     headerClone.pop();
+
+    const handleOnMouseOver = () => {
+        setIsAbstractShown(true);
+    };
+
+    const handleOnMouseLeave = () => {
+        setIsAbstractShown(false);
+    };
 
     return (
         <div className="team-item-wrapper">
             { viewport === 'mobile' ? (
                 <div className="team-info">
-                    <div className="team-info-general">
-                    {   headerClone.map( (item, idx) => {
+                     {award && 
+                        <div className='award'>
+                            {award.level}
+                        </div>
+                    }
+                    <div className={`team-info-general ${isAbstractShown ? 'abstract-shown': ''}`} onMouseLeave={handleOnMouseLeave}>
+                        {headerClone.map( (item, idx) => {
                             return (
-                                <div className={`team-item ${item}`} key={idx} >
-                                    { item !== 'name' && 
+                                <div className={`team-item ${item}`} key={idx}>
+                                    { item !== 'subject' && 
                                         <span className="header">{headerLangMap[item]}</span>
                                     }
                                     <span className="content">
@@ -38,25 +45,31 @@ const TeamItem = (props) => {
                                             itemData[item].map( (member, idx) => 
                                                 <span className="member" key={idx}>{member}</span> 
                                             ) :
-                                            ((item === 'name') ? itemData['id'] + '. ' : '') + itemData[item]
+                                            `${item === 'subject' ? `${itemData['id']}. ` : ''}${itemData[item]}`
                                         }
                                     </span>
                                 </div>
                             );
-                        })
-                    }
-                    </div>
-                
-                    <div className='team-item abstract mobile'>
-                        <span className="header">{headerLangMap.abstract}</span>
-                        <span className="content">{itemData.abstract}</span>
+                        })}
+                        <div className='team-item abstract-header mobile'>
+                            <span   
+                                className="header" 
+                                onMouseEnter={handleOnMouseOver}> 
+                            {headerLangMap.abstract}
+                            </span>
+                        </div>
+                        {isAbstractShown &&
+                            <div className='team-item abstract-content mobile'>
+                                <span className="content">{itemData.abstract}</span>
+                            </div>
+                        }
                     </div>
              </div>
             ) : (
                 tableHeader.map( (item, idx) => {
                     return (
                         <div className={`team-item ${item}`} key={idx} >
-                            <span className="content">{((item === 'name') ? itemData['id'] + '. ' : '') + itemData[item]}</span>
+                            <span className="content">{`${item === 'subject' ? `${itemData['id']}. ` : ''}${itemData[item]}`}</span>
                         </div>
                     );
                 })
@@ -65,6 +78,5 @@ const TeamItem = (props) => {
     );
 };
 
-TeamItem.propTypes = propTypes;
 
 export default TeamItem;

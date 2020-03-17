@@ -18,9 +18,22 @@ $radius: 25px;
             width: 100%;
             margin: 0 auto;
             box-sizing: border-box;
-            border-radius: $radius $radius 0 0;
+            border-radius: $radius;
             box-shadow: 0px 1.335px 5.34px rgba(0, 0, 0, 0.2);
             padding-top: 20px;
+            position: relative;
+
+            &.abstract-shown {
+                .team-item {
+                    &:not(.abstract-content) {
+                        opacity: 0;
+                    }
+                    &.abstract-content {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+            }
         }
     }
     
@@ -49,7 +62,7 @@ $radius: 25px;
             overflow: hidden;
         }
 
-        &.name {
+        &.subject {
             margin-bottom: 25px;
             .content {
                 width: 100%;
@@ -66,7 +79,7 @@ $radius: 25px;
             }
         }
 
-        &.abstract {
+        &.abstract-header {
             padding: 0;
 
             &.mobile {
@@ -79,8 +92,15 @@ $radius: 25px;
                     line-height: 50px;
                     color: $C1;
                 }
-                
+            }
+        }
 
+        &.abstract-content {
+            padding: 0;
+            position: absolute;
+            top: 0;
+            
+            &.mobile {   
                 .content { 
                     width: 100%;
                     background-color: $C6;
@@ -92,8 +112,6 @@ $radius: 25px;
                     padding: 20px;
                 }
             }
-
-            flex-direction: column;
         }
     }
 }
