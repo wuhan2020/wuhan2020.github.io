@@ -24,20 +24,16 @@ class Documentation extends Language {
     super(props);
     this.state = {
       __html: '',
-      currentKey: 'docs'
     };
   }
 
   componentDidMount() {
-    const pathname = window.location.pathname;
-    const isDevelop = pathname.split('/').pop().lastIndexOf('_dev.html') !== -1;
     // 通过请求获取生成好的json数据，静态页和json文件在同一个目录下
-    fetch(pathname.replace(/\.html$/i, '.json'))
+    fetch(window.location.pathname.replace(/\.html$/i, '.json'))
     .then(res => res.json())
     .then((md) => {
       this.setState({
         __html: md && md.__html ? md.__html : '',
-        currentKey: isDevelop ? 'developers': 'docs',
       });
     });
     this.markdownContainer.addEventListener('click', (e) => {
@@ -93,16 +89,15 @@ class Documentation extends Language {
 
   render() {
     const language = this.getLanguage();
-    const { currentKey } = this.state; 
     // 开发者页借助文档页载体
-    const currentPage = currentKey === 'docs' ? 'docs' : 'develop';
-    const dataSource = this.getLanguageDict(language, currentPage);
+    const isDevelop = window.location.pathname.split('/').pop().lastIndexOf('_dev.html') !== -1;
+    const dataSource = isDevelop ? this.getLanguageDict(language, 'develop') : this.getLanguageDict(language, 'docs');
     // const dataSource = isDevelop ? (developConfig[language] || developConfig[siteConfig.defaultLanguage]) : (docsConfig[language] || docsConfig[siteConfig.defaultLanguage]);
     const __html = this.props.__html || this.state.__html;
     return (
       <div className="documentation-page">
         <Header
-            currentKey={currentKey}
+            currentKey={isDevelop ? 'developers' : 'docs'}
             type="normal"
             logo="/images/wuhan2020-logo.png"
             language={language}
