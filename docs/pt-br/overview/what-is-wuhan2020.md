@@ -16,7 +16,7 @@ Este projeto visa **coletar e compilar informações de hospitais, hotéis, fáb
 
 ### Se você quiser prover recursos e informação
 
-Poste em nossa plataforma de compartilhamento de dados - **Plataforma de coleta de informações para Wuhan COVID-19 Prevenção Epidêmica**: [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/) 
+Poste em nossa plataforma de compartilhamento de dados - **Plataforma de coleta de informações para COVID-19 Prevenção Epidêmica**: [https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/) 
 
 A versão em inglês do site está em desenvolvimento, e um número válido Chinês é atualmente obrigatório para postar qualquer informação na plataforma. Se isso ocorrer com você, nos comunique [levantando um problema](https://github.com/wuhan2020/WebApp/issues) ou [entrando em nosso canal slack](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY). Sua ajuda é e será sempre apreciada.
 
