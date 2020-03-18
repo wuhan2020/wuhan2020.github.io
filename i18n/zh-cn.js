@@ -726,16 +726,21 @@ export default {
       sectionTitle: '初赛团队',
       sectionDescription: '共有来自20个国家的1万人报名黑客松，组成350支队伍加入初赛',
       tableHeader: ['subject', 'leader', 'members', 'tutor', 'abstract'],
-      awardsList: [
-        {id: '1', level: 'first'},
-        {id: '2', level: 'second'},
-        {id: '3', level: 'second'},
-        {id: '4', level: 'third'},
-        {id: '5', level: 'third'},
-        {id: '6', level: 'third'},
-        {id: '7', level: 'audienceFavorite'},
-        {id: '8', level: 'tutorFavorite'},
-      ],
+      awardsData: {
+        awardList: [
+          {ids: ['15'], title: '一等奖', iconKey: 'medal'},
+          {ids: ['37', '30'], title: '二等奖', iconKey: 'medal'},
+          {ids: ['25','2','20'], title: '三等奖', iconKey: 'medal'},
+          {ids: ['6','12','14','26'], title: '入围决赛', iconKey: 'finalist'},
+          {ids: ['4'], title: '观众最喜爱奖', iconKey: 'favorite'},
+          {ids: ['22'], title: '导师最喜爱奖', iconKey: 'favorite'},
+        ],
+        awardIcons: {
+          medal:'/images/hackathonKanban/awards/medal.svg',
+          favorite: '/images/hackathonKanban/awards/favorite.svg',
+          finalist: '/images/hackathonKanban/awards/finalist.svg'
+        },
+      },
       list: [
         {"id":"1","subject":"认识病毒","leader":"张婉昱","members":["张婉昱","苏建勋 ","陈诺","刘付刚","齐泽文 ","郝东霞","王仁宇","折光润","何钰婷","黄诗涵","Asimova Qiu"],"tutor":"-","abstract":"关于病毒的一个趣味性教育App"},
         {"id":"2","subject":"Aid Tracker捐赠直连——捐赠对接与追踪一体化平台","leader":"Bingyang Wang 汪冰洋","members":["Bingyang Wang 汪冰洋","赵鹏","毛昌启","阮健","Shihang Su苏世航 ","万涛","曹书韵 ","许辛鹏 ","Linsons","陈崇强 ","张艾如","何晓姗","姜立洋","刘香杉"],"abstract":"捐赠对接与追踪一体化平台"},

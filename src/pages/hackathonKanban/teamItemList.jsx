@@ -8,7 +8,7 @@ const propTypes = {
     viewport: PropTypes.string.isRequired,
     tableHeader: PropTypes.array.isRequired,
     teamListData: PropTypes.array.isRequired,
-    awardsList: PropTypes.array.isRequired,
+    awardsData: PropTypes.object.isRequired,
 };
 
 const headerLangMap = {
@@ -20,7 +20,7 @@ const headerLangMap = {
 };
 
 const TeamItemList = (props) => {
-    const { viewport, teamListData, tableHeader, awardsList } = props;
+    const { viewport, teamListData, tableHeader, awardsData: {awardList, awardIcons} } = props;
     return (
         <div className="team-item-list">
             {
@@ -32,9 +32,10 @@ const TeamItemList = (props) => {
             
             { teamListData.map((item, idx) => {
                     const teamItemData = {viewport, tableHeader, itemData: item};
-                    const award = awardsList.filter(award => award.id === item.id);
-                    if (award.length > 0) {
-                        teamItemData.award = award[0];
+                    const awardItem = awardList.filter(award => award.ids.includes(item.id));
+                    if (awardItem.length > 0) {
+                        const {title, iconKey} = awardItem[0];
+                        teamItemData.award = {title, icon: awardIcons[iconKey]};
                     }
                     return (<TeamItem {...teamItemData} key={idx} />);
                 })

@@ -9,34 +9,28 @@ $radius: 25px;
     &:first-child {
         margin-top: 15px;
     }
-
-    .team-info {
+    
+    .team-info-general {
         width: 267px;
         margin: 0 auto;
+        box-sizing: border-box;
+        border-radius: $radius;
+        box-shadow: 0px 1.335px 5.34px rgba(0, 0, 0, 0.2);
+        padding-top: 20px;
+        position: relative;
 
-        .team-info-general {
-            width: 100%;
-            margin: 0 auto;
-            box-sizing: border-box;
-            border-radius: $radius;
-            box-shadow: 0px 1.335px 5.34px rgba(0, 0, 0, 0.2);
-            padding-top: 20px;
-            position: relative;
-
-            &.abstract-shown {
-                .team-item {
-                    &:not(.abstract-content) {
-                        opacity: 0;
-                    }
-                    &.abstract-content {
-                        height: 100%;
-                        opacity: 1;
-                    }
+        &.abstract-shown {
+            .team-item {
+                &:not(.abstract-content) {
+                    opacity: 0;
+                }
+                &.abstract-content {
+                    height: 100%;
+                    opacity: 1;
                 }
             }
         }
     }
-    
 
     .team-item {
         width: 267px;
@@ -111,6 +105,20 @@ $radius: 25px;
                     color: $C1;
                     padding: 20px;
                 }
+            }
+        }
+
+        &.award-badge {
+            height: 45px;
+            padding: 0 12px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+            color: $C6;
+
+            img {
+                max-height: 100%;
+                margin-right: 10px;
             }
         }
     }

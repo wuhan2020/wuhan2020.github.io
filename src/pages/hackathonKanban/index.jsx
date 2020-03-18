@@ -81,7 +81,7 @@ class HackathonKanban extends Language {
                             <div className="section-title">{teamData.sectionTitle}</div>
                             <div className="section-description">{teamData.sectionDescription}</div>
                             <div className="team-list-wrapper">
-                                <TeamItemList teamListData={teamData.list} tableHeader={teamData.tableHeader} awardsList={teamData.awardsList} viewport='mobile' />
+                                <TeamItemList teamListData={teamData.list} tableHeader={teamData.tableHeader} awardsData={teamData.awardsData} viewport='mobile' />
                             </div>
                         </section>
                     </article>
