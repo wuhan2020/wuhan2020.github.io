@@ -425,6 +425,12 @@ export default {
     friendlyLink: {
       title: 'Friendly Link',
       list: [
+        {
+          text: 'COVID-19 Memory',
+          link: 'https://2019ncovmemory.github.io/nCovMemory/',
+          target: '_blank',
+          image: 'aws.png',
+        }
       ]
     },
     statistics: {
