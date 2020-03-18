@@ -79,6 +79,14 @@ date: 2018-12-29
 ---
 ```
 
+## How to Add a New Language
+
+If you want to add a new language, such as Thai.
+
+1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langList` variable of `site_config/site.js`.
+2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
+3. Then please add directories named `th-th` in `docs`and `blog` directories. Here you can copy articles from `en-us`, translate them, and then add them to `th-th`. 
+
 ## How to Add Sitemap for SEO
 
 `sitemap.xml` is generated automatically by `sitemap-generator.js` during the deployment process.
