@@ -724,7 +724,7 @@ export default {
     },
     teamData: {
       sectionTitle: '初赛团队',
-      sectionDescription: '共有来自20个国家的1万人报名黑客松，组成350支队伍加入初赛',
+      sectionDescription: '共有来自33个国家的902人报名黑客松，组成38支队伍加入初赛',
       tableHeader: ['subject', 'leader', 'members', 'tutor', 'abstract'],
       awardsData: {
         awardList: [
