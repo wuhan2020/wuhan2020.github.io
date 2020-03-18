@@ -8,6 +8,7 @@
   <meta name="description" content="<%= description %>" />
   <meta name="baidu-site-verification" content="FQ6eOEi529" />
   <meta name="google-site-verification" content="MAGtB2GHGYz6jBJi37SzGuOeIaKWw0QolEgWWQ6uChI" />
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
   <!-- 网页标签标题 -->
   <title><%= title %></title>
@@ -24,6 +25,16 @@
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
   <% } %>
+  
+  <!-- valine -->
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: '99hYRbK8CqDgCcioQD6v1CkY-MdYXbMMI',
+          appKey: 'vWSpl7dSp9edlwL9MhDuSUwk'
+      })
+  </script>
 
   <script>
     window.rootPath = '<%= rootPath %>';
