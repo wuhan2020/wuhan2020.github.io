@@ -76,6 +76,11 @@
       }
     },
     {
+      "filename": "workreport-communicate_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-communicate_dev.html",
+      "meta": {}
+    },
+    {
       "filename": "workreport-data_dev.md",
       "link": "/zh-cn/docs/developers/workreport-data_dev.html",
       "meta": {}

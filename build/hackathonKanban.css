@@ -4464,6 +4464,13 @@ html {
       color: black; }
   .map-wrapper .map-chart {
     height: 200px; }
+.badge-card-list {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 .team-item-wrapper {
   width: 350px;
   margin-top: 30px; }
@@ -4556,13 +4563,6 @@ html {
       .team-item-wrapper .team-item.award-badge img {
         max-height: 100%;
         margin-right: 10px; }
-.badge-card-list {
-  width: 350px;
-  margin: 0 auto;
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
 .timer-wrapper .time-slot span.text {
   position: absolute;
   left: 0;
