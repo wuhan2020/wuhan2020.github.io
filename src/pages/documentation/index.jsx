@@ -124,7 +124,7 @@ class Documentation extends Language {
             repo: 'wuhan2020.github.io',
             owner: 'wuhan2020',
             admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
-            id: md5(location.href),
+            id: md5(window.location.href),
             distractionFreeMode: false // Facebook-like distraction free mode
           }}/>
         </section>
