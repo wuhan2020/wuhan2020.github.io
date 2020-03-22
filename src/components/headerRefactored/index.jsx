@@ -11,13 +11,11 @@ const HeaderRefactored = (props) => {
     const { type, language, logo, currentKey } = props;
     let [lang, setLang] = useState(language);
     
-    const languageChange = (lang) => setLang(lang);
-
     return (
         <div className='header-container'>
             <Logo language={lang} logoLink={logo} title={siteConfig.name}/>
             {true && <HeaderNav language={lang} type={type} currentKey={currentKey} />}
-            {false && <LanguageList language={lang} onChange={languageChange}/>}
+            {true && <LanguageList language={lang}/>}
         </div>
     );
 };

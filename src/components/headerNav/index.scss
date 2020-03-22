@@ -1,12 +1,18 @@
+@import '../../variables.scss';
+
 .header-menu-container {
     float: right;
 
     .header-menu-toggle {
-      display: none;
+      display: inline-block;
       width: 19px;
       margin-right: 40px;
       margin-top: $headerHeight / 2 - 37px;
       cursor: pointer;
+    
+      @include apply-from(tablet) {
+          display: none;
+      }
     }
 
     ul {

@@ -3,6 +3,8 @@ import classnames from 'classnames';
 import siteConfig from '../../../site_config/site';
 import { getLink, getLanguage, getLanguageDict } from '../../../utils';
 
+import './index.scss';
+
 const HeaderNav = (props) => {
     const {language , type, currentKey} = props;
     let [isMenuBodyShown, setIsMenuBodyShown] = useState(false);
