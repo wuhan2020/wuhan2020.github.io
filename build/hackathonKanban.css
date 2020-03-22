@@ -4497,6 +4497,13 @@ html {
         font-weight: 600;
         font-size: 15px;
         color: #D9452B; }
+.badge-card-list {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 .map-wrapper {
   width: 350px;
   padding-top: 25px;
@@ -4529,13 +4536,6 @@ html {
       color: black; }
   .map-wrapper .map-chart {
     height: 200px; }
-.badge-card-list {
-  width: 350px;
-  margin: 0 auto;
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
 .team-item-wrapper {
   width: 350px;
   margin-top: 30px; }
