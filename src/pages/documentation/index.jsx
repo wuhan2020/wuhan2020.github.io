@@ -9,6 +9,7 @@ import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
 import GitalkComponent from "gitalk/dist/gitalk-component";
+import 'gitalk/dist/gitalk.css'
 import './index.scss';
 
 // 锚点正则
