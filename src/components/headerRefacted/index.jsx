@@ -1,14 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import Select from 'antd/lib/select';
-import 'antd/lib/select/style/css';
 import siteConfig from '../../../site_config/site';
-import { getLink } from '../../../utils';
+import { getLink, getLanguage, getLanguageDict } from '../../../utils';
 import './index.scss';
-import Language from "../language";
-
-const { Option } = Select;
+import classnames from 'classnames';
+import LanguageList from '../LanguageList';
 
 const searchSwitch = {
   baidu: {
@@ -20,21 +16,19 @@ const searchSwitch = {
     url: 'https://www.google.com/search?q=',
   },
 };
-const noop = () => {};
+
 const propTypes = {
   currentKey: PropTypes.string,
   logo: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['primary', 'normal']),
-  language: PropTypes.oneOf(siteConfig.langList.map(l => l.value)),
-  onLanguageChange: PropTypes.func,
+  language: PropTypes.oneOf(siteConfig.langList.map(l => l.value))
 };
 const defaultProps = {
   type: 'primary',
-  language: 'zh-cn',
-  onLanguageChange: noop,
+  language: 'zh-cn'
 };
 
-class Header extends Language {
+class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,7 +50,7 @@ class Header extends Language {
     if (e.keyCode === 13) {
       this.goSearch();
     }
-  };
+  }
 
   onInputChange = (e) => {
     this.setState({
@@ -68,14 +62,6 @@ class Header extends Language {
     this.setState({
       menuBodyVisible: !this.state.menuBodyVisible,
     });
-  }
-
-  switchLang = (language) => {
-    const oldLang = this.state.language;
-    this.setState({
-      language,
-    });
-    this.props.onLanguageChange(language, oldLang);
   }
 
   switchSearch = () => {
@@ -102,7 +88,7 @@ class Header extends Language {
   }
 
   render() {
-    const { type, logo, onLanguageChange, currentKey } = this.props;
+    const { type, logo, currentKey } = this.props;
     const { menuBodyVisible, language, search, searchVisible } = this.state;
     return (
       <header
@@ -140,23 +126,7 @@ class Header extends Language {
               </div>
             ) : null
           }
-          {
-            onLanguageChange !== noop ?
-            (
-              <Select
-                className="lang-select"
-                size="small"
-                value={language}
-                onSelect={this.switchLang}
-              >
-                {
-                  siteConfig.langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
-                }
-              </Select>
-            )
-            :
-            null
-          }
+          <LanguageList defaultLang={this.state.lang} />
           <div
             className={
               classnames({
@@ -171,7 +141,7 @@ class Header extends Language {
               src={type === 'primary' ? getLink('/images/system/menu_white.png') : getLink('/images/system/menu_gray.png')}
             />
             <ul>
-              {this.getLanguageDict(language, 'site').pageMenu.map(item => (
+              {getLanguageDict(language, 'site').pageMenu.map(item => (
                 <li
                   className={classnames({
                     'menu-item': true,
