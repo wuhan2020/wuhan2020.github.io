@@ -10,6 +10,7 @@ import Language from '../../components/language';
 import Item from './featureItem';
 import './index.scss';
 
+import HeaderRefactored from '../../components/headerRefactored';
 class Home extends Language {
 
     constructor(props) {
@@ -66,7 +67,17 @@ class Home extends Language {
                         language={language}
                         onLanguageChange={this.onLanguageChange}
                     />
+                    
                     <div className="top-body">
+                        <div className="test">
+                            <HeaderRefactored
+                                currentKey="home"
+                                type={headerType}
+                                logo={headerLogo}
+                                language={language}
+                                onLanguageChange={this.onLanguageChange}
+                            />
+                        </div>
                         <div className="vertical-middle">
                             <div className="product-name">
                                 <h2>{dataSource.brand.brandName}</h2>

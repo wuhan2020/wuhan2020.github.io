@@ -6,31 +6,29 @@ import siteConfig from '../../../site_config/site';
 
 const { Option } = Select;
 const LanguageList = (props) => {
-    const { defaultLang } = props;
-    let [lang, setLang] = useState(defaultLang);
+    const { language, languageChange } = props;
 
-    const handleSwitchingLanguage = (e) => {
-        const lang = e.target.value;
-        setLang(lang);
-    };
+    const handleSwitchingLanguage = (e) => void languageChange(e.target.value);
 
     useEffect(() => {
         const pathname = window.location.pathname;
-        const newPathname = pathname.replace(`${window.rootPath}/${defaultLang}`, `${window.rootPath}/${lang}`);
-        cookie.set('docsite_language', lang, { expires: 365 });
+        const newPathname = pathname.replace(`${window.rootPath}/${language}`, `${window.rootPath}/${language}`);
+        cookie.set('docsite_language', language, { expires: 365 });
         window.location = newPathname;
     }); 
 
     return (
-        <Select
-            className="switch-lang"
-            size="small"
-            value={lang}
-            onSelect={handleSwitchingLanguage}>
-            {
-                siteConfig.langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
-            }
-        </Select>
+        <div className="language-list-container">
+             <Select
+                className="switch-lang"
+                size="small"
+                value={language}
+                onSelect={handleSwitchingLanguage}>
+                {
+                    siteConfig.langList.map(l => <Option key={l.value} value={l.value}>{l.text}</Option>)
+                }
+            </Select>
+        </div>
     );
 };
 

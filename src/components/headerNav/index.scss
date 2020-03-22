@@ -1,0 +1,63 @@
+.header-menu-container {
+    float: right;
+
+    .header-menu-toggle {
+      display: none;
+      width: 19px;
+      margin-right: 40px;
+      margin-top: $headerHeight / 2 - 37px;
+      cursor: pointer;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: inline-block;
+        margin-right: 40px;
+      }
+      .menu-item {
+        font-family: Avenir-Medium;
+        font-size: 14px;
+        vertical-align: bottom;
+      }
+      .menu-item-primary {
+        a {
+          color: #fff;
+          opacity: 0.6;
+          font-family: Avenir-Medium;
+        }
+        &:hover {
+          a {
+            opacity: 1;
+          }
+        }
+        &-active {
+          a {
+            font-family: Avenir-Medium;
+            font-weight: 700;
+            opacity: 1;
+          }
+        }
+      }
+      .menu-item-normal {
+        a {
+          color: #333;
+          opacity: 0.6;
+          font-family: Avenir-Medium;
+        }
+        &:hover {
+          a {
+            opacity: 1;
+          }
+        }
+        &-active {
+          a {
+            font-family: Avenir-Medium;
+            font-weight: 700;
+            opacity: 1;
+          }
+        }
+    }
+}
