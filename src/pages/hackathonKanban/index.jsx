@@ -86,7 +86,7 @@ class HackathonKanban extends Language {
                         </section>
                     </article>
                 </main>
-                <Gitalk class_name=""/>
+                <Gitalk class_name="kanban-page"/>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );
