@@ -8,9 +8,8 @@ import Footer from '../../components/footer';
 import CountryMapList from './countryMapItem';
 import TeamItemList from './teamItemList';
 import HackathonProgress from './hackathonProgress';
+import Gitalk from '../../components/gitalk';
 import './index.scss';
-import GitalkComponent from "gitalk/dist/gitalk-component";
-import 'gitalk/dist/gitalk.css';
 
 const mockMilestones = [{
     time: '02-28',
@@ -87,17 +86,7 @@ class HackathonKanban extends Language {
                         </section>
                     </article>
                 </main>
-                <section className="kanban-page">
-                  <GitalkComponent options={{
-                    clientID: "728da77f67226e477f03",
-                    clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
-                    repo: 'website-comment',
-                    owner: 'wuhan2020',
-                    admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
-                    id: window.location.pathname,
-                    distractionFreeMode: false // Facebook-like distraction free mode
-                  }}/>
-                </section>
+                <Gitalk class_name="kanban-page"/>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );

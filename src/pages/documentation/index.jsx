@@ -8,9 +8,8 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
+import Gitalk from '../../components/gitalk';
 import './index.scss';
-import GitalkComponent from "gitalk/dist/gitalk-component";
-import 'gitalk/dist/gitalk.css';
 
 // 锚点正则
 const anchorReg = /^#[^/]/;
@@ -116,17 +115,7 @@ class Documentation extends Language {
             dangerouslySetInnerHTML={{ __html }}
           />
         </section>
-        <section className="content-section">
-          <GitalkComponent options={{
-            clientID: "728da77f67226e477f03",
-            clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
-            repo: 'website-comment',
-            owner: 'wuhan2020',
-            admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
-            id: window.location.pathname,
-            distractionFreeMode: false // Facebook-like distraction free mode
-          }}/>
-        </section>
+        <Gitalk class_name="content-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );

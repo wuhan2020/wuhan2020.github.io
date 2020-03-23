@@ -8,10 +8,9 @@ import EventCard from './eventCard';
 import ContactItem from './contactItem';
 import ContributorItem from './contributorItem';
 import Footer from '../../components/footer';
-
+import Gitalk from '../../components/gitalk';
 import './index.scss';
-import GitalkComponent from "gitalk/dist/gitalk-component";
-import 'gitalk/dist/gitalk.css';
+
 class Community extends Language {
 
   render() {
@@ -58,17 +57,7 @@ class Community extends Language {
           }
           </div>
         </section>
-        <section className="contributor-section">
-          <GitalkComponent options={{
-            clientID: "728da77f67226e477f03",
-            clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
-            repo: 'website-comment',
-            owner: 'wuhan2020',
-            admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
-            id: window.location.pathname,
-            distractionFreeMode: false // Facebook-like distraction free mode
-          }}/>
-        </section>
+        <Gitalk class_name="contributor-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );
