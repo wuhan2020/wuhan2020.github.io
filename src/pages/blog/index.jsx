@@ -10,7 +10,8 @@ import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
 import './index.scss';
-
+import GitalkComponent from "gitalk/dist/gitalk-component";
+import 'gitalk/dist/gitalk.css';
 const {
   langList = [
       { value: 'zh-cn', text: '简体中文' },
@@ -68,6 +69,17 @@ class Blog extends Language {
             }
             </ul>
           </div>
+        </section>
+        <section className="blog-container">
+          <GitalkComponent options={{
+            clientID: "728da77f67226e477f03",
+            clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
+            repo: 'website-comment',
+            owner: 'wuhan2020',
+            admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
+            id: window.location.pathname,
+            distractionFreeMode: false // Facebook-like distraction free mode
+          }}/>
         </section>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
