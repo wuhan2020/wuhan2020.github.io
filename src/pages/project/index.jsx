@@ -6,7 +6,8 @@ import Footer from '../../components/footer';
 import Language from '../../components/language';
 import ProjectItem from './projectItem';
 import './index.scss';
-
+import GitalkComponent from "gitalk/dist/gitalk-component";
+import 'gitalk/dist/gitalk.css';
 class Project extends Language {
     render() {
         const language = this.getLanguage();
@@ -27,6 +28,17 @@ class Project extends Language {
                   {dataSource.projects.list.map((project, i) => (
                     <ProjectItem project={project} key={i} />
                     ))}
+                </section>
+                <section className="project-section">
+                  <GitalkComponent options={{
+                    clientID: "728da77f67226e477f03",
+                    clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
+                    repo: 'website-comment',
+                    owner: 'wuhan2020',
+                    admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
+                    id: window.location.pathname,
+                    distractionFreeMode: false // Facebook-like distraction free mode
+                  }}/>
                 </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
