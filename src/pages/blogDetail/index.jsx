@@ -7,6 +7,8 @@ import Language from '../../components/language';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import './index.scss';
+import GitalkComponent from "gitalk/dist/gitalk-component";
+import 'gitalk/dist/gitalk.css';
 
 // 锚点正则
 const anchorReg = /^#[^/]/;
@@ -108,6 +110,17 @@ class BlogDetail extends Language {
           ref={(node) => { this.markdownContainer = node; }}
           dangerouslySetInnerHTML={{ __html }}
         />
+        <section className="blog-container">
+          <GitalkComponent options={{
+            clientID: "728da77f67226e477f03",
+            clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
+            repo: 'website-comment',
+            owner: 'wuhan2020',
+            admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
+            id: window.location.pathname,
+            distractionFreeMode: false // Facebook-like distraction free mode
+          }}/>
+        </section>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );
