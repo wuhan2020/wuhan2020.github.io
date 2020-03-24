@@ -116,6 +116,20 @@
       "meta": {}
     },
     {
+      "filename": "overview.md",
+      "link": "/zh-cn/docs/experiences/overview.html",
+      "meta": {
+        "title": "抵抗新型冠状病毒的经验总结",
+        "keywords": "新型冠状病毒 经验总结",
+        "description": "抵抗新型冠状病毒的经验总结"
+      }
+    },
+    {
+      "filename": "maternal.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/maternal.html",
+      "meta": {}
+    },
+    {
       "filename": "faq.md",
       "link": "/zh-cn/docs/overview/faq.html",
       "meta": {
