@@ -809,6 +809,33 @@ export default {
       },
     }
   },
+  experiences: {
+    sidemenu: [
+      {
+        title: '概述',
+        link: '/zh-cn/docs/experiences/overview.html',
+      },
+      {
+        title: '《新冠肺炎防治手册》',
+        children: [
+          {
+            title: '封面',
+            link: '/zh-cn/docs/experiences/overview.html',
+          },
+        ],
+      },
+      {
+        title: '《应对新冠肺炎疫情实用指南》',
+        children: [
+          {
+            title: '孕产妇篇',
+            link: '/zh-cn/docs/experiences/practical-guide/maternal.html',
+          },
+        ],
+      },
+    ],
+    barText: '抗疫经验',
+  },
   certification: {
     formText: {
       header: '志愿者证书领取',
@@ -862,6 +889,11 @@ export default {
         key: 'hackathon',
         text: '黑客松',
         link: '/zh-cn/hackathon/index.html',
+      },
+      {
+        key: 'experiences',
+        text: '抗疫经验',
+        link: '/zh-cn/docs/experiences/overview.html',
       },
       {
         key: 'mis',
