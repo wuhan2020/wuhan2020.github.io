@@ -825,19 +825,19 @@ export default {
         children: [
           {
             title: '第一部分 防控管理',
-            link: '/zh-cn/docs/experiences/handbook/prevention-and-control.md',
+            link: '/zh-cn/docs/experiences/handbook/prevention-and-control.html',
           },
           {
             title: '第二部分 诊疗经验',
-            link: '/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.md',
+            link: '/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.html',
           },
           {
             title: '第三部分 护理经验',
-            link: '/zh-cn/docs/experiences/handbook/nursing-care.md',
+            link: '/zh-cn/docs/experiences/handbook/nursing-care.html',
           },
           {
             title: '附录',
-            link: '/zh-cn/docs/experiences/handbook/appendix.md',
+            link: '/zh-cn/docs/experiences/handbook/appendix.html',
           },
           {
             title: '编委会',
