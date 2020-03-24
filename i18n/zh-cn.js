@@ -813,14 +813,37 @@ export default {
     sidemenu: [
       {
         title: '概述',
-        link: '/zh-cn/docs/experiences/overview.html',
+        children: [
+          {
+            title: '抗疫经验频道都提供了哪些知识？',
+            link: '/zh-cn/docs/experiences/overview.html',
+          },
+        ],
       },
       {
         title: '《新冠肺炎防治手册》',
         children: [
           {
-            title: '封面',
-            link: '/zh-cn/docs/experiences/overview.html',
+            title: '第一部分 防控管理',
+            link: '/zh-cn/docs/experiences/handbook/prevention-and-control.html',
+          },
+          {
+            title: '第二部分 诊疗经验',
+            link: '/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.html',
+          },
+          {
+            title: '第三部分 护理经验',
+            link: '/zh-cn/docs/experiences/handbook/nursing-care.html',
+          },
+          {
+            title: '附录',
+            link: '/zh-cn/docs/experiences/handbook/appendix.html',
+          },
+          {
+            title: '编委会',
+          },
+          {
+            title: '参考文献',
           },
         ],
       },
