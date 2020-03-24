@@ -116,6 +116,26 @@
       "meta": {}
     },
     {
+      "filename": "appendix.md",
+      "link": "/zh-cn/docs/experiences/handbook/appendix.html",
+      "meta": {}
+    },
+    {
+      "filename": "diagnosis-and-treatment.md",
+      "link": "/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.html",
+      "meta": {}
+    },
+    {
+      "filename": "nursing-care.md",
+      "link": "/zh-cn/docs/experiences/handbook/nursing-care.html",
+      "meta": {}
+    },
+    {
+      "filename": "prevention-and-control.md",
+      "link": "/zh-cn/docs/experiences/handbook/prevention-and-control.html",
+      "meta": {}
+    },
+    {
       "filename": "overview.md",
       "link": "/zh-cn/docs/experiences/overview.html",
       "meta": {
