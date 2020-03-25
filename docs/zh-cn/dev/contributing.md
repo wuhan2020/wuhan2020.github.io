@@ -148,6 +148,10 @@ git commit --amend
 git push origin my-fix-branch
 ```
 
+After you have issued a new PR. You can preview the website from netlify. The domain name is different for each PR since it contains the issue id: https://deploy-preview-[ISSUE ID]--reverent-lumiere-ad26e3.netlify.com/.
+
+You can check PR #497 for example.
+
 ### 9、如果你的代码合并时出现冲突时，你可以：
 
 > 注：如果未出现冲突，则无需进行以下操作
