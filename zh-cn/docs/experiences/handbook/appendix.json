@@ -1,6 +1,10 @@
 {
   "filename": "appendix.md",
-  "__html": "",
+  "__html": "<p>内容：TODO</p>\n<p>原文地址：<a href=\"https://www.alibabacloud.com/zh/universal-service/pdf_reader?spm=a3c0i.14138300.8102420620.dreadnow.cca27c8eTKFyyl&amp;cdnorigin=video-intl&amp;pdf=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E9%98%B2%E6%B2%BB%E6%89%8B%E5%86%8C.pdf\">https://www.alibabacloud.com/zh/universal-service/pdf_reader?spm=a3c0i.14138300.8102420620.dreadnow.cca27c8eTKFyyl&amp;cdnorigin=video-intl&amp;pdf=在线阅读新冠肺炎防治手册.pdf</a></p>\n",
   "link": "/zh-cn/docs/experiences/handbook/appendix.html",
-  "meta": {}
+  "meta": {
+    "title": "附录/编委会/参考文献",
+    "keywords": "附录/编委会/参考文献",
+    "description": "附录/编委会/参考文献"
+  }
 }
