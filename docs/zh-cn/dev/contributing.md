@@ -148,9 +148,9 @@ git commit --amend
 git push origin my-fix-branch
 ```
 
-After you have issued a new PR. You can preview the website from netlify. The domain name is different for each PR since it contains the issue id: https://deploy-preview-[ISSUE ID]--reverent-lumiere-ad26e3.netlify.com/.
+在提交了新的PR后，你可以从netlify上预览网站。 因为pr的网址包含了issue id，所以每个pr的网址都不同。网址为https://deploy-preview-[ISSUE ID]--reverent-lumiere-ad26e3.netlify.com/。
 
-You can check PR #497 for example.
+例如，你可以查看[pr#497](https://github.com/wuhan2020/wuhan2020.github.io/pull/497)。
 
 ### 9、如果你的代码合并时出现冲突时，你可以：
 
