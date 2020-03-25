@@ -17,3 +17,13 @@ description: 抵抗新型冠状病毒的经验总结
  * 介绍：针对孕妇、志愿者、医护人员、NGO、普通民众推出的实用指南，来自隐形基金。
  * 地址：http://www.ginkgofoundation.org/practical-guide
 
+
+### 传播方式
+
+在页面上查看，或者到原文地址下载pdf文件。可以在各国医疗救助机构和医护人员群体、华侨和留学生群体、媒体传播。
+
+
+### 提供帮助
+
+* 可以将文章用markdown形式提交到 https://github.com/wuhan2020/wuhan2020.github.io 。
+* 翻译：本站原创文章请帮助翻译[i18n](https://github.com/wuhan2020/wuhan2020.github.io/tree/dev/i18n)下各个目录中的文章，转载的请优先搬运原创媒体的多语言内容。

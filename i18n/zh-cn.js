@@ -836,15 +836,9 @@ export default {
             link: '/zh-cn/docs/experiences/handbook/nursing-care.html',
           },
           {
-            title: '附录',
+            title: '附录/编委会/参考文献',
             link: '/zh-cn/docs/experiences/handbook/appendix.html',
-          },
-          {
-            title: '编委会',
-          },
-          {
-            title: '参考文献',
-          },
+          }
         ],
       },
       {
@@ -853,6 +847,22 @@ export default {
           {
             title: '孕产妇篇',
             link: '/zh-cn/docs/experiences/practical-guide/maternal.html',
+          },
+          {
+            title: '志愿者篇',
+            link: '/zh-cn/docs/experiences/practical-guide/volunteers.html',
+          },
+          {
+            title: '医护人员篇',
+            link: '/zh-cn/docs/experiences/practical-guide/medical-staff.html',
+          },
+          {
+            title: 'NGO篇',
+            link: '/zh-cn/docs/experiences/practical-guide/ngo.html',
+          },
+          {
+            title: '普通民众篇',
+            link: '/zh-cn/docs/experiences/practical-guide/ordinary-people.html',
           },
         ],
       },
