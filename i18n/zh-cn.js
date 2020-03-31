@@ -331,6 +331,13 @@ export default {
           description: '黑客松活动是社区举办的创意设计大赛。为了呼吁更多人参与、创造包括产品原型，编码，用户体验设计以及业务/社会影响模型等形式的作品，以对抗新冠病毒疫情。此外，鼓励社会创新，以开源协作来帮助对抗疫情，并在志愿者，机构，企业和平台之间创造共享价值。',
           link: 'https://community.wuhan2020.org.cn/zh-cn/hackathon/index.html',
         },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020 志愿者证书',
+          repoLink:'https://github.com/wuhan2020/volunteer-certificate',
+          description: '志愿者证书申领',
+          link: 'https://github.com/wuhan2020/volunteer-certificate',
+        }        
       ],
     },
   },
