@@ -334,9 +334,9 @@ export default {
         {
           img: '/images/blog/wuhan2020.png',
           title: 'wuhan2020 志愿者证书',
-          repoLink:'https://github.com/wuhan2020/volunteer_certificate',
+          repoLink:'https://github.com/wuhan2020/volunteer-certificate',
           description: '志愿者证书申领',
-          link: 'https://github.com/wuhan2020/volunteer_certificate',
+          link: 'https://github.com/wuhan2020/volunteer-certificate',
         }        
       ],
     },
