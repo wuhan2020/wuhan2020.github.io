@@ -13,9 +13,10 @@ Wuhan2020 开源社区发展规划
 [wuhan2020开源社区](https://community.wuhan2020.org.cn/zh-cn/)
 &nbsp;&nbsp;&nbsp;<!-- 空格 -->
 *2020.04.01*
-![avatar](images/6`blog/wuhan2020.png)
 
-![avatar](images/6`blog/plan/p640.png)
+![avatar](images/blog/wuhan2020.png)
+
+![avatar](images/blog/plan/p640.png)
 
 因爱而生，开源向善。
 Wuhan2020开源社区自成立以来，一直尝试善用技术的力量，通过协作的方式，解决本次新冠肺炎疫情中暴露出来的社会危机。
@@ -221,7 +222,7 @@ GitHub 平台上开发者之间的代码协作、GitHub 与 Slack平台之间信
 
 
 
->**网址：**https://community.wuhan2020.org.cn/zh-cn/index.html
+>**网址：** https://community.wuhan2020.org.cn/zh-cn/index.html
 
 ### <font color=red > 02  </font>  Wuhan2020 信息服务平台
 
@@ -234,7 +235,7 @@ GitHub 平台上开发者之间的代码协作、GitHub 与 Slack平台之间信
 
 >参与 Wuhan2020众多开发者们，用自己擅长的技术，做着力所能及的事情，共同应对这场战争。
 
-**网址：** https://wh.opensource-service.cn/
+**网址：**  https://wh.opensource-service.cn/
 
 ### <font color=red > 03  </font> 高校打卡项目
 
