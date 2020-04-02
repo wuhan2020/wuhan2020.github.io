@@ -3,7 +3,7 @@ hidden: false
 title: Wuhan2020 开源社区发展规划
 keywords: wuhan2020,发展规划
 description:wuhan2020开源社区的发展规划,宗旨目标，聚焦定位，发展路径，年度重大事项，已有项目等
-author: mathwyz
+author: wuhan2020组委会
 date: 2020-04-02
 ---
 Wuhan2020 开源社区发展规划
@@ -14,7 +14,7 @@ Wuhan2020 开源社区发展规划
 &nbsp;&nbsp;&nbsp;<!-- 空格 -->
 *2020.04.01*
 
-![avatar](../../images/blog/plan/p640.png)
+![avatar](images/6`blog/plan/p640.png)
 
 因爱而生，开源向善。
 Wuhan2020开源社区自成立以来，一直尝试善用技术的力量，通过协作的方式，解决本次新冠肺炎疫情中暴露出来的社会危机。
@@ -23,8 +23,9 @@ Wuhan2020开源社区自成立以来，一直尝试善用技术的力量，通�
 
 感谢所有人的关注和支持，我们也将在“开源向善”的道路上不断奋进！
 
-## <center> 引言 </center>
 
+## <center> 引言 </center>
+![avatar](images/6`blog/wuhan2020.png)
 如果你对我们 Wuhan2020
 还不太了解，可以在下面这个视频中，通过其中人物的对话，去看看我们在做过些什么？
 
@@ -44,13 +45,13 @@ Wuhan2020开源社区自成立以来，一直尝试善用技术的力量，通�
 
 用开源协作与开源技术，解决本次疫情中的暴露出来的紧迫性问题，是我们的初心。
 
-![image](../../images/blog/plan/640_002.png)
+![image](images/blog/plan/640_002.png)
 
 随着疫情的全球化与常态化，以及社区成员在第一阶段的实践与认识，我们将进一步利用前期所沉淀的项目成果与知识经验，推动社区的持续发展。
 
 在全球性这个更大的范围下，我们将始终围绕公益和开源的主题，持续的发挥
 Wuhan2020 开源社区的作用与影响力，并期待形成自己的品牌效应。
-![image](../../images/blog/plan/640_003.png)
+![image](images/blog/plan/640_003.png)
 GitHub blog 报道 Wuhan2020
 为此，
 我们发挥集体智慧，将社区的发展定位为：
@@ -60,7 +61,7 @@ GitHub blog 报道 Wuhan2020
 
 通过 Wuhan2020 社区，有机的将公益志愿者和技术开发者进行深度连接，进而达到用技术手段解决公益问题的目标。
 
-![image](../../images/blog/plan/640_004.png)
+![image](images/blog/plan/640_004.png)
 我们的 Slogan 是：
 <font color=red><b>Open Source for Good！（开源向善）</b></font>
 
@@ -192,7 +193,7 @@ GitHub 平台上开发者之间的代码协作、GitHub 与 Slack平台之间信
 
 >作为一个实际的开源项目，离不开大量的贡献者，希望大家一同来构建这个意义非凡的社区作品。
 
-![image](../../images/blog/plan/640.png)
+![image](images/blog/plan/640.png)
 
 ### <font color=red > 03  </font>  Wuhan2020 开源社区年会
 >Wuhan2020 开源社区的年度大会，每年下半年将会举办一次 。
@@ -286,13 +287,13 @@ https://github.com/wuhan2020/Hackathon
 
 <center> Wuhan2020开源社区 </center>
 <div  align="center">
-<img src="../../images/blog/plan/640_005.png" width="50" height="50 "/>
+<img src="images/blog/plan/640_005.png" width="50" height="50 "/>
 </div>
 
 Wuhan2020开源社区是以解决2019年底2020年初所爆发的新冠肺炎（COVID-19）全球化疫情所诞生的一个公益性开源组织，是广大公益志愿者和技术开发者所形成的一个共同体。用开源协作与开源技术解决本次疫情中的暴露出来的紧迫性问题，是我们的初心。
 
 <div  align="center">
-<img src="../../images/blog/plan/p640_002.png" width="50" height="50 "/>
+<img src="images/blog/plan/p640_002.png" width="50" height="50 "/>
 </div>
 
 <center> wuhan2020 开源社区 </center>
