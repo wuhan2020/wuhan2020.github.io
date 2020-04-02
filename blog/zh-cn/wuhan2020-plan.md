@@ -289,13 +289,13 @@ https://github.com/wuhan2020/Hackathon
 
 <center> Wuhan2020开源社区 </center>
 <div  align="center">
-<img src="/images/blog/plan/640_005.png" width="50" height="50 "/>
+<img src="/images/blog/plan/640_005.png"/>
 </div>
 
 Wuhan2020开源社区是以解决2019年底2020年初所爆发的新冠肺炎（COVID-19）全球化疫情所诞生的一个公益性开源组织，是广大公益志愿者和技术开发者所形成的一个共同体。用开源协作与开源技术解决本次疫情中的暴露出来的紧迫性问题，是我们的初心。
 
 <div  align="center">
-<img src="/images/blog/plan/p640_002.png" width="50" height="50 "/>
+<img src="/images/blog/plan/p640_002.png" width="100" height="100 "/>
 </div>
 
 <center> wuhan2020 开源社区 </center>
