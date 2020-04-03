@@ -331,6 +331,13 @@ export default {
           description: '黑客松活动是社区举办的创意设计大赛。为了呼吁更多人参与、创造包括产品原型，编码，用户体验设计以及业务/社会影响模型等形式的作品，以对抗新冠病毒疫情。此外，鼓励社会创新，以开源协作来帮助对抗疫情，并在志愿者，机构，企业和平台之间创造共享价值。',
           link: 'https://community.wuhan2020.org.cn/zh-cn/hackathon/index.html',
         },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020 志愿者证书',
+          repoLink:'https://github.com/wuhan2020/volunteer-certificate',
+          description: '志愿者证书申领',
+          link: 'https://github.com/wuhan2020/volunteer-certificate',
+        }        
       ],
     },
   },
@@ -809,6 +816,66 @@ export default {
       },
     }
   },
+  experiences: {
+    sidemenu: [
+      {
+        title: '概述',
+        children: [
+          {
+            title: '抗疫经验频道都提供了哪些知识？',
+            link: '/zh-cn/docs/experiences/overview.html',
+          },
+        ],
+      },
+      {
+        title: '《新冠肺炎防治手册》',
+        children: [
+          {
+            title: '第一部分 防控管理',
+            link: '/zh-cn/docs/experiences/handbook/prevention-and-control.html',
+          },
+          {
+            title: '第二部分 诊疗经验',
+            link: '/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.html',
+          },
+          {
+            title: '第三部分 护理经验',
+            link: '/zh-cn/docs/experiences/handbook/nursing-care.html',
+          },
+          {
+            title: '附录/编委会/参考文献',
+            link: '/zh-cn/docs/experiences/handbook/appendix.html',
+          }
+        ],
+      },
+      {
+        title: '《应对新冠肺炎疫情实用指南》',
+        children: [
+          {
+            title: '孕产妇篇',
+            link: '/zh-cn/docs/experiences/practical-guide/maternal.html',
+          },
+          {
+            title: '志愿者篇',
+            link: '/zh-cn/docs/experiences/practical-guide/volunteers.html',
+          },
+          {
+            title: '医护人员篇',
+            link: '/zh-cn/docs/experiences/practical-guide/medical-staff.html',
+          },
+          {
+            title: 'NGO篇',
+            link: '/zh-cn/docs/experiences/practical-guide/ngo.html',
+          },
+          {
+            title: '普通民众篇',
+            link: '/zh-cn/docs/experiences/practical-guide/ordinary-people.html',
+          },
+        ],
+      },
+    ],
+    barText: '抗疫经验',
+  },
   certification: {
     formText: {
       header: '志愿者证书领取',
@@ -862,6 +929,11 @@ export default {
         key: 'hackathon',
         text: '黑客松',
         link: '/zh-cn/hackathon/index.html',
+      },
+      {
+        key: 'experiences',
+        text: '抗疫经验',
+        link: '/zh-cn/docs/experiences/overview.html',
       },
       {
         key: 'mis',

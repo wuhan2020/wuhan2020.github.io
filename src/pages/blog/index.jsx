@@ -9,8 +9,8 @@ import Footer from '../../components/footer';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
+import Gitalk from '../../components/gitalk'
 import './index.scss';
-
 const {
   langList = [
       { value: 'zh-cn', text: '简体中文' },
@@ -69,6 +69,7 @@ class Blog extends Language {
             </ul>
           </div>
         </section>
+        <Gitalk class_name="blog-container"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );

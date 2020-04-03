@@ -8,6 +8,7 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
+import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 // 锚点正则
@@ -27,6 +28,7 @@ class Documentation extends Language {
 
   componentDidMount() {
     const pathname = window.location.pathname;
+    const isExperience = pathname.indexOf('/experiences/') !== -1;
     const isDevelop = pathname.split('/').pop().lastIndexOf('_dev.html') !== -1;
     // 通过请求获取生成好的json数据，静态页和json文件在同一个目录下
     fetch(pathname.replace(/\.html$/i, '.json'))
@@ -34,7 +36,7 @@ class Documentation extends Language {
     .then((md) => {
       this.setState({
         __html: md && md.__html ? md.__html : '',
-        currentKey: isDevelop ? 'developers': 'docs',
+        currentKey: isDevelop ? 'developers' : (isExperience ? 'experiences' : 'docs'),
       });
     });
     this.markdownContainer.addEventListener('click', (e) => {
@@ -92,7 +94,7 @@ class Documentation extends Language {
     const language = this.getLanguage();
     const { currentKey } = this.state;
     // 开发者页借助文档页载体
-    const currentPage = currentKey === 'docs' ? 'docs' : 'develop';
+    const currentPage = (currentKey === 'docs' ||currentKey === 'experiences' ) ? currentKey  : 'develop';
     const dataSource = this.getLanguageDict(language, currentPage);
     // const dataSource = isDevelop ? (developConfig[language] || developConfig[siteConfig.defaultLanguage]) : (docsConfig[language] || docsConfig[siteConfig.defaultLanguage]);
     const __html = this.props.__html || this.state.__html;
@@ -114,6 +116,7 @@ class Documentation extends Language {
             dangerouslySetInnerHTML={{ __html }}
           />
         </section>
+        <Gitalk class_name="content-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );
