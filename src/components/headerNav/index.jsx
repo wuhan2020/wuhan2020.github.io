@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import classnames from 'classnames';
-import siteConfig from '../../../site_config/site';
-import { getLink, getLanguage, getLanguageDict } from '../../../utils';
+import React, { useState } from 'react';
+import { getLink, getLanguageDict } from '../../../utils';
 
 import './index.scss';
 
@@ -10,20 +8,16 @@ const HeaderNav = (props) => {
     let [isMenuBodyShown, setIsMenuBodyShown] = useState(false);
 
     return (
-        <div className={`header-menu-container ${isMenuBodyShown ? 'header-menu-open' : ''}`}>
+        <div className='header-menu-container'>
             <img
               className="header-menu-toggle"
               onClick={() => setIsMenuBodyShown(!isMenuBodyShown)}
               src={getLink(`/images/system/${type === 'primary' ? 'menu_white' : 'menu_gray'}.png`)}
             />
-            <ul>
+            <ul className={`menu-list ${isMenuBodyShown ? 'menu-open' : ''}`}>
               {getLanguageDict(language, 'site').pageMenu.map(item => (
                 <li
-                  className={classnames({
-                    'menu-item': true,
-                    [`menu-item-${type}`]: true,
-                    [`menu-item-${type}-active`]: currentKey === item.key,
-                  })}
+                  className={`menu-item ${type} ${currentKey === item.key ? 'active' : '' }`}
                   key={item.key}
                 >
                   <a href={getLink(item.link)} target={item.target || '_self'}>{item.text}</a>

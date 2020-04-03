@@ -1,69 +1,78 @@
 @import '../../variables.scss';
 
 .header-menu-container {
-    float: right;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex: 1 0 auto;
 
     .header-menu-toggle {
       display: inline-block;
       width: 19px;
-      margin-right: 40px;
-      margin-top: $headerHeight / 2 - 37px;
       cursor: pointer;
-    
+      position: relative;
+
       @include apply-from(tablet) {
           display: none;
       }
     }
 
-    ul {
-        padding: 0;
-        margin: 0;
+    .menu-list {
+      height: auto;
+      padding: 0;
+      margin: 0;
+      display: none;
+
+      @include apply-from(tablet) {
+        display: block;
       }
-      li {
-        display: inline-block;
-        margin-right: 40px;
+
+      &.menu-open {
+        width: 170px;
+        display: block;
+        position: absolute;
+        top: 50px;
+        background-color: #fff;
+
+        .menu-item {
+          margin-right: 0;
+          width: 100%;
+
+          a {
+            color: #333;
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+          }
+        }
       }
+
       .menu-item {
+        display: inline-block;
         font-family: Avenir-Medium;
         font-size: 14px;
         vertical-align: bottom;
-      }
-      .menu-item-primary {
+        margin-right: 40px;
+
         a {
           color: #fff;
           opacity: 0.6;
           font-family: Avenir-Medium;
-        }
-        &:hover {
-          a {
+
+          .normal & {
+            color: #333;
+          }
+
+          :hover > & {
             opacity: 1;
           }
-        }
-        &-active {
-          a {
+
+          .active & {
             font-family: Avenir-Medium;
             font-weight: 700;
             opacity: 1;
           }
         }
       }
-      .menu-item-normal {
-        a {
-          color: #333;
-          opacity: 0.6;
-          font-family: Avenir-Medium;
-        }
-        &:hover {
-          a {
-            opacity: 1;
-          }
-        }
-        &-active {
-          a {
-            font-family: Avenir-Medium;
-            font-weight: 700;
-            opacity: 1;
-          }
-        }
     }
 }

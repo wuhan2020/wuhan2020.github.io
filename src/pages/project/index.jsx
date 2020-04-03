@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
@@ -14,7 +14,7 @@ class Project extends Language {
         const dataSource = this.getLanguageDict(language, 'project');
         return (
             <div className="project-page">
-                <Header
+                <HeaderRefactored
                 currentKey="project"
                 type="normal"
                 logo="/images/wuhan2020-logo-gray.png"

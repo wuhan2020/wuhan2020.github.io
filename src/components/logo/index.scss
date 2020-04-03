@@ -1,4 +1,12 @@
+@import '../../variables.scss';
+
 .logo-container {
+    flex: 1 0 auto;
+    
+    @include apply-from(tablet) {
+        flex: 2 0 auto;
+    }
+
     .logo-image {
         margin-left: 40px;
         height: 36px;

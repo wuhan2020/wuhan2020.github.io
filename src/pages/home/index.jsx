@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import cls from 'classnames';
 import 'whatwg-fetch'; // fetch polyfill
 import { getScrollTop } from '../../../utils';
-import Header from '../../components/header';
 import Button from '../../components/button';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
@@ -60,7 +59,7 @@ class Home extends Language {
                     [`top-section-${language}`]: true,
                   })}
                 >
-                    <Header
+                    <HeaderRefactored
                         currentKey="home"
                         type={headerType}
                         logo={headerLogo}
@@ -69,15 +68,6 @@ class Home extends Language {
                     />
                     
                     <div className="top-body">
-                        <div className="test">
-                            <HeaderRefactored
-                                currentKey="home"
-                                type={headerType}
-                                logo={headerLogo}
-                                language={language}
-                                onLanguageChange={this.onLanguageChange}
-                            />
-                        </div>
                         <div className="vertical-middle">
                             <div className="product-name">
                                 <h2>{dataSource.brand.brandName}</h2>
