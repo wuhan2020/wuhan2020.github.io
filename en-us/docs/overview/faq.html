@@ -13,6 +13,14 @@
   <title>Wuhan2020 FAQ</title>
   <link rel="shortcut icon" href="/images/wuhan2020-mini.png" />
   <link rel="stylesheet" href="/build/documentation.css" />
+  <style>
+    .gray-page {
+      -moz-filter: grayscale(100%) !important;
+      -webkit-filter: grayscale(100%) !important;
+      filter: gray !important; /* IE6-9 */
+      filter: grayscale(100%) !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -90,6 +98,45 @@
   
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   
+  <script type="text/javascript">
+    const html_dom = document.getElementsByTagName('html')[0];
+    
+    const starTime = "April 4 2020 00:00:00 GMT+08:00";
+    const endTime = "April 4 2020 23:59:59 GMT+08:00";
+    const testStart = "April 3 2020 22:10:10 GMT+08:00";
+    const testEnd = "April 3 2020 22:12:10 GMT+08:00";
+    let intervalId = '';
+    const getTimeDiff = (time) => new Date().getTime() - new Date(time).getTime();
+    function getTimeOffset(start, end) {
+      let result = {isStart: false, isEnd: false};
+      let endOffsetMs = getTimeDiff(end);
+      isEnd = endOffsetMs >= 0;
+      if (end && endOffsetMs > 0) {
+        return {...result, isEnd};
+      }
+      let startOffsetMs = getTimeDiff(start);
+      let isStart = startOffsetMs >= 0;
+      return {...result, isStart};
+    };
+
+    intervalId = setInterval(()=> {
+      let offset = getTimeOffset(testStart, testEnd);
+      if (getTimeDiff(testEnd) >= 0) {
+        offset = getTimeOffset(starTime, endTime);
+      }
+      html_dom.classList.toggle('gray-page', offset.isStart);
+
+      if (offset.isEnd) {
+        if (intervalId && getTimeDiff(endTime) >= 0) {
+          clearInterval(intervalId);
+        }
+        if (html_dom.classList.contains('gray-page')) {
+          html_dom.classList.remove('gray-page');
+        }
+      }
+    }, 2000);
+
+  </script>
 </body>
 
 </html>
