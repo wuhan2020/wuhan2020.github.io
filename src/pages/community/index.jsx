@@ -8,7 +8,7 @@ import EventCard from './eventCard';
 import ContactItem from './contactItem';
 import ContributorItem from './contributorItem';
 import Footer from '../../components/footer';
-
+import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 class Community extends Language {
@@ -57,6 +57,7 @@ class Community extends Language {
           }
           </div>
         </section>
+        <Gitalk class_name="contributor-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );

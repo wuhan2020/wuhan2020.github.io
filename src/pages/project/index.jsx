@@ -5,8 +5,8 @@ import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
 import ProjectItem from './projectItem';
+import Gitalk from '../../components/gitalk';
 import './index.scss';
-
 class Project extends Language {
     render() {
         const language = this.getLanguage();
@@ -28,6 +28,7 @@ class Project extends Language {
                     <ProjectItem project={project} key={i} />
                     ))}
                 </section>
+                <Gitalk class_name="project-section"/>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );

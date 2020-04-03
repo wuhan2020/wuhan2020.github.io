@@ -7,6 +7,7 @@ import Language from '../../components/language';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import './index.scss';
+import Gitalk from '../../components/gitalk';
 
 // 锚点正则
 const anchorReg = /^#[^/]/;
@@ -108,6 +109,7 @@ class BlogDetail extends Language {
           ref={(node) => { this.markdownContainer = node; }}
           dangerouslySetInnerHTML={{ __html }}
         />
+        <Gitalk class_name="blog-content"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
       </div>
     );

@@ -8,7 +8,7 @@ import Footer from '../../components/footer';
 import CountryMapList from './countryMapItem';
 import TeamItemList from './teamItemList';
 import HackathonProgress from './hackathonProgress';
-
+import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 const mockMilestones = [{
@@ -86,6 +86,7 @@ class HackathonKanban extends Language {
                         </section>
                     </article>
                 </main>
+                <Gitalk class_name="kanban-page"/>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
             </div>
         );
