@@ -239,6 +239,56 @@ export default {
       ],
     },
   },
+  job: {
+    barText: '招聘汇',
+    sectionDescription: '方便企业来发布招聘服务，为工作需求的志愿者提供方便',
+    projects: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '新型冠状病毒防疫信息收集平台',
+          repoLink:'https://github.com/wuhan2020/wuhan2020',
+          description: 'Wuhan2020信息服务官网，是由程序员和开发者创建的疫情相关的资源对接综合类信息服务平台。以关注数据平台层面为核心，解决极端应急条件下，消息不对等和信息不透明导致的物资供应不足、就诊信息混乱、异地人员无法解决外宿等问题。主要面向政府、公益组织、企事业单位、医疗机构、患者、捐助者等相关机构和人群。开发者们均可以借助技术工具和数字平台，利用数字平台优势，实现供需数字化、提升信息透明度，让各供需方进行分布式自助对接，提升效率。参与wuhan2020 众多开发者们，用自己擅长的技术，做着力所能及的事情，共同应对这场战争。',
+          link: 'https://wh.opensource-service.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '2020援助武汉',
+          repoLink: 'https://github.com/wuhan2020/data-sync',
+          description: '建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。',
+          link: 'https://wuhan2020.kaiyuanshe.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Wuhan2020开源社区官网',
+          repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
+          description: 'Wuhan2020开源社区是在新冠肺炎疫情期间由开发者自主搭建的社区，社区为开发者提供技术交流、实践的平台，用开源的社区文化，以自组织协作的方式完成，帮助武汉自组织救援工作更有效、更准确地开展。社区上线至今吸引了自不同国家的3000多志愿者，通过建立信息系统、数据分析预测等为抵抗新型冠状病毒做贡献；目前已成功孵化“新型冠状病毒防疫信息收集平台”、2020援助武汉”、“Wuhan2020开源社区官网”、“COVID-19-Nav 疫情信息导航”等多个项目。',
+          link: 'https://community.wuhan2020.org.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'COVID-19-Nav 疫情信息导航',
+          repoLink: 'https://github.com/wuhan2020/COVID-19-Nav',
+          description: '疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。',
+          link: 'http://nav.werty.cn',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '黑客松',
+          repoLink:'https://github.com/wuhan2020/Hackathon',
+          description: '黑客松活动是社区举办的创意设计大赛。为了呼吁更多人参与、创造包括产品原型，编码，用户体验设计以及业务/社会影响模型等形式的作品，以对抗新冠病毒疫情。此外，鼓励社会创新，以开源协作来帮助对抗疫情，并在志愿者，机构，企业和平台之间创造共享价值。',
+          link: 'https://community.wuhan2020.org.cn/zh-cn/hackathon/index.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020 志愿者证书',
+          repoLink:'https://github.com/wuhan2020/volunteer-certificate',
+          description: '志愿者证书申领',
+          link: 'https://github.com/wuhan2020/volunteer-certificate',
+        }
+      ],
+    }
+  },
   hackathon: {
     barText: 'Hackathon',
     starter: '',
