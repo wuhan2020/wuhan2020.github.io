@@ -6,6 +6,7 @@ author: Ginda Chen, Isabella
 proofread: Yudai Yaguchi
 date: 2020-01-29
 ---
+
 <img src="/images/blog/wuhan2020.png" alt="wuhan2020">
 
 # wuhan2020 お知らせ 2020.1.29

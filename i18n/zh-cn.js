@@ -109,7 +109,43 @@ export default {
           img: '/images/blog/media/jianshu2.webp',
           imgHover:'/images/blog/media/jianshu2.webp',
           title: '简书',
-        },          
+          },
+           {
+               img: '/images/blog/media/jinritoutiao.png',
+               imgHover:'/images/blog/media/jinritoutiao.png',
+               title: '今日头条',
+               link:' https://profile.zjurl.cn/rogue/ugc/profile/?version_code=757&version_name=70507&user_id=3861086525731107&media_id=1657495890220045&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article'
+           },
+           {
+               img: '/images/blog/media/facebook.jpg',
+               imgHover:'/images/blog/media/facebook.jpg',
+               title: 'Facebook',
+               link:'https://www.facebook.com/wuhan2020community/' 
+           },
+           {
+          img: '/images/blog/media/twitter.jpg',
+          imgHover:'/images/blog/media/twitter.jpg',
+               title: 'Twitter',
+               link:'  https://twitter.com/2020Wuhan'
+           },
+           {
+          img: '/images/blog/media/instagram.png',
+          imgHover:'/images/blog/media/instagram.png',
+               title: 'Instagram',
+               link:'https://www.instagram.com/wuhan2020_community/?hl=zh-cn'
+           },
+           {
+          img: '/images/blog/media/youtube.png',
+          imgHover:'/images/blog/media/youtube.png',
+               title: 'Youtube',
+               link:' https://www.youtube.com/channel/UCy6KWe-hCYZtdP8rXqWFFUw '
+           },
+           {
+          img: '/images/blog/media/linkedin.jpg',
+          imgHover:'/images/blog/media/linkedin.jpg',
+               title: 'Linkedin',
+               link:'   https://www.linkedin.com/feed/update/urn:li:activity:6629399695330504704?ts=1580574261365&trk=article_share_wechat&from=singlemessage '
+           }
       ],
     },
     contributorGuide: {
