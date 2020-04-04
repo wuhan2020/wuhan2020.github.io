@@ -28,63 +28,63 @@ Wuhan2020是一项由开源爱好者发起的，由社会各界志愿者共同�
 
 为了使公众能更加便利地获取Wuhan2020开源项目的相关信息，我们整理了各方信息发布渠道。您可以通过关注我们的社交媒体的官方账号来获取Wuhan2020开源项目信息，如下账号为目前wuhan2020项目的官方信息发布账号。
 
-## ①微信公众号：wuhan2020开源社区 
+### ①微信公众号：wuhan2020开源社区 
 
 ![img](/images/blog/media/wechatcode.webp)
 
-## ②微博：wuhan2020社区 
+### ②微博：wuhan2020社区 
 ![img](/images/blog/media/weibocode.webp)
 ![img](/images/blog/media/weibocode2.webp)
 
-## ③b站：wuhan2020开源社区  
+### ③b站：wuhan2020开源社区  
 
 ![img](/images/blog/media/bilibili.webp)
 ![img](/images/blog/media/bilibili2.webp)
 
-## ④头条：wuhan2020开源社区  
+### ④头条：wuhan2020开源社区  
 
 ![img](/images/blog/media/toutiao.webp)
 https://profile.zjurl.cn/rogue/ugc/profile/?version_code=757&version_name=70507&user_id=3861086525731107&media_id=1657495890220045&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article
 
-## ⑤知乎：wuhan2020  
+### ⑤知乎：wuhan2020  
 
 ![img](/images/blog/media/zhihu.webp)
 ![img](/images/blog/media/zhihu2.webp)
 
 https://www.zhihu.com/people/fei-yue-18
 
-## ⑥简书：wuhan2020开源社区 
+### ⑥简书：wuhan2020开源社区 
 
 ![img](/images/blog/media/jianshu.webp)
 ![img](/images/blog/media/jianshu2.webp)
 
 https://www.jianshu.com/u/b3c8de11715
 
-## ⑦Facebook：wuhan2020community 
+### ⑦Facebook：wuhan2020community 
 
 [![img](/images/blog/media/facebook.webp)
 
 https://www.facebook.com/wuhan2020community/
 
-## ⑧Twitter：WUHAN 2020 Community 
+### ⑧Twitter：WUHAN 2020 Community 
 
  [![img](/images/blog/media/twitter.webp)
 
 https://twitter.com/2020Wuhan
 
-## ⑨Instagram：WUHAN 2020 Community 
+### ⑨Instagram：WUHAN 2020 Community 
 
 [![img](/images/blog/media/instagram.webp)
 https://www.instagram.com/wuhan2020_community/?hl=zh-cn
 
 
-## ⑩Youtube：wuhan2020community 
+### ⑩Youtube：wuhan2020community 
 
 [![img](/images/blog/media/youtube.webp)
 
  https://www.youtube.com/channel/UCy6KWe-hCYZtdP8rXqWFFUw 
 
-## ⑪Linkedin: WUHAN 2020 Community 
+### ⑪Linkedin: WUHAN 2020 Community 
 
 [![img](/images/blog/media/linkedin.webp)
 
@@ -94,19 +94,19 @@ https://www.instagram.com/wuhan2020_community/?hl=zh-cn
 
 我们希望，通过这个开源项目与社区，能有效流通信息、协调社会资源，在这次与疫情的抗争中做出一份贡献！
 
-## 扫码关注wuhan2020  
+### 扫码关注wuhan2020  
 ![img](/images/blog/media/wuhan2020wx.webp)
 
-## 每次关注、转发、参与，都是对本项目的 
+### 每次关注、转发、参与，都是对本项目的 
 
-## 支持 
+### 支持 
 
-## wuhan2020与你携手抗击疫情 
+### wuhan2020与你携手抗击疫情 
 
 声明：本社区所有资源均收集自互联网或源于wuhuan2020开源社区志愿者，所有视频图片资源均不用于商用，仅用作新型冠状病毒的公益宣传，所有资源版权均归资源持有人所有。同时本社区无意侵犯版权所有人的合法权益，如有侵犯您权益的文章或资源，请直接通过邮件或微信公众号联系我们，我们会第一时间屏蔽或删除该资源（24-48小时内）！
 
 <p align="right">作者 | 阮华莉</p>
-<p align="right">编辑 | 莫晶璟</p>
+<p align="right">编辑 | 莫晶璟 mathwyz</p>
 <p align="right">审稿 | 王伟 胡欢</p>
 <p align="right">图片设计 | 91 三水小朋友</p>
 <p align="right">文案协调 | 舒敏 Corrie 管媛野</p>
