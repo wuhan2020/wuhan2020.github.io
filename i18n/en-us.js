@@ -248,7 +248,7 @@ export default {
     sectionDescription: 'Recruitment information release specifications',
     purpose: {
       title: "The original intention of the recruitment module",
-      desc: "This community was established when the New Coronary Pneumonia raged. In the process of establishing sites and organizing community activities, many volunteers showed strong professional abilities and professional qualities. We found that many companies want to send recruitment information in the community without a suitable place. At the same time, many college students and volunteers are actively contributing to the community. The "recruitment" module came into being."
+      desc: "This community was established when the New Coronary Pneumonia raged. In the process of establishing sites and organizing community activities, many volunteers showed strong professional abilities and professional qualities. We found that many companies want to send recruitment information in the community without a suitable place. At the same time, many college students and volunteers are actively contributing to the community. The \"recruitment\" module came into being."
     },
     volunteers: {
       title: "Community composition",
