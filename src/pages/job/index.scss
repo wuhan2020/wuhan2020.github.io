@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.job-page {
+  p {
+    font-family: Avenir-Medium;
+  }
+  .job-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    h3 {
+      font-family: Avenir-Medium;
+      font-weight: 700;
+      font-size: 36px;
+      color: #333;
+      text-align: center;
+      margin: 0 0 30px;
+    }
+    h4 {
+      font-family: Avenir-Medium;
+      //font-weight: 700;
+      font-size: 24px;
+      color: #333;
+      text-align: left;
+      margin-left: 15%;
+      //margin: 0 0 30px;
+    }
+    p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 20%;
+      margin-left: 20%;
+      font-size: 16px;
+    }
+  }
+}

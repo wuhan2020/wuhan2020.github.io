@@ -243,6 +243,22 @@ export default {
       ],
     },
   },
+  job: {
+    barText: 'Recruitment',
+    sectionDescription: 'Recruitment information release specifications',
+    purpose: {
+      title: "The original intention of the recruitment module",
+      desc: "This community was established when the New Coronary Pneumonia raged. In the process of establishing sites and organizing community activities, many volunteers showed strong professional abilities and professional qualities. We found that many companies want to send recruitment information in the community without a suitable place. At the same time, many college students and volunteers are actively contributing to the community. The \"recruitment\" module came into being."
+    },
+    volunteers: {
+      title: "Community composition",
+      desc: "We are a community initiated by a crisis, and the community members are relatively complex. Among them: 75% technology, including: front-end and back-end development, employees in various positions such as big data, ai, operation and maintenance, DBA; 5% translators; 5% product managers; 2.5% coordination and management; Control and legal affairs; 5% publicity; 5% information entry; 1.5% others."
+    },
+    method: {
+      title: "Release method",
+      desc: "The employer directly publishes the job information in the comment area under the comment article, and the applicant can comment on the reply. For illegal or false information, the community administrator will delete posts and reserve the right to appeal to the publisher."
+    },
+  },
   hackathon: {
     barText: 'Hackathon',
     starter: 'Online competition',
