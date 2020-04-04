@@ -1,0 +1,12 @@
+{
+  "filename": "collaborative-process-publishing.md",
+  "__html": "<p>感谢各位的支持！</p>\n<p>简单起步，快速迭代，是开源项目的特点，本项目也不例外！</p>\n<p>各种点赞转发的就先不说了，很多好的建议和反馈给这个项目带来了非常大的帮助，其中大家讨论得最多多的一点就是<span style=\"color:red\"><strong>对信息真实性的审核！</strong></span></p>\n<p>鉴于此，在大家的多次讨论下，以及联合石墨文档技术人的支持，2020项目社区确定了如下的协作流程方案：</p>\n<p><img src=\"/images/blog/media/collaborative-process-publishing.webp\" alt=\"img\"></p>\n<p><strong>1、所有数据协作在石墨文档中进行，每个类别有一个表格，所有人都可以查看表格中的内容，通过邀请的协作者可以提交内容，每行为一个记录行。</strong></p>\n<p><strong>2、每个表格需要有一列审核列，只有特定的审核人员可以修改该列的信息。</strong></p>\n<p><strong>3、审核人员需要仔细审核记录行，如果该行记录审核通过，则在审核列进行标记，并将该记录行锁定，审核人员以外的账号无法修改。</strong></p>\n<p><strong>4、各石墨表格中已经审核的记录行会定时自动导入到项目的 GitHub 数据仓库中，导入内容通过 GitHub PR 提交并由开发者进行二次审核。</strong></p>\n<p><strong>5、GitHub 数据仓库中的数据由程序定时导入数据库中，前端项目可以通过仓库获取原始数据，或提供 API server 来提供数据接口，进行数据的可视化展示。</strong></p>\n<p>当然，该方案并不完美，还是同样的理念，简单起步，快速迭代，上面的所有内容包括那副图都在 GitHub 上，而且是可以迭代的（图片我们也已经代码化了）。如果各位有什么建议，直接在 GitHub 的项目上开 issue 讨论。</p>\n<p>同时，希望有更多相关的<span style=\"color:red\"><strong>专业人士和机构人士</strong></span>加入到这个项目中，共同来<span style=\"color:red\"><strong>审核数据的真实性</strong></span>，特别是涉及到钱财方面，需要慎之又慎，已经出现一些骗子了，不能够让这些人捣乱，导致我们好心办坏事。可以直接在后台留言，我们24小时守候并及时回复！</p>\n<p>除了<span style=\"color:red\"><strong>数据的真实性</strong></span>，<span style=\"color:red\"><strong>数据的安全性</strong></span>问题同样重要，合法合规同样是我们必须遵守的，也请所有正在做贡献的朋友们一起重视。因此，再次声明一下：<span style=\"color:red\"><strong>本项目所收集的数据均是通过正规渠道通过公开众包的形式进行采集的，通过众包审核后，均附有数据来源，项目本身只提供一套流程机制，不做实质性的数据采集动作，也不做数据发布的工作，坚持知情同意的原则。</strong></span></p>\n<p>整个协作过程均是开源开放可追朔的，欢迎广大朋友们进行监督，给我们提出更多的建议。</p>\n<p>除了 GitHub，本项目还计划在国内的代码托管平台（例如码云）上同步更新，相关自动化同步功能也在开发中，欢迎程序员们的加入！</p>\n<p><span style=\"color:red\"><strong>众志成城，共抗新型肺炎，</strong></span></p>\n<p><span style=\"color:red\"><strong>合法合规，共商发展大计。</strong></span></p>\n",
+  "link": "/zh-cn/blog/collaborative-process-publishing.html",
+  "meta": {
+    "title": "wuhan2020开源项目协作流程发布 & 征集专家人士",
+    "keywords": "协作流程发布,征集专家人士",
+    "description": "wuhan2020开源项目协作流程发布 & 征集专家人士",
+    "author": "Xlab开放实验室",
+    "date": "2020-01-26"
+  }
+}

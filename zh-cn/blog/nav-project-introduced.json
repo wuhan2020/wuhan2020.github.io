@@ -1,0 +1,12 @@
+{
+  "filename": "nav-project-introduced.md",
+  "__html": "<p><img src=\"/images/blog/media/nav-project-introduced.webp\" alt=\"\"></p>\n<p>2020年2月8日，<span style=\"color:red\"><strong>2019-nCoV-Nav 疫情信息导航</strong></span> <a href=\"http://nav.werty.cn\">http://nav.werty.cn</a> 站点开发者和wuhan2020开源社区经过认真的讨论后，决定将项目迁移至wuhan2020社区继续孵化。</p>\n<p><img src=\"/images/blog/media/2019-nCoV-Nav.webp\" alt=\"\"></p>\n<p><span style=\"color:red\"><strong>2019-nCoV-Nav项目</strong></span>是由韩进祥和李俊峰两位同学开发完成，并在网上运营。疫情没有边界，技术亦无边界，无法奔赴一线的技术人也可以为战胜这场疫情贡献自己的力量。基于这样的初心他们开发了2019-nCov疫情导航，<span style=\"color:red\"><strong>旨在整合现有各大平台及各社会力量的相关应用及站点入口，让大家更加便利的获取疫情相关的信息，也让信息流转的效率更高</strong></span>。</p>\n<p><img src=\"/images/blog/media/nav-project-pc.webp\" alt=\"PC端效果\"></p>\n<p style=\"font-size: 12px;color: rgb(136, 136, 136); text-align: center;\">PC端效果</p>\n<p><img src=\"/images/blog/media/nav-project-mobile.webp\" alt=\"手机端效果\"></p>\n<p style=\"font-size: 12px;color: rgb(136, 136, 136); text-align: center;\">手机端效果</p>\n<p>目前该疫情导航主要提供了<strong>实时疫情、防疫指南、物资救援、举报监察、在线义症、谣言鉴定、发热门诊、同程寻人</strong>等方面的信息入口，已帮助不少用户更加便捷的找到自己所需的信息。</p>\n<p><strong>wuhan2020开源社区非常欢迎新项目的入驻，也将在产品开发和运营等各个环节上对新项目进行大力支持。相信借力于社区的各位志愿者，将会更加快速地发挥这个导航网站的作用，为更多的人提供帮助，</strong><span style=\"color:red\"><strong>相信这一善举必将会成为开源界在抗击疫病过程中的一段佳话！</strong></span></p>\n<p><img src=\"/images/blog/media/2019-nCoV-Nav-poster.webp\" alt=\"\"></p>\n",
+  "link": "/zh-cn/blog/nav-project-introduced.html",
+  "meta": {
+    "title": "开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区",
+    "keywords": "疫情信息导航,wuhan2020开源社区",
+    "description": "开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区",
+    "author": "wuhan2020开源社区",
+    "date": "2020-02-10"
+  }
+}

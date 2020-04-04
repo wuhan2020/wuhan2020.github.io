@@ -1,0 +1,556 @@
+{
+  "zh-cn": [
+    {
+      "filename": "architecture.md",
+      "link": "/zh-cn/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/zh-cn/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/zh-cn/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/zh-cn/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "mailing-list-guide.md",
+      "link": "/zh-cn/docs/dev/mailing-list-guide.html",
+      "meta": {
+        "title": "邮件列表订阅向导",
+        "keywords": "邮件,订阅,向导,mail list, maiiling list",
+        "description": "如何加入邮件列表"
+      }
+    },
+    {
+      "filename": "project-donate-guide.md",
+      "link": "/zh-cn/docs/dev/project-donate-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "project-management.md",
+      "link": "/zh-cn/docs/dev/project-management.html",
+      "meta": {
+        "title": "项目管理",
+        "keywords": "项目管理",
+        "description": "项目管理"
+      }
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/zh-cn/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "slack-channels.md",
+      "link": "/zh-cn/docs/dev/slack-channels.html",
+      "meta": {
+        "title": "Slack channel 列表",
+        "keywords": "Slack channel 列表",
+        "description": "Slack channel 列表"
+      }
+    },
+    {
+      "filename": "team-workflow.md",
+      "link": "/zh-cn/docs/dev/team-workflow.html",
+      "meta": {
+        "title": "团队生产流程",
+        "keywords": "团队生产流程",
+        "description": "团队生产流程"
+      }
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/zh-cn/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "贡献者列表",
+        "keywords": "武汉加油, 贡献者列表",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
+      "filename": "workreport-communicate_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-communicate_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-data_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-data_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-hackathon_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-hackathon_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-media_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-media_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-pm_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-pm_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-pmo_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-pmo_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-product_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-product_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "workreport-rd_dev.md",
+      "link": "/zh-cn/docs/developers/workreport-rd_dev.html",
+      "meta": {}
+    },
+    {
+      "filename": "appendix.md",
+      "link": "/zh-cn/docs/experiences/handbook/appendix.html",
+      "meta": {
+        "title": "附录/编委会/参考文献",
+        "keywords": "附录/编委会/参考文献",
+        "description": "附录/编委会/参考文献"
+      }
+    },
+    {
+      "filename": "diagnosis-and-treatment.md",
+      "link": "/zh-cn/docs/experiences/handbook/diagnosis-and-treatment.html",
+      "meta": {
+        "title": "第二部分 诊疗经验",
+        "keywords": "第二部分 诊疗经验",
+        "description": "第二部分 诊疗经验"
+      }
+    },
+    {
+      "filename": "nursing-care.md",
+      "link": "/zh-cn/docs/experiences/handbook/nursing-care.html",
+      "meta": {}
+    },
+    {
+      "filename": "prevention-and-control.md",
+      "link": "/zh-cn/docs/experiences/handbook/prevention-and-control.html",
+      "meta": {
+        "title": "第一部分 防控管理",
+        "keywords": "第一部分 防控管理",
+        "description": "第一部分 防控管理"
+      }
+    },
+    {
+      "filename": "overview.md",
+      "link": "/zh-cn/docs/experiences/overview.html",
+      "meta": {
+        "title": "抵抗新型冠状病毒的经验总结",
+        "keywords": "新型冠状病毒 经验总结",
+        "description": "抵抗新型冠状病毒的经验总结"
+      }
+    },
+    {
+      "filename": "maternal.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/maternal.html",
+      "meta": {
+        "title": "孕产妇篇",
+        "keywords": "孕产妇篇",
+        "description": "孕产妇篇"
+      }
+    },
+    {
+      "filename": "medical-staff.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/medical-staff.html",
+      "meta": {
+        "title": "医护人员篇",
+        "keywords": "医护人员篇",
+        "description": "医护人员篇"
+      }
+    },
+    {
+      "filename": "ngo.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/ngo.html",
+      "meta": {
+        "title": "NGO篇",
+        "keywords": "NGO篇",
+        "description": "NGO篇"
+      }
+    },
+    {
+      "filename": "ordinary-people.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/ordinary-people.html",
+      "meta": {
+        "title": "普通民众篇",
+        "keywords": "普通民众篇",
+        "description": "普通民众篇"
+      }
+    },
+    {
+      "filename": "volunteers.md",
+      "link": "/zh-cn/docs/experiences/practical-guide/volunteers.html",
+      "meta": {
+        "title": "志愿者篇",
+        "keywords": "志愿者篇",
+        "description": "志愿者篇"
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/zh-cn/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "proj-process.md",
+      "link": "/zh-cn/docs/overview/proj-process.html",
+      "meta": {}
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/zh-cn/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "Wuhan2020 是什么",
+        "keywords": "Wuhan2020",
+        "description": "建立一个医院、工厂、采购等信息实时同步的数据服务，同时召集所有希望对这次抗击病毒战役进行贡献的人，让每个具有相关技能的人都可以参与相关主题的开发工作，用开源的社区文化，以自组织协作的方式完成。"
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/zh-cn/docs/user/website-guide.html",
+      "meta": {
+        "title": "新型冠状病毒防疫信息平台使用指南",
+        "keywords": "武汉",
+        "description": "新型冠状病毒防疫信息平台使用指南"
+      }
+    }
+  ],
+  "en-us": [
+    {
+      "filename": "architecture.md",
+      "link": "/en-us/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/en-us/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/en-us/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/en-us/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/en-us/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/en-us/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Contributors",
+        "keywords": "Wuhan2020, Contributors",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/en-us/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/en-us/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "What Is Wuhan2020",
+        "keywords": "Wuhan2020",
+        "description": "What we are doing now is: to establish a real-time and synchronous data service for hospitals, factories, procurement and other information, and to convene all those who want to contribute to the anti-virus campaign, so that everyone with relevant skills can participate in the development of related topics, and complete it in a self-organized and collaborative way with open source community culture."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/en-us/docs/user/website-guide.html",
+      "meta": {
+        "title": "Guidelines for using the new Coronavirus epidemic prevention information platform",
+        "keywords": "Wuhan",
+        "description": "Guidelines for using the new Coronavirus epidemic prevention information platform."
+      }
+    }
+  ],
+  "ja-jp": [
+    {
+      "filename": "contributing.md",
+      "link": "/ja-jp/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/ja-jp/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/ja-jp/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/ja-jp/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/ja-jp/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "寄稿者",
+        "keywords": "Wuhan2020, 寄稿者",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/ja-jp/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/ja-jp/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "Wuhan2020とは？",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020の目標：（１）病院や工場で働く方々及び物資の運搬に関わる方々等の情報を集め、同期するシステムの作成（２）新たにプロジェクトに関わる方々が、その情報をもとにプロジェクトに貢献できるスキルを身に着け、貢献できるようにする"
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/ja-jp/docs/user/website-guide.html",
+      "meta": {
+        "title": "新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン",
+        "keywords": "Wuhan",
+        "description": "新しいコロナウイルスの流行予防情報プラットフォームを使用するためのガイドライン."
+      }
+    }
+  ],
+  "it-it": [
+    {
+      "filename": "contributing.md",
+      "link": "/it-it/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/it-it/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/it-it/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/it-it/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/it-it/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Elenco dei collaboratori",
+        "keywords": "Rifornimento di wuhan, Elenco dei collaboratori",
+        "description": "Gruppo Wuhan2020."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/it-it/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/it-it/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "Cos'è Wuhan2020",
+        "keywords": "wuhan2020",
+        "description": "Ciò che stiamo facendo è: realizzare un servizio web per la condivisione di dati ed informazioni, aggiornato in tempo reale, riguardo ad ospedali ed altre strutture sanitarie, attività produttive, servizi di approvigionamento e molto altro, e adunare tutti coloro che desiderano contribuire alla campagna antivirale, in modo che tutte le persone che possiedono le adeguate competenze possano contribuire al lavoro di sviluppo nell'ambito delle tematiche ad esse pertinenti e quindi, in accordo con la cultura della comunità Open Source, al raggiungimento del successo attraverso un approccio di cooperazione autogestita."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/it-it/docs/user/website-guide.html",
+      "meta": {
+        "title": "Guida alla piattaforma di prevenzione epidemica COVID-19",
+        "keywords": "Wuhan",
+        "description": "Guida alla piattaforma di prevenzione epidemica COVID-19"
+      }
+    }
+  ],
+  "fr-fr": [
+    {
+      "filename": "architecture.md",
+      "link": "/fr-fr/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/fr-fr/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/fr-fr/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/fr-fr/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "mailing-list-guide.md",
+      "link": "/fr-fr/docs/dev/mailing-list-guide.html",
+      "meta": {
+        "title": "Guide d'inscription à la liste de diffusion",
+        "keywords": "Mail, inscription, guide, liste de mail",
+        "description": "Comment s'inscrire à la liste de diffusion"
+      }
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/fr-fr/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/fr-fr/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Liste des contributeurs",
+        "keywords": "Bon courage Wuhan, Liste des contributeurs",
+        "description": "Équipe Wuhan2020."
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/fr-fr/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "proj-process.md",
+      "link": "/fr-fr/docs/overview/proj-process.html",
+      "meta": {}
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/fr-fr/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "Qu'est-ce que Wuhan2020",
+        "keywords": "Wuhan2020",
+        "description": "Ce que nous faisons: mettre en place un service de données en temps réel et synchrone pour les hôpitaux, les usines et les achats, etc., et réunir tous ceux qui veulent contribuer à la campagne anti-virus, afin que toutes les personnes compétentes puissent participer dans le développement de sujets connexes, et le compléter de manière auto-organisée et collaborative avec la culture communautaire open source."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/fr-fr/docs/user/website-guide.html",
+      "meta": {
+        "title": "Lignes directrices pour l'utilisation de la plateforme d'information sur la prévention des épidémies de Coronavirus",
+        "keywords": "Wuhan",
+        "description": "Lignes directrices pour l'utilisation de la plateforme d'information sur la prévention des épidémies de Coronavirus"
+      }
+    }
+  ],
+  "pt-br": [
+    {
+      "filename": "architecture.md",
+      "link": "/pt-br/docs/dev/architecture.html",
+      "meta": {}
+    },
+    {
+      "filename": "contributing.md",
+      "link": "/pt-br/docs/dev/contributing.html",
+      "meta": {}
+    },
+    {
+      "filename": "dev-env-setup.md",
+      "link": "/pt-br/docs/dev/dev-env-setup.html",
+      "meta": {}
+    },
+    {
+      "filename": "information-guide.md",
+      "link": "/pt-br/docs/dev/information-guide.html",
+      "meta": {}
+    },
+    {
+      "filename": "quickstart.md",
+      "link": "/pt-br/docs/dev/quickstart.html",
+      "meta": {}
+    },
+    {
+      "filename": "developers_dev.md",
+      "link": "/pt-br/docs/developers/developers_dev.html",
+      "meta": {
+        "title": "Lista DOS contribuintes",
+        "keywords": "Wuhan reabastecimento, Lista DOS contribuintes",
+        "description": "Grupo Wuhan2020"
+      }
+    },
+    {
+      "filename": "faq.md",
+      "link": "/pt-br/docs/overview/faq.html",
+      "meta": {
+        "title": "Wuhan2020 FAQ",
+        "keywords": "Wuhan2020",
+        "description": "Wuhan2020 FAQ."
+      }
+    },
+    {
+      "filename": "what-is-wuhan2020.md",
+      "link": "/pt-br/docs/overview/what-is-wuhan2020.html",
+      "meta": {
+        "title": "O que é Wuhan2020",
+        "keywords": "Wuhan2020",
+        "description": "O que estamos fazendo agora é: estabelecer em tempo real e sincronizado um serviço de dados para hospitais, fábricas e compras e outras informações, e reunir todos aqueles que querem contribuir para a campanha anti-vírus, então aqueles com habilidades relevantes podem participar no desenvolvimento de tópicos relacionados, e completar-lo de forma organizada e colaborativa com a cúltura do código aberto."
+      }
+    },
+    {
+      "filename": "website-guide.md",
+      "link": "/pt-br/docs/user/website-guide.html",
+      "meta": {
+        "title": "Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus",
+        "keywords": "Wuhan",
+        "description": "Diretrizes de como utilizar a plataforma de informação para prevenção do novo Coronavirus."
+      }
+    }
+  ]
+}

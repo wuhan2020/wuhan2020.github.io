@@ -6,6 +6,7 @@ npm-debug.log
 *.iml
 build
 package-lock.json
+<<<<<<< HEAD
 npm-shrinkwrap.json
 yarn.lock
 /en-us/
@@ -18,3 +19,5 @@ yarn.lock
 md_json/
 log
 sitemap.xml
+=======
+>>>>>>> a469706fbc36c893bc3b75642330e1eab0dcd858
