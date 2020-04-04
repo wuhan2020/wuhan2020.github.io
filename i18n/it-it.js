@@ -226,19 +226,19 @@ export default {
     },
   },
   job: {
-    barText: '招聘汇',
-    sectionDescription: '招聘信息发布规范',
+    barText: 'Borsa lavoro',
+    sectionDescription: 'Specifiche di rilascio delle informazioni di assunzione',
     purpose: {
-      title: "\"招聘汇\"模块建立初衷",
-      desc: "本社区是在新冠肺炎肆虐的时候建立，在建立站点和组织社区活动的过程中，很多志愿者表现出很强的专业能力和职业素养。我们发现，很多企业想在社区发招聘信息而没有合适的地方，同时又有不少高校应届学生和待业的志愿者在为社区积极贡献。\"招聘汇\"模块就应运而生。"
+      title: "L'intenzione originale del modulo \"Job Fair\"",
+      desc: "Questa comunità è stata istituita quando infuriava la Nuova Polmonite Coronarica Nel processo di creazione di siti e organizzazione delle attività della comunità, molti volontari hanno mostrato forti capacità professionali e qualità professionali. Abbiamo scoperto che molte aziende desiderano inviare informazioni sul reclutamento nella comunità senza un posto adatto e allo stesso tempo molti studenti universitari e volontari stanno contribuendo attivamente alla comunità. È nato il modulo \"Scambio di assunzioni\"."
     },
     volunteers: {
-      title: "社区人员构成",
-      desc: "我们是一个因为危机事件而发起的社区，社区成员构成比较复杂。其中：75%技术，包含：前后端开发，大数据、ai、运维、DBA等各个职位的就业人员；5%的翻译人员；5%的产品经理；2.5%的协调、管理；1%风控和法务；5%宣传；5%信息录入；1.5%其他。"
+      title: "Composizione comunitaria",
+      desc: "Siamo una comunità avviata da una crisi e i membri della comunità sono relativamente complessi. Tra questi: 75% di tecnologia, tra cui: sviluppo front-end e back-end, dipendenti in varie posizioni come big data, ai, operazione e manutenzione, DBA; 5% traduttori; 5% product manager; 2,5% coordinamento e gestione; 1% vento Controllo e affari legali; 5% pubblicità; 5% immissione informazioni; 1,5% altri."
     },
     method: {
-      title: "发布方式",
-      desc: "用人方直接在评论本文下的评论区论发布职位信息，应聘者可以评论回复。对于违法、虚假信息，社区管理员会进行删帖，并对发布者保留诉诸法律的权利。"
+      title: "Metodo di rilascio",
+      desc: "Il datore di lavoro pubblica direttamente le informazioni sul lavoro nell'area di commento sotto l'articolo di commento e il richiedente può commentare la risposta. Per informazioni illegali o false, l'amministratore della community eliminerà i post e si riserva il diritto di presentare ricorso all'editore."
     },
   },
   hackathon: {
