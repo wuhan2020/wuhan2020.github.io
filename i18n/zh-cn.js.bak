@@ -91,25 +91,10 @@ export default {
           link: 'https://github.com/wuhan2020/wuhan2020#slack%E9%A2%91%E9%81%93%E5%AF%BC%E8%88%AA',
         },
         {
-          img: '/images/blog/media/weibocode2.webp',
-          imgHover: '/images/blog/media/weibocode2.webp',
-          title: '微博',
-        },
-          {
-              img: '/images/blog/media/bilibili2.webp',
-          imgHover: '/images/blog/media/bilibili2.webp',
-          title: 'b站',
-          }
-        {
-          img: '/images/blog/media/zhihu2.webp',
-          imgHover: '/images/blog/media/zhihu2.webp',
-          title: '知乎',
-        },
-          {
-          img: '/images/blog/media/jianshu2.webp',
-          imgHover:'/images/blog/media/jianshu2.webp',
-          title: '简书',
-        },          
+          img: '/images/channels/weixin_official_account.jpeg',
+          imgHover: '/images/channels/weixin_official_account.jpeg',
+          title: '微信公众号',
+        }
       ],
     },
     contributorGuide: {
