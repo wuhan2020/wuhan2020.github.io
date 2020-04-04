@@ -244,19 +244,19 @@ export default {
     },
   },
   job: {
-    barText: '招聘汇',
-    sectionDescription: '招聘信息发布规范',
+    barText: 'Recruitment',
+    sectionDescription: 'Recruitment information release specifications',
     purpose: {
-      title: "\"招聘汇\"模块建立初衷",
-      desc: "本社区是在新冠肺炎肆虐的时候建立，在建立站点和组织社区活动的过程中，很多志愿者表现出很强的专业能力和职业素养。我们发现，很多企业想在社区发招聘信息而没有合适的地方，同时又有不少高校应届学生和待业的志愿者在为社区积极贡献。\"招聘汇\"模块就应运而生。"
+      title: "The original intention of the recruitment module",
+      desc: "This community was established when the New Coronary Pneumonia raged. In the process of establishing sites and organizing community activities, many volunteers showed strong professional abilities and professional qualities. We found that many companies want to send recruitment information in the community without a suitable place. At the same time, many college students and volunteers are actively contributing to the community. The "recruitment" module came into being."
     },
     volunteers: {
-      title: "社区人员构成",
-      desc: "我们是一个因为危机事件而发起的社区，社区成员构成比较复杂。其中：75%技术，包含：前后端开发，大数据、ai、运维、DBA等各个职位的就业人员；5%的翻译人员；5%的产品经理；2.5%的协调、管理；1%风控和法务；5%宣传；5%信息录入；1.5%其他。"
+      title: "Community composition",
+      desc: "We are a community initiated by a crisis, and the community members are relatively complex. Among them: 75% technology, including: front-end and back-end development, employees in various positions such as big data, ai, operation and maintenance, DBA; 5% translators; 5% product managers; 2.5% coordination and management; Control and legal affairs; 5% publicity; 5% information entry; 1.5% others."
     },
     method: {
-      title: "发布方式",
-      desc: "用人方直接在评论本文下的评论区论发布职位信息，应聘者可以评论回复。对于违法、虚假信息，社区管理员会进行删帖，并对发布者保留诉诸法律的权利。"
+      title: "Release method",
+      desc: "The employer directly publishes the job information in the comment area under the comment article, and the applicant can comment on the reply. For illegal or false information, the community administrator will delete posts and reserve the right to appeal to the publisher."
     },
   },
   hackathon: {
