@@ -95,12 +95,12 @@ export default {
           imgHover: '/images/channels/weixin_official_account.jpeg',
           title: '微信公众号'
         },
-          {
+        {
           img: '/images/blog/media/weibocode2.webp',
           imgHover: '/images/blog/media/weibocode2.webp',
           title: '微博'
         },
-          {
+        {
           img: '/images/blog/media/bilibili2.webp',
           imgHover: '/images/blog/media/bilibili2.webp',
           title: 'b站'
