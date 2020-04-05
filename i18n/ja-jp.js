@@ -11,24 +11,10 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: '武漢給油オープンソースのメンバー全員への手紙です',
-          content: '武漢給油オープンソースのメンバー全員への手紙です',
-          dateStr: '2020年1月28日',
-          link: '/ja-jp/blog/to-all-members.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: '武漢給油プロジェクトの新しいプロセスのリリース',
-          content: '武漢給油プロジェクトの新しいプロセスのリリース',
-          dateStr: '2020年1月29日',
-          link: '/ja-jp/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
-          content: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
-          dateStr: '2020年2月1日',
-          link: '/ja-jp/blog/how-to-join-wuhan2020.html',
+          title: '疫学知識——新型コロナウイルス防護指針',
+          content: '疫学知識——新型コロナウイルス防護指針',
+          dateStr: '2020年2月9日',
+          link: '/ia-jp/blog/coronavirus-protection-guide.html',
         },
         {
           img: '/images/blog/media/banner.webp',
@@ -39,11 +25,25 @@ export default {
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '疫学知識——新型コロナウイルス防護指針',
-          content: '疫学知識——新型コロナウイルス防護指針',
-          dateStr: '2020年2月9日',
-          link: '/ia-jp/blog/coronavirus-protection-guide.html',
-        }
+          title: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
+          content: '武漢加油のオープンソースにどのように参加して、砲煙のない戦争に勝つか?',
+          dateStr: '2020年2月1日',
+          link: '/ja-jp/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '武漢給油プロジェクトの新しいプロセスのリリース',
+          content: '武漢給油プロジェクトの新しいプロセスのリリース',
+          dateStr: '2020年1月29日',
+          link: '/ja-jp/blog/wuhan2020-official-announcement.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '武漢給油オープンソースのメンバー全員への手紙です',
+          content: '武漢給油オープンソースのメンバー全員への手紙です',
+          dateStr: '2020年1月28日',
+          link: '/ja-jp/blog/to-all-members.html',
+        },
       ],
     },
     contacts: {

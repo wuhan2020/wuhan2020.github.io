@@ -11,20 +11,6 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
-          content: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
-          dateStr: '28 janvier 2020',
-          link: '/fr-fr/blog/to-all-members.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: 'Nouvelle procédure pour le projet Wuhan refuelling',
-          content: 'Nouvelle procédure pour le projet Wuhan refuelling',
-          dateStr: '29 janvier 2020',
-          link: '/fr-fr/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
           title: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
           content: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
           dateStr: '1er février 2020',
@@ -43,7 +29,21 @@ export default {
           content: 'Connaissance des épidémies — lignes directrices pour la protection contre les nouveaux coronavirus',
           dateStr: '9 février 2020',
           link: '/fr-fr/blog/coronavirus-protection-guide.html',
-        }
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          content: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          dateStr: '28 janvier 2020',
+          link: '/fr-fr/blog/to-all-members.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          content: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          dateStr: '29 janvier 2020',
+          link: '/fr-fr/blog/wuhan2020-official-announcement.html',
+        },
       ],
     },
     contacts: {
@@ -226,7 +226,7 @@ export default {
 
           title: 'Wuhan2020 Site officiel de la communauté',
           repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
-          description: "La communauté open source de Wuhan 2020 est une communauté construite par les développeurs pendant l'épidémie de nouvelle pneumonie coronaire. La communauté fournit aux développeurs une plate-forme de communication et de pratique technique. Elle utilise la culture communautaire open source et est réalisée de manière auto-organisée et collaborative pour aider le sauvetage auto-organisé de Wuhan De manière efficace et plus précise. La communauté a attiré plus de 3 000 bénévoles de différents pays depuis son lancement et a contribué à la résistance aux nouveaux coronavirus grâce à la mise en place de systèmes d'information, à l'analyse des données et à la prédiction; elle a désormais incubé avec succès la \"nouvelle plateforme de collecte d'informations sur la prévention des épidémies de coronavirus\" et \"2020 aid Wuhan" , "Site Web officiel de la communauté open source de Wuhan2020", "Navigation de l'information sur l'épidémie COVID-19-Nav\" et de nombreux autres projets.",
+          description: "La communauté open source de Wuhan 2020 est une communauté construite par les développeurs pendant l'épidémie de nouvelle pneumonie coronaire. La communauté fournit aux développeurs une plate-forme de communication et de pratique technique. Elle utilise la culture communautaire open source et est réalisée de manière auto-organisée et collaborative pour aider le sauvetage auto-organisé de Wuhan De manière efficace et plus précise. La communauté a attiré plus de 3 000 bénévoles de différents pays depuis son lancement et a contribué à la résistance aux nouveaux coronavirus grâce à la mise en place de systèmes d'information, à l'analyse des données et à la prédiction; elle a désormais incubé avec succès la nouvelle plateforme de collecte d'informations sur la prévention des épidémies de coronavirus\" et \"2020 aid Wuhan\" , \"Site Web officiel de la communauté open source de Wuhan2020\", \"Navigation de l'information sur l'épidémie COVID-19-Nav\" et de nombreux autres projets.",
           link: 'https://community.wuhan2020.org.cn/',
         },
         {
