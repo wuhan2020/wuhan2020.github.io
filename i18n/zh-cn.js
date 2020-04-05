@@ -125,7 +125,7 @@ export default {
           img: '/images/blog/media/facebook.jpg',
           imgHover: '/images/blog/media/facebook.jpg',
           title: 'Facebook',
-          link:'https://www.facebook.com/wuhan2020community/' 
+          link:'https://www.facebook.com/wuhan2020community/'
         },
         {
           img: '/images/blog/media/twitter.jpg',
@@ -861,32 +861,6 @@ export default {
         {"id":"38","subject":"smart疫情防控大屏","leader":"Nimo","members":["nimo:120160209@qq.com"],"tutor":"-","abstract":"smart疫情防控指挥大屏；更直观的展示疫情状态，辅助疫情指挥决策分析"}
      ],
     },
-    winningTeamData: {
-      first: {
-        desc: "一等奖",
-        teamIdList: [15]
-      },
-      second: {
-        desc: "二等奖",
-        teamIdList: [37,30]
-      },
-      third: {
-        desc: "三等奖",
-        teamIdList: [25,2,20]
-      },
-      audienceFavorite: {
-        desc: "观众最喜爱奖",
-        teamIdList: [4]
-      },
-      tutorFavorite: {
-        desc: "导师最喜爱奖",
-        teamIdList: [22]
-      },
-      final: {
-        desc: "入围决赛",
-        teamIdList: [6,12,14,26]
-      },
-    }
   },
   experiences: {
     sidemenu: [
