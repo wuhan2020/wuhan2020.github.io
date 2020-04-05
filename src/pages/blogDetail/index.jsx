@@ -7,7 +7,6 @@ import Language from '../../components/language';
 import HeaderRefactored from '../../components/headerRefactored';
 import Footer from '../../components/footer';
 import './index.scss';
-import Gitalk from '../../components/gitalk';
 
 // 锚点正则
 const anchorReg = /^#[^/]/;

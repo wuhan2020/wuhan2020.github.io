@@ -4,7 +4,6 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 class Job extends Language {
     render() {

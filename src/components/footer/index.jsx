@@ -18,7 +18,7 @@ class Footer extends Language {
     const { logo, module, language } = this.props;
     const dataSource = this.getLanguageDict(language, 'site');
     const dataProject = this.getLanguageDict(language, 'project');
-    const gitalkTag = 'home' != module ? <Gitalk class_name="footer-body"/> : "";
+    const gitalkTag = 'home' != module ? <Gitalk class_name="comment"/> : "";
 
     return (
       <footer className="footer-container">

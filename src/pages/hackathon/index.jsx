@@ -6,7 +6,6 @@ import Footer from '../../components/footer';
 import Language from '../../components/language';
 // import HackathonItem from './hackathonItem';
 import {getLink} from '../../../utils';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 const ActivityProfile = (props) => {
@@ -275,7 +274,6 @@ class Hackathon extends Language {
 
         </section>
 
-        <Gitalk class_name="hackathon-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
       </div>
     );

@@ -8,7 +8,6 @@ import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 // 锚点正则

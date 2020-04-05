@@ -9,7 +9,6 @@ import Footer from '../../components/footer';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
-import Gitalk from '../../components/gitalk'
 import './index.scss';
 const {
   langList = [

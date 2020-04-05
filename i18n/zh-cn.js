@@ -14,7 +14,7 @@ export default {
           title: 'Wuhan2020 开源社区发展规划',
           content: 'Wuhan2020 开源社区发展规划',
           dateStr: '2020年4月1日',
-          link: '/zh-cn/blog/nav-project-introduced.html',
+          link: '/zh-cn/blog/wuhan2020-plan.html',
         },
         {
           img: '/images/blog/wuhan2020.png',
