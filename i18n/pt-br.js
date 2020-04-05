@@ -11,17 +11,17 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan2020 Anúncio Oficial',
-          content: 'Wuhan2020 Anúncio Oficial',
-          dateStr: 'Jan 29th，2020',
-          link: '/en-us/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
           title: 'Como participar do projeto de código aberto Wuhan2020 e ajudar Wuhan a sobreviver à crise do coronavírus',
           content: 'Como participar do projeto de código aberto Wuhan2020 e ajudar Wuhan a sobreviver à crise do coronavírus ',
           dateStr: 'Feb 1st, 2020',
           link: '/en-us/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Wuhan2020 Anúncio Oficial',
+          content: 'Wuhan2020 Anúncio Oficial',
+          dateStr: 'Jan 29th，2020',
+          link: '/en-us/blog/wuhan2020-official-announcement.html',
         },
       ],
     },

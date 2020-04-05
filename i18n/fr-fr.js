@@ -11,20 +11,6 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
-          content: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
-          dateStr: '28 janvier 2020',
-          link: '/fr-fr/blog/to-all-members.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: 'Nouvelle procédure pour le projet Wuhan refuelling',
-          content: 'Nouvelle procédure pour le projet Wuhan refuelling',
-          dateStr: '29 janvier 2020',
-          link: '/fr-fr/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
           title: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
           content: 'Comment participer au projet open source Wuhan2020 et gagner cette guerre sans fumée?',
           dateStr: '1er février 2020',
@@ -43,7 +29,21 @@ export default {
           content: 'Connaissance des épidémies — lignes directrices pour la protection contre les nouveaux coronavirus',
           dateStr: '9 février 2020',
           link: '/fr-fr/blog/coronavirus-protection-guide.html',
-        }
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          content: 'Lettre à tous les membres de la communauté open source WUHAN 2020',
+          dateStr: '28 janvier 2020',
+          link: '/fr-fr/blog/to-all-members.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          content: 'Nouvelle procédure pour le projet Wuhan refuelling',
+          dateStr: '29 janvier 2020',
+          link: '/fr-fr/blog/wuhan2020-official-announcement.html',
+        },
       ],
     },
     contacts: {

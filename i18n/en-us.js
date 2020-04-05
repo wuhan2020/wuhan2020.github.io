@@ -11,20 +11,6 @@ export default {
       list: [
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan2020 Official Announcement',
-          content: 'Wuhan2020 Official Announcement',
-          dateStr: 'Jan 29th，2020',
-          link: '/en-us/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: 'Respected all engineers who are fighting the Novel Coronavirus (COVID-19) pandemic behind the screen.',
-          content: 'Respected all engineers who are fighting the Novel Coronavirus (COVID-19) pandemic behind the screen.',
-          dateStr: 'Jan 30th, 2020',
-          link: '/en-us/blog/respected-all-engineers.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
           title: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis',
           content: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis ',
           dateStr: 'Feb 1st, 2020',
@@ -36,6 +22,20 @@ export default {
           content: 'Recruiting! Thanks to those supporting project wuhan2020!',
           dateStr: 'Jan 31th, 2020',
           link: '/en-us/blog/en-us/thank-supporting-project.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Respected all engineers who are fighting the Novel Coronavirus (COVID-19) pandemic behind the screen.',
+          content: 'Respected all engineers who are fighting the Novel Coronavirus (COVID-19) pandemic behind the screen.',
+          dateStr: 'Jan 30th, 2020',
+          link: '/en-us/blog/respected-all-engineers.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Wuhan2020 Official Announcement',
+          content: 'Wuhan2020 Official Announcement',
+          dateStr: 'Jan 29th，2020',
+          link: '/en-us/blog/wuhan2020-official-announcement.html',
         },
       ],
     },
