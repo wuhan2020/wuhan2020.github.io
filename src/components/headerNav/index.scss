@@ -1,0 +1,78 @@
+@import '../../variables.scss';
+
+.header-menu-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex: 1 0 auto;
+
+    .header-menu-toggle {
+      display: inline-block;
+      width: 19px;
+      cursor: pointer;
+      position: relative;
+
+      @include apply-from(tablet) {
+          display: none;
+      }
+    }
+
+    .menu-list {
+      height: auto;
+      padding: 0;
+      margin: 0;
+      display: none;
+
+      @include apply-from(tablet) {
+        display: block;
+      }
+
+      &.menu-open {
+        width: 170px;
+        display: block;
+        position: absolute;
+        top: 50px;
+        background-color: #fff;
+
+        .menu-item {
+          margin-right: 0;
+          width: 100%;
+
+          a {
+            color: #333;
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+      }
+
+      .menu-item {
+        display: inline-block;
+        font-family: Avenir-Medium;
+        font-size: 14px;
+        vertical-align: bottom;
+        margin-right: 40px;
+
+        a {
+          color: #fff;
+          opacity: 0.6;
+          font-family: Avenir-Medium;
+
+          .normal & {
+            color: #333;
+          }
+
+          :hover > & {
+            opacity: 1;
+          }
+
+          .active & {
+            font-family: Avenir-Medium;
+            font-weight: 700;
+            opacity: 1;
+          }
+        }
+      }
+    }
+}

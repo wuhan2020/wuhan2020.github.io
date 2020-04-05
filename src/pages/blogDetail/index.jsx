@@ -4,7 +4,7 @@ import { scroller } from 'react-scroll';
 import path from 'path';
 import 'whatwg-fetch'; // fetch polyfill
 import Language from '../../components/language';
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Footer from '../../components/footer';
 import './index.scss';
 import Gitalk from '../../components/gitalk';
@@ -97,7 +97,7 @@ class BlogDetail extends Language {
     }
     return (
       <div className="blog-detail-page">
-        <Header
+        <HeaderRefactored
           type="normal"
           currentKey={currentKey}
           logo="/images/wuhan2020-logo.png"

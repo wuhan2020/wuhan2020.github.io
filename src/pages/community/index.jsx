@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Language from '../../components/language';
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import Slider from '../../components/slider';
 import EventCard from './eventCard';
@@ -19,7 +19,7 @@ class Community extends Language {
     const dataSource = this.getLanguageDict(language, 'community');
     return (
       <div className="community-page">
-        <Header
+        <HeaderRefactored
           currentKey="community"
           type="normal"
           logo="/images/wuhan2020-logo-gray.png"

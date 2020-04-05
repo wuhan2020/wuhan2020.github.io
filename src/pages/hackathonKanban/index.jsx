@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import BadgeCardList from './badgeCardList';
 import KanbanTimer from './kanbanTimer';
 import Language from "../../components/language";
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Footer from '../../components/footer';
 import CountryMapList from './countryMapItem';
 import TeamItemList from './teamItemList';
@@ -47,7 +47,7 @@ class HackathonKanban extends Language {
 
         return (
             <div className="kanban-page">
-                <Header
+                <HeaderRefactored
                     currentKey="hackathon"
                     type="normal"
                     logo="/images/wuhan2020-logo-gray.png"

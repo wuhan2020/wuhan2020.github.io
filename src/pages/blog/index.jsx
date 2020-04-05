@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Language from '../../components/language';
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import PageSlider from '../../components/pageSlider';
 import BlogItem from './blogItem';
@@ -40,7 +40,7 @@ class Blog extends Language {
     const blogList = blogs[language];
     return (
       <div className="blog-list-page">
-        <Header
+        <HeaderRefactored
           type="normal"
           currentKey="blog"
           logo="/images/wuhan2020-logo.png"
