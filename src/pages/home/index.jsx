@@ -47,8 +47,8 @@ class Home extends Language {
     render() {
         const { starCount, forkCount } = this.state;
         const language = this.getLanguage();
-        const dataSource = this.getLanguageDict(language, "home");
-        // const dataSource = homeConfig[language] || homeConfig[siteConfig.defaultLanguage];
+        const module = "home";
+        const dataSource = this.getLanguageDict(language, module);
         const { headerType } = this.state;
         const headerLogo = headerType === 'primary' ? '/images/wuhan2020-logo-white.png' : '/images/wuhan2020-logo.png';
         return (
@@ -66,7 +66,7 @@ class Home extends Language {
                         language={language}
                         onLanguageChange={this.onLanguageChange}
                     />
-                    
+
                     <div className="top-body">
                         <div className="vertical-middle">
                             <div className="product-name">
@@ -115,7 +115,7 @@ class Home extends Language {
                     </ul>
                   </div>
                 </section>
-                <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
             </div>
         );
     }

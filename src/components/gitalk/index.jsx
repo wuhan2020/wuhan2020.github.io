@@ -19,7 +19,7 @@ class Gitalk extends React.Component {
           clientSecret: 'ec7e55e9a7a022900677599b776e4164c1fdd759',
           repo: 'website-comment',
           owner: 'wuhan2020',
-          admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333', 'darlk', 'frank-zsy','pengcc'],
+          admin: ['zhaofeng-shu33', 'iLtc', 'jeremy0519', 'lovepoem', 'chenrui333'],
           id: window.location.pathname,
           distractionFreeMode: false // Facebook-like distraction free mode
         }}/>

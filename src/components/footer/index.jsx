@@ -4,20 +4,25 @@ import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import './index.scss';
 import Language from "../language";
+import Gitalk from "../gitalk";
 
 const propTypes = {
   logo: PropTypes.string.isRequired, // logo地址
+  module: PropTypes.string.isRequired, // 所属模块
   language: PropTypes.oneOf(siteConfig.langList.map(l => l.value)),
 };
 
 class Footer extends Language {
 
   render() {
-    const { logo, language } = this.props;
+    const { logo, module, language } = this.props;
     const dataSource = this.getLanguageDict(language, 'site');
     const dataProject = this.getLanguageDict(language, 'project');
+    const gitalkTag = 'home' != module ? <Gitalk class_name="footer-body"/> : "";
+
     return (
       <footer className="footer-container">
+        {gitalkTag}
         <div className="footer-body">
           <img src={getLink(logo)} />
           <p className="docsite-power">website powered by docsite</p>

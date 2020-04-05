@@ -116,8 +116,7 @@ class Documentation extends Language {
             dangerouslySetInnerHTML={{ __html }}
           />
         </section>
-        <Gitalk class_name="content-section"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={currentPage}/>
       </div>
     );
   }
