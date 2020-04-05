@@ -579,6 +579,11 @@ export default {
         link: '/en-us/hackathon/index.html',
       },
       {
+        key: 'job',
+        text: 'JOBS',
+        link: '/en-us/job/index.html',
+      },
+      {
         key: 'mis',
         text: 'COVID-19 INFORMATION PLATFORM',
         link: 'https://wh.opensource-service.cn/',

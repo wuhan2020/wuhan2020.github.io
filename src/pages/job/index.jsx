@@ -30,8 +30,7 @@ class Job extends Language {
                   <h4>{dataSource.method.title}</h4>
                   <p>{dataSource.method.desc}</p>
                 </section>
-                <Gitalk class_name="job-section"/>
-                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module} />
             </div>
         );
     }

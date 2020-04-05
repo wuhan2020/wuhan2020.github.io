@@ -109,8 +109,7 @@ class BlogDetail extends Language {
           ref={(node) => { this.markdownContainer = node; }}
           dangerouslySetInnerHTML={{ __html }}
         />
-        <Gitalk class_name="blog-content"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={currentKey}/>
       </div>
     );
   }

@@ -15,8 +15,8 @@ class Community extends Language {
 
   render() {
     const language = this.getLanguage();
-    // const dataSource = communityConfig[language] || communityConfig[siteConfig.defaultLanguage];
-    const dataSource = this.getLanguageDict(language, 'community');
+    const module = "community";
+    const dataSource = this.getLanguageDict(language, module);
     return (
       <div className="community-page">
         <HeaderRefactored
@@ -57,8 +57,7 @@ class Community extends Language {
           }
           </div>
         </section>
-        <Gitalk class_name="contributor-section"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
       </div>
     );
   }

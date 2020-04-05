@@ -55,14 +55,13 @@ class Hackathon extends Language {
 
   render() {
     const language = this.getLanguage();
-    //const dataSource = hackathonConfig[language] || hackathonConfig[siteConfig.defaultLanguage];
-    // const dataSource = this.getLanguageDict(language, 'hackathon');
-    const dataSource = this.getLanguageDict(language, 'hackathon');
+    const module = "hackathon";
+    const dataSource = this.getLanguageDict(language, module);
     const sponsorSource = this.getLanguageDict(language, 'site').sponsors;
     return (
       <div className="hackathon-page">
         <HeaderRefactored
-          currentKey="hackathon"
+          currentKey={module}
           type="normal"
           logo="/images/wuhan2020-logo-gray.png"
           language={language}
@@ -277,7 +276,7 @@ class Hackathon extends Language {
         </section>
 
         <Gitalk class_name="hackathon-section"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language}/>
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
       </div>
     );
   }

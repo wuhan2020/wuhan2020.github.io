@@ -37,7 +37,8 @@ class HackathonKanban extends Language {
 
     render() {
         const language = this.language;
-        const dataSource = this.getLanguageDict(['zh-cn'], 'hackathonKanban');
+        const module = "hackathonKanban";
+        const dataSource = this.getLanguageDict(['zh-cn'], module);
         const { kanbanTimer, contentTitle, badgeCards, teamData} = dataSource;
 
         // Data for 11 badge cards (divided into 3 sections)
@@ -86,8 +87,7 @@ class HackathonKanban extends Language {
                         </section>
                     </article>
                 </main>
-                <Gitalk class_name="kanban-page"/>
-                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
             </div>
         );
     }
