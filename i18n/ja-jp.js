@@ -369,6 +369,11 @@ export default {
         link: '/ja-jp/hackathon/index.html',
       },
       {
+        key: 'job',
+        text: '招聘汇',
+        link: '/ja-jp/job/index.html',
+      },
+      {
         key: 'mis',
         text: '情報収集プラットフォーム',
         link: 'https://wh.opensource-service.cn/',
