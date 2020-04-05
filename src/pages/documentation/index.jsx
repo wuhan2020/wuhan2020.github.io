@@ -4,7 +4,7 @@ import { scroller } from 'react-scroll';
 import 'whatwg-fetch'; // fetch polyfill
 import path from 'path';
 import Language from '../../components/language';
-import Header from '../../components/header';
+import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
@@ -100,7 +100,7 @@ class Documentation extends Language {
     const __html = this.props.__html || this.state.__html;
     return (
       <div className="documentation-page">
-        <Header
+        <HeaderRefactored
             currentKey={currentKey}
             type="normal"
             logo="/images/wuhan2020-logo.png"

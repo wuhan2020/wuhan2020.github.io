@@ -39,7 +39,9 @@
   </script>
   <script src="<%= rootPath %>/build/<%= page %>.js"></script>
 
+  <% if (env === 'prod') { %>
   <script type="text/javascript" src="https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
   <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
@@ -53,7 +55,6 @@
       new google.translate.TranslateElement({}, 'google_translate_element');
     }
   </script>
-  <% if (env === 'prod') { %>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <% } %>
   <script type="text/javascript">

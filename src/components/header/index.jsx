@@ -52,11 +52,11 @@ class Header extends Language {
     });
   }
 
-  onKeyDown(e) {
+  onKeyDown = (e) => {
     if (e.keyCode === 13) {
       this.goSearch();
     }
-  }
+  };
 
   onInputChange = (e) => {
     this.setState({
