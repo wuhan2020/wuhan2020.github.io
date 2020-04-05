@@ -225,6 +225,22 @@ export default {
       ],
     },
   },
+  job: {
+    barText: 'Borsa lavoro',
+    sectionDescription: 'Specifiche di rilascio delle informazioni di assunzione',
+    purpose: {
+      title: "L'intenzione originale del modulo \"Job Fair\"",
+      desc: "Questa comunità è stata istituita quando infuriava la Nuova Polmonite Coronarica Nel processo di creazione di siti e organizzazione delle attività della comunità, molti volontari hanno mostrato forti capacità professionali e qualità professionali. Abbiamo scoperto che molte aziende desiderano inviare informazioni sul reclutamento nella comunità senza un posto adatto e allo stesso tempo molti studenti universitari e volontari stanno contribuendo attivamente alla comunità. È nato il modulo \"Scambio di assunzioni\"."
+    },
+    volunteers: {
+      title: "Composizione comunitaria",
+      desc: "Siamo una comunità avviata da una crisi e i membri della comunità sono relativamente complessi. Tra questi: 75% di tecnologia, tra cui: sviluppo front-end e back-end, dipendenti in varie posizioni come big data, ai, operazione e manutenzione, DBA; 5% traduttori; 5% product manager; 2,5% coordinamento e gestione; 1% vento Controllo e affari legali; 5% pubblicità; 5% immissione informazioni; 1,5% altri."
+    },
+    method: {
+      title: "Metodo di rilascio",
+      desc: "Il datore di lavoro pubblica direttamente le informazioni sul lavoro nell'area di commento sotto l'articolo di commento e il richiedente può commentare la risposta. Per informazioni illegali o false, l'amministratore della community eliminerà i post e si riserva il diritto di presentare ricorso all'editore."
+    },
+  },
   hackathon: {
     barText: 'Hackathon',
     starter: '',

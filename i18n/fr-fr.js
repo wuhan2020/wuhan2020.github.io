@@ -239,6 +239,56 @@ export default {
       ],
     },
   },
+  job: {
+    barText: 'Recrutement',
+    sectionDescription: 'Il est commode pour les entreprises de publier des services de recrutement et de fournir une commodité aux bénévoles qui ont besoin de travail',
+    projects: {
+      list: [
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Nouvelle plateforme de collecte d\'informations sur la prévention des épidémies de coronavirus',
+          repoLink:'https://github.com/wuhan2020/wuhan2020',
+          description: 'Le site Web officiel du service d\'information Wuhan2020 est une plate-forme de service d\'information intégrée pour l\'amarrage des ressources liées aux épidémies, créée par les programmeurs et les développeurs. Concentrez-vous sur le niveau de la plate-forme de données pour résoudre les problèmes d\'approvisionnement insuffisant en matériaux, de confusion des informations médicales et d\'incapacité des personnes éloignées à résoudre le problème de l\'hébergement de nuit dans des conditions d\'urgence extrême, des informations inégales et des informations opaques. Principalement pour le gouvernement, les organisations de bien-être public, les entreprises et les institutions, les institutions médicales, les patients, les donateurs et d\'autres institutions et groupes connexes. Les développeurs peuvent utiliser des outils techniques et des plates-formes numériques pour tirer parti de la plate-forme numérique pour numériser l\'offre et la demande, améliorer la transparence des informations et permettre l\'accostage en libre-service distribué entre diverses parties de l\'offre et de la demande pour améliorer l\'efficacité. Participez à wuhan2020 De nombreux développeurs, utilisant leur propre expertise, font ce qu\'ils peuvent pour faire face à cette guerre.',
+          link: 'https://wh.opensource-service.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Aide 2020 à Wuhan',
+          repoLink: 'https://github.com/wuhan2020/data-sync',
+          description: 'Mettre en place un service de données en temps réel et synchronisé pour les hôpitaux, les usines, les achats et autres informations, et convoquer tous ceux qui souhaitent contribuer à la lutte contre les virus, afin que toute personne possédant des compétences pertinentes puisse participer au développement de sujets connexes La culture communautaire est complétée de manière auto-organisée et collaborative.',
+          link: 'https://wuhan2020.kaiyuanshe.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Site officiel de la communauté open source Wuhan2020',
+          repoLink: 'https://github.com/wuhan2020/wuhan2020.github.io',
+          description: 'La communauté open source de Wuhan 2020 est une communauté construite par les développeurs pendant l\'épidémie de nouvelle pneumonie coronaire. La communauté fournit aux développeurs une plate-forme de communication et de pratique technique. Elle utilise la culture communautaire open source et est réalisée de manière auto-organisée et collaborative pour aider le sauvetage auto-organisé de Wuhan De manière efficace et plus précise. La communauté a attiré plus de 3 000 bénévoles de différents pays depuis son lancement et a contribué à la résistance aux nouveaux coronavirus grâce à la mise en place de systèmes d\'information, à l\'analyse des données et à la prédiction; elle a désormais incubé avec succès la "nouvelle plateforme de collecte d\'informations sur la prévention des épidémies de coronavirus" et "2020 aid Wuhan" , "Site Web officiel de la communauté open source de Wuhan2020", "Navigation de l\'information sur l\'épidémie COVID-19-Nav" et de nombreux autres projets.',
+          link: 'https://community.wuhan2020.org.cn/',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Navigation dans les informations sur l\'épidémie de COVID-19-Nav',
+          repoLink: 'https://github.com/wuhan2020/COVID-19-Nav',
+          description: 'Le site Web de navigation sur les informations épidémiques fournit au public une entrée d\'informations épidémiologiques pratique et complète, et organise les canaux du réseau couvrant tous les aspects des informations épidémiques.',
+          link: 'http://nav.werty.cn',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Hackathon',
+          repoLink:'https://github.com/wuhan2020/Hackathon',
+          description: 'L\'événement hackathon est un concours de design créatif organisé par la communauté. Afin d\'inciter plus de personnes à participer et à créer des œuvres, y compris des prototypes de produits, du codage, la conception de l\'expérience utilisateur et des modèles d\'impacts commerciaux / sociaux pour lutter contre la nouvelle épidémie de coronavirus. En outre, encouragez l\'innovation sociale, la collaboration open source pour aider à lutter contre l\'épidémie et créer une valeur partagée entre les bénévoles, les institutions, les entreprises et les plateformes.',
+          link: 'https://community.wuhan2020.org.cn/zh-cn/hackathon/index.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Certificat de bénévole wuhan2020',
+          repoLink:'https://github.com/wuhan2020/volunteer-certificate',
+          description: 'Demande de certificat de bénévole',
+          link: 'https://github.com/wuhan2020/volunteer-certificate',
+        }
+      ],
+    }
+  },
   hackathon: {
     barText: 'Hackathon',
     starter: '',
