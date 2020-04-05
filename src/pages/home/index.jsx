@@ -10,6 +10,8 @@ import Item from './featureItem';
 import './index.scss';
 
 import HeaderRefactored from '../../components/headerRefactored';
+import Slider from "../../components/slider";
+import EventCard from "../community/eventCard";
 class Home extends Language {
 
     constructor(props) {
@@ -49,6 +51,7 @@ class Home extends Language {
         const language = this.getLanguage();
         const module = "home";
         const dataSource = this.getLanguageDict(language, module);
+        const newsDataSource = this.getLanguageDict(language, "community");
         const { headerType } = this.state;
         const headerLogo = headerType === 'primary' ? '/images/wuhan2020-logo-white.png' : '/images/wuhan2020-logo.png';
         return (
@@ -114,6 +117,14 @@ class Home extends Language {
                       }
                     </ul>
                   </div>
+                </section>
+                <section className="events-section">
+                  <h3>{newsDataSource.events.title}</h3>
+                  <Slider>
+                    {newsDataSource.events.list.map((event, i) => (
+                      <EventCard event={event} key={i} />
+                    ))}
+                  </Slider>
                 </section>
                 <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
             </div>
