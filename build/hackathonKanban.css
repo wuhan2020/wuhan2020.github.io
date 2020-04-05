@@ -1,3 +1,97 @@
+.footer-container {
+  background: #F8F8F8; }
+  .footer-container .footer-body {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 40px 0; }
+    @media screen and (max-width: 640px) {
+      .footer-container .footer-body {
+        padding-left: 20px;
+        padding-right: 20px; } }
+    .footer-container .footer-body .docsite-power {
+      font-size: 14px;
+      color: #ccc;
+      line-height: 18px;
+      margin-bottom: 40px; }
+    .footer-container .footer-body img {
+      height: 36px;
+      margin-right: 20px;
+      vertical-align: middle; }
+    .footer-container .footer-body .cols-container {
+      margin-bottom: 60px; }
+      .footer-container .footer-body .cols-container .col {
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: top; }
+      .footer-container .footer-body .cols-container .col-12 {
+        width: 50%;
+        padding-right: 125px; }
+      .footer-container .footer-body .cols-container .col-6 {
+        width: 25%; }
+      .footer-container .footer-body .cols-container .col-4 {
+        width: 16.66%;
+        padding-right: 20px; }
+      .footer-container .footer-body .cols-container .col-3 {
+        width: 12.5%; }
+      .footer-container .footer-body .cols-container .col-2 {
+        width: 8%; }
+      .footer-container .footer-body .cols-container h3 {
+        font-family: Avenir-Medium;
+        font-weight: 700;
+        font-size: 18px;
+        color: #333;
+        line-height: 18px;
+        margin-bottom: 20px; }
+      .footer-container .footer-body .cols-container p {
+        font-family: Avenir-Medium;
+        font-size: 12px;
+        color: #999;
+        line-height: 18px; }
+      .footer-container .footer-body .cols-container dl {
+        font-family: Avenir-Medium;
+        font-weight: 700;
+        line-height: 18px; }
+      .footer-container .footer-body .cols-container dt {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px; }
+      .footer-container .footer-body .cols-container dd {
+        padding: 0;
+        margin: 0; }
+        .footer-container .footer-body .cols-container dd a {
+          text-decoration: none;
+          display: block;
+          font-size: 14px;
+          color: #999;
+          margin: 10px 0; }
+        .footer-container .footer-body .cols-container dd a:hover {
+          color: #D9452B; }
+    .footer-container .footer-body .copyright {
+      border-top: 1px solid #ccc;
+      min-height: 60px;
+      line-height: 20px;
+      text-align: center;
+      font-family: Avenir-Medium;
+      font-size: 12px;
+      color: #999;
+      display: flex;
+      align-items: center; }
+      .footer-container .footer-body .copyright span {
+        display: inline-block;
+        margin: 0 auto; }
+    .footer-container .footer-body #google_translate_element {
+      margin-bottom: 40px; }
+      .footer-container .footer-body #google_translate_element img {
+        height: 14px;
+        margin-right: 0; }
+
+@media screen and (max-width: 640px) {
+  .footer-container .footer-body .cols-container .col {
+    width: 100%;
+    text-align: center;
+    padding: 0; } }
 @font-face {
   font-family: octicons-link;
   src: url(data:font/woff;charset=utf-8;base64,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) format("woff"); }
@@ -1110,100 +1204,6 @@
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
-.footer-container {
-  background: #F8F8F8; }
-  .footer-container .footer-body {
-    max-width: 1280px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 40px 40px 0; }
-    @media screen and (max-width: 640px) {
-      .footer-container .footer-body {
-        padding-left: 20px;
-        padding-right: 20px; } }
-    .footer-container .footer-body .docsite-power {
-      font-size: 14px;
-      color: #ccc;
-      line-height: 18px;
-      margin-bottom: 40px; }
-    .footer-container .footer-body img {
-      height: 36px;
-      margin-right: 20px;
-      vertical-align: middle; }
-    .footer-container .footer-body .cols-container {
-      margin-bottom: 60px; }
-      .footer-container .footer-body .cols-container .col {
-        display: inline-block;
-        box-sizing: border-box;
-        vertical-align: top; }
-      .footer-container .footer-body .cols-container .col-12 {
-        width: 50%;
-        padding-right: 125px; }
-      .footer-container .footer-body .cols-container .col-6 {
-        width: 25%; }
-      .footer-container .footer-body .cols-container .col-4 {
-        width: 16.66%;
-        padding-right: 20px; }
-      .footer-container .footer-body .cols-container .col-3 {
-        width: 12.5%; }
-      .footer-container .footer-body .cols-container .col-2 {
-        width: 8%; }
-      .footer-container .footer-body .cols-container h3 {
-        font-family: Avenir-Medium;
-        font-weight: 700;
-        font-size: 18px;
-        color: #333;
-        line-height: 18px;
-        margin-bottom: 20px; }
-      .footer-container .footer-body .cols-container p {
-        font-family: Avenir-Medium;
-        font-size: 12px;
-        color: #999;
-        line-height: 18px; }
-      .footer-container .footer-body .cols-container dl {
-        font-family: Avenir-Medium;
-        font-weight: 700;
-        line-height: 18px; }
-      .footer-container .footer-body .cols-container dt {
-        font-weight: bold;
-        font-size: 18px;
-        color: #333;
-        margin-bottom: 20px; }
-      .footer-container .footer-body .cols-container dd {
-        padding: 0;
-        margin: 0; }
-        .footer-container .footer-body .cols-container dd a {
-          text-decoration: none;
-          display: block;
-          font-size: 14px;
-          color: #999;
-          margin: 10px 0; }
-        .footer-container .footer-body .cols-container dd a:hover {
-          color: #D9452B; }
-    .footer-container .footer-body .copyright {
-      border-top: 1px solid #ccc;
-      min-height: 60px;
-      line-height: 20px;
-      text-align: center;
-      font-family: Avenir-Medium;
-      font-size: 12px;
-      color: #999;
-      display: flex;
-      align-items: center; }
-      .footer-container .footer-body .copyright span {
-        display: inline-block;
-        margin: 0 auto; }
-    .footer-container .footer-body #google_translate_element {
-      margin-bottom: 40px; }
-      .footer-container .footer-body #google_translate_element img {
-        height: 14px;
-        margin-right: 0; }
-
-@media screen and (max-width: 640px) {
-  .footer-container .footer-body .cols-container .col {
-    width: 100%;
-    text-align: center;
-    padding: 0; } }
 .header-container {
   position: fixed;
   left: 0;
@@ -5545,110 +5545,6 @@ html {
       position: absolute;
       left: 30%;
       top: 0; }
-.timer-wrapper .time-slot span.text {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto; }
-
-.timer-wrapper .time-slot span.time {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto; }
-
-.timer-wrapper {
-  width: 350px;
-  height: 223px;
-  margin-top: 15px;
-  padding-top: 25px;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; }
-  .timer-wrapper .timer-title {
-    width: 100%;
-    height: 36px;
-    text-align: center;
-    font-family: PingFang SC, sans-serif;
-    color: white;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    color: black; }
-  .timer-wrapper .timer-board {
-    width: 350px;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .timer-wrapper .time-slot {
-    position: relative;
-    width: 76px;
-    height: 94px;
-    background: linear-gradient(to bottom, #ffece3 0 47%, white 47% 53%, #ffece3 53% 100%);
-    border-radius: 12px; }
-    .timer-wrapper .time-slot span {
-      width: 100%;
-      display: inline-block;
-      text-align: center; }
-      .timer-wrapper .time-slot span.time {
-        height: 50px;
-        font-family: PingFang SC, sans-serif;
-        color: white;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 34px;
-        color: #D9452B; }
-      .timer-wrapper .time-slot span.text {
-        height: 21px;
-        bottom: 2px;
-        font-family: PingFang SC, sans-serif;
-        color: white;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        color: #D9452B; }
-.map-wrapper {
-  width: 350px;
-  padding-top: 25px;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; }
-  .map-wrapper .content-title {
-    width: 220px;
-    border-bottom: 3px solid #ff6440;
-    text-align: center;
-    margin: auto; }
-    .map-wrapper .content-title .content-title-text {
-      width: 100%;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 20px;
-      color: #ff6440; }
-  .map-wrapper .content {
-    text-align: center;
-    margin: 10px 4% 0 0; }
-    .map-wrapper .content .content-text {
-      display: inline-block;
-      margin-left: 4%;
-      white-space: nowrap;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      color: black; }
-  .map-wrapper .map-chart {
-    height: 200px; }
-.badge-card-list {
-  width: 350px;
-  margin: 0 auto;
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
 .team-item-wrapper {
   width: 350px;
   margin-top: 30px; }
@@ -5741,6 +5637,110 @@ html {
       .team-item-wrapper .team-item.award-badge img {
         max-height: 100%;
         margin-right: 10px; }
+.map-wrapper {
+  width: 350px;
+  padding-top: 25px;
+  background: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; }
+  .map-wrapper .content-title {
+    width: 220px;
+    border-bottom: 3px solid #ff6440;
+    text-align: center;
+    margin: auto; }
+    .map-wrapper .content-title .content-title-text {
+      width: 100%;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ff6440; }
+  .map-wrapper .content {
+    text-align: center;
+    margin: 10px 4% 0 0; }
+    .map-wrapper .content .content-text {
+      display: inline-block;
+      margin-left: 4%;
+      white-space: nowrap;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      color: black; }
+  .map-wrapper .map-chart {
+    height: 200px; }
+.badge-card-list {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+.timer-wrapper .time-slot span.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.timer-wrapper .time-slot span.time {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.timer-wrapper {
+  width: 350px;
+  height: 223px;
+  margin-top: 15px;
+  padding-top: 25px;
+  background: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; }
+  .timer-wrapper .timer-title {
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    font-family: PingFang SC, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: black; }
+  .timer-wrapper .timer-board {
+    width: 350px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .timer-wrapper .time-slot {
+    position: relative;
+    width: 76px;
+    height: 94px;
+    background: linear-gradient(to bottom, #ffece3 0 47%, white 47% 53%, #ffece3 53% 100%);
+    border-radius: 12px; }
+    .timer-wrapper .time-slot span {
+      width: 100%;
+      display: inline-block;
+      text-align: center; }
+      .timer-wrapper .time-slot span.time {
+        height: 50px;
+        font-family: PingFang SC, sans-serif;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        color: #D9452B; }
+      .timer-wrapper .time-slot span.text {
+        height: 21px;
+        bottom: 2px;
+        font-family: PingFang SC, sans-serif;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #D9452B; }
 .badge-card-item {
   width: 168px;
   height: 168px;

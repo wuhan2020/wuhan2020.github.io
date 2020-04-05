@@ -2934,6 +2934,25 @@ html {
 
 .docsite-icon-feature-4:before {
   content: "\e64b"; }
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  min-width: 140px;
+  font-family: Avenir-Medium;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none; }
+  .button-primary {
+    color: #D9452B;
+    background: #fff; }
+  .button-normal {
+    color: #fff;
+    opacity: 0.6;
+    border: 1px solid #fff; }
 @charset "UTF-8";
 @font-face {
   font-family: octicons-link;
@@ -4654,22 +4673,3 @@ html {
   .home-page .feature-container {
     padding-left: 20px;
     padding-right: 20px; } }
-.button {
-  box-sizing: border-box;
-  display: inline-block;
-  height: 48px;
-  line-height: 48px;
-  min-width: 140px;
-  font-family: Avenir-Medium;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  border-radius: 4px;
-  text-decoration: none; }
-  .button-primary {
-    color: #D9452B;
-    background: #fff; }
-  .button-normal {
-    color: #fff;
-    opacity: 0.6;
-    border: 1px solid #fff; }
