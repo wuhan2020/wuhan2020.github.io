@@ -88,69 +88,69 @@ export default {
           img: '/images/channels/slack_gray.svg',
           imgHover: '/images/channels/slack_green.svg',
           title: '@Slack',
-          link: 'https://github.com/wuhan2020/wuhan2020#slack%E9%A2%91%E9%81%93%E5%AF%BC%E8%88%AA',
+          link: 'https://github.com/wuhan2020/wuhan2020#slack%E9%A2%91%E9%81%93%E5%AF%BC%E8%88%AA'
         },
         {
           img: '/images/channels/weixin_official_account.jpeg',
           imgHover: '/images/channels/weixin_official_account.jpeg',
-          title: '微信公众号',
+          title: '微信公众号'
         },
           {
           img: '/images/blog/media/weibocode2.webp',
           imgHover: '/images/blog/media/weibocode2.webp',
-          title: '微博',
+          title: '微博'
         },
           {
           img: '/images/blog/media/bilibili2.webp',
           imgHover: '/images/blog/media/bilibili2.webp',
-          title: 'b站',
+          title: 'b站'
           },
         {
           img: '/images/blog/media/zhihu2.webp',
           imgHover: '/images/blog/media/zhihu2.webp',
-          title: '知乎',
+          title: '知乎'
         },
-          {
+        {
           img: '/images/blog/media/jianshu2.webp',
-          imgHover:'/images/blog/media/jianshu2.webp',
-          title: '简书',
-          },
-           {
-               img: '/images/blog/media/jinritoutiao.png',
-               imgHover:'/images/blog/media/jinritoutiao.png',
-               title: '今日头条',
-               link:' https://profile.zjurl.cn/rogue/ugc/profile/?version_code=757&version_name=70507&user_id=3861086525731107&media_id=1657495890220045&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article'
-           },
-           {
-               img: '/images/blog/media/facebook.jpg',
-               imgHover:'/images/blog/media/facebook.jpg',
-               title: 'Facebook',
-               link:'https://www.facebook.com/wuhan2020community/' 
-           },
-           {
-          img: '/images/blog/media/twitter.jpg',
-          imgHover:'/images/blog/media/twitter.jpg',
-               title: 'Twitter',
-               link:'  https://twitter.com/2020Wuhan'
-           },
-           {
-          img: '/images/blog/media/instagram.png',
-          imgHover:'/images/blog/media/instagram.png',
-               title: 'Instagram',
-               link:'https://www.instagram.com/wuhan2020_community/?hl=zh-cn'
-           },
-           {
-          img: '/images/blog/media/youtube.png',
-          imgHover:'/images/blog/media/youtube.png',
-               title: 'Youtube',
-               link:' https://www.youtube.com/channel/UCy6KWe-hCYZtdP8rXqWFFUw '
-           },
-           {
-          img: '/images/blog/media/linkedin.jpg',
-          imgHover:'/images/blog/media/linkedin.jpg',
-               title: 'Linkedin',
-               link:'   https://www.linkedin.com/feed/update/urn:li:activity:6629399695330504704?ts=1580574261365&trk=article_share_wechat&from=singlemessage '
-           } 
+          imgHover: '/images/blog/media/jianshu2.webp',
+          title: '简书'
+        },
+        {
+          img: '/images/blog/media/jinritoutiao.png',
+          imgHover: '/images/blog/media/jinritoutiao.png',
+          title: '今日头条',
+          link:' https://profile.zjurl.cn/rogue/ugc/profile/?version_code=757&version_name=70507&user_id=3861086525731107&media_id=1657495890220045&request_source=1&active_tab=dongtai&device_id=65&app_name=news_article'
+         },
+         {
+           img: '/images/blog/media/facebook.jpg',
+           imgHover: '/images/blog/media/facebook.jpg',
+           title: 'Facebook',
+           link:'https://www.facebook.com/wuhan2020community/' 
+         },
+         {
+           img: '/images/blog/media/twitter.jpg',
+           imgHover: '/images/blog/media/twitter.jpg',
+           title: 'Twitter',
+           link:'  https://twitter.com/2020Wuhan'
+         },
+         {
+           img: '/images/blog/media/instagram.png',
+           imgHover: '/images/blog/media/instagram.png',
+           title: 'Instagram',
+           link:'https://www.instagram.com/wuhan2020_community/?hl=zh-cn'
+         },
+         {
+           img: '/images/blog/media/youtube.png',
+           imgHover: '/images/blog/media/youtube.png',
+           title: 'Youtube',
+           link:' https://www.youtube.com/channel/UCy6KWe-hCYZtdP8rXqWFFUw'
+         },
+         {
+           img: '/images/blog/media/linkedin.jpg',
+           imgHover: '/images/blog/media/linkedin.jpg',
+           title: 'Linkedin',
+           link: 'https://www.linkedin.com/feed/update/urn:li:activity:6629399695330504704?ts=1580574261365&trk=article_share_wechat&from=singlemessage'
+         }
       ],
     },
     contributorGuide: {
