@@ -1,8 +1,18 @@
 @import '../../variables.scss';
 
 .footer-container {
-  background: #F8F8F8;
+  .comment{
+    max-width: $contentWidth;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 40px 20px 40px;
+    @media screen and (max-width: $mobileWidth) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
   .footer-body {
+    background: #F8F8F8;
     max-width: $contentWidth;
     margin: 0 auto;
     box-sizing: border-box;

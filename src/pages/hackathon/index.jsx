@@ -275,7 +275,6 @@ class Hackathon extends Language {
 
         </section>
 
-        <Gitalk class_name="hackathon-section"/>
         <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
       </div>
     );
