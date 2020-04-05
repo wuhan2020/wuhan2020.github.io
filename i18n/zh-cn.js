@@ -101,10 +101,10 @@ export default {
           title: '微博',
         },
           {
-              img: '/images/blog/media/bilibili2.webp',
+          img: '/images/blog/media/bilibili2.webp',
           imgHover: '/images/blog/media/bilibili2.webp',
           title: 'b站',
-          }
+          },
         {
           img: '/images/blog/media/zhihu2.webp',
           imgHover: '/images/blog/media/zhihu2.webp',
