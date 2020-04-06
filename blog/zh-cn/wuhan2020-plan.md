@@ -245,7 +245,7 @@ GitHub 平台上开发者之间的代码协作、GitHub 与 Slack平台之间信
 
 >该项目是一个与你的学习生活息息相关的开源项目，一个开源入门者和初学者的实战基地，为你的学习成长经历背书！与志同道合的开源爱好者一起努力，全程参与项目的开发，体验项目从0 到 1 的全过程，与产品一起成长！
 
-**项目地址：**https://github.com/2020NCOV/ncov-report
+**项目地址**: https://github.com/2020NCOV/ncov-report
 
 ### <font color=red > 04  </font> 了解新冠病毒的趣味网站
 
@@ -258,13 +258,13 @@ GitHub 平台上开发者之间的代码协作、GitHub 与 Slack平台之间信
 通过在 slack群组上导出的邮箱以及收集的志愿者邮箱建立了用户信息库，使用特定的证书编码区别不同的组别以及职责，更是生成了每一用户不同的token 来防止盗版证书的出现。
 这个项目是一个通用化的项目，可以满足其他网站和组织发放证书的需求，更能建立以邮箱为主体的组织信息库，可以说是一举多得。
 
-**项目地址：**https://github.com/wuhan2020/volunteer-certificate
+**项目地址** :https://github.com/wuhan2020/volunteer-certificate
 
 ### <font color=red > 06  </font>  COVID-19-Nav 疫情信息导航
 
 >疫情信息导航网站为公众提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道。
 
-**项目地址：**
+**项目地址**:
 https://github.com/wuhan2020/COVID-19-Nav
 
 **网址：**
