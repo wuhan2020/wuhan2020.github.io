@@ -5,17 +5,16 @@ import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
 import ProjectItem from './projectItem';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 class Project extends Language {
     render() {
         const language = this.getLanguage();
-        //const dataSource = projectConfig[language] || projectConfig[siteConfig.defaultLanguage];
-        const dataSource = this.getLanguageDict(language, 'project');
+        const module = 'project';
+        const dataSource = this.getLanguageDict(language, module);
         return (
             <div className="project-page">
                 <HeaderRefactored
-                currentKey="project"
+                currentKey={module}
                 type="normal"
                 logo="/images/wuhan2020-logo-gray.png"
                 language={language}
@@ -28,8 +27,7 @@ class Project extends Language {
                     <ProjectItem project={project} key={i} />
                     ))}
                 </section>
-                <Gitalk class_name="project-section"/>
-                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
             </div>
         );
     }

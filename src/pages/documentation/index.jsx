@@ -8,7 +8,6 @@ import HeaderRefactored from '../../components/headerRefactored';
 import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 
 // 锚点正则
@@ -116,8 +115,7 @@ class Documentation extends Language {
             dangerouslySetInnerHTML={{ __html }}
           />
         </section>
-        <Gitalk class_name="content-section"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={currentPage}/>
       </div>
     );
   }

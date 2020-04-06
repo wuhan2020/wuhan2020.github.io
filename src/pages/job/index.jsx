@@ -4,7 +4,6 @@ import Header from '../../components/header';
 import Bar from '../../components/bar';
 import Footer from '../../components/footer';
 import Language from '../../components/language';
-import Gitalk from '../../components/gitalk';
 import './index.scss';
 class Job extends Language {
     render() {
@@ -30,8 +29,7 @@ class Job extends Language {
                   <h4>{dataSource.method.title}</h4>
                   <p>{dataSource.method.desc}</p>
                 </section>
-                <Gitalk class_name="job-section"/>
-                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+                <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module} />
             </div>
         );
     }

@@ -10,46 +10,25 @@ export default {
       title: '事件 & 新闻',
       list: [
         {
-          img: '/images/blog/wuhan2020.png',
-          title: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
-          content: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
-          dateStr: '2020年1月26日',
-          link: '/zh-cn/blog/collaborative-process-publishing.html',
+          img: '/images/blog/plan/p640.png',
+          title: 'Wuhan2020 开源社区发展规划',
+          content: 'Wuhan2020 开源社区发展规划',
+          dateStr: '2020年4月1日',
+          link: '/zh-cn/blog/wuhan2020-plan.html',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '致 WUHAN2020 开源社区全体成员的一封信',
-          content: '致 WUHAN 2020 开源社区全体成员的一封信',
-          dateStr: '2020年1月28日',
-          link: '/zh-cn/blog/to-all-members.html',
+          title: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
+          content: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
+          dateStr: '2020年2月10日',
+          link: '/zh-cn/blog/nav-project-introduced.html',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: 'Wuhan加油项目新流程发布',
-          content: 'Wuhan加油项目新流程发布',
-          dateStr: '2020年1月29日',
-          link: '/zh-cn/blog/wuhan2020-official-announcement.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
-          content: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
-          dateStr: '2020年2月1日',
-          link: '/zh-cn/blog/how-to-join-wuhan2020.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
-          content: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
-          dateStr: '2020年2月2日',
-          link: '/zh-cn/blog/wuhan2020-intro.html',
-        },
-        {
-          img: '/images/blog/wuhan2020.png',
-          title: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
-          content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
-          dateStr: '2020年2月3日',
-          link: '/zh-cn/blog/need-questionnaire.html',
+          title: '疫情知识 -- 新型冠状病毒防护指南',
+          content: '疫情知识 -- 新型冠状病毒防护指南',
+          dateStr: '2020年2月9日',
+          link: '/zh-cn/blog/coronavirus-protection-guide.html',
         },
         {
           img: '/images/blog/media/banner.webp',
@@ -60,17 +39,45 @@ export default {
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '疫情知识 -- 新型冠状病毒防护指南',
-          content: '疫情知识 -- 新型冠状病毒防护指南',
-          dateStr: '2020年2月9日',
-          link: '/zh-cn/blog/coronavirus-protection-guide.html',
+          title: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          content: '为改善疫情助力，急需你的问卷反馈！用更透明的数据提升公共卫生治理能力',
+          dateStr: '2020年2月3日',
+          link: '/zh-cn/blog/need-questionnaire.html',
         },
         {
           img: '/images/blog/wuhan2020.png',
-          title: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
-          content: '开源共抗：疫情信息导航站点正式入驻wuhan2020开源社区',
-          dateStr: '2020年2月10日',
-          link: '/zh-cn/blog/nav-project-introduced.html',
+          title: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
+          content: 'WUHAN 2020：新型冠状病毒防疫开源信息收集平台',
+          dateStr: '2020年2月2日',
+          link: '/zh-cn/blog/wuhan2020-intro.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
+          content: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
+          dateStr: '2020年2月1日',
+          link: '/zh-cn/blog/how-to-join-wuhan2020.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'Wuhan加油项目新流程发布',
+          content: 'Wuhan加油项目新流程发布',
+          dateStr: '2020年1月29日',
+          link: '/zh-cn/blog/wuhan2020-official-announcement.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: '致 WUHAN2020 开源社区全体成员的一封信',
+          content: '致 WUHAN 2020 开源社区全体成员的一封信',
+          dateStr: '2020年1月28日',
+          link: '/zh-cn/blog/to-all-members.html',
+        },
+        {
+          img: '/images/blog/wuhan2020.png',
+          title: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          content: 'wuhan2020开源项目协作流程发布 & 征集专家人士',
+          dateStr: '2020年1月26日',
+          link: '/zh-cn/blog/collaborative-process-publishing.html',
         }
       ]
     },
@@ -125,7 +132,7 @@ export default {
           img: '/images/blog/media/facebook.jpg',
           imgHover: '/images/blog/media/facebook.jpg',
           title: 'Facebook',
-          link:'https://www.facebook.com/wuhan2020community/' 
+          link:'https://www.facebook.com/wuhan2020community/'
         },
         {
           img: '/images/blog/media/twitter.jpg',
@@ -861,32 +868,6 @@ export default {
         {"id":"38","subject":"smart疫情防控大屏","leader":"Nimo","members":["nimo:120160209@qq.com"],"tutor":"-","abstract":"smart疫情防控指挥大屏；更直观的展示疫情状态，辅助疫情指挥决策分析"}
      ],
     },
-    winningTeamData: {
-      first: {
-        desc: "一等奖",
-        teamIdList: [15]
-      },
-      second: {
-        desc: "二等奖",
-        teamIdList: [37,30]
-      },
-      third: {
-        desc: "三等奖",
-        teamIdList: [25,2,20]
-      },
-      audienceFavorite: {
-        desc: "观众最喜爱奖",
-        teamIdList: [4]
-      },
-      tutorFavorite: {
-        desc: "导师最喜爱奖",
-        teamIdList: [22]
-      },
-      final: {
-        desc: "入围决赛",
-        teamIdList: [6,12,14,26]
-      },
-    }
   },
   experiences: {
     sidemenu: [

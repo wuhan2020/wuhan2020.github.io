@@ -9,7 +9,6 @@ import Footer from '../../components/footer';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import mdJson from '../../../md_json/blog.json';
-import Gitalk from '../../components/gitalk'
 import './index.scss';
 const {
   langList = [
@@ -35,8 +34,8 @@ class Blog extends Language {
 
   render() {
     const language = this.getLanguage();
-    //const dataSource = blogConfig[language] || blogConfig[siteConfig.defaultLanguage];
-    const dataSource = this.getLanguageDict(language, 'blog');
+    const module = "blog";
+    const dataSource = this.getLanguageDict(language, module);
     const blogList = blogs[language];
     return (
       <div className="blog-list-page">
@@ -69,8 +68,7 @@ class Blog extends Language {
             </ul>
           </div>
         </section>
-        <Gitalk class_name="blog-container"/>
-        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} />
+        <Footer logo="/images/wuhan2020-logo-gray.png" language={language} module={module}/>
       </div>
     );
   }
