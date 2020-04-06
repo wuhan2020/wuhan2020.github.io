@@ -59,19 +59,18 @@
           opacity: 0.6;
           font-family: Avenir-Medium;
 
-          .normal & {
+          &:hover {
+            opacity: 1;
+          }
+
+          &.normal {
             color: #333;
           }
 
-          :hover > & {
-            opacity: 1;
-          }
-
-          .active & {
-            font-family: Avenir-Medium;
+          &.active {
             font-weight: 700;
             opacity: 1;
-          }
+          } 
         }
       }
     }
