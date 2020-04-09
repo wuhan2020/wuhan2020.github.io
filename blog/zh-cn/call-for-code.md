@@ -2,7 +2,7 @@
 hidden: false
 title: 吹响 Coder 集结号， 用代码拥抱科技向善吧 ！ 
 keywords: Call for Code,代码集结号,wuhan2020
-description:wuhan2020开源社区的发展规划,宗旨目标，聚焦定位，发展路径，年度重大事项，已有项目等
+description:Call for Code 参赛信息,赛题详情,参赛方式等
 author: wuhan2020组委会
 date: 2020-04-09
 ---
