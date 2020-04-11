@@ -4,7 +4,7 @@ title: 吹响 Coder 集结号， 用代码拥抱科技向善吧 ！
 keywords: Call for Code,代码集结号,wuhan2020
 description:Call for Code 参赛信息,赛题详情,参赛方式等
 author: wuhan2020组委会
-date: 2020-04-02
+date: 2020-04-09
 ---
 
 # 吹响 Coder 集结号，用代码拥抱科技向善吧！ 
