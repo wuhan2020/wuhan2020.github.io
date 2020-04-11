@@ -7,7 +7,7 @@
         "hidden": "false",
         "title": "吹响 Coder 集结号， 用代码拥抱科技向善吧 ！",
         "keywords": "Call for Code,代码集结号,wuhan2020",
-        "description": "wuhan2020开源社区的发展规划,宗旨目标，聚焦定位，发展路径，年度重大事项，已有项目等",
+        "description": "Call for Code 参赛信息,赛题详情,参赛方式等",
         "author": "wuhan2020组委会",
         "date": "2020-04-09"
       }
@@ -68,6 +68,18 @@
       }
     },
     {
+      "filename": "opensource-free-air.md",
+      "link": "/zh-cn/blog/opensource-free-air.html",
+      "meta": {
+        "hidden": "false",
+        "title": "开源是一种自由的空气",
+        "keywords": "开源,自由,开源社区",
+        "description": "开源是什么,开源的本质,参与开源社区的好处",
+        "author": "wuhan2020组委会",
+        "date": "2017-11-15"
+      }
+    },
+    {
       "filename": "to-all-members.md",
       "link": "/zh-cn/blog/to-all-members.html",
       "meta": {
@@ -76,6 +88,30 @@
         "description": "致 WUHAN 2020 开源社区全体成员的一封信",
         "author": "Wuhan2020 开源社区",
         "date": "2020-01-28"
+      }
+    },
+    {
+      "filename": "wh-opensource-service-cn.md",
+      "link": "/zh-cn/blog/wh-opensource-service-cn.html",
+      "meta": {
+        "hidden": "false",
+        "title": "资源求助一站通，wuhan2020信息服务官网正式上线",
+        "keywords": "wuhan2020,信息服务官网",
+        "description": "资源求助一站通，wuhan2020信息服务官网正式上线",
+        "author": "wuhan2020组委会",
+        "date": "2020-02-08"
+      }
+    },
+    {
+      "filename": "wuhan2020-anti-epidemic.md",
+      "link": "/zh-cn/blog/wuhan2020-anti-epidemic.html",
+      "meta": {
+        "hidden": "false",
+        "title": "Wuhan2020开源社区: 开源协作，共抗疫情",
+        "keywords": "Wuhan2020,开源,疫情",
+        "description": "wuhan2020项目介绍",
+        "author": "wuhan2020组委会",
+        "date": "2020-02-04"
       }
     },
     {
