@@ -9,6 +9,13 @@ export default {
     events: {
       title: '事件 & 新闻',
         list: [
+            {
+          img: '/images/blog/plan/p640.png',
+          title: ' Wuhan 2020 助力 Coronavirus Battle ！  ',
+          content: ' Wuhan 2020 助力 Coronavirus Battle ！ ',
+          dateStr: '2020年4月21日',
+          link: '/zh-cn/blog/coronavirus-battle.html',
+          },
           {
           img: '/images/blog/plan/p640.png',
           title: ' 《白皮书4.0》即将发布！与你相约中国信息技术公益峰会',
