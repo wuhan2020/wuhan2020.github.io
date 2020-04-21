@@ -1,12 +1,12 @@
 ---
 hidden: false
-title:《白皮书4.0》即将发布!与你相约中国信息技术公益峰会
-keywords:白皮书，中国信息技术公益峰会，新冠疫情
-description:本文将从具体的两个案例中，去解析信息技术在公益事业中的具体应用。同时 Wuhan2020 也邀请大家参与有第四届中国信息技术公益峰会，更多此类案例的将会出现在峰会发布的白皮书中。
+title: Wuhan 2020 助力 Coronavirus Battle ！ 
+keywords:wuhan2020,Coronavirus Battle,Startup.Network
+description:Wuhan2020 诚邀您参加 Startup.Network 举办的线上 Coronavirus Battle 大赛！
 author: wuhan2020组委会
 date: 2020-04-21
 ---
-Wuhan2020 开源社区发展规划
+Wuhan 2020 助力 Coronavirus Battle ！ 
 --------------------------
 *Wuhan2020组委会* 
 &nbsp;&nbsp;&nbsp;<!-- 空格 -->
