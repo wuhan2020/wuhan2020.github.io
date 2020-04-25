@@ -10,21 +10,33 @@ export default {
       title: '事件 & 新闻',
         list: [
             {
+<<<<<<< HEAD
           img: '/images/blog/wuhan2020.png',
+=======
+          img: '/images/blog/plan/p640.png',
+>>>>>>> upstream/dev
           title: ' Wuhan 2020 助力 Coronavirus Battle ！  ',
           content: ' Wuhan 2020 助力 Coronavirus Battle ！ ',
           dateStr: '2020年4月21日',
           link: '/zh-cn/blog/coronavirus-battle.html',
           },
           {
+<<<<<<< HEAD
           img: '/images/blog/wuhan2020.png',
+=======
+          img: '/images/blog/plan/p640.png',
+>>>>>>> upstream/dev
           title: ' 《白皮书4.0》即将发布！与你相约中国信息技术公益峰会',
           content: '《白皮书4.0》即将发布！与你相约中国信息技术公益峰会',
           dateStr: '2020年4月21日',
           link: '/zh-cn/blog/white-paper.html',
           },
           {
+<<<<<<< HEAD
           img: '/images/blog/wuhan2020.png',
+=======
+          img: '/images/blog/plan/p640.png',
+>>>>>>> upstream/dev
           title: '吹响Coder集结号，用代码拥抱科技向善吧!',
           content: '吹响Coder集结号，用代码拥抱科技向善吧!',
           dateStr: '2020年4月9日',
