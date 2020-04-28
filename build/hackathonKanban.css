@@ -1284,6 +1284,55 @@
         .header-menu-container .menu-list .menu-item a.active {
           font-weight: 700;
           opacity: 1; }
+.logo-container {
+  flex: 1 0 auto; }
+  @media (min-width: 768px) {
+    .logo-container {
+      flex: 2 0 auto; } }
+  .logo-container .logo-image {
+    margin-left: 40px;
+    height: 36px;
+    vertical-align: middle; }
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-empty {
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; }
+
+.ant-empty-image {
+  height: 100px;
+  margin-bottom: 8px; }
+
+.ant-empty-image img {
+  height: 100%; }
+
+.ant-empty-image svg {
+  height: 100%;
+  margin: auto; }
+
+.ant-empty-description {
+  margin: 0; }
+
+.ant-empty-footer {
+  margin-top: 16px; }
+
+.ant-empty-normal {
+  margin: 32px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-normal .ant-empty-image {
+  height: 40px; }
+
+.ant-empty-small {
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-small .ant-empty-image {
+  height: 35px; }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -1880,55 +1929,6 @@
 .ant-select-dropdown-container-open .ant-select-dropdown,
 .ant-select-dropdown-open .ant-select-dropdown {
   display: block; }
-.logo-container {
-  flex: 1 0 auto; }
-  @media (min-width: 768px) {
-    .logo-container {
-      flex: 2 0 auto; } }
-  .logo-container .logo-image {
-    margin-left: 40px;
-    height: 36px;
-    vertical-align: middle; }
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
-  margin: 0 8px;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center; }
-
-.ant-empty-image {
-  height: 100px;
-  margin-bottom: 8px; }
-
-.ant-empty-image img {
-  height: 100%; }
-
-.ant-empty-image svg {
-  height: 100%;
-  margin: auto; }
-
-.ant-empty-description {
-  margin: 0; }
-
-.ant-empty-footer {
-  margin-top: 16px; }
-
-.ant-empty-normal {
-  margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-normal .ant-empty-image {
-  height: 40px; }
-
-.ant-empty-small {
-  margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-small .ant-empty-image {
-  height: 35px; }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -5388,6 +5388,38 @@ html {
       position: absolute;
       left: 30%;
       top: 0; }
+.map-wrapper {
+  width: 350px;
+  padding-top: 25px;
+  background: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; }
+  .map-wrapper .content-title {
+    width: 220px;
+    border-bottom: 3px solid #ff6440;
+    text-align: center;
+    margin: auto; }
+    .map-wrapper .content-title .content-title-text {
+      width: 100%;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ff6440; }
+  .map-wrapper .content {
+    text-align: center;
+    margin: 10px 4% 0 0; }
+    .map-wrapper .content .content-text {
+      display: inline-block;
+      margin-left: 4%;
+      white-space: nowrap;
+      font-family: PingFang SC, sans-serif;
+      color: white;
+      font-style: normal;
+      color: black; }
+  .map-wrapper .map-chart {
+    height: 200px; }
 .team-item-wrapper {
   width: 350px;
   margin-top: 30px; }
@@ -5480,38 +5512,6 @@ html {
       .team-item-wrapper .team-item.award-badge img {
         max-height: 100%;
         margin-right: 10px; }
-.map-wrapper {
-  width: 350px;
-  padding-top: 25px;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; }
-  .map-wrapper .content-title {
-    width: 220px;
-    border-bottom: 3px solid #ff6440;
-    text-align: center;
-    margin: auto; }
-    .map-wrapper .content-title .content-title-text {
-      width: 100%;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 20px;
-      color: #ff6440; }
-  .map-wrapper .content {
-    text-align: center;
-    margin: 10px 4% 0 0; }
-    .map-wrapper .content .content-text {
-      display: inline-block;
-      margin-left: 4%;
-      white-space: nowrap;
-      font-family: PingFang SC, sans-serif;
-      color: white;
-      font-style: normal;
-      color: black; }
-  .map-wrapper .map-chart {
-    height: 200px; }
 .badge-card-list {
   width: 350px;
   margin: 0 auto;
