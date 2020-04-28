@@ -1091,12 +1091,6 @@ export default {
     friendlyLink: {
       title: '友情链接',
       list: [
-        {
-          text: '新冠肺炎记忆',
-          link: 'https://2019ncovmemory.github.io/nCovMemory/',
-          target: '_blank',
-          image: 'aws.png',
-        }
       ]
     },
 
