@@ -3,7 +3,7 @@ hidden: false
 title: 五四青年节
 keywords: Wuhan2020,五四青年节,后浪
 description:Wuhan2020开源社区，因爱而生，开源向善，愿你有足够的运气，也有足够的勇气和善意去遇见命运里更多不同的色彩，泼墨漓江峰丛与山川河流。 
-author: wuhan2020组委会
+author: Wuhan2020组委会
 date: 2020-05-04
 ---
 
