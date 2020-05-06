@@ -9,6 +9,20 @@ export default {
     events: {
       title: '事件 & 新闻',
         list: [
+{
+          img: '/images/blog/wuhan2020.png',
+          title: '共谱开源新篇章|第一批“暑期2020”合作单位已就位 ',
+          content: '共谱开源新篇章|第一批“暑期2020”合作单位已就位',
+          dateStr: '2020年05月06日',
+          link: '/zh-cn/blog/summer-2020.html',
+          },
+            {
+          img: '/images/blog/wuhan2020.png',
+          title: '五四青年节',
+          content: '五四青年节',
+          dateStr: '2020年05月04日',
+          link: '/zh-cn/blog/youth-day.html',
+          },
             {
           img: '/images/blog/wuhan2020.png',
           title: ' Wuhan 2020 助力 Coronavirus Battle ！  ',
