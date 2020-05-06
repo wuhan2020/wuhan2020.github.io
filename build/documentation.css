@@ -1232,34 +1232,6 @@
     margin: 0 auto;
     height: 66px;
     line-height: 66px; }
-.bar {
-  margin-top: 66px;
-  background-image: linear-gradient(90deg, #d9452B 0%, #ff6440 100%); }
-  .bar .bar-body {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 200px;
-    line-height: 200px;
-    font-family: Avenir-Medium;
-    font-weight: 700;
-    font-size: 36px;
-    color: #FFF;
-    position: relative; }
-    .bar .bar-body .front-img {
-      width: 80px;
-      height: 80px;
-      vertical-align: middle;
-      margin: 0 28px 0 40px; }
-    .bar .bar-body .back-img {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      right: 184px;
-      bottom: 0;
-      opacity: 0.15; }
-    @media screen and (max-width: 640px) {
-      .bar .bar-body .front-img {
-        margin-left: 50px; } }
 .header-menu-container {
   display: flex;
   height: 100%;
@@ -1312,6 +1284,34 @@
         .header-menu-container .menu-list .menu-item a.active {
           font-weight: 700;
           opacity: 1; }
+.bar {
+  margin-top: 66px;
+  background-image: linear-gradient(90deg, #d9452B 0%, #ff6440 100%); }
+  .bar .bar-body {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 200px;
+    line-height: 200px;
+    font-family: Avenir-Medium;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+    position: relative; }
+    .bar .bar-body .front-img {
+      width: 80px;
+      height: 80px;
+      vertical-align: middle;
+      margin: 0 28px 0 40px; }
+    .bar .bar-body .back-img {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      right: 184px;
+      bottom: 0;
+      opacity: 0.15; }
+    @media screen and (max-width: 640px) {
+      .bar .bar-body .front-img {
+        margin-left: 50px; } }
 .logo-container {
   flex: 1 0 auto; }
   @media (min-width: 768px) {
@@ -1321,46 +1321,6 @@
     margin-left: 40px;
     height: 36px;
     vertical-align: middle; }
-/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable */
-/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
-  margin: 0 8px;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center; }
-
-.ant-empty-image {
-  height: 100px;
-  margin-bottom: 8px; }
-
-.ant-empty-image img {
-  height: 100%; }
-
-.ant-empty-image svg {
-  height: 100%;
-  margin: auto; }
-
-.ant-empty-description {
-  margin: 0; }
-
-.ant-empty-footer {
-  margin-top: 16px; }
-
-.ant-empty-normal {
-  margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-normal .ant-empty-image {
-  height: 40px; }
-
-.ant-empty-small {
-  margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25); }
-
-.ant-empty-small .ant-empty-image {
-  height: 35px; }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -3885,6 +3845,46 @@ html {
   overflow: hidden;
   -webkit-transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
   transition: height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important; }
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-empty {
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center; }
+
+.ant-empty-image {
+  height: 100px;
+  margin-bottom: 8px; }
+
+.ant-empty-image img {
+  height: 100%; }
+
+.ant-empty-image svg {
+  height: 100%;
+  margin: auto; }
+
+.ant-empty-description {
+  margin: 0; }
+
+.ant-empty-footer {
+  margin-top: 16px; }
+
+.ant-empty-normal {
+  margin: 32px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-normal .ant-empty-image {
+  height: 40px; }
+
+.ant-empty-small {
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.25); }
+
+.ant-empty-small .ant-empty-image {
+  height: 35px; }
 .sidemenu {
   background: #f8f8f8;
   width: 295px;

@@ -92,6 +92,18 @@
       }
     },
     {
+      "filename": "summer-2020.md",
+      "link": "/zh-cn/blog/summer-2020.html",
+      "meta": {
+        "hidden": "false",
+        "title": "共谱开源新篇章|第一批“暑期2020”合作单位已就位",
+        "keywords": "暑期2020,开源社区，高校",
+        "description": "“暑期2020”活动自启动以来，得到了国内众多开发者的关注与支持，高校、开源社区纷纷加入到这场充满创意与激情的开发盛典中来。",
+        "author": "Wuhan2020组委会",
+        "date": "2020-05-06"
+      }
+    },
+    {
       "filename": "to-all-members.md",
       "link": "/zh-cn/blog/to-all-members.html",
       "meta": {
@@ -181,6 +193,18 @@
         "description": "wuhan2020开源社区的发展规划,宗旨目标，聚焦定位，发展路径，年度重大事项，已有项目等",
         "author": "wuhan2020组委会",
         "date": "2020-04-02"
+      }
+    },
+    {
+      "filename": "youth-day.md",
+      "link": "/zh-cn/blog/youth-day.html",
+      "meta": {
+        "hidden": "false",
+        "title": "五四青年节",
+        "keywords": "Wuhan2020,五四青年节,后浪",
+        "description": "Wuhan2020开源社区，因爱而生，开源向善，愿你有足够的运气，也有足够的勇气和善意去遇见命运里更多不同的色彩，泼墨漓江峰丛与山川河流。",
+        "author": "Wuhan2020组委会",
+        "date": "2020-05-04"
       }
     }
   ],
