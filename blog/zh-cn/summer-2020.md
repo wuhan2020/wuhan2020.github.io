@@ -110,4 +110,4 @@ Wuhan2020开源社区是以解决2019年底2020年初所爆发的新冠肺炎（
 
 点击下方“**阅读原文**”了解更多
 
-[阅读原文](https://community.wuhan2020.org.cn/zh-cn/)
+[阅读原文](https://isrc.iscas.ac.cn/summer2020/#/)
