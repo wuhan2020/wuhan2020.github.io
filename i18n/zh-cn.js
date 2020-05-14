@@ -9,6 +9,13 @@ export default {
     events: {
       title: '事件 & 新闻',
         list: [
+            {
+          img: '/images/blog/picture/6403.png',
+          title: '石墨文档对谈抗疫志愿者天团 Wuhan 2020  ',
+          content: '石墨文档对谈抗疫志愿者天团 Wuhan 2020 ',
+          dateStr: '2020年05月14日',
+          link: '/zh-cn/blog/shimo-wuhan2020.html',
+          },
 {
           img: '/images/blog/picture/64018',
           title: '共谱开源新篇章|第一批“暑期2020”合作单位已就位 ',
