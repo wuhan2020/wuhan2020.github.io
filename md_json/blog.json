@@ -92,6 +92,42 @@
       }
     },
     {
+      "filename": "shimo-wuhan2020.md",
+      "link": "/zh-cn/blog/shimo-wuhan2020.html",
+      "meta": {
+        "hidden": "false",
+        "title": "石墨文档对谈抗疫志愿者天团 Wuhan 2020",
+        "keywords": "石墨文档 ,抗疫志愿者,Wuhan2020",
+        "description": "了解分散全球各地，成员多达4000人的抗疫志愿者团队如何利用好在线协作工具提升沟通和管理效率！",
+        "author": "wuhan2020组委会",
+        "date": "2020-05-14"
+      }
+    },
+    {
+      "filename": "summer-2020-activity.md",
+      "link": "/zh-cn/blog/summer-2020-activity.html",
+      "meta": {
+        "hidden": "false",
+        "title": "开放学生报名！首届“暑期2020”活动已启动",
+        "keywords": "学生报名,暑期2020,Wuhan2020",
+        "description": "经过了紧锣密鼓的前期准备工作，备受期待的开源软件供应链点亮计划-暑期2020活动终于正式启动啦！",
+        "author": "Wuhan2020组委会",
+        "date": "2020-05-15"
+      }
+    },
+    {
+      "filename": "summer-2020-coming.md",
+      "link": "/zh-cn/blog/summer-2020-coming.html",
+      "meta": {
+        "hidden": "false",
+        "title": "中国的开源之夏来了！",
+        "keywords": "开源之夏,Google Summer of Code（GSoC）,合作社区,合作高校",
+        "description": "中国科学院软件研究所与 openEuler 社区正在共同举办面向高校学生的暑期活动—“开源软件供应链点亮计划—暑期2020”，此次活动受到 Google Summer of Code（GSoC）启发，目标是进一步推动国内开源社区的发展。",
+        "author": "wuhan2020组委会",
+        "date": "2020-05-15"
+      }
+    },
+    {
       "filename": "summer-2020.md",
       "link": "/zh-cn/blog/summer-2020.html",
       "meta": {
