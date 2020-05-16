@@ -9,6 +9,27 @@ export default {
     events: {
       title: '事件 & 新闻',
         list: [
+              {
+          img: '     /images/blog/picture/64025',
+          title: ' 中国的开源之夏来了！',
+          content: '中国科学院软件研究所与 openEuler 社区正在共同举办面向高校学生的暑期活动—“开源软件供应链点亮计划—暑期2020”，此次活动受到 Google Summer of Code（GSoC）启发，目标是进一步推动国内开源社区的发展。',
+          dateStr: '2020年05月15日',
+          link: '/zh-cn/blog/summer-2020-coming.html',
+          },
+            {
+          img: '    /images/blog/picture/6404.png',
+          title: '开放学生报名！首届“暑期2020”活动已启动  ',
+          content: '经过了紧锣密鼓的前期准备工作，备受期待的开源软件供应链点亮计划-暑期2020活动终于正式启动啦！ ',
+          dateStr: '2020年05月15日',
+          link: '/zh-cn/blog/summer-2020-activity.html',
+          },
+            {
+          img: '/images/blog/picture/6403.png',
+          title: '石墨文档对谈抗疫志愿者天团 Wuhan 2020  ',
+          content: '石墨文档对谈抗疫志愿者天团 Wuhan 2020 ',
+          dateStr: '2020年05月14日',
+          link: '/zh-cn/blog/shimo-wuhan2020.html',
+          },
 {
           img: '/images/blog/picture/64018',
           title: '共谱开源新篇章|第一批“暑期2020”合作单位已就位 ',
