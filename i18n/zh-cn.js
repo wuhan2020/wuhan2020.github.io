@@ -10,6 +10,13 @@ export default {
       title: '事件 & 新闻',
         list: [
             {
+          img: '    /images/blog/picture/6404.png',
+          title: '开放学生报名！首届“暑期2020”活动已启动  ',
+          content: '经过了紧锣密鼓的前期准备工作，备受期待的开源软件供应链点亮计划-暑期2020活动终于正式启动啦！ ',
+          dateStr: '2020年05月15日',
+          link: '/zh-cn/blog/summer-2020-activity.html',
+          },
+            {
           img: '/images/blog/picture/6403.png',
           title: '石墨文档对谈抗疫志愿者天团 Wuhan 2020  ',
           content: '石墨文档对谈抗疫志愿者天团 Wuhan 2020 ',
