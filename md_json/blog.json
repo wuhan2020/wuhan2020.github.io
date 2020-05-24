@@ -80,6 +80,18 @@
       }
     },
     {
+      "filename": "open-source-universities.md",
+      "link": "/zh-cn/blog/open-source-universities.html",
+      "meta": {
+        "hidden": "false",
+        "title": "Wuhan2020开源社区| 王伟：讲述高校开源创新的故事",
+        "keywords": "wuhan2020,王伟老师,高校,开源创新",
+        "description": "开源软件供应链点亮计划-暑期2020” 活动组委会联合\"开源社”、“Wuhan2020开源社区\"举办一系列的开源文化方面的讲座，深入了解开源文化及价值、参与开源社区的方式方法。",
+        "author": "wuhan2020组委会",
+        "date": "2020-05-22"
+      }
+    },
+    {
       "filename": "opensource-free-air.md",
       "link": "/zh-cn/blog/opensource-free-air.html",
       "meta": {
