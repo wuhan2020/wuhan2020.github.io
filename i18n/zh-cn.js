@@ -9,6 +9,13 @@ export default {
     events: {
       title: '事件 & 新闻',
         list: [
+                 {
+          img: '   /images/blog/picture/6406.png',
+          title: ' Wuhan2020开源社区| 王伟：讲述高校开源创新的故事',
+          content: '开源软件供应链点亮计划-暑期2020” 活动组委会联合"开源社”、“Wuhan2020开源社区"举办一系列的开源文化方面的讲座，深入了解开源文化及价值、参与开源社区的方式方法。',
+          dateStr: '2020年05月22日',
+          link: '/zh-cn/blog/open-source-universities.html',
+          },
               {
           img: '     /images/blog/picture/64025',
           title: ' 中国的开源之夏来了！',
