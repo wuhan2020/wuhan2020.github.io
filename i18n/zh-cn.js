@@ -8,7 +8,13 @@ export default {
     barText: '社区',
     events: {
       title: '事件 & 新闻',
-        list: [
+        list: [                 {
+          img: '   /images/blog/picture/6407.png',
+          title: '暑期2020 之“大咖说开源” | 李建盛：开源世界中的“隐”规则',
+          content: '开源文化对于在校学生来说还比较陌生，通过对开源的历史、Linux 历史、LinuxFoundation、Apache Foundation 等让学生从多方位了解开源，激发学生参加开源社区的兴趣。',
+          dateStr: '2020年05月30日',
+          link: '/zh-cn/blog/open-source3.html',
+          },
                  {
           img: '   /images/blog/picture/6406.png',
           title: ' Wuhan2020开源社区| 王伟：讲述高校开源创新的故事',
