@@ -92,6 +92,18 @@
       }
     },
     {
+      "filename": "open-source3.md",
+      "link": "/zh-cn/blog/open-source3.html",
+      "meta": {
+        "hidden": "false",
+        "title": "暑期2020 之“大咖说开源” | 李建盛：开源世界中的“隐”规则",
+        "keywords": "暑期2020,大咖说开源,李建盛",
+        "description": "开源文化对于在校学生来说还比较陌生，通过对开源的历史、Linux 历史、LinuxFoundation、Apache Foundation 等让学生从多方位了解开源，激发学生参加开源社区的兴趣。",
+        "author": "wuhan2020组委会",
+        "date": "2020-05-30"
+      }
+    },
+    {
       "filename": "opensource-free-air.md",
       "link": "/zh-cn/blog/opensource-free-air.html",
       "meta": {
