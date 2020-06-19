@@ -435,8 +435,8 @@ export default {
       title: 'Friendly Link',
       list: [
         {
-          text: 'AMiner',
-          link: 'https://www.aminer.cn/',
+          text: 'COVID-19 Graph',
+          link: 'https://covid-dashboard.aminer.cn/',
           target: '_blank',
         }
       ]

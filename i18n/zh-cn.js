@@ -1140,8 +1140,8 @@ export default {
       title: '友情链接',
       list: [
         {
-          text: 'AMiner',
-          link: 'https://www.aminer.cn/',
+          text: '知识疫图',
+          link: 'https://covid-dashboard.aminer.cn/',
           target: '_blank',
           image: 'aws.png',
         }
