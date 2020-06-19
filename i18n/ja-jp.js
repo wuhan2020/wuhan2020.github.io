@@ -446,6 +446,11 @@ export default {
     friendlyLink: {
       title: 'Friendly Link',
       list: [
+        {
+          text: 'COVID-19 Graph',
+          link: 'https://covid-dashboard.aminer.cn/',
+          target: '_blank',
+        }
       ]
     },
     statistics: {

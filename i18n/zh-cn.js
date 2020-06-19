@@ -1139,9 +1139,14 @@ export default {
     friendlyLink: {
       title: '友情链接',
       list: [
+        {
+          text: '知识疫图',
+          link: 'https://covid-dashboard.aminer.cn/',
+          target: '_blank',
+          image: 'aws.png',
+        }
       ]
     },
-
     statistics: {
       title: '访问统计',
       page_pv: '本文总访问量：',
