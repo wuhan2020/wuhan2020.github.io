@@ -434,6 +434,11 @@ export default {
     friendlyLink: {
       title: 'Friendly Link',
       list: [
+        {
+          text: 'AMiner',
+          link: 'https://www.aminer.cn/',
+          target: '_blank',
+        }
       ]
     },
     statistics: {
