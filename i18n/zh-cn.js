@@ -266,6 +266,10 @@ export default {
         title: '贡献者列表',
         children: [
           {
+            title: '组织架构',
+            link: '/zh-cn/docs/developers/teams_dev.html',
+          },
+          {
             title: '贡献者',
             link: '/zh-cn/docs/developers/developers_dev.html',
           },
