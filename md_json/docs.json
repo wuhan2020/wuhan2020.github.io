@@ -76,6 +76,15 @@
       }
     },
     {
+      "filename": "teams_dev.md",
+      "link": "/zh-cn/docs/developers/teams_dev.html",
+      "meta": {
+        "title": "组织架构",
+        "keywords": "组织架构",
+        "description": "Wuhan2020 Team."
+      }
+    },
+    {
       "filename": "workreport-communicate_dev.md",
       "link": "/zh-cn/docs/developers/workreport-communicate_dev.html",
       "meta": {}
