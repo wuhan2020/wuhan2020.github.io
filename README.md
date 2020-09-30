@@ -20,11 +20,11 @@ Please also make sure your node version is higher than 8.x.
 4. Run `npm run build` to build source code.
 5. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
 
-If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.
+*If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.*
 
-1. Follow the [instructions](http://nvm.sh) to install nvm
-2. Run `nvm install 10` to install node 10.x
-3. Run `nvm use 10` to switch the working environment to node 10.x
+1. Follow the [instructions](http://nvm.sh) to install nvm.
+2. Run `nvm install 10` to install node 10.x.
+3. Run `nvm use 10` to switch the working environment to node 10.x.
 4. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 
 Make sure `npm` and `docsite` are configured in the environmet configuration of os . eg: /etc/profile or .bash_profile of Macos.
@@ -62,8 +62,8 @@ Then you are all set to run and build the website. Follow the build instruction 
 3. Send the pull request containing the .md only.
 4. `SEO` config is required.
 
-notice : Blog documents will be automatically sorted by time, without menu configuration
-Set 'hidden' to 'true' for documents you don't want to display temporarily`
+notice : Blog documents will be automatically sorted by time, without menu configuration.
+Set 'hidden' to 'true' for documents you don't want to display temporarily`.
 
 ## SEO
 
@@ -94,5 +94,5 @@ If you want to add a new language, such as Thai.
 
 ## Others
 
-+ If you want to add `search in site`，see [https://docsite.js.org/zh-cn/docs/search.html](https://docsite.js.org/zh-cn/docs/search.html)
-+ This is docsite docs :[https://docsite.js.org/zh-cn/docs/path.html](https://docsite.js.org/zh-cn/docs/path.html)
++ If you want to add `search in site`，see [https://docsite.js.org/zh-cn/docs/search.html](https://docsite.js.org/zh-cn/docs/search.html).
++ This is docsite docs :[https://docsite.js.org/zh-cn/docs/path.html](https://docsite.js.org/zh-cn/docs/path.html).
