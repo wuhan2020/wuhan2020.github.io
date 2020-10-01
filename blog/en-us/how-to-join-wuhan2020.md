@@ -1,5 +1,5 @@
 ---
-title: How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis 
+title: How to Join Wuhan2020 Open Source Projects, and Help Wuhan Survive the Coronavirus Crisis 
 keywords: Wuhan2020,Open Source Project
 description: How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis 
 author: Wuhan2020 Community XLab
@@ -86,7 +86,7 @@ Not to mention that our development team is making our slack channel a 24-7 nons
 
 ## WUHAN2020 Thoughts and Ideas
 
-After all the conflicts and innovations we had in the past, we starts to come up with some thoughts and ideas (we welcome further discussions on those subjects): 
+After all the conflicts and transformations we had in the past, we starts to come up with some innovative thoughts and ideas (we welcome further discussions on those subjects): 
 
 **1. Wuhan2020 is an open source project, and is aiming at solving real-life issues**
 
