@@ -1,6 +1,6 @@
 # Wuhan2020 Community Official Website
 
-![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
+To join us click ->![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
 
 All website material  of https://community.wuhan2020.org.cn
@@ -12,7 +12,7 @@ wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite)
 Please make sure your version of docsite is `docsite@wuhan2020`.
 Please also make sure your node version is higher than 8.x.
 
-## Build instruction
+## Build instruction to start npm
 
 1. Run `npm i docsite@wuhan2020 -g ` to install docsite for project wuhan2020.
 2. Run `npm i` in the root directory to install the dependencies.
@@ -81,7 +81,7 @@ date: 2018-12-29
 
 ## How to Add a New Language
 
-If you want to add a new language, such as Thai.
+If you want to add a new language, for example say Thai.
 
 1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langList` variable of `site_config/site.js`.
 2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
