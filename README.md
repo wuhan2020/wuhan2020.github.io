@@ -1,4 +1,4 @@
-# Wuhan2020 Community Official Website
+# Wuhan 2020
 
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
@@ -34,28 +34,28 @@ Then you are all set to run and build the website. Follow the build instruction 
 
 ## How To Write Documents
 
-### Add a new doc
+### Adding a new doc
 
 1. Add new .md file under docs/en-us or docs/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Update site_config/docs.js, add a new entry to the blog in either en-us or zh-cn.
 3. Run docsite start locally to verify the blog can be displayed correctly.
 4. Send the pull request containing the .md and doc.js only.
 
-### Add a new article for developers
+### Adding a new article for developers
 
 1. Add new .md file under docs/en-us/developers or docs/zh-cn/developers, the file name should end up with _dev.md. Note that the suffix _dev is necessary.
 2. Update site_config/develop.js, add a new entry in either en-us or zh-cn.
 3. Run docsite start locally to verify the article can be displayed correctly.
 4. Send the pull request containing the *_dev.md and develop.js only.
 
-### Add a new project showcase
+### Adding a new project showcase
 
 1. Open project.js directly and find the appropriate language block, such as "en-us".
 2. Add a project entry under `projects.list` and please make sure that the entry contains `img`, `title`, `description` and `link`.
 3. Run docsite start locally to verify the project can be displayed correctly.
 4. Send the pull request containing the project.js only.
 
-### Add a new blog
+### Adding a new blog
 
 1. Add new .md file under blog/en-us or blog/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Run docsite start locally to verify the blog can be displayed correctly.
@@ -79,7 +79,7 @@ date: 2018-12-29
 ---
 ```
 
-## How to Add a New Language
+## Adding a New Language
 
 If you want to add a new language, such as Thai.
 
@@ -87,7 +87,7 @@ If you want to add a new language, such as Thai.
 2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
 3. Then please add directories named `th-th` in `docs`and `blog` directories. Here you can copy articles from `en-us`, translate them, and then add them to `th-th`. 
 
-## How to Add Sitemap for SEO
+## Adding Sitemap for SEO
 
 `sitemap.xml` is generated automatically by `sitemap-generator.js` during the deployment process.
 
