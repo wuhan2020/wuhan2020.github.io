@@ -1,4 +1,4 @@
-# Wuhan2020 Community Official Website
+# Wuhan2020 Community Official Website - An Amazing Project
 
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
