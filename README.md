@@ -1,9 +1,9 @@
-# Wuhan2020 Community Official Website
+# Wuhan 2020 Community Official Website
 
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
 
-All website material  of https://community.wuhan2020.org.cn
+All website material of: https://community.wuhan2020.org.cn
 
 
 ## Prerequisite
@@ -20,7 +20,7 @@ Please also make sure your node version is higher than 8.x.
 4. Run `npm run build` to build source code.
 5. Verify your change locally: `python -m SimpleHTTPServer 8000`, when your python version is 3 use :`python3 -m http.server 8000` instead.
 
-*If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` coexisting on your machine.*
+*If you have higher version of node installed, you may consider `nvm` to allow different versions of `node` co-existing on your machine.*
 
 1. Follow the [instructions](http://nvm.sh) to install nvm.
 2. Run `nvm install 10` to install node 10.x.
