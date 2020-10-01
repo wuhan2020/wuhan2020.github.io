@@ -5,7 +5,6 @@
 
 All website material  of https://community.wuhan2020.org.cn
 
-
 ## Prerequisite
 
 wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please read [https://docsite.js.org](https://docsite.js.org)
@@ -63,7 +62,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 4. `SEO` config is required.
 
 notice : Blog documents will be automatically sorted by time, without menu configuration.
-Set 'hidden' to 'true' for documents you don't want to display temporarily`.
+Set 'hidden' to 'true' for documents you don't want to display temporarily.
 
 ## SEO
 
