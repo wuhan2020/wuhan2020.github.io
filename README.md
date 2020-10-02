@@ -1,4 +1,4 @@
-# Wuhan2020 Community Official Website
+# Wuhan2020 Community Official Amazing Website
 
 ![CI](https://github.com/wuhan2020/wuhan2020.github.io/workflows/CI/badge.svg)
 ![wuhan2020.github.io deploy](https://github.com/wuhan2020/wuhan2020.github.io/workflows/wuhan2020.github.io%20deploy/badge.svg)
@@ -32,7 +32,7 @@ Make sure `npm` and `docsite` are configured in the environmet configuration of 
 Then you are all set to run and build the website. Follow the build instruction above for the details.
 
 
-## How To Write Documents
+## How To Write and Implement Documents  
 
 ### Add a new doc
 
