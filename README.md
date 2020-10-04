@@ -81,7 +81,7 @@ date: 2018-12-29
 
 ## How to Add a New Language
 
-If you want to add a new language, such as Thai.
+If you are willing to add a new language, such as Thai.
 
 1. Please append the element:  ```{ value: 'th-th', text: 'ภาษาไทย' }``` to the `langList` variable of `site_config/site.js`.
 2. Next, make a copy of `en-us.js` in `i18n`, and name it `th-th.js`. Now you can start translating phrases on the page.
