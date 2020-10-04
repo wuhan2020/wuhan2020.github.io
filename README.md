@@ -65,7 +65,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 notice : Blog documents will be automatically sorted by time, without menu configuration.
 Set 'hidden' to 'true' for documents you don't want to display temporarily`.
 
-## SEO
+## SEO (Search Engine Optimization )
 
 the type is :
 ```
