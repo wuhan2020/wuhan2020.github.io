@@ -8,7 +8,7 @@ All website material  of https://community.wuhan2020.org.cn
 
 ## Prerequisite
 
-wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please read [https://docsite.js.org](https://docsite.js.org)
+wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please visit and read [https://docsite.js.org](https://docsite.js.org)
 Please make sure your version of docsite is `docsite@wuhan2020`.
 Please also make sure your node version is higher than 8.x.
 
@@ -34,7 +34,7 @@ Then you are all set to run and build the website. Follow the build instruction 
 
 ## How To Write Documents
 
-### Add a new doc
+### Add a new document
 
 1. Add new .md file under docs/en-us or docs/zh-cn. Corresponding to Chinese file and English file , and the Chinese and English file names should be consistent.
 2. Update site_config/docs.js, add a new entry to the blog in either en-us or zh-cn.
