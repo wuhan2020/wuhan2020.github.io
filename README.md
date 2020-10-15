@@ -9,7 +9,7 @@ All website material  of https://community.wuhan2020.org.cn
 ## Prerequisite
 
 wuhan2020.github.io is powered by [docsite](https://github.com/txd-team/docsite). Please read [https://docsite.js.org](https://docsite.js.org)
-Please make sure your version of docsite is `docsite@wuhan2020`.
+Please make sure that your version of the docsite is `docsite@wuhan2020`.
 Please also make sure your node version is higher than 8.x.
 
 ## Build instruction
