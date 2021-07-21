@@ -14,16 +14,18 @@ languages.forEach(function (lang) {
 
 function ls(path) {
   waitingCount ++;
-
   fs.readdir(path, function(err, items) {
-    items.forEach(function (item) {
-      if (fs.lstatSync(path + "/" + item).isDirectory()) {
-        ls(path + "/" + item)
-      } else {
-        if (!item.endsWith('json'))
-          files.push(domain + path + "/" + item);
-      }
-    });
+    if (items) {
+      items.forEach(function (item) {
+        if (fs.lstatSync(path + "/" + item).isDirectory()) {
+          ls(path + "/" + item)
+        } else {
+          if (!item.endsWith('json'))
+            files.push(domain + path + "/" + item);
+        }
+      });
+    }
+
 
     waitingCount --;
 

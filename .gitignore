@@ -18,3 +18,4 @@ yarn.lock
 md_json/
 log
 sitemap.xml
+deploy-dist
