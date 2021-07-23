@@ -25,9 +25,11 @@ const langValueList = langList.map(l => l.value);
 // 博客列表数据，按时间排序
 const blogs = {};
 langValueList.forEach((lang) => {
-  blogs[lang] = mdJson[lang].filter(md => (
-    (!md.meta.hidden || md.meta.hidden === 'false') && md.link.indexOf('download.html') === -1 && md.link.indexOf('client.html') === -1
-  )).sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
+  if (mdJson[lang]) {
+    blogs[lang] = mdJson[lang].filter(md => (
+      (!md.meta.hidden || md.meta.hidden === 'false') && md.link.indexOf('download.html') === -1 && md.link.indexOf('client.html') === -1
+    )).sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
+  }
 });
 
 class Blog extends Language {

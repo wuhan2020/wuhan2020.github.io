@@ -15,8 +15,9 @@ jobs:
         node-version: 10.x
     - name: Build
       run: |
-        npm install
-        npm run build
+        npm install -g yarn
+        yarn
+        yarn build
         node sitemap-generator.js
         mkdir deploy-dist
         cp -R zh-cn/ en-us/ ja-jp/ it-it/ fr-fr/ pt-br/ build/ images/ md_json/ site_config/ lib/ deploy-dist/
